@@ -1,0 +1,1183 @@
+2487  execve("/usr/bin/gnome-terminal", ["gnome-terminal"], [/* 33 vars */]) = 0
+2487  brk(0)                            = 0xbbc000
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bd000
+2487  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2487  open("/etc/ld.so.cache", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2487  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f97110ad000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libvte.so.9", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260#\1\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=634672, ...}) = 0
+2487  mmap(NULL, 2730352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9710c07000
+2487  mprotect(0x7f9710c9d000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f9710e9d000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x96000) = 0x7f9710e9d000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libgtk-x11-2.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\"\7\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=4319784, ...}) = 0
+2487  mmap(NULL, 6424064, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f97105e6000
+2487  mprotect(0x7f97109fb000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f9710bfa000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x414000) = 0x7f9710bfa000
+2487  mmap(0x7f9710c05000, 5632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9710c05000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libgdk-x11-2.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\351\1\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=708784, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110ac000
+2487  mmap(NULL, 2805160, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9710339000
+2487  mprotect(0x7f97103e1000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f97105e1000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa8000) = 0x7f97105e1000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libatk-1.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\253\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=134288, ...}) = 0
+2487  mmap(NULL, 2230592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9710118000
+2487  mprotect(0x7f9710137000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f9710336000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7f9710336000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libgdk_pixbuf-2.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pO\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=114960, ...}) = 0
+2487  mmap(NULL, 2210392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970fefc000
+2487  mprotect(0x7f970ff17000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f9710117000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7f9710117000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libgio-2.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\310\1\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=724864, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110ab000
+2487  mmap(NULL, 2824208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970fc4a000
+2487  mprotect(0x7f970fcf8000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970fef8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xae000) = 0x7f970fef8000
+2487  mmap(0x7f970fefb000, 2064, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f970fefb000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libpango-1.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\17\1\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=311840, ...}) = 0
+2487  mmap(NULL, 2407616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970f9fe000
+2487  mprotect(0x7f970fa47000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970fc47000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x49000) = 0x7f970fc47000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libgconf-2.so.4", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\"\1\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=253872, ...}) = 0
+2487  mmap(NULL, 2349456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970f7c0000
+2487  mprotect(0x7f970f7fa000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970f9f9000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x39000) = 0x7f970f9f9000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libdbus-glib-1.so.2", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\241\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=146184, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110aa000
+2487  mmap(NULL, 2241640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970f59c000
+2487  mprotect(0x7f970f5be000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970f7be000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7f970f7be000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libpthread.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340Y\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0755, st_size=131260, ...}) = 0
+2487  mmap(NULL, 2208640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970f380000
+2487  mprotect(0x7f970f397000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970f596000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f970f596000
+2487  mmap(0x7f970f598000, 13184, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f970f598000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libgobject-2.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \250\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=289480, ...}) = 0
+2487  mmap(NULL, 2387592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970f139000
+2487  mprotect(0x7f970f17e000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970f37e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x45000) = 0x7f970f37e000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libgthread-2.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\27\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=17704, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110a9000
+2487  mmap(NULL, 2112952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970ef35000
+2487  mprotect(0x7f970ef39000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970f138000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f970f138000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libglib-2.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240|\1\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=900200, ...}) = 0
+2487  mmap(NULL, 2997456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970ec59000
+2487  mprotect(0x7f970ed34000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970ef33000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xda000) = 0x7f970ef33000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libX11.so.6", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\0\2\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=1289728, ...}) = 0
+2487  mmap(NULL, 3386696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970e91e000
+2487  mprotect(0x7f970ea53000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970ec53000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x135000) = 0x7f970ec53000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libSM.so.6", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\34\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=31944, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110a8000
+2487  mmap(NULL, 2127160, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970e716000
+2487  mprotect(0x7f970e71e000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970e91d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f970e91d000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libc.so.6", O_RDONLY)  = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2487  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970e3b5000
+2487  mprotect(0x7f970e50d000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970e70c000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7f970e70c000
+2487  mmap(0x7f970e711000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f970e711000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libICE.so.6", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200R\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=95376, ...}) = 0
+2487  mmap(NULL, 2205056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970e19a000
+2487  mprotect(0x7f970e1b1000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970e3b0000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f970e3b0000
+2487  mmap(0x7f970e3b1000, 13696, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f970e3b1000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libpangoft2-1.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\200\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=173632, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110a7000
+2487  mmap(NULL, 2269152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970df70000
+2487  mprotect(0x7f970df99000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970e199000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29000) = 0x7f970e199000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libpangocairo-1.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300R\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=50672, ...}) = 0
+2487  mmap(NULL, 2146032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970dd64000
+2487  mprotect(0x7f970dd70000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970df6f000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x7f970df6f000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libfreetype.so.6", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\321\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=558080, ...}) = 0
+2487  mmap(NULL, 2653296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970dadc000
+2487  mprotect(0x7f970db5f000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970dd5e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x82000) = 0x7f970dd5e000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libfontconfig.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300e\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=216832, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110a6000
+2487  mmap(NULL, 2312968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970d8a7000
+2487  mprotect(0x7f970d8da000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970dada000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x33000) = 0x7f970dada000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libgmodule-2.0.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\23\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=12664, ...}) = 0
+2487  mmap(NULL, 2107992, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970d6a4000
+2487  mprotect(0x7f970d6a7000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970d8a6000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f970d8a6000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/librt.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220!\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=31744, ...}) = 0
+2487  mmap(NULL, 2128848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970d49c000
+2487  mprotect(0x7f970d4a3000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970d6a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f970d6a2000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libcairo.so.2", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \311\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=757808, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110a5000
+2487  mmap(NULL, 2865536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970d1e0000
+2487  mprotect(0x7f970d297000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970d496000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb6000) = 0x7f970d496000
+2487  mmap(0x7f970d499000, 10624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f970d499000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libncurses.so.5", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20*\1\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=286776, ...}) = 0
+2487  mmap(NULL, 2383488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970cf9a000
+2487  mprotect(0x7f970cfdc000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970d1db000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x41000) = 0x7f970d1db000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libm.so.6", O_RDONLY)  = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360>\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=530736, ...}) = 0
+2487  mmap(NULL, 2625768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970cd18000
+2487  mprotect(0x7f970cd98000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970cf98000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x80000) = 0x7f970cf98000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libXcomposite.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \f\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=9880, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110a4000
+2487  mmap(NULL, 2105096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970cb16000
+2487  mprotect(0x7f970cb18000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970cd17000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f970cd17000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libXdamage.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\v\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=9024, ...}) = 0
+2487  mmap(NULL, 2104248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970c914000
+2487  mprotect(0x7f970c916000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970cb15000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f970cb15000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libXfixes.so.3", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\25\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=21576, ...}) = 0
+2487  mmap(NULL, 2116872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970c70f000
+2487  mprotect(0x7f970c714000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970c913000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f970c913000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libXext.so.6", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3409\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=74432, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110a3000
+2487  mmap(NULL, 2170152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970c4fd000
+2487  mprotect(0x7f970c50e000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970c70e000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7f970c70e000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libXrender.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\33\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=39976, ...}) = 0
+2487  mmap(NULL, 2135208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970c2f3000
+2487  mprotect(0x7f970c2fc000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970c4fc000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f970c4fc000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libXinerama.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\n\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=8992, ...}) = 0
+2487  mmap(NULL, 2104136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970c0f1000
+2487  mprotect(0x7f970c0f3000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970c2f2000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f970c2f2000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libXi.so.6", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300!\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=60600, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110a2000
+2487  mmap(NULL, 2155968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970bee2000
+2487  mprotect(0x7f970bef1000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970c0f0000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7f970c0f0000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libXrandr.so.2", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\31\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=32776, ...}) = 0
+2487  mmap(NULL, 2128072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970bcda000
+2487  mprotect(0x7f970bce2000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970bee1000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f970bee1000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libXcursor.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240+\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=40152, ...}) = 0
+2487  mmap(NULL, 2135368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970bad0000
+2487  mprotect(0x7f970bad9000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970bcd9000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f970bcd9000
+2487  close(3)                          = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110a1000
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libdl.so.2", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=14696, ...}) = 0
+2487  mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970b8cc000
+2487  mprotect(0x7f970b8ce000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970bace000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f970bace000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libpcre.so.3", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\26\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=198176, ...}) = 0
+2487  mmap(NULL, 2293376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970b69c000
+2487  mprotect(0x7f970b6cc000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970b8cb000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2f000) = 0x7f970b8cb000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libresolv.so.2", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3008\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=80712, ...}) = 0
+2487  mmap(NULL, 2185864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970b486000
+2487  mprotect(0x7f970b499000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970b698000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7f970b698000
+2487  mmap(0x7f970b69a000, 6792, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f970b69a000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libz.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\"\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=93936, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110a0000
+2487  mmap(NULL, 2188976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970b26f000
+2487  mprotect(0x7f970b286000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970b485000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f970b485000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libselinux.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360]\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=117848, ...}) = 0
+2487  mmap(NULL, 2217744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970b051000
+2487  mprotect(0x7f970b06d000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970b26c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7f970b26c000
+2487  mmap(0x7f970b26e000, 1808, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f970b26e000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libORBit-2.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\235\2\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=460112, ...}) = 0
+2487  mmap(NULL, 2557256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970ade0000
+2487  mprotect(0x7f970ae3e000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970b03e000, 73728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5e000) = 0x7f970b03e000
+2487  mmap(0x7f970b050000, 1352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f970b050000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libdbus-1.so.3", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@y\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=261656, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f971109f000
+2487  mmap(NULL, 2357544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970aba0000
+2487  mprotect(0x7f970abde000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970adde000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3e000) = 0x7f970adde000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libxcb.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\227\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=115296, ...}) = 0
+2487  mmap(NULL, 2210672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970a984000
+2487  mprotect(0x7f970a9a0000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970ab9f000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7f970ab9f000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libuuid.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\25\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=15720, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f971109e000
+2487  mmap(NULL, 2110736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970a780000
+2487  mprotect(0x7f970a784000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970a983000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f970a983000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libexpat.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260;\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=165744, ...}) = 0
+2487  mmap(NULL, 2260960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970a558000
+2487  mprotect(0x7f970a57e000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970a77e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7f970a77e000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libpixman-1.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 j\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=387256, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f971109d000
+2487  mmap(NULL, 2482672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970a2f9000
+2487  mprotect(0x7f970a354000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970a553000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5a000) = 0x7f970a553000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libpng12.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0O\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=155360, ...}) = 0
+2487  mmap(NULL, 2250576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970a0d3000
+2487  mprotect(0x7f970a0f8000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970a2f8000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7f970a2f8000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libxcb-shm.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\n\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=8000, ...}) = 0
+2487  mmap(NULL, 2103200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9709ed1000
+2487  mprotect(0x7f9709ed3000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970a0d2000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f970a0d2000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libxcb-render.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P2\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=33304, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f971109c000
+2487  mmap(NULL, 2128496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9709cc9000
+2487  mprotect(0x7f9709cd0000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f9709ed0000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f9709ed0000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libXau.so.6", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\r\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=10896, ...}) = 0
+2487  mmap(NULL, 2106104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9709ac6000
+2487  mprotect(0x7f9709ac8000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f9709cc8000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f9709cc8000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libXdmcp.so.6", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\24\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=20504, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f971109b000
+2487  mmap(NULL, 2115696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f97098c1000
+2487  mprotect(0x7f97098c6000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f9709ac5000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f9709ac5000
+2487  close(3)                          = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f971109a000
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9711099000
+2487  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9711097000
+2487  arch_prctl(ARCH_SET_FS, 0x7f9711097920) = 0
+2487  mprotect(0x7f970a553000, 16384, PROT_READ) = 0
+2487  mprotect(0x7f970adde000, 4096, PROT_READ) = 0
+2487  mprotect(0x7f970b26c000, 4096, PROT_READ) = 0
+2487  mprotect(0x7f970b698000, 4096, PROT_READ) = 0
+2487  mprotect(0x7f970bace000, 4096, PROT_READ) = 0
+2487  mprotect(0x7f970cf98000, 4096, PROT_READ) = 0
+2487  mprotect(0x7f970d496000, 8192, PROT_READ) = 0
+2487  mprotect(0x7f970d6a2000, 4096, PROT_READ) = 0
+2487  mprotect(0x7f970dada000, 4096, PROT_READ) = 0
+2487  mprotect(0x7f970e70c000, 16384, PROT_READ) = 0
+2487  mprotect(0x7f970f596000, 4096, PROT_READ) = 0
+2487  mprotect(0x7f97110bf000, 4096, PROT_READ) = 0
+2487  munmap(0x7f97110ad000, 61467)     = 0
+2487  set_tid_address(0x7f9711097bf0)   = 2487
+2487  set_robust_list(0x7f9711097c00, 0x18) = 0
+2487  futex(0x7fffdff586cc, FUTEX_WAKE_PRIVATE, 1) = 0
+2487  futex(0x7fffdff586cc, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f9711097920) = -1 EAGAIN (Resource temporarily unavailable)
+2487  rt_sigaction(SIGRTMIN, {0x7f970f385860, [], SA_RESTORER|SA_SIGINFO, 0x7f970f38ef60}, NULL, 8) = 0
+2487  rt_sigaction(SIGRT_1, {0x7f970f3858f0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f970f38ef60}, NULL, 8) = 0
+2487  rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+2487  getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+2487  statfs("/selinux", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=51606190, f_bfree=49736616, f_bavail=47115176, f_files=13107200, f_ffree=12958416, f_fsid={-474872062, -1319742448}, f_namelen=255, f_frsize=4096}) = 0
+2487  brk(0)                            = 0xbbc000
+2487  brk(0xbdd000)                     = 0xbdd000
+2487  open("/proc/filesystems", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tb"..., 1024) = 323
+2487  read(3, "", 1024)                 = 0
+2487  close(3)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+2487  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9710f22000
+2487  close(3)                          = 0
+2487  sched_getparam(2487, { 0 })       = 0
+2487  sched_getscheduler(2487)          = 0 (SCHED_OTHER)
+2487  clock_getres(CLOCK_MONOTONIC, {0, 1}) = 0
+2487  sched_get_priority_min(SCHED_OTHER) = 0
+2487  sched_get_priority_max(SCHED_OTHER) = 0
+2487  sched_get_priority_max(SCHED_OTHER) = 0
+2487  open("/usr/lib/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+2487  read(3, "", 4096)                 = 0
+2487  close(3)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  getcwd("/home/tj/School/StraceStuff", 4096) = 28
+2487  open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+2487  read(3, "", 4096)                 = 0
+2487  close(3)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en_US/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en.utf8/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en/LC_MESSAGES/gnome-terminal.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en_US/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en.utf8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/X11/locale/locale.alias", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=82003, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(3, "#\n#\tThis file contains alias nam"..., 4096) = 4096
+2487  read(3, "r_FR.ISO-8859-1\t\t\t\tbr_FR.ISO8859"..., 4096) = 4096
+2487  read(3, "1\nde_DE.ISO-8859-1\t\t\t\tde_DE.ISO8"..., 4096) = 4096
+2487  read(3, "en_ZW.iso88591\t\t\t\t\ten_ZW.ISO8859"..., 4096) = 4096
+2487  read(3, "fa_IR.isiri3342\t\t\t\tfa_IR.ISIRI-3"..., 4096) = 4096
+2487  read(3, "_IL.ISO8859-8\nhe_IL.ISO-8859-8\t\t"..., 4096) = 4096
+2487  read(3, "TF-8\nky_KG\t\t\t\t\t\t\tky_KG.UTF-8\nky_"..., 4096) = 4096
+2487  read(3, "\t\t\toc_FR.ISO8859-15\noc_FR@euro\t\t"..., 4096) = 4096
+2487  read(3, "TF-8@latin\nsr_RS\t\t\t\t\t\tsr_RS.UTF-"..., 4096) = 4096
+2487  read(3, "\t\t\tzh_TW.big5\nzh_CN.euc\t\t\t\t\tzh_C"..., 4096) = 4096
+2487  read(3, "859-1\naf_ZA.iso88591:\t\t\t\t\taf_ZA."..., 4096) = 4096
+2487  read(3, "ISO8859-2\nca:\t\t\t\t\t\tca_ES.ISO8859"..., 4096) = 4096
+2487  read(3, "\tde_DE.UTF-8\nde_DE.utf8:\t\t\t\t\tde_"..., 4096) = 4096
+2487  close(3)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  open("/usr/share/X11/locale/locale.dir", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=39853, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(3, "#\n#\tThis file contains locale da"..., 4096) = 4096
+2487  read(3, "LE\t\t\tes_DO.ISO8859-1\niso8859-1/X"..., 4096) = 4096
+2487  read(3, " for it, and the GNU C Library\n#"..., 4096) = 4096
+2487  read(3, "ALE\t\t\tbr_FR.UTF-8\nen_US.UTF-8/XL"..., 4096) = 4096
+2487  read(3, "F-8/XLC_LOCALE\t\t\tml_IN.UTF-8\nen_"..., 4096) = 4096
+2487  read(3, ".ISO8859-6\niso8859-6/XLC_LOCALE:"..., 4096) = 4096
+2487  read(3, "ISO8859-4\niso8859-13/XLC_LOCALE:"..., 4096) = 4096
+2487  read(3, "OCALE:           rw_RW.ISO8859-1"..., 4096) = 4096
+2487  read(3, "/XLC_LOCALE:\t\t\tde_DE.UTF-8\nen_US"..., 4096) = 4096
+2487  close(3)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  access("/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE", R_OK) = 0
+2487  open("/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=4206, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(3, "#  XLocale Database Sample for e"..., 4096) = 4096
+2487  read(3, "ct_encoding\tJISX0201.1976-0:GR\n}"..., 4096) = 110
+2487  read(3, "", 4096)                 = 0
+2487  close(3)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f970e3e71e0}, {SIG_DFL, [], 0}, 8) = 0
+2487  access("/etc/gtk-2.0/gtkrc.64", F_OK) = -1 ENOENT (No such file or directory)
+2487  socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+2487  connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+2487  close(3)                          = 0
+2487  socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+2487  connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+2487  close(3)                          = 0
+2487  open("/etc/nsswitch.conf", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=475, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 475
+2487  read(3, "", 4096)                 = 0
+2487  close(3)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  open("/etc/ld.so.cache", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2487  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f97110ad000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libnss_compat.so.2", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\23\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=31616, ...}) = 0
+2487  mmap(NULL, 2127088, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f97096b9000
+2487  mprotect(0x7f97096c0000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f97098bf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f97098bf000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libnsl.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300@\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=89064, ...}) = 0
+2487  mmap(NULL, 2194128, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f97094a1000
+2487  mprotect(0x7f97094b6000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f97096b5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f97096b5000
+2487  mmap(0x7f97096b7000, 6864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f97096b7000
+2487  close(3)                          = 0
+2487  mprotect(0x7f97096b5000, 4096, PROT_READ) = 0
+2487  mprotect(0x7f97098bf000, 4096, PROT_READ) = 0
+2487  munmap(0x7f97110ad000, 61467)     = 0
+2487  open("/etc/ld.so.cache", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2487  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f97110ad000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libnss_nis.so.2", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0  \0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=43552, ...}) = 0
+2487  mmap(NULL, 2139320, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9709296000
+2487  mprotect(0x7f97092a0000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970949f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f970949f000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/lib/libnss_files.so.2", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p!\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=47616, ...}) = 0
+2487  mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970908a000
+2487  mprotect(0x7f9709095000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f9709294000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f9709294000
+2487  close(3)                          = 0
+2487  mprotect(0x7f9709294000, 4096, PROT_READ) = 0
+2487  mprotect(0x7f970949f000, 4096, PROT_READ) = 0
+2487  munmap(0x7f97110ad000, 61467)     = 0
+2487  open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+2487  fcntl(3, F_GETFD)                 = 0x1 (flags FD_CLOEXEC)
+2487  lseek(3, 0, SEEK_CUR)             = 0
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=1404, ...}) = 0
+2487  mmap(NULL, 1404, PROT_READ, MAP_SHARED, 3, 0) = 0x7f97110bc000
+2487  lseek(3, 1404, SEEK_SET)          = 1404
+2487  munmap(0x7f97110bc000, 1404)      = 0
+2487  close(3)                          = 0
+2487  getuid()                          = 1000
+2487  uname({sys="Linux", node="tjs-laptop", ...}) = 0
+2487  access("/home/tj/.gtkrc-2.0.64", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en_US/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en.utf8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  brk(0xbfe000)                     = 0xbfe000
+2487  brk(0xbfd000)                     = 0xbfd000
+2487  access("/home/tj/.gtk-2.0/2.10.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/2.10.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/2.10.0/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/2.10.0/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/lib/gtk-2.0/2.10.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/lib/gtk-2.0/2.10.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/lib/gtk-2.0/2.10.0/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/lib/gtk-2.0/2.10.0/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/lib/gtk-2.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/lib/gtk-2.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so", F_OK) = 0
+2487  stat("/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so", {st_mode=S_IFREG|0644, st_size=24248, ...}) = 0
+2487  futex(0x7f970bacf0ec, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+2487  open("/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\"\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=24248, ...}) = 0
+2487  mmap(NULL, 2119496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9708e84000
+2487  mprotect(0x7f9708e89000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f9709089000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f9709089000
+2487  close(3)                          = 0
+2487  open("/etc/ld.so.cache", O_RDONLY) = 3
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2487  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f97110ad000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libcanberra-gtk.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\36\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=18144, ...}) = 0
+2487  mmap(NULL, 2113336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9708c80000
+2487  mprotect(0x7f9708c84000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f9708e83000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f9708e83000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libcanberra.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`6\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=65728, ...}) = 0
+2487  mmap(NULL, 2160800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9708a70000
+2487  mprotect(0x7f9708a7f000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f9708c7f000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7f9708c7f000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libvorbisfile.so.3", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000!\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=30200, ...}) = 0
+2487  mmap(NULL, 2125384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9708869000
+2487  mprotect(0x7f9708870000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f9708a6f000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f9708a6f000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libvorbis.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3209\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=180032, ...}) = 0
+2487  mmap(NULL, 2275144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f970863d000
+2487  mprotect(0x7f9708668000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f9708868000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7f9708868000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libogg.so.0", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\32\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=23264, ...}) = 0
+2487  mmap(NULL, 2118456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9708437000
+2487  mprotect(0x7f970843d000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f970863c000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f970863c000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libtdb.so.1", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240#\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=57464, ...}) = 0
+2487  mmap(NULL, 2153040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9708229000
+2487  mprotect(0x7f9708237000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f9708436000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd000) = 0x7f9708436000
+2487  close(3)                          = 0
+2487  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2487  open("/usr/lib/libltdl.so.7", O_RDONLY) = 3
+2487  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@&\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(3, {st_mode=S_IFREG|0644, st_size=36624, ...}) = 0
+2487  mmap(NULL, 2131928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9708020000
+2487  mprotect(0x7f9708029000, 2093056, PROT_NONE) = 0
+2487  mmap(0x7f9708228000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7f9708228000
+2487  close(3)                          = 0
+2487  munmap(0x7f97110ad000, 61467)     = 0
+2487  open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3
+2487  connect(3, {sa_family=AF_FILE, path=@"/tmp/.X11-unix/X0"}, 20) = 0
+2487  getpeername(3, {sa_family=AF_FILE, path=@"/tmp/.X11-unix/X0"}, [20]) = 0
+2487  uname({sys="Linux", node="tjs-laptop", ...}) = 0
+2487  access("/var/run/gdm3/auth-for-tj-sOgwZ6/database", R_OK) = 0
+2487  open("/var/run/gdm3/auth-for-tj-sOgwZ6/database", O_RDONLY) = 4
+2487  fstat(4, {st_mode=S_IFREG|0600, st_size=55, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(4, "\1\0\0\ntjs-laptop\0\0010\0\22MIT-MAGIC-COO"..., 4096) = 55
+2487  read(4, "", 4096)                 = 0
+2487  close(4)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  getsockname(3, {sa_family=AF_FILE, NULL}, [2]) = 0
+2487  fcntl(3, F_GETFL)                 = 0x2 (flags O_RDWR)
+2487  fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+2487  fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"l\0\v\0\0\0\22\0\20\0\0\0", 12}, {"", 0}, {"MIT-MAGIC-COOKIE-1", 18}, {"\0\0", 2}, {"\310\354\10\27\311\312\227\205\224c\254\363no\327\200", 16}, {"", 0}], 6) = 48
+2487  read(3, 0xbe05c0, 8)              = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0\v\0\0\0\343\1", 8)  = 8
+2487  read(3, "8`\243\0\0\0\300\3\377\377\37\0\0\1\0\0\24\0\377\377\1\7\0\0  \10\377\0\0\0\0"..., 1932) = 1932
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0\1\0\0\0\0\0\1\217\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\217\0\1\0", 4}], 1) = 4
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0\2\0\0\0\0\0\377\377?\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"7\0\5\0\0\0\300\3\6\1\0\0\10\0\0\0\377\377\377\0\24\0\6\0\6\1\0\0\27\0\0\0"..., 44}, {NULL, 0}, {"", 0}], 3) = 44
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\10\4\0\33\0\0\0\37\0\0\0\0\0\0\0k\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 140
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\0\5\0\t\0\300\3", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0\5\0\0\0\0\0\1\221a\234\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\221\0\2\0\1\0\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\1\6\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\20\0\5\0\v\0\0\0UTF8_STRING\0\20\0\6\0\20\0\0\0WM_C"..., 916}, {NULL, 0}, {"", 0}], 3) = 916
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0\7\0\0\0\0\0000\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1088
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\0\4\0\5\0\0\0", 8}, {"RANDR", 5}, {"\0\0\0", 3}], 3) = 16
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0)\0\0\0\0\0\1\226e\245\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\0\10\0\27\0\0\0", 8}, {"Generic Event Extension", 23}, {"\0", 1}], 3) = 32
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0*\0\0\0\0\0\1\212\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\212\0\2\0\1\0\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0+\0\0\0\0\0\1\0\0\0\0\0\0\0\0h\274\3\0\0\0\0*6L\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\226\0\3\0\1\0\0\0\3\0\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0,\0\0\0\0\0\1\0\0\0\3\0\0\0\0h\274\3\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\226\31\2\0\6\1\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0-\0L\0\0\0\246(\0\0\246(\0\0\2\0\4\0\7\0005\0(\255K\0\0\0\0\0"..., 4096) = 336
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\226\t\3\0A\0\0\0\246(\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\0019.\0\4\0\0\0\246(\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\2\0\0\0\0\0"..., 4096) = 48
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\226\t\3\0B\0\0\0\246(\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\0019/\0\v\0\0\0\246(\0\0@\0\0\0%\1\0\0\244\0\0\0\0\1\1\0\7\0\1\0"..., 4096) = 76
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\226\24\3\0@\0\0\0\246(\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0000\0\5\0\0\0\246(\0\0\0\0\0\0V\5\0\3E\0\0\0\1\0?\0\1\0\4\0"..., 4096) = 52
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\226\t\3\0C\0\0\0\246(\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\00191\0\5\0\0\0\246(\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\2\0\0\0\0\0"..., 4096) = 52
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\226\t\3\0D\0\0\0\246(\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\00192\0\4\0\0\0\246(\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\2\0\0\0\0\0"..., 4096) = 48
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\226\37\2\0\6\1\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0003\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\2\37\4\0\6\1\0\0\0\10\0\0\0\0\2\0\226\4\3\0\6\1\0\0\v\0\0\0\20\0\6\0"..., 96}, {NULL, 0}, {"", 0}], 3) = 96
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0006\0\0\0\0\0R\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 96
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\3\37\2\0\6\1\0\0\16\10\2\0\6\1\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0009\0\3\0\0\0!\0\0\0\1\0\0\1\377\377\377\377\0\0\0\0\0\1\2\0 \0\0\0"..., 4096) = 76
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\2\37\4\0\6\1\0\0\0\10\0\0\0\0\2\0$\4\1\0\27\1\2\0R\1\0\0", 28}, {NULL, 0}, {"", 0}], 3) = 28
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0=\0\0\0\0\0\3\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\2\37\4\0\3\0\300\0\0\10\0\0\0\0B\0%\4\1\0", 20}, {NULL, 0}, {"", 0}], 3) = 20
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\3\37\2\0\3\0\300\0\16\10\2\0\3\0\300\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0@\0\3\0\0\0!\0\0\0\1\0\0\1\377\377\377\377\0\0\0\0\0\1\0\0 \0\0\0"..., 4096) = 76
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\17\37\2\0\3\0\300\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0B\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\24\0\6\0\3\0\300\0S\1\0\0S\1\0\0\0\0\0\0\377\377\377\377", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\10C\0\20\1\0\0S\1\0\0\0\0\0\0@\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1120
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  uname({sys="Linux", node="tjs-laptop", ...}) = 0
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\1\30\r\0\1\0\300\3\6\1\0\0\n\0\n\0\n\0\n\0\0\0\1\0!\0\0\0\32(\0\0"..., 568}, {NULL, 0}, {"", 0}], 3) = 568
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\34\0E\0\1\0\300\3?\1\0\0!D\33\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 352
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\22\0\7\0\1\0\300\3U\1\0\0!\0\0\0 \0\n\0\1\0\0\0\2\0\300\3b(\4\0"..., 36}, {"XFIXES", 6}, {"\0\0", 2}], 3) = 44
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\34\0S\0\1\0\300\3U\1\0\0!D\33\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 64
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\224\0\3\0\4\0\0\0\0\0\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0U\0\0\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\0\5\0\t\0\0\0", 8}, {"Composite", 9}, {"\0\0\0", 3}], 3) = 20
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0V\0\0\0\0\0\1\230\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\230\0\3\0\0\0\0\0\4\0\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1hW\0\0\0\0\0\0\0\0\0\4\0\0\0\0h\274\3\0\0\0\0\360\253}\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\0\4\0\6\0\0\0", 8}, {"DAMAGE", 6}, {"\0\0", 2}], 3) = 16
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0X\0\0\0\0\0\1\231g\250\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\231\0\3\0\1\0\0\0\1\0\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1hY\0\0\0\0\0\1\0\0\0\1\0\0\0\0h\274\3\0\0\0\0\0h\274\3\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\0\4\0\5\0\0\0", 8}, {"SHAPE", 5}, {"\0\0\0", 3}], 3) = 16
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0Z\0\0\0\0\0\1\213L\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\213\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0[\0\0\0\0\0\1\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"&\0\2\0\6\1\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\1\\\0\0\0\0\0\6\1\0\0\3\0 \1\245\1\0\0\245\1\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"+\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\2]\0\0\0\0\0\5\0\240\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  uname({sys="Linux", node="tjs-laptop", ...}) = 0
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\22\0\n\0\1\0\300\3\"\0\0\0\37\0\0\0\10\0\n\0\17\0\0\0gnome-te"..., 260}, {NULL, 0}, {"", 0}], 3) = 260
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\34\0^\0\1\0\300\3\"\0\0\0'D\33\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 192
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\0\3\0\4\0\300\3", 8}, {"SYNC", 4}, {"", 0}], 3) = 12
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0f\0\0\0\0\0\1\220_\232\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\220\0\2\0\3\0\300\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0g\0\0\0\0\0\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\0\4\0\7\0\300\3", 8}, {"MIT-SHM", 7}, {"\0", 1}], 3) = 16
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0h\0\0\0\0\0\1\214M\224\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\214\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\1i\0\0\0\0\0\1\0\1\0\0\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  pipe2([4, 5], O_CLOEXEC)          = 0
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\0\6\0\17\0\300\3", 8}, {"XInputExtension", 15}, {"\0", 1}], 3) = 24
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0j\0\0\0\0\0\1\215N\225\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\0\6\0\17\0\300\3", 8}, {"XInputExtension", 15}, {"\0", 1}], 3) = 24
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0k\0\0\0\0\0\1\215N\225\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\215\1\6\0\17\0\300\3", 8}, {"XInputExtension", 15}, {"\0", 1}], 3) = 24
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\1l\0\0\0\0\0\2\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\1\6\0\17\0\300\3", 8}, {"XInputExtension", 15}, {"\0", 1}], 3) = 24
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0m\0\0\0\0\0\1\215N\225\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\215\1\6\0\17\0\300\3", 8}, {"XInputExtension", 15}, {"\0", 1}], 3) = 24
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\1n\0\0\0\0\0\2\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\215\2\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\2o\0\225\0\0\0\r\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 628
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\215\3\2\0\4\0\300\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\3p\0\2\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 40
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\215\3\2\0\f\0\300\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\3q\0\2\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 40
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\215\3\2\0\r\0\300\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\3r\0\2\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 40
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\224\2\4\0\1\0\300\3;\1\0\0\7\0\0\0\27\0\2\0;\1\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0t\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  brk(0xc1e000)                     = 0xc1e000
+2487  lstat("/etc/gtk-2.0/gtkrc", 0x7fffdff57ca0) = -1 ENOENT (No such file or directory)
+2487  access("/etc/gtk-2.0/gtkrc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/etc/gtk-2.0/gtkrc.en", F_OK) = -1 ENOENT (No such file or directory)
+2487  lstat("/home/tj/.gtkrc-2.0", 0x7fffdff57ca0) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtkrc-2.0.en_US", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtkrc-2.0.en", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.themes/Aurora-Midnight/gtk-2.0/gtkrc", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/share/themes/Aurora-Midnight/gtk-2.0/gtkrc", F_OK) = 0
+2487  lstat("/usr/share/themes/Aurora-Midnight/gtk-2.0/gtkrc", {st_mode=S_IFREG|0644, st_size=9898, ...}) = 0
+2487  open("/usr/share/themes/Aurora-Midnight/gtk-2.0/gtkrc", O_RDONLY) = 6
+2487  read(6, "# ===[ buttons ]===\n#  the preli"..., 4000) = 4000
+2487  access("/home/tj/.gtk-2.0/2.10.0/x86_64-pc-linux-gnu/engines/libaurora.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/2.10.0/x86_64-pc-linux-gnu/engines/libaurora.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/2.10.0/engines/libaurora.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/2.10.0/engines/libaurora.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/x86_64-pc-linux-gnu/engines/libaurora.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/x86_64-pc-linux-gnu/engines/libaurora.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/engines/libaurora.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.gtk-2.0/engines/libaurora.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/lib/gtk-2.0/2.10.0/x86_64-pc-linux-gnu/engines/libaurora.so", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/lib/gtk-2.0/2.10.0/x86_64-pc-linux-gnu/engines/libaurora.la", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/lib/gtk-2.0/2.10.0/engines/libaurora.so", F_OK) = 0
+2487  stat("/usr/lib/gtk-2.0/2.10.0/engines/libaurora.so", {st_mode=S_IFREG|0644, st_size=105256, ...}) = 0
+2487  open("/usr/lib/gtk-2.0/2.10.0/engines/libaurora.so", O_RDONLY) = 7
+2487  read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3203\0\0\0\0\0\0"..., 832) = 832
+2487  fstat(7, {st_mode=S_IFREG|0644, st_size=105256, ...}) = 0
+2487  mmap(NULL, 2200600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7f9707e06000
+2487  mprotect(0x7f9707e1e000, 2097152, PROT_NONE) = 0
+2487  mmap(0x7f970801e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x18000) = 0x7f970801e000
+2487  close(7)                          = 0
+2487  mprotect(0x7f970801e000, 4096, PROT_READ) = 0
+2487  read(6, "ade (1.35,@bg_color)\n  bg[ACTIVE"..., 4000) = 4000
+2487  brk(0xc3f000)                     = 0xc3f000
+2487  read(6, "kNotebook>*<GtkDrawingArea>\" sty"..., 4000) = 1898
+2487  read(6, "", 4000)                 = 0
+2487  close(6)                          = 0
+2487  access("/usr/share/themes/Aurora-Midnight/gtk-2.0/gtkrc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/share/themes/Aurora-Midnight/gtk-2.0/gtkrc.en", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/home/tj/.themes/Default/gtk-2.0-key/gtkrc", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/share/themes/Default/gtk-2.0-key/gtkrc", F_OK) = 0
+2487  lstat("/usr/share/themes/Default/gtk-2.0-key/gtkrc", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+2487  open("/usr/share/themes/Default/gtk-2.0-key/gtkrc", O_RDONLY) = 6
+2487  read(6, "#\n# Default keybinding set. Empt"..., 4000) = 82
+2487  read(6, "", 4000)                 = 0
+2487  close(6)                          = 0
+2487  access("/usr/share/themes/Default/gtk-2.0-key/gtkrc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+2487  access("/usr/share/themes/Default/gtk-2.0-key/gtkrc.en", F_OK) = -1 ENOENT (No such file or directory)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"b\2\4\0\6\0\300\3", 8}, {"RENDER", 6}, {"\0\0", 2}], 3) = 16
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0u\0\0\0\0\0\1\225\0\240\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\225\0\3\0\0\0\0\0\v\0\0\0\225\1\1\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0v\0\0\0\0\0\0\0\0\0\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1492
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  uname({sys="Linux", node="tjs-laptop", ...}) = 0
+2487  open("/home/tj/.Xdefaults-tjs-laptop", O_RDONLY) = -1 ENOENT (No such file or directory)
+2487  brk(0xc60000)                     = 0xc60000
+2487  brk(0xc5f000)                     = 0xc5f000
+2487  socket(PF_FILE, SOCK_STREAM, 0)   = 6
+2487  uname({sys="Linux", node="tjs-laptop", ...}) = 0
+2487  connect(6, {sa_family=AF_FILE, path=@"/tmp/.ICE-unix/2013"}, 22) = 0
+2487  fcntl(6, F_SETFD, FD_CLOEXEC)     = 0
+2487  write(6, "\0\1\0\0\0\0\0\0", 8)   = 8
+2487  read(6, "\0\1\0\0\0\0\0\0", 8)    = 8
+2487  access("/home/tj/.ICEauthority", R_OK) = 0
+2487  open("/home/tj/.ICEauthority", O_RDONLY) = 7
+2487  fstat(7, {st_mode=S_IFREG|0600, st_size=12358, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(7, "\0\4XSMP\0\0\0#unix/tjs-laptop:/tmp/."..., 4096) = 4096
+2487  read(7, "E\0\0\0%local/tjs-laptop:@/tmp/.ICE"..., 4096) = 4096
+2487  read(7, "\0%local/tjs-laptop:@/tmp/.ICE-un"..., 4096) = 4096
+2487  read(7, "x/tjs-laptop:/tmp/.ICE-unix/2013"..., 4096) = 70
+2487  read(7, "", 4096)                 = 0
+2487  close(7)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  write(6, "\0\2\1\1\6\0\0\0\0\0\0\0\0\0\0\0\3\0MIT\0\0\0\3\0001.0\0\0\0"..., 56) = 56
+2487  read(6, "\0\3\0\0\1\0\0\0", 8)    = 8
+2487  read(6, "\0\0\0\0\0\0\0\0", 8)    = 8
+2487  access("/home/tj/.ICEauthority", R_OK) = 0
+2487  open("/home/tj/.ICEauthority", O_RDONLY) = 7
+2487  fstat(7, {st_mode=S_IFREG|0600, st_size=12358, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(7, "\0\4XSMP\0\0\0#unix/tjs-laptop:/tmp/."..., 4096) = 4096
+2487  read(7, "E\0\0\0%local/tjs-laptop:@/tmp/.ICE"..., 4096) = 4096
+2487  read(7, "\0%local/tjs-laptop:@/tmp/.ICE-un"..., 4096) = 4096
+2487  close(7)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  write(6, "\0\4\1\1\3\0\0\0\20\0\0\0\0\0\0\0\256A\310\306A\300\211R\2=\220QF\320\v\324", 32) = 32
+2487  read(6, "\0\6\0\0\2\0\0\0", 8)    = 8
+2487  read(6, "\3\0MIT\0\0\0\3\0001.0\0\0\0", 16) = 16
+2487  fcntl(6, F_GETFD)                 = 0x1 (flags FD_CLOEXEC)
+2487  fcntl(6, F_SETFD, FD_CLOEXEC)     = 0
+2487  fstat(6, {st_mode=S_IFSOCK|0777, st_size=0, ...}) = 0
+2487  fcntl(6, F_GETFL)                 = 0x2 (flags O_RDWR)
+2487  access("/home/tj/.ICEauthority", R_OK) = 0
+2487  open("/home/tj/.ICEauthority", O_RDONLY) = 7
+2487  fstat(7, {st_mode=S_IFREG|0600, st_size=12358, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(7, "\0\4XSMP\0\0\0#unix/tjs-laptop:/tmp/."..., 4096) = 4096
+2487  read(7, "E\0\0\0%local/tjs-laptop:@/tmp/.ICE"..., 4096) = 4096
+2487  read(7, "\0%local/tjs-laptop:@/tmp/.ICE-un"..., 4096) = 4096
+2487  read(7, "x/tjs-laptop:/tmp/.ICE-unix/2013"..., 4096) = 70
+2487  read(7, "", 4096)                 = 0
+2487  close(7)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  write(6, "\0\7\1\0\7\0\0\0\1\1\0\0\0\0\0\0\4\0XSMP\211R\3\0MIT\320\v\324"..., 64) = 64
+2487  read(6, "\0\3\0\0\1\0\0\0", 8)    = 8
+2487  read(6, "\0\0MIT\0\0\0", 8)       = 8
+2487  access("/home/tj/.ICEauthority", R_OK) = 0
+2487  open("/home/tj/.ICEauthority", O_RDONLY) = 7
+2487  fstat(7, {st_mode=S_IFREG|0600, st_size=12358, ...}) = 0
+2487  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f97110bc000
+2487  read(7, "\0\4XSMP\0\0\0#unix/tjs-laptop:/tmp/."..., 4096) = 4096
+2487  read(7, "E\0\0\0%local/tjs-laptop:@/tmp/.ICE"..., 4096) = 4096
+2487  read(7, "\0%local/tjs-laptop:@/tmp/.ICE-un"..., 4096) = 4096
+2487  close(7)                          = 0
+2487  munmap(0x7f97110bc000, 4096)      = 0
+2487  write(6, "\0\4\1\0\3\0\0\0\20\0\0\0\0\0\0\0\256A\310\306A\300\211R\2=\220QF\320\v\324", 32) = 32
+2487  read(6, "\0\10\0\1\3\0\0\0", 8)   = 8
+2487  read(6, "\r\0gnome-session\0\6\0002.30.2", 24) = 24
+2487  write(6, "\1\1\1\0\1\0\0\0\0\0\0\0\0\0\0\0", 16) = 16
+2487  read(6, "\1\2\0\1\7\0\0\0", 8)    = 8
+2487  read(6, "/\0\0\0001086c73480987ba1bb1307673303"..., 56) = 56
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\20\0\5\0\f\0\0\0SM_CLIENT_ID", 20}, {NULL, 0}, {"", 0}], 3) = 20
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0x\0\0\0\0\0c\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\22\0\22\0\1\0\300\3c\1\0\0\37\0\0\0\10_ID/\0\0\0001086c734"..., 128}, {NULL, 0}, {"", 0}], 3) = 128
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\34\0y\0\1\0\300\3c\1\0\0HD\33\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 64
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\20\1\4\0\6\0\300\3STRING\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\1\0|\0\0\0\0\0\37\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2487  writev(3, [{"\22\0\t\0\3\0\300\3'\0\0\0\37\0\0\0\10_ID\v\0\0\0Fake Win"..., 36}, {NULL, 0}, {"", 0}], 3) = 36
+2487  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2487  read(3, "\34\0}\0\3\0\300\3'\0\0\0ID\33\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2487  read(3, 0xbe1934, 4096)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  socket(PF_FILE, SOCK_STREAM, 0)   = 7
+2487  connect(7, {sa_family=AF_FILE, path=@"/tmp/dbus-l1rCjW3Waq"}, 23) = 0
+2487  fcntl(7, F_GETFL)                 = 0x2 (flags O_RDWR)
+2487  fcntl(7, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+2487  fcntl(7, F_GETFD)                 = 0
+2487  fcntl(7, F_SETFD, FD_CLOEXEC)     = 0
+2487  geteuid()                         = 1000
+2487  rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f970e3e71e0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f970e3e71e0}, 8) = 0
+2487  poll([{fd=7, events=POLLOUT}], 1, 0) = 1 ([{fd=7, revents=POLLOUT}])
+2487  write(7, "\0", 1)                 = 1
+2487  write(7, "AUTH EXTERNAL 31303030\r\n", 24) = 24
+2487  poll([{fd=7, events=POLLIN}], 1, -1) = 1 ([{fd=7, revents=POLLIN}])
+2487  read(7, "OK 09c16eb907af5813ba173a0e00000"..., 2048) = 37
+2487  poll([{fd=7, events=POLLOUT}], 1, -1) = 1 ([{fd=7, revents=POLLOUT}])
+2487  write(7, "BEGIN\r\n", 7)          = 7
+2487  poll([{fd=7, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=7, revents=POLLOUT}])
+2487  writev(7, [{"l\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 128}, {"", 0}], 2) = 128
+2487  poll([{fd=7, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+2487  read(7, "l\2\1\1\n\0\0\0\1\0\0\0=\0\0\0\6\1s\0\5\0\0\0:1.66\0\0\0"..., 2048) = 260
+2487  read(7, 0xc4dca0, 2048)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  fstat(7, {st_mode=S_IFSOCK|0777, st_size=0, ...}) = 0
+2487  fcntl(7, F_GETFL)                 = 0x802 (flags O_RDWR|O_NONBLOCK)
+2487  writev(7, [{"l\1\1\1n\0\0\0\2\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 144}, {"i\0\0\0type='signal',sender='org.fr"..., 110}], 2) = 254
+2487  writev(7, [{"l\1\1\1\244\0\0\0\3\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 144}, {"\237\0\0\0type='signal',sender='org.fr"..., 164}], 2) = 308
+2487  writev(7, [{"l\1\0\1\31\0\0\0\4\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 144}, {"\24\0\0\0org.freedesktop.DBus\0", 25}], 2) = 169
+2487  writev(7, [{"l\1\0\1(\0\0\0\5\0\0\0\200\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 144}, {"\36\0\0\0org.gnome.Terminal.Display_0"..., 40}], 2) = 184
+2487  poll([{fd=7, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+2487  read(7, "l\2\1\1\31\0\0\0\3\0\0\0=\0\0\0\6\1s\0\5\0\0\0:1.66\0\0\0"..., 2048) = 189
+2487  read(7, 0xc4dca0, 2048)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  getcwd("/home/tj/School/StraceStuff", 4096) = 28
+2487  writev(7, [{"l\1\1\1\204\0\0\0\6\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 144}, {"\177\0\0\0type='signal',sender='org.gn"..., 132}], 2) = 276
+2487  writev(7, [{"l\1\1\1\256\0\0\0\7\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 144}, {"\251\0\0\0type='signal',sender='org.fr"..., 174}], 2) = 318
+2487  writev(7, [{"l\1\0\1#\0\0\0\10\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 144}, {"\36\0\0\0org.gnome.Terminal.Display_0"..., 35}], 2) = 179
+2487  writev(7, [{"l\1\0\1w\4\0\0\t\0\0\0\240\0\0\0\1\1o\0\33\0\0\0/org/gno"..., 176}, {"\33\0\0\0/home/tj/School/StraceStuff\0"..., 1143}], 2) = 1319
+2487  poll([{fd=7, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+2487  read(7, "l\2\1\1\n\0\0\0\5\0\0\0=\0\0\0\6\1s\0\5\0\0\0:1.66\0\0\0"..., 2048) = 90
+2487  read(7, 0xc4dca0, 2048)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  poll([{fd=7, events=POLLIN}], 1, 25000) = 1 ([{fd=7, revents=POLLIN}])
+2487  read(7, "l\2\1\1\0\0\0\0\7\0\0\0&\0\0\0\6\1s\0\5\0\0\0:1.66\0\0\0"..., 2048) = 56
+2487  read(7, 0xc4dca0, 2048)           = -1 EAGAIN (Resource temporarily unavailable)
+2487  exit_group(0)                     = ?

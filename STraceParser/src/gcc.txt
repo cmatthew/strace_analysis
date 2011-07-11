@@ -1,0 +1,1828 @@
+3084  execve("/usr/bin/gcc", ["gcc", "cprog.c"], [/* 32 vars */]) = 0
+3084  brk(0)                            = 0x1427000
+3084  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3084  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdfe29e1000
+3084  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+3084  open("/etc/ld.so.cache", O_RDONLY) = 3
+3084  fstat(3, {st_mode=S_IFREG|0644, st_size=61645, ...}) = 0
+3084  mmap(NULL, 61645, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fdfe29d1000
+3084  close(3)                          = 0
+3084  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3084  open("/lib/libc.so.6", O_RDONLY)  = 3
+3084  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+3084  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+3084  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdfe2465000
+3084  mprotect(0x7fdfe25bd000, 2093056, PROT_NONE) = 0
+3084  mmap(0x7fdfe27bc000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7fdfe27bc000
+3084  mmap(0x7fdfe27c1000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdfe27c1000
+3084  close(3)                          = 0
+3084  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdfe29d0000
+3084  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdfe29cf000
+3084  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdfe29ce000
+3084  arch_prctl(ARCH_SET_FS, 0x7fdfe29cf700) = 0
+3084  mprotect(0x7fdfe27bc000, 16384, PROT_READ) = 0
+3084  mprotect(0x7fdfe29e3000, 4096, PROT_READ) = 0
+3084  munmap(0x7fdfe29d1000, 61645)     = 0
+3084  brk(0)                            = 0x1427000
+3084  brk(0x1448000)                    = 0x1448000
+3084  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+3084  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+3084  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fdfe2859000
+3084  close(3)                          = 0
+3084  open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+3084  fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+3084  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdfe29e0000
+3084  read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+3084  read(3, "", 4096)                 = 0
+3084  close(3)                          = 0
+3084  munmap(0x7fdfe29e0000, 4096)      = 0
+3084  open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3084  open("/usr/share/locale/en_US/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3084  open("/usr/share/locale/en.utf8/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3084  open("/usr/share/locale/en/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3084  rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, {SIG_DFL, [], 0}, 8) = 0
+3084  rt_sigaction(SIGINT, {0x408f40, [INT], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, 8) = 0
+3084  rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, {SIG_DFL, [], 0}, 8) = 0
+3084  rt_sigaction(SIGHUP, {0x408f40, [HUP], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, 8) = 0
+3084  rt_sigaction(SIGTERM, {SIG_IGN, [TERM], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, {SIG_DFL, [], 0}, 8) = 0
+3084  rt_sigaction(SIGTERM, {0x408f40, [TERM], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, {SIG_IGN, [TERM], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, 8) = 0
+3084  rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, {SIG_DFL, [], 0}, 8) = 0
+3084  rt_sigaction(SIGPIPE, {0x408f40, [PIPE], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, 8) = 0
+3084  rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7fdfe24971e0}, {SIG_DFL, [], 0}, 8) = 0
+3084  access("/usr/local/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/bin/gcc", X_OK)      = 0
+3084  lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+3084  lstat("/usr/bin/gcc", {st_mode=S_IFLNK|0777, st_size=7, ...}) = 0
+3084  readlink("/usr/bin/gcc", "gcc-4.4", 4095) = 7
+3084  lstat("/usr/bin/gcc-4.4", {st_mode=S_IFREG|0755, st_size=255536, ...}) = 0
+3084  access("/usr/local/bin/gcc", X_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/bin/gcc", X_OK)      = 0
+3084  lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=36864, ...}) = 0
+3084  lstat("/usr/bin/gcc", {st_mode=S_IFLNK|0777, st_size=7, ...}) = 0
+3084  readlink("/usr/bin/gcc", "gcc-4.4", 4095) = 7
+3084  lstat("/usr/bin/gcc-4.4", {st_mode=S_IFREG|0755, st_size=255536, ...}) = 0
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/", X_OK) = 0
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/", X_OK) = 0
+3084  access("cprog.c", F_OK)           = 0
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/specs", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/specs", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.4.5/specs", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/specs", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/specs", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/", X_OK) = 0
+3084  access("/tmp", R_OK|W_OK|X_OK)    = 0
+3084  getpid()                          = 3084
+3084  open("/tmp/cc3yVjam.s", O_RDWR|O_CREAT|O_EXCL, 0600) = 3
+3084  close(3)                          = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/cc1", {st_mode=S_IFREG|0755, st_size=9141904, ...}) = 0
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/cc1", X_OK) = 0
+3084  vfork()                           = 3085
+3084  wait4(3085,  <unfinished ...>
+3085  execve("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/cc1", ["/usr/lib/gcc/x86_64-linux-gnu/4."..., "-quiet", "cprog.c", "-quiet", "-dumpbase", "cprog.c", "-mtune=generic", "-auxbase", "cprog", "-o", "/tmp/cc3yVjam.s"], [/* 34 vars */]) = 0
+3085  brk(0)                            = 0x2d50000
+3085  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3085  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febef146000
+3085  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+3085  open("/etc/ld.so.cache", O_RDONLY) = 3
+3085  fstat(3, {st_mode=S_IFREG|0644, st_size=61645, ...}) = 0
+3085  mmap(NULL, 61645, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7febef136000
+3085  close(3)                          = 0
+3085  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/libmpfr.so.4", O_RDONLY) = 3
+3085  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\264\0\0\0\0\0\0"..., 832) = 832
+3085  fstat(3, {st_mode=S_IFREG|0644, st_size=353072, ...}) = 0
+3085  mmap(NULL, 2448384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febeecd5000
+3085  mprotect(0x7febeed29000, 2097152, PROT_NONE) = 0
+3085  mmap(0x7febeef29000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7febeef29000
+3085  close(3)                          = 0
+3085  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/libgmp.so.3", O_RDONLY) = 3
+3085  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\207\0\0\0\0\0\0"..., 832) = 832
+3085  fstat(3, {st_mode=S_IFREG|0644, st_size=386400, ...}) = 0
+3085  mmap(NULL, 2481664, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febeea77000
+3085  mprotect(0x7febeead4000, 2097152, PROT_NONE) = 0
+3085  mmap(0x7febeecd4000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5d000) = 0x7febeecd4000
+3085  close(3)                          = 0
+3085  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3085  open("/lib/libdl.so.2", O_RDONLY) = 3
+3085  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+3085  fstat(3, {st_mode=S_IFREG|0644, st_size=14696, ...}) = 0
+3085  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febef135000
+3085  mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febee873000
+3085  mprotect(0x7febee875000, 2097152, PROT_NONE) = 0
+3085  mmap(0x7febeea75000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7febeea75000
+3085  close(3)                          = 0
+3085  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3085  open("/lib/libc.so.6", O_RDONLY)  = 3
+3085  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+3085  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+3085  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7febee512000
+3085  mprotect(0x7febee66a000, 2093056, PROT_NONE) = 0
+3085  mmap(0x7febee869000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7febee869000
+3085  mmap(0x7febee86e000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7febee86e000
+3085  close(3)                          = 0
+3085  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febef134000
+3085  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febef133000
+3085  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febef132000
+3085  arch_prctl(ARCH_SET_FS, 0x7febef133700) = 0
+3085  mprotect(0x7febee869000, 16384, PROT_READ) = 0
+3085  mprotect(0x7febeea75000, 4096, PROT_READ) = 0
+3085  mprotect(0x7febef148000, 4096, PROT_READ) = 0
+3085  munmap(0x7febef136000, 61645)     = 0
+3085  brk(0)                            = 0x2d50000
+3085  brk(0x2d71000)                    = 0x2d71000
+3085  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+3085  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+3085  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7febeefbd000
+3085  close(3)                          = 0
+3085  open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+3085  fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+3085  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febef145000
+3085  read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+3085  read(3, "", 4096)                 = 0
+3085  close(3)                          = 0
+3085  munmap(0x7febef145000, 4096)      = 0
+3085  open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/share/locale/en_US/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/share/locale/en.utf8/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/share/locale/en/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3085  rt_sigaction(SIGSEGV, {0x64a090, [SEGV], SA_RESTORER|SA_RESTART, 0x7febee5441e0}, {SIG_DFL, [], 0}, 8) = 0
+3085  rt_sigaction(SIGILL, {0x64a090, [ILL], SA_RESTORER|SA_RESTART, 0x7febee5441e0}, {SIG_DFL, [], 0}, 8) = 0
+3085  rt_sigaction(SIGBUS, {0x64a090, [BUS], SA_RESTORER|SA_RESTART, 0x7febee5441e0}, {SIG_DFL, [], 0}, 8) = 0
+3085  rt_sigaction(SIGABRT, {0x64a090, [ABRT], SA_RESTORER|SA_RESTART, 0x7febee5441e0}, {SIG_DFL, [], 0}, 8) = 0
+3085  rt_sigaction(SIGFPE, {0x64a090, [FPE], SA_RESTORER|SA_RESTART, 0x7febee5441e0}, {SIG_DFL, [], 0}, 8) = 0
+3085  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febef145000
+3085  mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febeef9c000
+3085  mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee412000
+3085  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee410000
+3085  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee40e000
+3085  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee40c000
+3085  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee40a000
+3085  mmap(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee406000
+3085  open("/proc/meminfo", O_RDONLY)   = 3
+3085  fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+3085  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee405000
+3085  read(3, "MemTotal:        3846840 kB\nMemF"..., 1024) = 1024
+3085  close(3)                          = 0
+3085  munmap(0x7febee405000, 4096)      = 0
+3085  getrlimit(RLIMIT_AS, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+3085  open("/proc/meminfo", O_RDONLY)   = 3
+3085  fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+3085  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee405000
+3085  read(3, "MemTotal:        3846840 kB\nMemF"..., 1024) = 1024
+3085  close(3)                          = 0
+3085  munmap(0x7febee405000, 4096)      = 0
+3085  getrlimit(RLIMIT_AS, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+3085  getrlimit(RLIMIT_RSS, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+3085  open("/proc/meminfo", O_RDONLY)   = 3
+3085  fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+3085  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee405000
+3085  read(3, "MemTotal:        3846840 kB\nMemF"..., 1024) = 1024
+3085  close(3)                          = 0
+3085  munmap(0x7febee405000, 4096)      = 0
+3085  getrlimit(RLIMIT_AS, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+3085  brk(0x2d94000)                    = 0x2d94000
+3085  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/", X_OK) = 0
+3085  stat("/usr/local/include/x86_64-linux-gnu", 0x7fff4fdec6a0) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/local/include", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/include", 0x7fff4fdec6a0) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/include/x86_64-linux-gnu", 0x7fff4fdec6a0) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/include", {st_mode=S_IFDIR|0755, st_size=16384, ...}) = 0
+3085  stat("cprog.c.gch", 0x7fff4fdec710) = -1 ENOENT (No such file or directory)
+3085  open("cprog.c", O_RDONLY|O_NOCTTY) = 3
+3085  fstat(3, {st_mode=S_IFREG|0644, st_size=60, ...}) = 0
+3085  read(3, "#include<stdio.h>\n\nmain()\n{\n    "..., 60) = 60
+3085  close(3)                          = 0
+3085  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee404000
+3085  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee402000
+3085  mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee302000
+3085  open("/tmp/cc3yVjam.s", O_RDWR|O_CREAT|O_TRUNC, 0666) = 3
+3085  fstat(3, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+3085  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee301000
+3085  mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee2f9000
+3085  stat("/home/tj", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3085  stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3085  stat("/usr/local/include/stdio.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/local/include/stdio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdio.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/stdio.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/stdio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/include/stdio.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/stdio.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=31113, ...}) = 0
+3085  read(4, "/* Define ISO C stdio on top of "..., 31113) = 31113
+3085  close(4)                          = 0
+3085  stat("/usr/local/include/features.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/local/include/features.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/features.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/features.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/features.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/features.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/include/features.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/features.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=12807, ...}) = 0
+3085  brk(0x2db6000)                    = 0x2db6000
+3085  read(4, "/* Copyright (C) 1991-1993,1995-"..., 12807) = 12807
+3085  close(4)                          = 0
+3085  stat("/usr/local/include/bits/predefs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/local/include/bits/predefs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/bits/predefs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/bits/predefs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/bits/predefs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/bits/predefs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/include/bits/predefs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/bits/predefs.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=1153, ...}) = 0
+3085  read(4, "/* Copyright (C) 2005 Free Softw"..., 1153) = 1153
+3085  close(4)                          = 0
+3085  stat("/usr/local/include/sys/cdefs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/local/include/sys/cdefs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/sys/cdefs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/sys/cdefs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/sys/cdefs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/sys/cdefs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/include/sys/cdefs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/sys/cdefs.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=13195, ...}) = 0
+3085  read(4, "/* Copyright (C) 1992-2001, 2002"..., 13195) = 13195
+3085  close(4)                          = 0
+3085  stat("/usr/local/include/bits/wordsize.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/local/include/bits/wordsize.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/bits/wordsize.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/bits/wordsize.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/bits/wordsize.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/bits/wordsize.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/include/bits/wordsize.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/bits/wordsize.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=175, ...}) = 0
+3085  read(4, "/* Determine the wordsize from t"..., 175) = 175
+3085  close(4)                          = 0
+3085  stat("/usr/local/include/gnu/stubs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/local/include/gnu/stubs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/gnu/stubs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/gnu/stubs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/gnu/stubs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/gnu/stubs.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/include/gnu/stubs.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/gnu/stubs.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=315, ...}) = 0
+3085  read(4, "/* This file selects the right g"..., 315) = 315
+3085  close(4)                          = 0
+3085  open("/usr/include/bits/wordsize.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=175, ...}) = 0
+3085  read(4, "/* Determine the wordsize from t"..., 175) = 175
+3085  close(4)                          = 0
+3085  stat("/usr/local/include/gnu/stubs-64.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/local/include/gnu/stubs-64.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/gnu/stubs-64.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/gnu/stubs-64.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/gnu/stubs-64.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/gnu/stubs-64.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/include/gnu/stubs-64.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/gnu/stubs-64.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=604, ...}) = 0
+3085  read(4, "/* This file is automatically ge"..., 604) = 604
+3085  close(4)                          = 0
+3085  stat("/usr/local/include/stddef.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/local/include/stddef.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h.gch", 0x7fff4fdec4d0) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=12542, ...}) = 0
+3085  read(4, "/* Copyright (C) 1989, 1997, 199"..., 12542) = 12542
+3085  close(4)                          = 0
+3085  open("/usr/local/include/bits/types.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/bits/types.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/bits/types.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/bits/types.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=7601, ...}) = 0
+3085  read(4, "/* bits/types.h -- definitions o"..., 7601) = 7601
+3085  close(4)                          = 0
+3085  open("/usr/include/bits/wordsize.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=175, ...}) = 0
+3085  read(4, "/* Determine the wordsize from t"..., 175) = 175
+3085  close(4)                          = 0
+3085  open("/usr/local/include/bits/typesizes.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/bits/typesizes.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/bits/typesizes.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/bits/typesizes.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=2538, ...}) = 0
+3085  read(4, "/* bits/typesizes.h -- underlyin"..., 2538) = 2538
+3085  close(4)                          = 0
+3085  open("/usr/local/include/libio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/libio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/libio.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/libio.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=17790, ...}) = 0
+3085  read(4, "/* Copyright (C) 1991-1995,1997-"..., 17790) = 17790
+3085  close(4)                          = 0
+3085  open("/usr/local/include/_G_config.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/_G_config.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/_G_config.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/_G_config.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=2526, ...}) = 0
+3085  read(4, "/* This file is needed by libio "..., 2526) = 2526
+3085  close(4)                          = 0
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=12542, ...}) = 0
+3085  read(4, "/* Copyright (C) 1989, 1997, 199"..., 12542) = 12542
+3085  close(4)                          = 0
+3085  open("/usr/local/include/wchar.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/wchar.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/wchar.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/wchar.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=32368, ...}) = 0
+3085  read(4, "/* Copyright (C) 1995-2008, 2009"..., 32368) = 32368
+3085  close(4)                          = 0
+3085  open("/usr/local/include/stdarg.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=4203, ...}) = 0
+3085  read(4, "/* Copyright (C) 1989, 1997, 199"..., 4203) = 4203
+3085  close(4)                          = 0
+3085  mmap(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7febee2f5000
+3085  open("/usr/local/include/bits/stdio_lim.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/bits/stdio_lim.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/bits/stdio_lim.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/bits/stdio_lim.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=1440, ...}) = 0
+3085  read(4, "/* Copyright (C) 1994, 1997, 199"..., 1440) = 1440
+3085  close(4)                          = 0
+3085  open("/usr/local/include/bits/sys_errlist.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/bits/sys_errlist.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/bits/sys_errlist.h", O_RDONLY|O_NOCTTY) = -1 ENOENT (No such file or directory)
+3085  open("/usr/include/bits/sys_errlist.h", O_RDONLY|O_NOCTTY) = 4
+3085  fstat(4, {st_mode=S_IFREG|0644, st_size=1284, ...}) = 0
+3085  read(4, "/* Declare sys_errlist and sys_n"..., 1284) = 1284
+3085  close(4)                          = 0
+3085  brk(0x2ddb000)                    = 0x2ddb000
+3085  write(3, "\t.file\t\"cprog.c\"\n\t.section\t.roda"..., 426) = 426
+3085  close(3)                          = 0
+3085  munmap(0x7febee301000, 4096)      = 0
+3085  exit_group(0)                     = ?
+3084  <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 3085
+3084  --- SIGCHLD (Child exited) @ 0 (0) ---
+3084  open("/tmp/ccJLwjMe.o", O_RDWR|O_CREAT|O_EXCL, 0600) = 3
+3084  close(3)                          = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/as", 0x7fff8f95c750) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/as", 0x7fff8f95c750) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/as", 0x7fff8f95c750) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/as", 0x7fff8f95c750) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/as", 0x7fff8f95c750) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/libexec/gcc/x86_64-linux-gnu/4.4.5/as", 0x7fff8f95c750) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/libexec/gcc/x86_64-linux-gnu/as", 0x7fff8f95c750) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/as", 0x7fff8f95c750) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/as", 0x7fff8f95c750) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/4.4.5/as", 0x7fff8f95c750) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/bin/as", 0x7fff8f95c750) = -1 ENOENT (No such file or directory)
+3084  vfork()                           = 3086
+3084  wait4(3086,  <unfinished ...>
+3086  execve("/usr/local/bin/as", ["as", "-Qy", "-o", "/tmp/ccJLwjMe.o", "/tmp/cc3yVjam.s"], [/* 34 vars */]) = -1 ENOENT (No such file or directory)
+3086  execve("/usr/bin/as", ["as", "-Qy", "-o", "/tmp/ccJLwjMe.o", "/tmp/cc3yVjam.s"], [/* 34 vars */]) = 0
+3086  brk(0)                            = 0x1544000
+3086  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3086  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f948069d000
+3086  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+3086  open("/etc/ld.so.cache", O_RDONLY) = 3
+3086  fstat(3, {st_mode=S_IFREG|0644, st_size=61645, ...}) = 0
+3086  mmap(NULL, 61645, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f948068d000
+3086  close(3)                          = 0
+3086  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3086  open("/usr/lib/libopcodes-2.20.1-system.20100303.so", O_RDONLY) = 3
+3086  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20^\3\0\0\0\0\0"..., 832) = 832
+3086  fstat(3, {st_mode=S_IFREG|0644, st_size=858464, ...}) = 0
+3086  mmap(NULL, 2954816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f94801b0000
+3086  mprotect(0x7f94801f1000, 2097152, PROT_NONE) = 0
+3086  mmap(0x7f94803f1000, 593920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x41000) = 0x7f94803f1000
+3086  close(3)                          = 0
+3086  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3086  open("/usr/lib/libbfd-2.20.1-system.20100303.so", O_RDONLY) = 3
+3086  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\351\2\0\0\0\0\0"..., 832) = 832
+3086  fstat(3, {st_mode=S_IFREG|0644, st_size=934040, ...}) = 0
+3086  mmap(NULL, 3046880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f947fec8000
+3086  mprotect(0x7f947ff9b000, 2093056, PROT_NONE) = 0
+3086  mmap(0x7f948019a000, 73728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd2000) = 0x7f948019a000
+3086  mmap(0x7f94801ac000, 15840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f94801ac000
+3086  close(3)                          = 0
+3086  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3086  open("/lib/libdl.so.2", O_RDONLY) = 3
+3086  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+3086  fstat(3, {st_mode=S_IFREG|0644, st_size=14696, ...}) = 0
+3086  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f948068c000
+3086  mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f947fcc4000
+3086  mprotect(0x7f947fcc6000, 2097152, PROT_NONE) = 0
+3086  mmap(0x7f947fec6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f947fec6000
+3086  close(3)                          = 0
+3086  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3086  open("/usr/lib/libz.so.1", O_RDONLY) = 3
+3086  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\"\0\0\0\0\0\0"..., 832) = 832
+3086  fstat(3, {st_mode=S_IFREG|0644, st_size=93936, ...}) = 0
+3086  mmap(NULL, 2188976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f947faad000
+3086  mprotect(0x7f947fac4000, 2093056, PROT_NONE) = 0
+3086  mmap(0x7f947fcc3000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f947fcc3000
+3086  close(3)                          = 0
+3086  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3086  open("/lib/libc.so.6", O_RDONLY)  = 3
+3086  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+3086  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+3086  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f947f74c000
+3086  mprotect(0x7f947f8a4000, 2093056, PROT_NONE) = 0
+3086  mmap(0x7f947faa3000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7f947faa3000
+3086  mmap(0x7f947faa8000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f947faa8000
+3086  close(3)                          = 0
+3086  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f948068b000
+3086  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f948068a000
+3086  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9480689000
+3086  arch_prctl(ARCH_SET_FS, 0x7f948068a700) = 0
+3086  mprotect(0x7f947faa3000, 16384, PROT_READ) = 0
+3086  mprotect(0x7f947fec6000, 4096, PROT_READ) = 0
+3086  mprotect(0x7f948069f000, 4096, PROT_READ) = 0
+3086  munmap(0x7f948068d000, 61645)     = 0
+3086  getrusage(RUSAGE_SELF, {ru_utime={0, 4000}, ru_stime={0, 0}, ...}) = 0
+3086  brk(0)                            = 0x1544000
+3086  brk(0x1565000)                    = 0x1565000
+3086  mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9480608000
+3086  mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9480587000
+3086  mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9480506000
+3086  mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f947f6cb000
+3086  stat("/tmp/ccJLwjMe.o", {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+3086  open("/tmp/ccJLwjMe.o", O_RDWR|O_CREAT|O_TRUNC, 0666) = 3
+3086  fcntl(3, F_GETFD)                 = 0
+3086  fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+3086  mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f947f64a000
+3086  brk(0x1586000)                    = 0x1586000
+3086  mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f947f5c9000
+3086  open("/tmp/cc3yVjam.s", O_RDONLY) = 4
+3086  fstat(4, {st_mode=S_IFREG|0600, st_size=426, ...}) = 0
+3086  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f948069c000
+3086  read(4, "\t.file\t\"cprog.c\"\n\t.section\t.roda"..., 4096) = 426
+3086  read(4, "", 28672)                = 0
+3086  read(4, "", 32768)                = 0
+3086  read(4, "", 32768)                = 0
+3086  close(4)                          = 0
+3086  munmap(0x7f948069c000, 4096)      = 0
+3086  brk(0x15ad000)                    = 0x15ad000
+3086  fstat(3, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+3086  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f948069c000
+3086  lseek(3, 0, SEEK_SET)             = 0
+3086  read(3, "", 1392)                 = 0
+3086  lseek(3, 1392, SEEK_CUR)          = 1392
+3086  write(3, "\0cprog.c\0main\0printf\0", 21) = 21
+3086  lseek(3, 0, SEEK_SET)             = 0
+3086  read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1413
+3086  lseek(3, -1349, SEEK_CUR)         = 64
+3086  write(3, "UH\211\345\270\0\0\0\0H\211\307\270\0\0\0\0\350\0\0\0\0\311\303Hello Wo"..., 65) = 65
+3086  lseek(3, 0, SEEK_SET)             = 0
+3086  read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1413
+3086  lseek(3, -1277, SEEK_CUR)         = 136
+3086  write(3, "\24\0\0\0\0\0\0\0\1zR\0\1x\20\1\33\f\7\10\220\1\0\0\34\0\0\0\34\0\0\0"..., 56) = 56
+3086  lseek(3, 0, SEEK_SET)             = 0
+3086  read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1413
+3086  lseek(3, 3, SEEK_CUR)             = 1416
+3086  write(3, "\5\0\0\0\0\0\0\0\n\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\22\0\0\0\0\0\0\0"..., 72) = 72
+3086  lseek(3, 0, SEEK_SET)             = 0
+3086  read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1488
+3086  lseek(3, -360, SEEK_CUR)          = 1128
+3086  write(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\4\0\361\377"..., 264) = 264
+3086  lseek(3, 0, SEEK_SET)             = 0
+3086  read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1488
+3086  lseek(3, -1296, SEEK_CUR)         = 192
+3086  write(3, "\0.symtab\0.strtab\0.shstrtab\0.rela"..., 97) = 97
+3086  lseek(3, 0, SEEK_SET)             = 0
+3086  write(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 64) = 64
+3086  lseek(3, 0, SEEK_SET)             = 0
+3086  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1488
+3086  brk(0x15a4000)                    = 0x15a4000
+3086  lseek(3, -1192, SEEK_CUR)         = 296
+3086  write(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+3086  close(3)                          = 0
+3086  munmap(0x7f948069c000, 4096)      = 0
+3086  exit_group(0)                     = ?
+3084  <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 3086
+3084  --- SIGCHLD (Child exited) @ 0 (0) ---
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/collect2", {st_mode=S_IFREG|0755, st_size=117968, ...}) = 0
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/collect2", X_OK) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  stat("/usr/libexec/gcc/x86_64-linux-gnu/4.4.5/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/libexec/gcc/x86_64-linux-gnu/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/4.4.5/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/bin/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.4.5/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/../lib/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../x86_64-linux-gnu/4.4.5/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/.", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+3084  stat("/lib/x86_64-linux-gnu/4.4.5/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/lib/../lib/.", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+3084  stat("/usr/lib/x86_64-linux-gnu/4.4.5/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/../lib/.", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+3084  stat("/usr/lib/x86_64-linux-gnu/x86_64-linux-gnu/4.4.5/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/x86_64-linux-gnu/../lib/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../.", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+3084  stat("/lib/.", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+3084  stat("/usr/lib/.", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+3084  stat("/usr/lib/x86_64-linux-gnu/.", 0x7fff8f95c800) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crt1.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crt1.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.4.5/crt1.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/../lib/crt1.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../x86_64-linux-gnu/4.4.5/crt1.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o", R_OK) = 0
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crti.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crti.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.4.5/crti.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/../lib/crti.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../x86_64-linux-gnu/4.4.5/crti.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o", R_OK) = 0
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o", R_OK) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.4.5/.", 0x7fff8f95ba40) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/../lib/.", 0x7fff8f95ba40) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../x86_64-linux-gnu/4.4.5/.", 0x7fff8f95ba40) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/.", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+3084  stat("/lib/x86_64-linux-gnu/4.4.5/.", 0x7fff8f95ba40) = -1 ENOENT (No such file or directory)
+3084  stat("/lib/../lib/.", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+3084  stat("/usr/lib/x86_64-linux-gnu/4.4.5/.", 0x7fff8f95ba40) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/../lib/.", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+3084  stat("/usr/lib/x86_64-linux-gnu/x86_64-linux-gnu/4.4.5/.", 0x7fff8f95ba40) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/x86_64-linux-gnu/../lib/.", 0x7fff8f95ba40) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/.", 0x7fff8f95ba40) = -1 ENOENT (No such file or directory)
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../.", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+3084  stat("/usr/lib/x86_64-linux-gnu/.", 0x7fff8f95ba40) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o", R_OK) = 0
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtn.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtn.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.4.5/crtn.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../x86_64-linux-gnu/lib/../lib/crtn.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../x86_64-linux-gnu/4.4.5/crtn.o", R_OK) = -1 ENOENT (No such file or directory)
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crtn.o", R_OK) = 0
+3084  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/collect2", {st_mode=S_IFREG|0755, st_size=117968, ...}) = 0
+3084  access("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/collect2", X_OK) = 0
+3084  vfork()                           = 3087
+3084  wait4(3087,  <unfinished ...>
+3087  execve("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/collect2", ["/usr/lib/gcc/x86_64-linux-gnu/4."..., "--build-id", "--eh-frame-hdr", "-m", "elf_x86_64", "--hash-style=both", "-dynamic-linker", "/lib64/ld-linux-x86-64.so.2", "/usr/lib/gcc/x86_64-linux-gnu/4."..., "/usr/lib/gcc/x86_64-linux-gnu/4."..., "/usr/lib/gcc/x86_64-linux-gnu/4."..., "-L/usr/lib/gcc/x86_64-linux-gnu/"..., "-L/usr/lib/gcc/x86_64-linux-gnu/"..., "-L/usr/lib/gcc/x86_64-linux-gnu/"..., "-L/lib/../lib", "-L/usr/lib/../lib", ...], [/* 36 vars */]) = 0
+3087  brk(0)                            = 0x1493000
+3087  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3087  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f85825ab000
+3087  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+3087  open("/etc/ld.so.cache", O_RDONLY) = 3
+3087  fstat(3, {st_mode=S_IFREG|0644, st_size=61645, ...}) = 0
+3087  mmap(NULL, 61645, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f858259b000
+3087  close(3)                          = 0
+3087  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3087  open("/lib/libc.so.6", O_RDONLY)  = 3
+3087  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+3087  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+3087  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f858202f000
+3087  mprotect(0x7f8582187000, 2093056, PROT_NONE) = 0
+3087  mmap(0x7f8582386000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7f8582386000
+3087  mmap(0x7f858238b000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f858238b000
+3087  close(3)                          = 0
+3087  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f858259a000
+3087  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8582599000
+3087  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8582598000
+3087  arch_prctl(ARCH_SET_FS, 0x7f8582599700) = 0
+3087  mprotect(0x7f8582386000, 16384, PROT_READ) = 0
+3087  mprotect(0x7f85825ad000, 4096, PROT_READ) = 0
+3087  munmap(0x7f858259b000, 61645)     = 0
+3087  brk(0)                            = 0x1493000
+3087  brk(0x14b4000)                    = 0x14b4000
+3087  rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_DFL, [], 0}, 8) = 0
+3087  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+3087  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+3087  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f8582423000
+3087  close(3)                          = 0
+3087  open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+3087  fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+3087  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f85825aa000
+3087  read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+3087  read(3, "", 4096)                 = 0
+3087  close(3)                          = 0
+3087  munmap(0x7f85825aa000, 4096)      = 0
+3087  open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3087  open("/usr/share/locale/en_US/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3087  open("/usr/share/locale/en.utf8/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3087  open("/usr/share/locale/en/LC_MESSAGES/gcc-4.4.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+3087  rt_sigaction(SIGQUIT, {SIG_IGN, [QUIT], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_DFL, [], 0}, 8) = 0
+3087  rt_sigaction(SIGQUIT, {0x403940, [QUIT], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_IGN, [QUIT], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, 8) = 0
+3087  rt_sigaction(SIGINT, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_DFL, [], 0}, 8) = 0
+3087  rt_sigaction(SIGINT, {0x403940, [INT], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_IGN, [INT], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, 8) = 0
+3087  rt_sigaction(SIGALRM, {SIG_IGN, [ALRM], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_DFL, [], 0}, 8) = 0
+3087  rt_sigaction(SIGALRM, {0x403940, [ALRM], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_IGN, [ALRM], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, 8) = 0
+3087  rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_DFL, [], 0}, 8) = 0
+3087  rt_sigaction(SIGHUP, {0x403940, [HUP], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, 8) = 0
+3087  rt_sigaction(SIGSEGV, {SIG_IGN, [SEGV], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_DFL, [], 0}, 8) = 0
+3087  rt_sigaction(SIGSEGV, {0x403940, [SEGV], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_IGN, [SEGV], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, 8) = 0
+3087  rt_sigaction(SIGBUS, {SIG_IGN, [BUS], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_DFL, [], 0}, 8) = 0
+3087  rt_sigaction(SIGBUS, {0x403940, [BUS], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, {SIG_IGN, [BUS], SA_RESTORER|SA_RESTART, 0x7f85820611e0}, 8) = 0
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/real-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/real-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/real-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/real-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/real-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/real-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/real-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/collect-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/collect-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/collect-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/collect-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/collect-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/collect-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/collect-ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/local/bin/ld", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/bin/ld", {st_mode=S_IFREG|0755, st_size=555184, ...}) = 0
+3087  access("/usr/bin/ld", X_OK)       = 0
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gnm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gnm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/gnm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gnm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/gnm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gnm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/gnm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/local/bin/gnm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/bin/gnm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/bin/gnm", 0x7fff9aaf4300)  = -1 ENOENT (No such file or directory)
+3087  stat("/usr/local/games/gnm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/games/gnm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/nm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/nm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/nm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/nm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/nm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/nm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/nm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/local/bin/nm", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/bin/nm", {st_mode=S_IFREG|0755, st_size=41160, ...}) = 0
+3087  access("/usr/bin/nm", X_OK)       = 0
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/local/bin/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/bin/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/bin/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/local/games/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/games/gstrip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/strip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/strip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/strip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/strip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/strip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/strip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/strip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/local/bin/strip", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/bin/strip", {st_mode=S_IFREG|0755, st_size=208016, ...}) = 0
+3087  access("/usr/bin/strip", X_OK)    = 0
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gcc", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gcc", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/gcc", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gcc", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/gcc", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/gcc", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/lib/gcc/x86_64-linux-gnu/gcc", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/local/bin/gcc", 0x7fff9aaf4300) = -1 ENOENT (No such file or directory)
+3087  stat("/usr/bin/gcc", {st_mode=S_IFREG|0755, st_size=255536, ...}) = 0
+3087  access("/usr/bin/gcc", X_OK)      = 0
+3087  access("/tmp", R_OK|W_OK|X_OK)    = 0
+3087  getpid()                          = 3087
+3087  open("/tmp/ccSEBD3s.c", O_RDWR|O_CREAT|O_EXCL, 0600) = 3
+3087  close(3)                          = 0
+3087  open("/tmp/ccHYdIMl.o", O_RDWR|O_CREAT|O_EXCL, 0600) = 3
+3087  close(3)                          = 0
+3087  open("/tmp/ccmcTOve.ld", O_RDWR|O_CREAT|O_EXCL, 0600) = 3
+3087  close(3)                          = 0
+3087  open("/tmp/ccDyBXe7.le", O_RDWR|O_CREAT|O_EXCL, 0600) = 3
+3087  close(3)                          = 0
+3087  open("/tmp/ccmcTOve.ld", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+3087  open("/tmp/ccDyBXe7.le", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+3087  vfork()                           = 3088
+3087  close(3)                          = 0
+3087  close(4 <unfinished ...>
+3088  dup2(3, 1)                        = 1
+3087  <... close resumed> )             = 0
+3088  close(3 <unfinished ...>
+3087  wait4(3088,  <unfinished ...>
+3088  <... close resumed> )             = 0
+3088  dup2(4, 2)                        = 2
+3088  close(4)                          = 0
+3088  execve("/usr/bin/ld", ["/usr/bin/ld", "--build-id", "--eh-frame-hdr", "-m", "elf_x86_64", "--hash-style=both", "-dynamic-linker", "/lib64/ld-linux-x86-64.so.2", "/usr/lib/gcc/x86_64-linux-gnu/4."..., "/usr/lib/gcc/x86_64-linux-gnu/4."..., "/usr/lib/gcc/x86_64-linux-gnu/4."..., "-L/usr/lib/gcc/x86_64-linux-gnu/"..., "-L/usr/lib/gcc/x86_64-linux-gnu/"..., "-L/usr/lib/gcc/x86_64-linux-gnu/"..., "-L/lib/../lib", "-L/usr/lib/../lib", ...], [/* 37 vars */]) = 0
+3088  brk(0)                            = 0x19da000
+3088  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3088  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fde000
+3088  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+3088  open("/etc/ld.so.cache", O_RDONLY) = 3
+3088  fstat(3, {st_mode=S_IFREG|0644, st_size=61645, ...}) = 0
+3088  mmap(NULL, 61645, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f3052fce000
+3088  close(3)                          = 0
+3088  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3088  open("/usr/lib/libbfd-2.20.1-system.20100303.so", O_RDONLY) = 3
+3088  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\351\2\0\0\0\0\0"..., 832) = 832
+3088  fstat(3, {st_mode=S_IFREG|0644, st_size=934040, ...}) = 0
+3088  mmap(NULL, 3046880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3052adb000
+3088  mprotect(0x7f3052bae000, 2093056, PROT_NONE) = 0
+3088  mmap(0x7f3052dad000, 73728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd2000) = 0x7f3052dad000
+3088  mmap(0x7f3052dbf000, 15840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3052dbf000
+3088  close(3)                          = 0
+3088  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3088  open("/lib/libdl.so.2", O_RDONLY) = 3
+3088  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+3088  fstat(3, {st_mode=S_IFREG|0644, st_size=14696, ...}) = 0
+3088  mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f30528d7000
+3088  mprotect(0x7f30528d9000, 2097152, PROT_NONE) = 0
+3088  mmap(0x7f3052ad9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f3052ad9000
+3088  close(3)                          = 0
+3088  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3088  open("/usr/lib/libz.so.1", O_RDONLY) = 3
+3088  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\"\0\0\0\0\0\0"..., 832) = 832
+3088  fstat(3, {st_mode=S_IFREG|0644, st_size=93936, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fcd000
+3088  mmap(NULL, 2188976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f30526c0000
+3088  mprotect(0x7f30526d7000, 2093056, PROT_NONE) = 0
+3088  mmap(0x7f30528d6000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f30528d6000
+3088  close(3)                          = 0
+3088  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3088  open("/lib/libc.so.6", O_RDONLY)  = 3
+3088  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+3088  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+3088  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f305235f000
+3088  mprotect(0x7f30524b7000, 2093056, PROT_NONE) = 0
+3088  mmap(0x7f30526b6000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7f30526b6000
+3088  mmap(0x7f30526bb000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f30526bb000
+3088  close(3)                          = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fcc000
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fcb000
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fca000
+3088  arch_prctl(ARCH_SET_FS, 0x7f3052fcb700) = 0
+3088  mprotect(0x7f30526b6000, 16384, PROT_READ) = 0
+3088  mprotect(0x7f3052ad9000, 4096, PROT_READ) = 0
+3088  mprotect(0x7f3052fe0000, 4096, PROT_READ) = 0
+3088  munmap(0x7f3052fce000, 61645)     = 0
+3088  getrusage(RUSAGE_SELF, {ru_utime={0, 4000}, ru_stime={0, 0}, ...}) = 0
+3088  brk(0)                            = 0x19da000
+3088  brk(0x19fb000)                    = 0x19fb000
+3088  stat("a.out", 0x7fff51d59070)     = -1 ENOENT (No such file or directory)
+3088  open("a.out", O_RDWR|O_CREAT|O_TRUNC, 0666) = 3
+3088  fcntl(3, F_GETFD)                 = 0
+3088  fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+3088  brk(0x1a1d000)                    = 0x1a1d000
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o", {st_mode=S_IFREG|0644, st_size=1624, ...}) = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o", O_RDONLY) = 4
+3088  fcntl(4, F_GETFD)                 = 0
+3088  fcntl(4, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(4, {st_mode=S_IFREG|0644, st_size=1624, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fdd000
+3088  lseek(4, 0, SEEK_SET)             = 0
+3088  read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  lseek(4, 1624, SEEK_SET)          = 1624
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o", {st_mode=S_IFREG|0644, st_size=1480, ...}) = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o", O_RDONLY) = 5
+3088  fcntl(5, F_GETFD)                 = 0
+3088  fcntl(5, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(5, {st_mode=S_IFREG|0644, st_size=1480, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fdc000
+3088  lseek(5, 0, SEEK_SET)             = 0
+3088  read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  lseek(5, 1480, SEEK_SET)          = 1480
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o", {st_mode=S_IFREG|0644, st_size=2496, ...}) = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o", O_RDONLY) = 6
+3088  fcntl(6, F_GETFD)                 = 0
+3088  fcntl(6, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(6, {st_mode=S_IFREG|0644, st_size=2496, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fdb000
+3088  lseek(6, 0, SEEK_SET)             = 0
+3088  read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  brk(0x1a43000)                    = 0x1a43000
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  lseek(6, 2496, SEEK_SET)          = 2496
+3088  stat("/tmp/ccJLwjMe.o", {st_mode=S_IFREG|0600, st_size=1488, ...}) = 0
+3088  open("/tmp/ccJLwjMe.o", O_RDONLY) = 7
+3088  fcntl(7, F_GETFD)                 = 0
+3088  fcntl(7, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(7, {st_mode=S_IFREG|0600, st_size=1488, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fda000
+3088  lseek(7, 0, SEEK_SET)             = 0
+3088  read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  lseek(7, 1488, SEEK_SET)          = 1488
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.so", 0x7fff51d58f20) = -1 ENOENT (No such file or directory)
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.a", {st_mode=S_IFREG|0644, st_size=3017396, ...}) = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.a", O_RDONLY) = 8
+3088  fcntl(8, F_GETFD)                 = 0
+3088  fcntl(8, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(8, {st_mode=S_IFREG|0644, st_size=3017396, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd9000
+3088  lseek(8, 0, SEEK_SET)             = 0
+3088  read(8, "!<arch>\n/               12897866"..., 4096) = 4096
+3088  lseek(8, 4096, SEEK_SET)          = 4096
+3088  read(8, "_class\0__bid64_sameQuantum\0__bid"..., 4096) = 4096
+3088  read(8, "2_xint\0__bid64_to_uint32_rninta\0"..., 4096) = 4096
+3088  lseek(8, 12288, SEEK_SET)         = 12288
+3088  lseek(8, 12288, SEEK_SET)         = 12288
+3088  lseek(8, 12288, SEEK_SET)         = 12288
+3088  lseek(8, 12288, SEEK_SET)         = 12288
+3088  lseek(8, 12288, SEEK_SET)         = 12288
+3088  lseek(8, 12288, SEEK_SET)         = 12288
+3088  lseek(8, 12288, SEEK_SET)         = 12288
+3088  read(8, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(8, 8192, SEEK_SET)          = 8192
+3088  read(8, "2_xint\0__bid64_to_uint32_rninta\0"..., 4096) = 4096
+3088  read(8, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(8, 8192, SEEK_SET)          = 8192
+3088  read(8, "2_xint\0__bid64_to_uint32_rninta\0"..., 4096) = 4096
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc_s.so", {st_mode=S_IFREG|0644, st_size=90504, ...}) = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc_s.so", O_RDONLY) = 9
+3088  fcntl(9, F_GETFD)                 = 0
+3088  fcntl(9, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(9, {st_mode=S_IFREG|0644, st_size=90504, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd8000
+3088  lseek(9, 0, SEEK_SET)             = 0
+3088  read(9, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P-\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  brk(0x1a64000)                    = 0x1a64000
+3088  lseek(9, 86016, SEEK_SET)         = 86016
+3088  read(9, "\0A\16\20C\206\2\r\6W\214\6\203\7\201\10\200\tK\216\4\215\5\\\217\3\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(9, 90112, SEEK_SET)         = 90112
+3088  read(9, "\20\0\0\0\0\0\0\0\305\0\0\0\1\0\0\0\3\0\0\0\0\0\0\0\300W!\0\0\0\0\0"..., 4096) = 392
+3088  lseek(9, 86016, SEEK_SET)         = 86016
+3088  read(9, "\0A\16\20C\206\2\r\6W\214\6\203\7\201\10\200\tK\216\4\215\5\\\217\3\0\0\0\0\0\0"..., 4096) = 4096
+3088  read(9, "\20\0\0\0\0\0\0\0\305\0\0\0\1\0\0\0\3\0\0\0\0\0\0\0\300W!\0\0\0\0\0"..., 4096) = 392
+3088  lseek(9, 0, SEEK_SET)             = 0
+3088  read(9, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P-\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(9, 86016, SEEK_SET)         = 86016
+3088  read(9, "\0A\16\20C\206\2\r\6W\214\6\203\7\201\10\200\tK\216\4\215\5\\\217\3\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(9, 0, SEEK_SET)             = 0
+3088  read(9, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P-\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(9, 86016, SEEK_SET)         = 86016
+3088  read(9, "\0A\16\20C\206\2\r\6W\214\6\203\7\201\10\200\tK\216\4\215\5\\\217\3\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(9, 4096, SEEK_SET)          = 4096
+3088  read(9, "V\4\0\0\22\0\r\0\260\337\0\0\0\0\0\0\247\0\0\0\0\0\0\0I\1\0\0\22\0\r\0"..., 4096) = 4096
+3088  read(9, "cpy\0strlen\0_Unwind_Backtrace\0_Un"..., 4096) = 4096
+3088  lseek(9, 0, SEEK_SET)             = 0
+3088  read(9, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P-\0\0\0\0\0\0"..., 4096) = 4096
+3088  read(9, "V\4\0\0\22\0\r\0\260\337\0\0\0\0\0\0\247\0\0\0\0\0\0\0I\1\0\0\22\0\r\0"..., 4096) = 4096
+3088  lseek(9, 8192, SEEK_SET)          = 8192
+3088  read(9, "cpy\0strlen\0_Unwind_Backtrace\0_Un"..., 4096) = 4096
+3088  lseek(9, 12288, SEEK_SET)         = 12288
+3088  lseek(9, 12288, SEEK_SET)         = 12288
+3088  brk(0x1a85000)                    = 0x1a85000
+3088  brk(0x1a7c000)                    = 0x1a7c000
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libc.so", 0x7fff51d58f20) = -1 ENOENT (No such file or directory)
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libc.a", 0x7fff51d58f60) = -1 ENOENT (No such file or directory)
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libc.so", 0x7fff51d58f20) = -1 ENOENT (No such file or directory)
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libc.a", 0x7fff51d58f60) = -1 ENOENT (No such file or directory)
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libc.a", O_RDONLY) = -1 ENOENT (No such file or directory)
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc.so", {st_mode=S_IFREG|0644, st_size=247, ...}) = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc.so", O_RDONLY) = 10
+3088  fcntl(10, F_GETFD)                = 0
+3088  fcntl(10, F_SETFD, FD_CLOEXEC)    = 0
+3088  fstat(10, {st_mode=S_IFREG|0644, st_size=247, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd7000
+3088  lseek(10, 0, SEEK_SET)            = 0
+3088  read(10, "/* GNU ld script\n   Use the shar"..., 4096) = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc.so", O_RDONLY) = 11
+3088  ioctl(11, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff51d58eb0) = -1 ENOTTY (Inappropriate ioctl for device)
+3088  fstat(11, {st_mode=S_IFREG|0644, st_size=247, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd6000
+3088  read(11, "/* GNU ld script\n   Use the shar"..., 8192) = 247
+3088  read(11, "", 4096)                = 0
+3088  read(11, "", 8192)                = 0
+3088  ioctl(11, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff51d58ea0) = -1 ENOTTY (Inappropriate ioctl for device)
+3088  close(11)                         = 0
+3088  munmap(0x7f3052fd6000, 4096)      = 0
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  lseek(10, 247, SEEK_SET)          = 247
+3088  close(10)                         = 0
+3088  munmap(0x7f3052fd7000, 4096)      = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc.so", O_RDONLY) = 10
+3088  ioctl(10, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff51d58fc0) = -1 ENOTTY (Inappropriate ioctl for device)
+3088  fstat(10, {st_mode=S_IFREG|0644, st_size=247, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd7000
+3088  read(10, "/* GNU ld script\n   Use the shar"..., 8192) = 247
+3088  read(10, "", 4096)                = 0
+3088  read(10, "", 8192)                = 0
+3088  ioctl(10, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff51d57a70) = -1 ENOTTY (Inappropriate ioctl for device)
+3088  stat("/lib/libc.so.6", {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+3088  open("/lib/libc.so.6", O_RDONLY)  = 11
+3088  fcntl(11, F_GETFD)                = 0
+3088  fcntl(11, F_SETFD, FD_CLOEXEC)    = 0
+3088  fstat(11, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd6000
+3088  lseek(11, 0, SEEK_SET)            = 0
+3088  read(11, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 4096, SEEK_SET)         = 4096
+3088  lseek(11, 1425408, SEEK_SET)      = 1425408
+3088  read(11, "the `gets' function is dangerous"..., 4096) = 4096
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  read(11, "\0\0\0\0\0\0\0\0\306\0\0\0\1\0\0\0\2\0\0\0\0\0\0\0\234\326\22\0\0\0\0\0"..., 4096) = 3464
+3088  lseek(11, 1425408, SEEK_SET)      = 1425408
+3088  read(11, "the `gets' function is dangerous"..., 4096) = 4096
+3088  read(11, "\0\0\0\0\0\0\0\0\306\0\0\0\1\0\0\0\2\0\0\0\0\0\0\0\234\326\22\0\0\0\0\0"..., 4096) = 3464
+3088  lseek(11, 0, SEEK_SET)            = 0
+3088  read(11, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(11, 1425408, SEEK_SET)      = 1425408
+3088  read(11, "the `gets' function is dangerous"..., 4096) = 4096
+3088  lseek(11, 0, SEEK_SET)            = 0
+3088  read(11, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(11, 1421312, SEEK_SET)      = 1421312
+3088  read(11, "F\350\1\0\0\0\0\0V\350\1\0\0\0\0\0f\350\1\0\0\0\0\0v\350\1\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(11, 1425408, SEEK_SET)      = 1425408
+3088  lseek(11, 1425408, SEEK_SET)      = 1425408
+3088  lseek(11, 1425408, SEEK_SET)      = 1425408
+3088  lseek(11, 1425408, SEEK_SET)      = 1425408
+3088  lseek(11, 1425408, SEEK_SET)      = 1425408
+3088  lseek(11, 1425408, SEEK_SET)      = 1425408
+3088  lseek(11, 1425408, SEEK_SET)      = 1425408
+3088  lseek(11, 1425408, SEEK_SET)      = 1425408
+3088  read(11, "the `gets' function is dangerous"..., 4096) = 4096
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  brk(0x1a9d000)                    = 0x1a9d000
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1429504, SEEK_SET)      = 1429504
+3088  lseek(11, 1417216, SEEK_SET)      = 1417216
+3088  read(11, "\320\6\7\0\0\0\0\0\200\16\7\0\0\0\0\0\240\365\6\0\0\0\0\0\320\364\6\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(11, 65536, SEEK_SET)        = 65536
+3088  read(11, "9\27\0\0\22\0\f\0 \34\4\0\0\0\0\0\276S\0\0\0\0\0\0\2069\0\0\"\0\f\0"..., 4096) = 4096
+3088  read(11, "arch\0__read\0sigwaitinfo\0__iswxdi"..., 16384) = 16384
+3088  read(11, "clp\0fstatfs\0setrlimit64\0svc_getr"..., 4096) = 4096
+3088  lseek(11, 12288, SEEK_SET)        = 12288
+3088  read(11, "\7\256\325'l&\343:\273\25sB\23\254\3551`D\316>\253\27\236|\242\356\307<\254\330\30\257"..., 4096) = 4096
+3088  read(11, "@I\0\0\22\0\f\0\320\336\17\0\0\0\0\0\276\0\0\0\0\0\0\0\235M\0\0\"\0\f\0"..., 49152) = 49152
+3088  read(11, "9\27\0\0\22\0\f\0 \34\4\0\0\0\0\0\276S\0\0\0\0\0\0\2069\0\0\"\0\f\0"..., 4096) = 4096
+3088  brk(0x1ac2000)                    = 0x1ac2000
+3088  lseek(11, 90112, SEEK_SET)        = 90112
+3088  read(11, "\2\0\2\0\10\0\2\0\2\0\2\0\2\0\2\0\2\0\2\0\2\0\2\0\10\0\7\0\2\0\2\0"..., 4096) = 4096
+3088  lseek(11, 94208, SEEK_SET)        = 94208
+3088  lseek(11, 86016, SEEK_SET)        = 86016
+3088  read(11, "clp\0fstatfs\0setrlimit64\0svc_getr"..., 4096) = 4096
+3088  read(11, "\2\0\2\0\10\0\2\0\2\0\2\0\2\0\2\0\2\0\2\0\2\0\2\0\10\0\7\0\2\0\2\0"..., 4096) = 4096
+3088  brk(0x1ae3000)                    = 0x1ae3000
+3088  brk(0x1b04000)                    = 0x1b04000
+3088  brk(0x1b25000)                    = 0x1b25000
+3088  mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052f8a000
+3088  brk(0x1b46000)                    = 0x1b46000
+3088  brk(0x1b67000)                    = 0x1b67000
+3088  brk(0x1b88000)                    = 0x1b88000
+3088  brk(0x1ba9000)                    = 0x1ba9000
+3088  brk(0x1bca000)                    = 0x1bca000
+3088  stat("/usr/lib/libc_nonshared.a", {st_mode=S_IFREG|0644, st_size=22606, ...}) = 0
+3088  open("/usr/lib/libc_nonshared.a", O_RDONLY) = 12
+3088  fcntl(12, F_GETFD)                = 0
+3088  fcntl(12, F_SETFD, FD_CLOEXEC)    = 0
+3088  fstat(12, {st_mode=S_IFREG|0644, st_size=22606, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd5000
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "!<arch>\n/               12958146"..., 4096) = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  stat("/lib/ld-linux-x86-64.so.2", {st_mode=S_IFREG|0755, st_size=128744, ...}) = 0
+3088  open("/lib/ld-linux-x86-64.so.2", O_RDONLY) = 13
+3088  fcntl(13, F_GETFD)                = 0
+3088  fcntl(13, F_SETFD, FD_CLOEXEC)    = 0
+3088  fstat(13, {st_mode=S_IFREG|0755, st_size=128744, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd4000
+3088  lseek(13, 0, SEEK_SET)            = 0
+3088  read(13, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\n\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 126976, SEEK_SET)       = 126976
+3088  read(13, "rsion_d\0.rela.dyn\0.rela.plt\0.tex"..., 4096) = 1768
+3088  lseek(13, 128744, SEEK_SET)       = 128744
+3088  lseek(13, 128744, SEEK_SET)       = 128744
+3088  lseek(13, 0, SEEK_SET)            = 0
+3088  read(13, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\n\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(13, 122880, SEEK_SET)       = 122880
+3088  read(13, "\216\n\0\0\0\0\0\0\236\n\0\0\0\0\0\0\256\n\0\0\0\0\0\0\276\n\0\0\0\0\0\0"..., 4096) = 4096
+3088  read(13, "rsion_d\0.rela.dyn\0.rela.plt\0.tex"..., 4096) = 1768
+3088  lseek(13, 0, SEEK_SET)            = 0
+3088  read(13, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\n\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(13, 118784, SEEK_SET)       = 118784
+3088  read(13, "0\0\0\0\0\0\0\0004\0\0\0,\23\0\0\0\201\377\377\271\2\0\0\0B\16\20B\16\30B"..., 4096) = 4096
+3088  lseek(13, 0, SEEK_SET)            = 0
+3088  read(13, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\n\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  lseek(13, 4096, SEEK_SET)         = 4096
+3088  mmap(NULL, 1290240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052e4f000
+3088  munmap(0x7f3052e4f000, 1290240)   = 0
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.so", 0x7fff51d58f20) = -1 ENOENT (No such file or directory)
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.a", {st_mode=S_IFREG|0644, st_size=3017396, ...}) = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.a", O_RDONLY) = 14
+3088  fcntl(14, F_GETFD)                = 0
+3088  fcntl(14, F_SETFD, FD_CLOEXEC)    = 0
+3088  fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd3000
+3088  lseek(3, 0, SEEK_CUR)             = 0
+3088  close(3)                          = 0
+3088  munmap(0x7f3052fd3000, 4096)      = 0
+3088  fstat(14, {st_mode=S_IFREG|0644, st_size=3017396, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd3000
+3088  lseek(14, 0, SEEK_SET)            = 0
+3088  read(14, "!<arch>\n/               12897866"..., 4096) = 4096
+3088  lseek(14, 4096, SEEK_SET)         = 4096
+3088  brk(0x1bee000)                    = 0x1bee000
+3088  read(14, "_class\0__bid64_sameQuantum\0__bid"..., 4096) = 4096
+3088  read(14, "2_xint\0__bid64_to_uint32_rninta\0"..., 4096) = 4096
+3088  lseek(14, 12288, SEEK_SET)        = 12288
+3088  lseek(14, 12288, SEEK_SET)        = 12288
+3088  lseek(14, 12288, SEEK_SET)        = 12288
+3088  lseek(14, 12288, SEEK_SET)        = 12288
+3088  lseek(14, 12288, SEEK_SET)        = 12288
+3088  lseek(14, 12288, SEEK_SET)        = 12288
+3088  lseek(14, 12288, SEEK_SET)        = 12288
+3088  read(14, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(14, 8192, SEEK_SET)         = 8192
+3088  read(14, "2_xint\0__bid64_to_uint32_rninta\0"..., 4096) = 4096
+3088  read(14, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(14, 8192, SEEK_SET)         = 8192
+3088  read(14, "2_xint\0__bid64_to_uint32_rninta\0"..., 4096) = 4096
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc_s.so", {st_mode=S_IFREG|0644, st_size=90504, ...}) = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc_s.so", O_RDONLY) = 3
+3088  fcntl(3, F_GETFD)                 = 0
+3088  fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+3088  close(4)                          = 0
+3088  munmap(0x7f3052fdd000, 4096)      = 0
+3088  fstat(3, {st_mode=S_IFREG|0644, st_size=90504, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fdd000
+3088  lseek(3, 0, SEEK_SET)             = 0
+3088  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P-\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  lseek(3, 86016, SEEK_SET)         = 86016
+3088  read(3, "\0A\16\20C\206\2\r\6W\214\6\203\7\201\10\200\tK\216\4\215\5\\\217\3\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(3, 90112, SEEK_SET)         = 90112
+3088  read(3, "\20\0\0\0\0\0\0\0\305\0\0\0\1\0\0\0\3\0\0\0\0\0\0\0\300W!\0\0\0\0\0"..., 4096) = 392
+3088  lseek(3, 86016, SEEK_SET)         = 86016
+3088  read(3, "\0A\16\20C\206\2\r\6W\214\6\203\7\201\10\200\tK\216\4\215\5\\\217\3\0\0\0\0\0\0"..., 4096) = 4096
+3088  read(3, "\20\0\0\0\0\0\0\0\305\0\0\0\1\0\0\0\3\0\0\0\0\0\0\0\300W!\0\0\0\0\0"..., 4096) = 392
+3088  lseek(3, 0, SEEK_SET)             = 0
+3088  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P-\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(3, 86016, SEEK_SET)         = 86016
+3088  read(3, "\0A\16\20C\206\2\r\6W\214\6\203\7\201\10\200\tK\216\4\215\5\\\217\3\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(3, 0, SEEK_SET)             = 0
+3088  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P-\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(3, 86016, SEEK_SET)         = 86016
+3088  read(3, "\0A\16\20C\206\2\r\6W\214\6\203\7\201\10\200\tK\216\4\215\5\\\217\3\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(3, 4096, SEEK_SET)          = 4096
+3088  read(3, "V\4\0\0\22\0\r\0\260\337\0\0\0\0\0\0\247\0\0\0\0\0\0\0I\1\0\0\22\0\r\0"..., 4096) = 4096
+3088  read(3, "cpy\0strlen\0_Unwind_Backtrace\0_Un"..., 4096) = 4096
+3088  lseek(3, 0, SEEK_SET)             = 0
+3088  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P-\0\0\0\0\0\0"..., 4096) = 4096
+3088  read(3, "V\4\0\0\22\0\r\0\260\337\0\0\0\0\0\0\247\0\0\0\0\0\0\0I\1\0\0\22\0\r\0"..., 4096) = 4096
+3088  lseek(3, 8192, SEEK_SET)          = 8192
+3088  read(3, "cpy\0strlen\0_Unwind_Backtrace\0_Un"..., 4096) = 4096
+3088  lseek(3, 12288, SEEK_SET)         = 12288
+3088  lseek(3, 12288, SEEK_SET)         = 12288
+3088  brk(0x1d47000)                    = 0x1d47000
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o", {st_mode=S_IFREG|0644, st_size=1896, ...}) = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o", O_RDONLY) = 4
+3088  fcntl(4, F_GETFD)                 = 0
+3088  fcntl(4, F_SETFD, FD_CLOEXEC)     = 0
+3088  close(5)                          = 0
+3088  munmap(0x7f3052fdc000, 4096)      = 0
+3088  fstat(4, {st_mode=S_IFREG|0644, st_size=1896, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fdc000
+3088  lseek(4, 0, SEEK_SET)             = 0
+3088  read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  stat("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crtn.o", {st_mode=S_IFREG|0644, st_size=736, ...}) = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crtn.o", O_RDONLY) = 5
+3088  fcntl(5, F_GETFD)                 = 0
+3088  fcntl(5, F_SETFD, FD_CLOEXEC)     = 0
+3088  close(6)                          = 0
+3088  munmap(0x7f3052fdb000, 4096)      = 0
+3088  fstat(5, {st_mode=S_IFREG|0644, st_size=736, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fdb000
+3088  lseek(5, 0, SEEK_SET)             = 0
+3088  read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  stat("/lib/ld-linux-x86-64.so.2", {st_mode=S_IFREG|0755, st_size=128744, ...}) = 0
+3088  open("/lib/ld-linux-x86-64.so.2", O_RDONLY) = 6
+3088  fcntl(6, F_GETFD)                 = 0
+3088  fcntl(6, F_SETFD, FD_CLOEXEC)     = 0
+3088  close(7)                          = 0
+3088  munmap(0x7f3052fda000, 4096)      = 0
+3088  fstat(6, {st_mode=S_IFREG|0755, st_size=128744, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fda000
+3088  read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\n\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(6, 126976, SEEK_SET)        = 126976
+3088  read(6, "rsion_d\0.rela.dyn\0.rela.plt\0.tex"..., 4096) = 1768
+3088  lseek(6, 128744, SEEK_SET)        = 128744
+3088  lseek(6, 128744, SEEK_SET)        = 128744
+3088  lseek(6, 0, SEEK_SET)             = 0
+3088  read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\n\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(6, 122880, SEEK_SET)        = 122880
+3088  read(6, "\216\n\0\0\0\0\0\0\236\n\0\0\0\0\0\0\256\n\0\0\0\0\0\0\276\n\0\0\0\0\0\0"..., 4096) = 4096
+3088  read(6, "rsion_d\0.rela.dyn\0.rela.plt\0.tex"..., 4096) = 1768
+3088  lseek(6, 0, SEEK_SET)             = 0
+3088  read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\n\0\0\0\0\0\0"..., 4096) = 4096
+3088  fstat(6, {st_mode=S_IFREG|0755, st_size=128744, ...}) = 0
+3088  close(8)                          = 0
+3088  munmap(0x7f3052fd9000, 4096)      = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o", O_RDONLY) = 7
+3088  fcntl(7, F_GETFD)                 = 0
+3088  fcntl(7, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(7, {st_mode=S_IFREG|0644, st_size=1624, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd9000
+3088  lseek(7, 0, SEEK_SET)             = 0
+3088  read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 1624) = 1624
+3088  fstat(7, {st_mode=S_IFREG|0644, st_size=1624, ...}) = 0
+3088  close(9)                          = 0
+3088  munmap(0x7f3052fd8000, 4096)      = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o", O_RDONLY) = 8
+3088  fcntl(8, F_GETFD)                 = 0
+3088  fcntl(8, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(8, {st_mode=S_IFREG|0644, st_size=1480, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd8000
+3088  lseek(8, 0, SEEK_SET)             = 0
+3088  read(8, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 1096) = 1096
+3088  fstat(8, {st_mode=S_IFREG|0644, st_size=1480, ...}) = 0
+3088  close(11)                         = 0
+3088  munmap(0x7f3052fd6000, 4096)      = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o", O_RDONLY) = 9
+3088  fcntl(9, F_GETFD)                 = 0
+3088  fcntl(9, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(9, {st_mode=S_IFREG|0644, st_size=2496, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd6000
+3088  lseek(9, 0, SEEK_SET)             = 0
+3088  read(9, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 2496) = 2496
+3088  fstat(9, {st_mode=S_IFREG|0644, st_size=2496, ...}) = 0
+3088  close(12)                         = 0
+3088  munmap(0x7f3052fd5000, 4096)      = 0
+3088  open("/tmp/ccJLwjMe.o", O_RDONLY) = 11
+3088  fcntl(11, F_GETFD)                = 0
+3088  fcntl(11, F_SETFD, FD_CLOEXEC)    = 0
+3088  fstat(11, {st_mode=S_IFREG|0600, st_size=1488, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd5000
+3088  lseek(11, 0, SEEK_SET)            = 0
+3088  read(11, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 1200) = 1200
+3088  fstat(11, {st_mode=S_IFREG|0600, st_size=1488, ...}) = 0
+3088  close(13)                         = 0
+3088  munmap(0x7f3052fd4000, 4096)      = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.a", O_RDONLY) = 12
+3088  fcntl(12, F_GETFD)                = 0
+3088  fcntl(12, F_SETFD, FD_CLOEXEC)    = 0
+3088  fstat(12, {st_mode=S_IFREG|0644, st_size=3017396, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd4000
+3088  lseek(12, 8192, SEEK_SET)         = 8192
+3088  read(12, "2_xint\0__bid64_to_uint32_rninta\0"..., 3740) = 3740
+3088  fstat(12, {st_mode=S_IFREG|0644, st_size=3017396, ...}) = 0
+3088  fstat(14, {st_mode=S_IFREG|0644, st_size=3017396, ...}) = 0
+3088  fstat(4, {st_mode=S_IFREG|0644, st_size=1896, ...}) = 0
+3088  fstat(5, {st_mode=S_IFREG|0644, st_size=736, ...}) = 0
+3088  close(3)                          = 0
+3088  munmap(0x7f3052fdd000, 4096)      = 0
+3088  open("/lib/libc.so.6", O_RDONLY)  = 3
+3088  fcntl(3, F_GETFD)                 = 0
+3088  fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fdd000
+3088  lseek(3, 90112, SEEK_SET)         = 90112
+3088  read(3, "\2\0\2\0\10\0\2\0\2\0\2\0\2\0\2\0\2\0\2\0\2\0\2\0\10\0\7\0\2\0\2\0"..., 3436) = 3436
+3088  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+3088  close(6)                          = 0
+3088  munmap(0x7f3052fda000, 4096)      = 0
+3088  open("/usr/lib/libc_nonshared.a", O_RDONLY) = 6
+3088  fcntl(6, F_GETFD)                 = 0
+3088  fcntl(6, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(6, {st_mode=S_IFREG|0644, st_size=22606, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fda000
+3088  lseek(6, 0, SEEK_SET)             = 0
+3088  read(6, "!<arch>\n/               12958146"..., 1766) = 1766
+3088  fstat(6, {st_mode=S_IFREG|0644, st_size=22606, ...}) = 0
+3088  close(7)                          = 0
+3088  munmap(0x7f3052fd9000, 4096)      = 0
+3088  open("/lib/ld-linux-x86-64.so.2", O_RDONLY) = 7
+3088  fcntl(7, F_GETFD)                 = 0
+3088  fcntl(7, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(7, {st_mode=S_IFREG|0755, st_size=128744, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd9000
+3088  lseek(7, 118784, SEEK_SET)        = 118784
+3088  read(7, "0\0\0\0\0\0\0\0004\0\0\0,\23\0\0\0\201\377\377\271\2\0\0\0B\16\20B\16\30B"..., 3664) = 3664
+3088  read(7, "\16\0\0\0\0\0\0\0009\1\0\0\0\0\0\0\4\0\0\0\0\0\0\0\360\1\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(7, 0, SEEK_SET)             = 0
+3088  read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\n\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(7, 4096, SEEK_SET)          = 4096
+3088  lseek(7, 4096, SEEK_SET)          = 4096
+3088  lseek(7, 4096, SEEK_SET)          = 4096
+3088  close(8)                          = 0
+3088  munmap(0x7f3052fd8000, 4096)      = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o", O_RDONLY) = 8
+3088  fcntl(8, F_GETFD)                 = 0
+3088  fcntl(8, F_SETFD, FD_CLOEXEC)     = 0
+3088  fstat(8, {st_mode=S_IFREG|0644, st_size=1624, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd8000
+3088  lseek(8, 0, SEEK_SET)             = 0
+3088  read(8, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 140) = 140
+3088  read(8, "\1\0\2\0\0\0\0\0crt1.o\0\0\321\217\35\316\0.symtab\0.st"..., 4096) = 1484
+3088  lseek(9, 2496, SEEK_SET)          = 2496
+3088  lseek(11, 1200, SEEK_SET)         = 1200
+3088  lseek(6, 1766, SEEK_SET)          = 1766
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(11, 1200, SEEK_SET)         = 1200
+3088  read(11, "\0\0\0\0\3\0\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\4\0"..., 4096) = 288
+3088  lseek(11, 0, SEEK_SET)            = 0
+3088  read(11, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1488
+3088  lseek(6, 1766, SEEK_SET)          = 1766
+3088  read(6, "\0\0\0\0\3\0\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\4\0"..., 4096) = 4096
+3088  lseek(6, 0, SEEK_SET)             = 0
+3088  read(6, "!<arch>\n/               12958146"..., 4096) = 4096
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  close(12)                         = 0
+3088  munmap(0x7f3052fd4000, 4096)      = 0
+3088  open("a.out", O_RDWR)             = 12
+3088  fcntl(12, F_GETFD)                = 0
+3088  fcntl(12, F_SETFD, FD_CLOEXEC)    = 0
+3088  fstat(12, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd4000
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "", 64)                  = 0
+3088  lseek(12, 64, SEEK_CUR)           = 64
+3088  write(12, "\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0@\0\0\0\0\0@\0@\0\0\0\0\0"..., 448) = 448
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  read(12, "", 4096)                = 0
+3088  lseek(12, 416, SEEK_CUR)          = 4512
+3088  lseek(8, 1624, SEEK_SET)          = 1624
+3088  lseek(8, 0, SEEK_SET)             = 0
+3088  read(8, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1624
+3088  write(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\1\0"..., 480) = 480
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3556, SEEK_CUR)        = 540
+3088  write(12, "\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0\22\0\0\0", 32) = 32
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3072, SEEK_CUR)        = 1024
+3088  write(12, "1\355I\211\321^H\211\342H\203\344\360PTI\307\300\0\5@\0H\307\301\20\5@\0H\307\307"..., 44) = 44
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2584, SEEK_CUR)        = 1512
+3088  write(12, "\1\0\2\0", 4)          = 4
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  close(14)                         = 0
+3088  munmap(0x7f3052fd3000, 4096)      = 0
+3088  open("/usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o", O_RDONLY) = 13
+3088  fcntl(13, F_GETFD)                = 0
+3088  fcntl(13, F_SETFD, FD_CLOEXEC)    = 0
+3088  fstat(13, {st_mode=S_IFREG|0644, st_size=1480, ...}) = 0
+3088  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3052fd3000
+3088  lseek(13, 0, SEEK_SET)            = 0
+3088  read(13, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 1048) = 1048
+3088  read(13, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\1\0"..., 4096) = 432
+3088  lseek(13, 0, SEEK_SET)            = 0
+3088  read(13, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\1\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1480
+3088  lseek(12, -1896, SEEK_CUR)        = 2200
+3088  write(12, "\0\0\0\0", 4)          = 4
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(13, 1480, SEEK_SET)         = 1480
+3088  lseek(12, -3028, SEEK_CUR)        = 1068
+3088  write(12, "H\203\354\10H\213\0051\4 \0H\205\300t\2\377\320H\203\304\10\303", 23) = 23
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(13, 1480, SEEK_SET)         = 1480
+3088  lseek(12, -3144, SEEK_CUR)        = 952
+3088  write(12, "H\203\354\10\350k\0\0\0", 9) = 9
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(9, 2496, SEEK_SET)          = 2496
+3088  lseek(9, 2496, SEEK_SET)          = 2496
+3088  lseek(12, -2600, SEEK_CUR)        = 1496
+3088  write(12, "H\203\354\10", 4)      = 4
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(9, 2496, SEEK_SET)          = 2496
+3088  lseek(12, -2992, SEEK_CUR)        = 1104
+3088  write(12, "UH\211\345SH\203\354\10\200=H\4 \0\0uK\273\270\6`\0H\213\5B\4 \0H\201"..., 146) = 146
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -1888, SEEK_CUR)        = 2208
+3088  write(12, "\0\0\0\0\0\0\0\0", 8)  = 8
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2400, SEEK_CUR)        = 1696
+3088  write(12, "\377\377\377\377\377\377\377\377", 8) = 8
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2384, SEEK_CUR)        = 1712
+3088  write(12, "\377\377\377\377\377\377\377\377", 8) = 8
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2596, SEEK_CUR)        = 1500
+3088  write(12, "\350o\376\377\377", 5) = 5
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3135, SEEK_CUR)        = 961
+3088  write(12, "\350\372\0\0\0", 5)    = 5
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -1880, SEEK_CUR)        = 2216
+3088  write(12, "GCC: (Debian 4.4.5-8) 4.4.5\0", 28) = 28
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 896
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  write(12, "\0\0\0\0\3\0\24\0\260\6`\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\25\0"..., 480) = 480
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(12, -2656, SEEK_CUR)        = 1440
+3088  write(12, "UH\211\345SH\203\354\10H\213\5\360\0 \0H\203\370\377t\31\273\240\6`\0\17\37D\0\0"..., 54) = 54
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2392, SEEK_CUR)        = 1704
+3088  write(12, "\0\0\0\0\0\0\0\0", 8)  = 8
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2376, SEEK_CUR)        = 1720
+3088  write(12, "\0\0\0\0\0\0\0\0", 8)  = 8
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(4, 1896, SEEK_SET)          = 1896
+3088  lseek(12, -2408, SEEK_CUR)        = 1688
+3088  write(12, "\0\0\0\0", 4)          = 4
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2368, SEEK_CUR)        = 1728
+3088  write(12, "\0\0\0\0\0\0\0\0", 8)  = 8
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(5, 736, SEEK_SET)           = 736
+3088  lseek(12, -3130, SEEK_CUR)        = 966
+3088  write(12, "\350\325\1\0\0H\203\304\10\303", 10) = 10
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2591, SEEK_CUR)        = 1505
+3088  write(12, "H\203\304\10\303", 5)  = 5
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3005, SEEK_CUR)        = 1091
+3088  write(12, "\220\220\220\220\220\220\220\220\220\220\220\220\220", 13) = 13
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(11, 1488, SEEK_SET)         = 1488
+3088  lseek(12, -2846, SEEK_CUR)        = 1250
+3088  write(12, "\220\220UH\211\345\270\354\5@\0H\211\307\270\0\0\0\0\350\346\376\377\377\311\303", 26) = 26
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(11, 1488, SEEK_SET)         = 1488
+3088  lseek(12, -2580, SEEK_CUR)        = 1516
+3088  write(12, "Hello World\0", 12)    = 12
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2528, SEEK_CUR)        = 1568
+3088  write(12, "\24\0\0\0\0\0\0\0\1zR\0\1x\20\1\33\f\7\10\220\1\0\0\34\0\0\0\34\0\0\0"..., 56) = 56
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(6, 4096, SEEK_SET)          = 4096
+3088  lseek(6, 4096, SEEK_SET)          = 4096
+3088  lseek(12, -2820, SEEK_CUR)        = 1276
+3088  write(12, "\220\220\220\220\363\303fffff.\17\37\204\0\0\0\0\0H\211l$\330L\211d$\340H\215"..., 157) = 157
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(6, 4096, SEEK_SET)          = 4096
+3088  lseek(12, -1852, SEEK_CUR)        = 2244
+3088  write(12, "GCC: (Debian 4.4.5-10) 4.4.5\0", 29) = 29
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2472, SEEK_CUR)        = 1624
+3088  write(12, "\24\0\0\0<\0\0\0\240\376\377\377\2\0\0\0\0\0\0\0\0\0\0\0$\0\0\0T\0\0\0"..., 64) = 64
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2663, SEEK_CUR)        = 1433
+3088  write(12, "\220\220\220\220\220\220\220", 7) = 7
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2602, SEEK_CUR)        = 1494
+3088  write(12, "\220\220", 2)          = 2
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -1892, SEEK_CUR)        = 2204
+3088  write(12, "\0\0\0\0", 4)          = 4
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1376
+3088  write(12, "\237\0\0\0\1\0\25\0\300\6`\0\0\0\0\0\0\0\0\0\0\0\0\0\253\0\0\0\2\0\16\0"..., 1099) = 1099
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3216, SEEK_CUR)        = 880
+3088  write(12, "h\10`\0\0\0\0\0\6\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0", 24) = 24
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -1944, SEEK_CUR)        = 2152
+3088  write(12, "\0\0\0\0\0\0\0\0\310\6`\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 48) = 48
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3584, SEEK_CUR)        = 512
+3088  write(12, "/lib64/ld-linux-x86-64.so.2\0", 28) = 28
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3256, SEEK_CUR)        = 840
+3088  write(12, "\0\0\2\0\0\0\2\0\1\0\1\0\20\0\0\0\20\0\0\0\0\0\0\0u\32i\t\0\0\2\0"..., 40) = 40
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3416, SEEK_CUR)        = 680
+3088  write(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\32\0\0\0\22\0\0\0"..., 159) = 159
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2360, SEEK_CUR)        = 1736
+3088  write(12, "\1\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\f\0\0\0\0\0\0\0\270\3@\0\0\0\0\0"..., 416) = 416
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3488, SEEK_CUR)        = 608
+3088  write(12, "\3\0\0\0\4\0\0\0\2\0\0\0\3\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 36) = 36
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3448, SEEK_CUR)        = 648
+3088  write(12, "\1\0\0\0\1\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 28) = 28
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3120, SEEK_CUR)        = 976
+3088  write(12, "\3775\242\4 \0\377%\244\4 \0\17\37@\0\377%\242\4 \0h\0\0\0\0\351\340\377\377\377"..., 48) = 48
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -3192, SEEK_CUR)        = 904
+3088  write(12, "\210\10`\0\0\0\0\0\7\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\220\10`\0\0\0\0\0"..., 48) = 48
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -2568, SEEK_CUR)        = 1528
+3088  write(12, "\1\33\3;$\0\0\0\3\0\0\0\354\376\377\377@\0\0\0\10\377\377\377`\0\0\0\30\377\377\377"..., 36) = 36
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -1823, SEEK_CUR)        = 2273
+3088  write(12, "\0.symtab\0.strtab\0.shstrtab\0.inte"..., 254) = 254
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  write(12, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\2\0>\0\1\0\0\0\0\4@\0\0\0\0\0"..., 64) = 64
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\2\0>\0\1\0\0\0\0\4@\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, -1568, SEEK_CUR)        = 2528
+3088  write(12, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1568) = 1568
+3088  write(12, "(\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0"..., 416) = 416
+3088  lseek(12, 0, SEEK_SET)            = 0
+3088  read(12, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\2\0>\0\1\0\0\0\0\4@\0\0\0\0\0"..., 4096) = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, 4096, SEEK_SET)         = 4096
+3088  lseek(12, -3524, SEEK_CUR)        = 572
+3088  write(12, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\31\207\206'@o\247\4\254\373\24i\271\333\244\7"..., 36) = 36
+3088  close(12)                         = 0
+3088  munmap(0x7f3052fd4000, 4096)      = 0
+3088  stat("a.out", {st_mode=S_IFREG|0644, st_size=6571, ...}) = 0
+3088  umask(0)                          = 022
+3088  umask(022)                        = 0
+3088  chmod("a.out", 0755)              = 0
+3088  exit_group(0)                     = ?
+3087  <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 3088
+3087  --- SIGCHLD (Child exited) @ 0 (0) ---
+3087  stat("/home/tj", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3087  stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+3087  open("/tmp/ccmcTOve.ld", O_RDONLY) = 3
+3087  fstat(3, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+3087  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f85825aa000
+3087  read(3, "", 4096)                 = 0
+3087  close(3)                          = 0
+3087  munmap(0x7f85825aa000, 4096)      = 0
+3087  unlink("/tmp/ccmcTOve.ld")        = 0
+3087  open("/tmp/ccDyBXe7.le", O_RDONLY) = 3
+3087  fstat(3, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+3087  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f85825aa000
+3087  read(3, "", 4096)                 = 0
+3087  close(3)                          = 0
+3087  munmap(0x7f85825aa000, 4096)      = 0
+3087  unlink("/tmp/ccDyBXe7.le")        = 0
+3087  lstat("/tmp/ccSEBD3s.c", {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+3087  unlink("/tmp/ccSEBD3s.c")         = 0
+3087  lstat("/tmp/ccHYdIMl.o", {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+3087  unlink("/tmp/ccHYdIMl.o")         = 0
+3087  exit_group(0)                     = ?
+3084  <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 3087
+3084  --- SIGCHLD (Child exited) @ 0 (0) ---
+3084  stat("/tmp/ccJLwjMe.o", {st_mode=S_IFREG|0600, st_size=1488, ...}) = 0
+3084  unlink("/tmp/ccJLwjMe.o")         = 0
+3084  stat("/tmp/cc3yVjam.s", {st_mode=S_IFREG|0600, st_size=426, ...}) = 0
+3084  unlink("/tmp/cc3yVjam.s")         = 0
+3084  exit_group(0)                     = ?

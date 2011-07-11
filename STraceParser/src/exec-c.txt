@@ -1,0 +1,29 @@
+3187  execve("./a.out", ["./a.out"], [/* 33 vars */]) = 0
+3187  brk(0)                            = 0x2380000
+3187  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3187  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6ec333e000
+3187  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+3187  open("/etc/ld.so.cache", O_RDONLY) = 3
+3187  fstat(3, {st_mode=S_IFREG|0644, st_size=61645, ...}) = 0
+3187  mmap(NULL, 61645, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6ec332e000
+3187  close(3)                          = 0
+3187  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+3187  open("/lib/libc.so.6", O_RDONLY)  = 3
+3187  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+3187  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+3187  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6ec2dc2000
+3187  mprotect(0x7f6ec2f1a000, 2093056, PROT_NONE) = 0
+3187  mmap(0x7f6ec3119000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7f6ec3119000
+3187  mmap(0x7f6ec311e000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6ec311e000
+3187  close(3)                          = 0
+3187  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6ec332d000
+3187  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6ec332c000
+3187  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6ec332b000
+3187  arch_prctl(ARCH_SET_FS, 0x7f6ec332c700) = 0
+3187  mprotect(0x7f6ec3119000, 16384, PROT_READ) = 0
+3187  mprotect(0x7f6ec3340000, 4096, PROT_READ) = 0
+3187  munmap(0x7f6ec332e000, 61645)     = 0
+3187  fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 2), ...}) = 0
+3187  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6ec333d000
+3187  write(1, "Hello World", 11)       = 11
+3187  exit_group(11)                    = ?

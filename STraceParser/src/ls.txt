@@ -1,0 +1,116 @@
+2381  execve("/bin/ls", ["ls"], [/* 33 vars */]) = 0
+2381  brk(0)                            = 0x20b7000
+2381  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2381  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc14acd8000
+2381  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2381  open("/etc/ld.so.cache", O_RDONLY) = 3
+2381  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2381  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc14acc8000
+2381  close(3)                          = 0
+2381  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2381  open("/lib/libselinux.so.1", O_RDONLY) = 3
+2381  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360]\0\0\0\0\0\0"..., 832) = 832
+2381  fstat(3, {st_mode=S_IFREG|0644, st_size=117848, ...}) = 0
+2381  mmap(NULL, 2217744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc14a89f000
+2381  mprotect(0x7fc14a8bb000, 2093056, PROT_NONE) = 0
+2381  mmap(0x7fc14aaba000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7fc14aaba000
+2381  mmap(0x7fc14aabc000, 1808, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc14aabc000
+2381  close(3)                          = 0
+2381  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2381  open("/lib/librt.so.1", O_RDONLY) = 3
+2381  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220!\0\0\0\0\0\0"..., 832) = 832
+2381  fstat(3, {st_mode=S_IFREG|0644, st_size=31744, ...}) = 0
+2381  mmap(NULL, 2128848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc14a697000
+2381  mprotect(0x7fc14a69e000, 2093056, PROT_NONE) = 0
+2381  mmap(0x7fc14a89d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fc14a89d000
+2381  close(3)                          = 0
+2381  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2381  open("/lib/libacl.so.1", O_RDONLY) = 3
+2381  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\36\0\0\0\0\0\0"..., 832) = 832
+2381  fstat(3, {st_mode=S_IFREG|0644, st_size=30408, ...}) = 0
+2381  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc14acc7000
+2381  mmap(NULL, 2125584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc14a490000
+2381  mprotect(0x7fc14a497000, 2093056, PROT_NONE) = 0
+2381  mmap(0x7fc14a696000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fc14a696000
+2381  close(3)                          = 0
+2381  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2381  open("/lib/libc.so.6", O_RDONLY)  = 3
+2381  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2381  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2381  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc14a12f000
+2381  mprotect(0x7fc14a287000, 2093056, PROT_NONE) = 0
+2381  mmap(0x7fc14a486000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7fc14a486000
+2381  mmap(0x7fc14a48b000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc14a48b000
+2381  close(3)                          = 0
+2381  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2381  open("/lib/libdl.so.2", O_RDONLY) = 3
+2381  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+2381  fstat(3, {st_mode=S_IFREG|0644, st_size=14696, ...}) = 0
+2381  mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc149f2b000
+2381  mprotect(0x7fc149f2d000, 2097152, PROT_NONE) = 0
+2381  mmap(0x7fc14a12d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc14a12d000
+2381  close(3)                          = 0
+2381  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2381  open("/lib/libpthread.so.0", O_RDONLY) = 3
+2381  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340Y\0\0\0\0\0\0"..., 832) = 832
+2381  fstat(3, {st_mode=S_IFREG|0755, st_size=131260, ...}) = 0
+2381  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc14acc6000
+2381  mmap(NULL, 2208640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc149d0f000
+2381  mprotect(0x7fc149d26000, 2093056, PROT_NONE) = 0
+2381  mmap(0x7fc149f25000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fc149f25000
+2381  mmap(0x7fc149f27000, 13184, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc149f27000
+2381  close(3)                          = 0
+2381  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2381  open("/lib/libattr.so.1", O_RDONLY) = 3
+2381  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\24\0\0\0\0\0\0"..., 832) = 832
+2381  fstat(3, {st_mode=S_IFREG|0644, st_size=17608, ...}) = 0
+2381  mmap(NULL, 2112752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc149b0b000
+2381  mprotect(0x7fc149b0f000, 2093056, PROT_NONE) = 0
+2381  mmap(0x7fc149d0e000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc149d0e000
+2381  close(3)                          = 0
+2381  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc14acc5000
+2381  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc14acc3000
+2381  arch_prctl(ARCH_SET_FS, 0x7fc14acc37a0) = 0
+2381  mprotect(0x7fc149f25000, 4096, PROT_READ) = 0
+2381  mprotect(0x7fc14a12d000, 4096, PROT_READ) = 0
+2381  mprotect(0x7fc14a486000, 16384, PROT_READ) = 0
+2381  mprotect(0x7fc14a89d000, 4096, PROT_READ) = 0
+2381  mprotect(0x7fc14aaba000, 4096, PROT_READ) = 0
+2381  mprotect(0x7fc14acda000, 4096, PROT_READ) = 0
+2381  munmap(0x7fc14acc8000, 61467)     = 0
+2381  set_tid_address(0x7fc14acc3a70)   = 2381
+2381  set_robust_list(0x7fc14acc3a80, 0x18) = 0
+2381  futex(0x7fff04eea1bc, FUTEX_WAKE_PRIVATE, 1) = 0
+2381  futex(0x7fff04eea1bc, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7fc14acc37a0) = -1 EAGAIN (Resource temporarily unavailable)
+2381  rt_sigaction(SIGRTMIN, {0x7fc149d14860, [], SA_RESTORER|SA_SIGINFO, 0x7fc149d1df60}, NULL, 8) = 0
+2381  rt_sigaction(SIGRT_1, {0x7fc149d148f0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fc149d1df60}, NULL, 8) = 0
+2381  rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+2381  getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+2381  statfs("/selinux", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=51606190, f_bfree=49737236, f_bavail=47115796, f_files=13107200, f_ffree=12958477, f_fsid={-474872062, -1319742448}, f_namelen=255, f_frsize=4096}) = 0
+2381  brk(0)                            = 0x20b7000
+2381  brk(0x20d8000)                    = 0x20d8000
+2381  open("/proc/filesystems", O_RDONLY) = 3
+2381  fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+2381  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc14acd7000
+2381  read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tb"..., 1024) = 323
+2381  read(3, "", 1024)                 = 0
+2381  close(3)                          = 0
+2381  munmap(0x7fc14acd7000, 4096)      = 0
+2381  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+2381  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+2381  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc14ab4e000
+2381  close(3)                          = 0
+2381  ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+2381  ioctl(1, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+2381  open(".", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+2381  fcntl(3, F_GETFD)                 = 0x1 (flags FD_CLOEXEC)
+2381  getdents(3, /* 3 entries */, 32768) = 80
+2381  getdents(3, /* 0 entries */, 32768) = 0
+2381  close(3)                          = 0
+2381  fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+2381  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc14acd7000
+2381  write(1, "ls.txt\n", 7)           = 7
+2381  close(1)                          = 0
+2381  munmap(0x7fc14acd7000, 4096)      = 0
+2381  close(2)                          = 0
+2381  exit_group(0)                     = ?

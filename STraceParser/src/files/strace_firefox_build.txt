@@ -1,0 +1,1291 @@
+execve("/usr/bin/sudo", ["sudo", "make", "-f", "client.mk"], [/* 14 vars */]) = 0
+brk(0)                                  = 0xb775e000
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb770c000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=75694, ...}) = 0
+mmap2(NULL, 75694, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb76f9000
+close(3)                                = 0
+open("/lib/libselinux.so.1", O_RDONLY)  = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\300J\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=120868, ...}) = 0
+mmap2(NULL, 125960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb76da000
+fadvise64(3, 0, 125960, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb76f7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c) = 0xb76f7000
+close(3)                                = 0
+open("/lib/libpam.so.0", O_RDONLY)      = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0 \0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=55044, ...}) = 0
+mmap2(NULL, 57644, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb76cb000
+fadvise64(3, 0, 57644, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb76d8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc) = 0xb76d8000
+close(3)                                = 0
+open("/usr/lib/libldap-2.4.so.2", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260\252\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=294796, ...}) = 0
+mmap2(NULL, 297484, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7682000
+fadvise64(3, 0, 297484, POSIX_FADV_WILLNEED) = 0
+mprotect(0xb76c8000, 4096, PROT_NONE)   = 0
+mmap2(0xb76c9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x46) = 0xb76c9000
+close(3)                                = 0
+open("/usr/lib/liblber-2.4.so.2", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\220+\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=59280, ...}) = 0
+mmap2(NULL, 62036, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7672000
+fadvise64(3, 0, 62036, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7680000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd) = 0xb7680000
+close(3)                                = 0
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200m\1\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1670601, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7671000
+mmap2(NULL, 1477096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7508000
+fadvise64(3, 0, 1477096, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb766b000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x163) = 0xb766b000
+mmap2(0xb766e000, 10728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb766e000
+close(3)                                = 0
+open("/lib/libdl.so.2", O_RDONLY)       = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\n\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=17392, ...}) = 0
+mmap2(NULL, 16504, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7503000
+fadvise64(3, 0, 16504, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7506000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2) = 0xb7506000
+close(3)                                = 0
+open("/lib/libaudit.so.1", O_RDONLY)    = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\260\36\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=91520, ...}) = 0
+mmap2(NULL, 94252, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb74eb000
+fadvise64(3, 0, 94252, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7501000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15) = 0xb7501000
+close(3)                                = 0
+open("/lib/libresolv.so.2", O_RDONLY)   = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\240&\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=90277, ...}) = 0
+mmap2(NULL, 92232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb74d4000
+fadvise64(3, 0, 92232, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb74e7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12) = 0xb74e7000
+mmap2(0xb74e9000, 6216, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb74e9000
+close(3)                                = 0
+open("/usr/lib/libsasl2.so.2", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0 8\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=104844, ...}) = 0
+mmap2(NULL, 107592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb74b9000
+fadvise64(3, 0, 107592, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb74d2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18) = 0xb74d2000
+close(3)                                = 0
+open("/lib/libssl.so.1.0.0", O_RDONLY)  = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\333\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0555, st_size=355552, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb74b8000
+mmap2(NULL, 358352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7460000
+fadvise64(3, 0, 358352, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb74b3000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x52) = 0xb74b3000
+close(3)                                = 0
+open("/lib/libcrypto.so.1.0.0", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\6\4\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0555, st_size=1693496, ...}) = 0
+mmap2(NULL, 1709424, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb72be000
+fadvise64(3, 0, 1709424, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7448000, 86016, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x189) = 0xb7448000
+mmap2(0xb745d000, 9584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb745d000
+close(3)                                = 0
+open("/lib/libz.so.1", O_RDONLY)        = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0P\31\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=87752, ...}) = 0
+mmap2(NULL, 90352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb72a7000
+fadvise64(3, 0, 90352, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb72bc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14) = 0xb72bc000
+close(3)                                = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb72a6000
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb72a5000
+set_thread_area({entry_number:-1 -> 6, base_addr:0xb72a5720, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+mprotect(0xb72bc000, 4096, PROT_READ)   = 0
+mprotect(0xb7448000, 61440, PROT_READ)  = 0
+mprotect(0xb74b3000, 8192, PROT_READ)   = 0
+mprotect(0xb74d2000, 4096, PROT_READ)   = 0
+mprotect(0xb74e7000, 4096, PROT_READ)   = 0
+mprotect(0xb7501000, 4096, PROT_READ)   = 0
+mprotect(0xb7506000, 4096, PROT_READ)   = 0
+mprotect(0xb766b000, 8192, PROT_READ)   = 0
+mprotect(0xb7680000, 4096, PROT_READ)   = 0
+mprotect(0xb76c9000, 4096, PROT_READ)   = 0
+mprotect(0xb76d8000, 4096, PROT_READ)   = 0
+mprotect(0xb76f7000, 4096, PROT_READ)   = 0
+mprotect(0xb7758000, 4096, PROT_READ)   = 0
+mprotect(0xb772b000, 4096, PROT_READ)   = 0
+munmap(0xb76f9000, 75694)               = 0
+statfs64("/selinux", 84, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=1290890, f_bfree=340875, f_bavail=275301, f_files=328000, f_ffree=197811, f_fsid={1084261649, -520188637}, f_namelen=255, f_frsize=4096}) = 0
+brk(0)                                  = 0xb775e000
+brk(0xb777f000)                         = 0xb777f000
+open("/proc/filesystems", O_RDONLY|O_LARGEFILE) = 3
+fstat64(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb770b000
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tb"..., 1024) = 310
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+munmap(0xb770b000, 4096)                = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=2512, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb770b000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2512
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0xb770b000, 4096)                = 0
+open("/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=373, ...}) = 0
+mmap2(NULL, 373, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb770b000
+close(3)                                = 0
+open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=26048, ...}) = 0
+mmap2(NULL, 26048, PROT_READ, MAP_SHARED, 3, 0) = 0xb7704000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=23, ...}) = 0
+mmap2(NULL, 23, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7703000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+mmap2(NULL, 59, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7702000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+mmap2(NULL, 155, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7701000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=77, ...}) = 0
+mmap2(NULL, 77, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7700000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=34, ...}) = 0
+mmap2(NULL, 34, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb76ff000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+mmap2(NULL, 57, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb76fe000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=286, ...}) = 0
+mmap2(NULL, 286, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb76fd000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=1163682, ...}) = 0
+mmap2(NULL, 1163682, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7188000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=2454, ...}) = 0
+mmap2(NULL, 2454, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb76fc000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=54, ...}) = 0
+mmap2(NULL, 54, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb76fb000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=256324, ...}) = 0
+mmap2(NULL, 256324, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7149000
+close(3)                                = 0
+geteuid32()                             = 0
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+setrlimit(RLIMIT_NPROC, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+getrlimit(RLIMIT_CORE, {rlim_cur=0, rlim_max=RLIM_INFINITY}) = 0
+setrlimit(RLIMIT_CORE, {rlim_cur=0, rlim_max=RLIM_INFINITY}) = 0
+fcntl64(0, F_GETFL)                     = 0x2 (flags O_RDWR)
+fcntl64(1, F_GETFL)                     = 0x2 (flags O_RDWR)
+fcntl64(2, F_GETFL)                     = 0x2 (flags O_RDWR)
+open("/etc/nsswitch.conf", O_RDONLY)    = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=1224, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7148000
+read(3, "#\n# /etc/nsswitch.conf\n#\n# An ex"..., 4096) = 1224
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0xb7148000, 4096)                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=75694, ...}) = 0
+mmap2(NULL, 75694, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7136000
+close(3)                                = 0
+open("/lib/libnss_compat.so.2", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\16\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=36040, ...}) = 0
+mmap2(NULL, 33364, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb712d000
+fadvise64(3, 0, 33364, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7134000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6) = 0xb7134000
+close(3)                                = 0
+open("/lib/libnsl.so.1", O_RDONLY)      = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\3001\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=107282, ...}) = 0
+mmap2(NULL, 104392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7113000
+fadvise64(3, 0, 104392, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7129000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15) = 0xb7129000
+mmap2(0xb712b000, 6088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb712b000
+close(3)                                = 0
+mprotect(0xb7129000, 4096, PROT_READ)   = 0
+mprotect(0xb7134000, 4096, PROT_READ)   = 0
+munmap(0xb7136000, 75694)               = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=75694, ...}) = 0
+mmap2(NULL, 75694, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7136000
+close(3)                                = 0
+open("/lib/libnss_nis.so.2", O_RDONLY)  = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\240\31\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=49683, ...}) = 0
+mmap2(NULL, 45628, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7107000
+fadvise64(3, 0, 45628, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7111000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9) = 0xb7111000
+close(3)                                = 0
+open("/lib/libnss_files.so.2", O_RDONLY) = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\300\32\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=58657, ...}) = 0
+mmap2(NULL, 53972, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb70f9000
+fadvise64(3, 0, 53972, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7105000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb) = 0xb7105000
+close(3)                                = 0
+mprotect(0xb7105000, 4096, PROT_READ)   = 0
+mprotect(0xb7111000, 4096, PROT_READ)   = 0
+munmap(0xb7136000, 75694)               = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+fcntl64(3, F_GETFD)                     = 0x1 (flags FD_CLOEXEC)
+open("/etc/default/nss", O_RDONLY)      = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=1303, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76fa000
+read(4, "# /etc/default/nss\n# This file c"..., 4096) = 1303
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0xb76fa000, 4096)                = 0
+open("/etc/group", O_RDONLY|O_CLOEXEC)  = 4
+socket(PF_NETLINK, SOCK_RAW, 0)         = 5
+bind(5, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(5, {sa_family=AF_NETLINK, pid=636, groups=00000000}, [12]) = 0
+time(NULL)                              = 1306264354
+sendto(5, "\24\0\0\0\22\0\1\3\"\3\334M\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(5, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\250\1\0\0\20\0\2\0\"\3\334M|\2\0\0\0\0\4\3\1\0\0\0I\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 864
+recvmsg(5, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\"\3\334M|\2\0\0\0\0\0\0\1\0\0\0I\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+sendto(5, "\24\0\0\0\26\0\1\3#\3\334M\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(5, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"8\0\0\0\24\0\2\0#\3\334M|\2\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 172
+recvmsg(5, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0#\3\334M|\2\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+recvmsg(5, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0#\3\334M|\2\0\0\0\0\0\0\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(5)                                = 0
+open("/etc/localtime", O_RDONLY)        = 5
+fstat64(5, {st_mode=S_IFREG|0644, st_size=2875, ...}) = 0
+fstat64(5, {st_mode=S_IFREG|0644, st_size=2875, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76fa000
+read(5, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 2875
+_llseek(5, -24, [2851], SEEK_CUR)       = 0
+read(5, "\nPST8PDT,M3.2.0,M11.1.0\n", 4096) = 24
+close(5)                                = 0
+munmap(0xb76fa000, 4096)                = 0
+uname({sys="Linux", node="linux-t365", ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+fstat64(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+readlink("/proc/self/fd/0", "/dev/pts/3", 4095) = 10
+stat64("/dev/pts/3", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+getuid32()                              = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(5, "\2\0\0\0\v\0\0\0\7\0\0\0passwd\0", 19, MSG_NOSIGNAL) = 19
+poll([{fd=5, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=5, revents=POLLIN|POLLHUP}])
+recvmsg(5, {msg_name(0)=NULL, msg_iov(2)=[{"\364\277r\267\344\245P", 7}, {"L\322P\267\224\na\267", 8}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 0
+close(5)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(5, "\2\0\0\0\1\0\0\0\2\0\0\0000\0", 14, MSG_NOSIGNAL) = 14
+poll([{fd=5, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=5, revents=POLLIN|POLLHUP}])
+read(5, "\2\0\0\0\1\0\0\0\5\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\6\0\0\0"..., 36) = 36
+read(5, "root\0x\0root\0/root\0/bin/bash\0", 28) = 28
+close(5)                                = 0
+getgroups32(0, NULL)                    = 1
+getgroups32(1, [0])                     = 1
+setresgid32(-1, 0, -1)                  = 0
+setresuid32(0, 0, 0)                    = 0
+getcwd("/home/andi/andiTestFolder/mozilla-central", 4096) = 42
+setresuid32(0, 0, 0)                    = 0
+setresgid32(-1, 0, -1)                  = 0
+open("/etc/nsswitch.conf", O_RDONLY)    = 5
+fstat64(5, {st_mode=S_IFREG|0644, st_size=1224, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76fa000
+read(5, "#\n# /etc/nsswitch.conf\n#\n# An ex"..., 4096) = 1224
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0xb76fa000, 4096)                = 0
+lstat64("/etc/sudoers", {st_mode=S_IFREG|0440, st_size=2126, ...}) = 0
+setresgid32(-1, 0, -1)                  = 0
+setresuid32(0, 1, 0)                    = 0
+open("/etc/sudoers", O_RDONLY)          = 5
+fstat64(5, {st_mode=S_IFREG|0440, st_size=2126, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76fa000
+read(5, "# sudoers file.\n#\n# This file MU"..., 4096) = 2126
+_llseek(5, 0, [0], SEEK_SET)            = 0
+fcntl64(5, F_SETFD, FD_CLOEXEC)         = 0
+setresuid32(0, 0, 0)                    = 0
+setresgid32(-1, 0, -1)                  = 0
+ioctl(5, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfbade5c) = -1 ENOTTY (Inappropriate ioctl for device)
+read(5, "# sudoers file.\n#\n# This file MU"..., 8192) = 2126
+read(5, "", 4096)                       = 0
+read(5, "", 8192)                       = 0
+ioctl(5, SNDCTL_TMR_TIMEBASE or TCGETS, 0xbfbade5c) = -1 ENOTTY (Inappropriate ioctl for device)
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6
+connect(6, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(6, "\2\0\0\0\0\0\0\0\5\0\0\0root\0", 17, MSG_NOSIGNAL) = 17
+poll([{fd=6, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=6, revents=POLLIN|POLLHUP}])
+read(6, "\2\0\0\0\1\0\0\0\5\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\6\0\0\0"..., 36) = 36
+read(6, "root\0x\0root\0/root\0/bin/bash\0", 28) = 28
+close(6)                                = 0
+open("/proc/sys/kernel/ngroups_max", O_RDONLY) = 6
+read(6, "65536\n", 31)                  = 6
+close(6)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6
+connect(6, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(6, "\2\0\0\0\f\0\0\0\6\0\0\0group\0", 18, MSG_NOSIGNAL) = 18
+poll([{fd=6, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=6, revents=POLLIN|POLLHUP}])
+recvmsg(6, {msg_name(0)=NULL, msg_iov(2)=[{"\0\336\272\277\34\357", 6}, {"\320\337\272\277\224\na\267", 8}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 0
+close(6)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6
+connect(6, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(6, "\2\0\0\0\17\0\0\0\5\0\0\0root\0", 17, MSG_NOSIGNAL) = 17
+poll([{fd=6, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=6, revents=POLLIN|POLLHUP}])
+read(6, "\2\0\0\0\1\0\0\0\1\0\0\0", 12) = 12
+read(6, "\0\0\0\0", 4)                  = 4
+close(6)                                = 0
+setgroups32(1, [0])                     = 0
+getgroups32(0, NULL)                    = 1
+getgroups32(1, [0])                     = 1
+setresgid32(-1, 0, -1)                  = 0
+setresuid32(-1, 0, -1)                  = 0
+stat64("/usr/sbin/make", 0xbfbadf00)    = -1 ENOENT (No such file or directory)
+stat64("/bin/make", 0xbfbadf00)         = -1 ENOENT (No such file or directory)
+stat64("/usr/bin/make", {st_mode=S_IFREG|0755, st_size=171808, ...}) = 0
+setresuid32(0, 0, 0)                    = 0
+setresgid32(-1, 0, -1)                  = 0
+setgroups32(1, [0])                     = 0
+setgroups32(1, [0])                     = 0
+setresgid32(-1, 0, -1)                  = 0
+setresuid32(-1, 0, -1)                  = 0
+setresuid32(0, 0, 0)                    = 0
+setresgid32(-1, 0, -1)                  = 0
+setgroups32(1, [0])                     = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6
+connect(6, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(6, "\2\0\0\0\0\0\0\0\5\0\0\0andi\0", 17, MSG_NOSIGNAL) = 17
+poll([{fd=6, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=6, revents=POLLIN|POLLHUP}])
+read(6, "\2\0\0\0\1\0\0\0\5\0\0\0\2\0\0\0\350\3\0\0d\0\0\0\5\0\0\0\v\0\0\0"..., 36) = 36
+read(6, "andi\0x\0andi\0/home/andi\0/bin/bash"..., 33) = 33
+close(6)                                = 0
+time(NULL)                              = 1306264354
+socket(PF_FILE, SOCK_DGRAM|SOCK_CLOEXEC, 0) = 6
+connect(6, {sa_family=AF_FILE, path="/dev/log"}, 110) = 0
+send(6, "<37>May 24 12:12:34 sudo:     an"..., 143, MSG_NOSIGNAL) = 143
+close(6)                                = 0
+close(5)                                = 0
+munmap(0xb76fa000, 4096)                = 0
+umask(022)                              = 022
+setrlimit(RLIMIT_CORE, {rlim_cur=0, rlim_max=RLIM_INFINITY}) = 0
+stat64("/etc/pam.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/etc/pam.d/sudo", O_RDONLY|O_LARGEFILE) = 5
+fstat64(5, {st_mode=S_IFREG|0644, st_size=203, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76fa000
+read(5, "#%PAM-1.0\nauth     include      "..., 4096) = 203
+open("/etc/pam.d/common-auth", O_RDONLY|O_LARGEFILE) = 6
+fstat64(6, {st_mode=S_IFREG|0644, st_size=522, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76f9000
+read(6, "#%PAM-1.0\n#\n# This file is autog"..., 4096) = 522
+open("/lib/security/pam_env.so", O_RDONLY) = 7
+read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\v\0\0004\0\0\0"..., 512) = 512
+fstat64(7, {st_mode=S_IFREG|0755, st_size=13784, ...}) = 0
+mmap2(NULL, 16496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xb7144000
+fadvise64(7, 0, 16496, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7147000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x2) = 0xb7147000
+close(7)                                = 0
+mprotect(0xb7147000, 4096, PROT_READ)   = 0
+open("/lib/security/pam_unix2.so", O_RDONLY) = 7
+read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20\35\0\0004\0\0\0"..., 512) = 512
+fstat64(7, {st_mode=S_IFREG|0755, st_size=46904, ...}) = 0
+mmap2(NULL, 49624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xb7137000
+fadvise64(7, 0, 49624, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7142000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0xa) = 0xb7142000
+close(7)                                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 7
+fstat64(7, {st_mode=S_IFREG|0644, st_size=75694, ...}) = 0
+mmap2(NULL, 75694, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb70e6000
+close(7)                                = 0
+open("/lib/libxcrypt.so.2", O_RDONLY)   = 7
+read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\20\n\0\0004\0\0\0"..., 512) = 512
+fstat64(7, {st_mode=S_IFREG|0755, st_size=22128, ...}) = 0
+mmap2(NULL, 185020, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xb70b8000
+fadvise64(7, 0, 185020, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb70bd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x4) = 0xb70bd000
+mmap2(0xb70bf000, 156348, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb70bf000
+close(7)                                = 0
+mprotect(0xb70bd000, 4096, PROT_READ)   = 0
+mprotect(0xb7142000, 4096, PROT_READ)   = 0
+munmap(0xb70e6000, 75694)               = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0xb76f9000, 4096)                = 0
+open("/etc/pam.d/common-account", O_RDONLY|O_LARGEFILE) = 6
+fstat64(6, {st_mode=S_IFREG|0644, st_size=446, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76f9000
+read(6, "#%PAM-1.0\n#\n# This file is autog"..., 4096) = 446
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0xb76f9000, 4096)                = 0
+open("/etc/pam.d/common-password", O_RDONLY|O_LARGEFILE) = 6
+fstat64(6, {st_mode=S_IFREG|0644, st_size=460, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76f9000
+read(6, "#%PAM-1.0\n#\n# This file is autog"..., 4096) = 460
+open("/lib/security/pam_pwcheck.so", O_RDONLY) = 7
+read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\240\21\0\0004\0\0\0"..., 512) = 512
+fstat64(7, {st_mode=S_IFREG|0755, st_size=22116, ...}) = 0
+mmap2(NULL, 24824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xb70f2000
+fadvise64(7, 0, 24824, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb70f7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x4) = 0xb70f7000
+close(7)                                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 7
+fstat64(7, {st_mode=S_IFREG|0644, st_size=75694, ...}) = 0
+mmap2(NULL, 75694, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb70a5000
+close(7)                                = 0
+open("/usr/lib/libcrack.so.2", O_RDONLY) = 7
+read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\36\0\0004\0\0\0"..., 512) = 512
+fstat64(7, {st_mode=S_IFREG|0755, st_size=34464, ...}) = 0
+mmap2(NULL, 52096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xb7098000
+fadvise64(7, 0, 52096, POSIX_FADV_WILLNEED) = 0
+mprotect(0xb709f000, 4096, PROT_NONE)   = 0
+mmap2(0xb70a0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x7) = 0xb70a0000
+mmap2(0xb70a2000, 11136, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb70a2000
+close(7)                                = 0
+mprotect(0xb70a0000, 4096, PROT_READ)   = 0
+mprotect(0xb70f7000, 4096, PROT_READ)   = 0
+munmap(0xb70a5000, 75694)               = 0
+open("/lib/security/pam_gnome_keyring.so", O_RDONLY) = 7
+read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\320\24\0\0004\0\0\0"..., 512) = 512
+fstat64(7, {st_mode=S_IFREG|0555, st_size=42664, ...}) = 0
+mmap2(NULL, 45376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xb70e6000
+fadvise64(7, 0, 45376, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb70f0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x9) = 0xb70f0000
+close(7)                                = 0
+mprotect(0xb70f0000, 4096, PROT_READ)   = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0xb76f9000, 4096)                = 0
+open("/etc/pam.d/common-session", O_RDONLY|O_LARGEFILE) = 6
+fstat64(6, {st_mode=S_IFREG|0644, st_size=573, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76f9000
+read(6, "#%PAM-1.0\n#\n# This file is autog"..., 4096) = 573
+open("/lib/security/pam_limits.so", O_RDONLY) = 7
+read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\240\f\0\0004\0\0\0"..., 512) = 512
+fstat64(7, {st_mode=S_IFREG|0755, st_size=13872, ...}) = 0
+mmap2(NULL, 16532, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xb70b3000
+fadvise64(7, 0, 16532, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb70b6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x2) = 0xb70b6000
+close(7)                                = 0
+mprotect(0xb70b6000, 4096, PROT_READ)   = 0
+open("/lib/security/pam_apparmor.so", O_RDONLY) = 7
+read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\360\10\0\0004\0\0\0"..., 512) = 512
+fstat64(7, {st_mode=S_IFREG|0555, st_size=9688, ...}) = 0
+mmap2(NULL, 12400, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xb70af000
+fadvise64(7, 0, 12400, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb70b1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x1) = 0xb70b1000
+close(7)                                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 7
+fstat64(7, {st_mode=S_IFREG|0644, st_size=75694, ...}) = 0
+mmap2(NULL, 75694, PROT_READ, MAP_PRIVATE, 7, 0) = 0xb7085000
+close(7)                                = 0
+open("/lib/libapparmor.so.1", O_RDONLY) = 7
+read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\360\r\0\0004\0\0\0"..., 512) = 512
+fstat64(7, {st_mode=S_IFREG|0755, st_size=38748, ...}) = 0
+mmap2(NULL, 41416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xb707a000
+fadvise64(7, 0, 41416, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7083000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x8) = 0xb7083000
+close(7)                                = 0
+mprotect(0xb7083000, 4096, PROT_READ)   = 0
+mprotect(0xb70b1000, 4096, PROT_READ)   = 0
+munmap(0xb7085000, 75694)               = 0
+open("/lib/security/pam_umask.so", O_RDONLY) = 7
+read(7, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\320\t\0\0004\0\0\0"..., 512) = 512
+fstat64(7, {st_mode=S_IFREG|0755, st_size=9688, ...}) = 0
+mmap2(NULL, 12400, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0xb7094000
+fadvise64(7, 0, 12400, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7096000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x1) = 0xb7096000
+close(7)                                = 0
+mprotect(0xb7096000, 4096, PROT_READ)   = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0xb76f9000, 4096)                = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0xb76fa000, 4096)                = 0
+open("/etc/pam.d/other", O_RDONLY|O_LARGEFILE) = 5
+fstat64(5, {st_mode=S_IFREG|0644, st_size=251, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76fa000
+read(5, "#%PAM-1.0\nauth\t required\tpam_war"..., 4096) = 251
+open("/lib/security/pam_warn.so", O_RDONLY) = 6
+read(6, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\5\0\0004\0\0\0"..., 512) = 512
+fstat64(6, {st_mode=S_IFREG|0755, st_size=5508, ...}) = 0
+mmap2(NULL, 8220, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0xb70ac000
+fadvise64(6, 0, 8220, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb70ad000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0) = 0xb70ad000
+close(6)                                = 0
+mprotect(0xb70ad000, 4096, PROT_READ)   = 0
+open("/lib/security/pam_deny.so", O_RDONLY) = 6
+read(6, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0 \4\0\0004\0\0\0"..., 512) = 512
+fstat64(6, {st_mode=S_IFREG|0755, st_size=5452, ...}) = 0
+mmap2(NULL, 8212, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0xb70a9000
+fadvise64(6, 0, 8212, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb70aa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0) = 0xb70aa000
+close(6)                                = 0
+mprotect(0xb70aa000, 4096, PROT_READ)   = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0xb76fa000, 4096)                = 0
+open("/etc/security/pam_env.conf", O_RDONLY|O_LARGEFILE) = 5
+fstat64(5, {st_mode=S_IFREG|0644, st_size=2980, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76fa000
+read(5, "#\n# This is the configuration fi"..., 4096) = 2980
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0xb76fa000, 4096)                = 0
+open("/etc/environment", O_RDONLY|O_LARGEFILE) = 5
+fstat64(5, {st_mode=S_IFREG|0644, st_size=97, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76fa000
+read(5, "#\n# This file is parsed by pam_e"..., 4096) = 97
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0xb76fa000, 4096)                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(5, "\2\0\0\0\0\0\0\0\5\0\0\0root\0", 17, MSG_NOSIGNAL) = 17
+poll([{fd=5, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=5, revents=POLLIN|POLLHUP}])
+read(5, "\2\0\0\0\1\0\0\0\5\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\6\0\0\0"..., 36) = 36
+read(5, "root\0x\0root\0/root\0/bin/bash\0", 28) = 28
+close(5)                                = 0
+stat64("/root/.pam_environment", 0xbfbadac0) = -1 ENOENT (No such file or directory)
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(5, "\2\0\0\0\0\0\0\0\5\0\0\0root\0", 17, MSG_NOSIGNAL) = 17
+poll([{fd=5, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=5, revents=POLLIN|POLLHUP}])
+read(5, "\2\0\0\0\1\0\0\0\5\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\6\0\0\0"..., 36) = 36
+read(5, "root\0x\0root\0/root\0/bin/bash\0", 28) = 28
+close(5)                                = 0
+socket(PF_NETLINK, SOCK_RAW, 9)         = 5
+fcntl64(5, F_SETFD, FD_CLOEXEC)         = 0
+readlink("/proc/self/exe", "/usr/bin/sudo", 4095) = 13
+sendto(5, "t\0\0\0O\4\5\0\1\0\0\0\0\0\0\0op=PAM:setcred a"..., 116, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 116
+poll([{fd=5, events=POLLIN}], 1, 500)   = 1 ([{fd=5, revents=POLLIN}])
+recvfrom(5, "$\0\0\0\2\0\0\0\1\0\0\0|\2\0\0\0\0\0\0t\0\0\0O\4\5\0\1\0\0\0"..., 8988, MSG_PEEK|MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+recvfrom(5, "$\0\0\0\2\0\0\0\1\0\0\0|\2\0\0\0\0\0\0t\0\0\0O\4\5\0\1\0\0\0"..., 8988, MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+close(5)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(5, "\2\0\0\0\0\0\0\0\5\0\0\0root\0", 17, MSG_NOSIGNAL) = 17
+poll([{fd=5, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=5, revents=POLLIN|POLLHUP}])
+read(5, "\2\0\0\0\1\0\0\0\5\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\6\0\0\0"..., 36) = 36
+read(5, "root\0x\0root\0/root\0/bin/bash\0", 28) = 28
+close(5)                                = 0
+getrlimit(RLIMIT_CPU, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+getrlimit(RLIMIT_FSIZE, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+getrlimit(RLIMIT_DATA, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+getrlimit(RLIMIT_CORE, {rlim_cur=0, rlim_max=RLIM_INFINITY}) = 0
+getrlimit(RLIMIT_RSS, {rlim_cur=954292*1024, rlim_max=RLIM_INFINITY}) = 0
+getrlimit(RLIMIT_NPROC, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=8*1024}) = 0
+getrlimit(RLIMIT_MEMLOCK, {rlim_cur=64*1024, rlim_max=256*1024}) = 0
+getrlimit(RLIMIT_AS, {rlim_cur=-1994489856, rlim_max=RLIM_INFINITY}) = 0
+getrlimit(RLIMIT_LOCKS, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+getrlimit(RLIMIT_SIGPENDING, {rlim_cur=8702, rlim_max=8702}) = 0
+getrlimit(RLIMIT_MSGQUEUE, {rlim_cur=800*1024, rlim_max=800*1024}) = 0
+getrlimit(RLIMIT_NICE, {rlim_cur=0, rlim_max=0}) = 0
+getrlimit(RLIMIT_RTPRIO, {rlim_cur=0, rlim_max=0}) = 0
+getpriority(PRIO_PROCESS, 0)            = 20
+open("/etc/security/limits.conf", O_RDONLY|O_LARGEFILE) = 5
+fstat64(5, {st_mode=S_IFREG|0644, st_size=1825, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76fa000
+read(5, "# /etc/security/limits.conf\n#\n#E"..., 4096) = 1825
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0xb76fa000, 4096)                = 0
+open("/etc/security/limits.d", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+setpriority(PRIO_PROCESS, 0, 0)         = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(5, "\2\0\0\0\0\0\0\0\5\0\0\0root\0", 17, MSG_NOSIGNAL) = 17
+poll([{fd=5, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=5, revents=POLLIN|POLLHUP}])
+read(5, "\2\0\0\0\1\0\0\0\5\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\6\0\0\0"..., 36) = 36
+read(5, "root\0x\0root\0/root\0/bin/bash\0", 28) = 28
+close(5)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(5, "\2\0\0\0\3\0\0\0\2\0\0\0000\0", 14, MSG_NOSIGNAL) = 14
+poll([{fd=5, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=5, revents=POLLIN|POLLHUP}])
+read(5, "\2\0\0\0\1\0\0\0\5\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0", 24) = 24
+read(5, "root\0x\0", 7)                 = 7
+close(5)                                = 0
+open("/dev/urandom", O_RDONLY)          = 5
+read(5, "\210,\224T", 4)                = 4
+close(5)                                = 0
+gettid()                                = 636
+open("/proc/636/attr/current", O_WRONLY) = 5
+write(5, "changehat 0000000054942c88^root", 31) = -1 EPERM (Operation not permitted)
+close(5)                                = 0
+gettid()                                = 636
+open("/proc/636/attr/current", O_WRONLY) = 5
+write(5, "changehat 0000000054942c88^", 27) = -1 EPERM (Operation not permitted)
+close(5)                                = 0
+open("/etc/login.defs", O_RDONLY|O_LARGEFILE) = 5
+fstat64(5, {st_mode=S_IFREG|0644, st_size=4753, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76fa000
+read(5, "#\n# /etc/login.defs - Configurat"..., 4096) = 4096
+close(5)                                = 0
+munmap(0xb76fa000, 4096)                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(5, "\2\0\0\0\0\0\0\0\5\0\0\0root\0", 17, MSG_NOSIGNAL) = 17
+poll([{fd=5, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=5, revents=POLLIN|POLLHUP}])
+read(5, "\2\0\0\0\1\0\0\0\5\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\6\0\0\0"..., 36) = 36
+read(5, "root\0x\0root\0/root\0/bin/bash\0", 28) = 28
+close(5)                                = 0
+umask(022)                              = 022
+socket(PF_NETLINK, SOCK_RAW, 9)         = 5
+fcntl64(5, F_SETFD, FD_CLOEXEC)         = 0
+readlink("/proc/self/exe", "/usr/bin/sudo", 4095) = 13
+sendto(5, "x\0\0\0Q\4\5\0\2\0\0\0\0\0\0\0op=PAM:session_o"..., 120, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 120
+poll([{fd=5, events=POLLIN}], 1, 500)   = 1 ([{fd=5, revents=POLLIN}])
+recvfrom(5, "$\0\0\0\2\0\0\0\2\0\0\0|\2\0\0\0\0\0\0x\0\0\0Q\4\5\0\2\0\0\0"..., 8988, MSG_PEEK|MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+recvfrom(5, "$\0\0\0\2\0\0\0\2\0\0\0|\2\0\0\0\0\0\0x\0\0\0Q\4\5\0\2\0\0\0"..., 8988, MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+close(5)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+send(5, "\2\0\0\0\0\0\0\0\5\0\0\0root\0", 17, MSG_NOSIGNAL) = 17
+poll([{fd=5, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=5, revents=POLLIN|POLLHUP}])
+read(5, "\2\0\0\0\1\0\0\0\5\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\6\0\0\0"..., 36) = 36
+read(5, "root\0x\0root\0/root\0/bin/bash\0", 28) = 28
+close(5)                                = 0
+socket(PF_NETLINK, SOCK_RAW, 9)         = 5
+fcntl64(5, F_SETFD, FD_CLOEXEC)         = 0
+readlink("/proc/self/exe", "/usr/bin/sudo", 4095) = 13
+sendto(5, "x\0\0\0R\4\5\0\3\0\0\0\0\0\0\0op=PAM:session_c"..., 120, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 120
+poll([{fd=5, events=POLLIN}], 1, 500)   = 1 ([{fd=5, revents=POLLIN}])
+recvfrom(5, "$\0\0\0\2\0\0\0\3\0\0\0|\2\0\0\0\0\0\0x\0\0\0R\4\5\0\3\0\0\0"..., 8988, MSG_PEEK|MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+recvfrom(5, "$\0\0\0\2\0\0\0\3\0\0\0|\2\0\0\0\0\0\0x\0\0\0R\4\5\0\3\0\0\0"..., 8988, MSG_DONTWAIT, {sa_family=AF_NETLINK, pid=0, groups=00000000}, [12]) = 36
+close(5)                                = 0
+munmap(0xb7144000, 16496)               = 0
+munmap(0xb7137000, 49624)               = 0
+munmap(0xb70f2000, 24824)               = 0
+munmap(0xb70b8000, 185020)              = 0
+munmap(0xb7098000, 52096)               = 0
+munmap(0xb70e6000, 45376)               = 0
+munmap(0xb70b3000, 16532)               = 0
+munmap(0xb70af000, 12400)               = 0
+munmap(0xb707a000, 41416)               = 0
+munmap(0xb7094000, 12400)               = 0
+munmap(0xb70ac000, 8220)                = 0
+munmap(0xb70a9000, 8212)                = 0
+setgroups32(1, [0])                     = 0
+setresgid32(-1, 0, -1)                  = 0
+setgid32(0)                             = 0
+setresuid32(0, 0, 0)                    = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], 0}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], 0}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_DFL, [], 0}, NULL, 8) = 0
+close(3)                                = 0
+close(4)                                = 0
+open("/proc/self/fd", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 3
+fcntl64(3, F_GETFD)                     = 0x1 (flags FD_CLOEXEC)
+getdents64(3, /* 6 entries */, 32768)   = 144
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+open("/proc/filesystems", O_RDONLY|O_LARGEFILE) = 3
+fstat64(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb76fa000
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tb"..., 1024) = 310
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+munmap(0xb76fa000, 4096)                = 0
+execve("/usr/bin/make", ["make", "-f", "client.mk"], [/* 14 vars */]) = 0
+brk(0)                                  = 0x8074000
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb775c000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=75694, ...}) = 0
+mmap2(NULL, 75694, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7749000
+close(3)                                = 0
+open("/lib/librt.so.1", O_RDONLY)       = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\300\30\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=43010, ...}) = 0
+mmap2(NULL, 37460, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb773f000
+fadvise64(3, 0, 37460, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7747000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7) = 0xb7747000
+close(3)                                = 0
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200m\1\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1670601, ...}) = 0
+mmap2(NULL, 1477096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb75d6000
+fadvise64(3, 0, 1477096, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb7739000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x163) = 0xb7739000
+mmap2(0xb773c000, 10728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb773c000
+close(3)                                = 0
+open("/lib/libpthread.so.0", O_RDONLY)  = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\320I\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=120741, ...}) = 0
+mmap2(NULL, 102892, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb75bc000
+fadvise64(3, 0, 102892, POSIX_FADV_WILLNEED) = 0
+mmap2(0xb75d2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15) = 0xb75d2000
+mmap2(0xb75d4000, 4588, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb75d4000
+close(3)                                = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb75bb000
+set_thread_area({entry_number:-1 -> 6, base_addr:0xb75bbac0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+mprotect(0xb75d2000, 4096, PROT_READ)   = 0
+mprotect(0xb7739000, 8192, PROT_READ)   = 0
+mprotect(0xb7747000, 4096, PROT_READ)   = 0
+mprotect(0x8071000, 4096, PROT_READ)    = 0
+mprotect(0xb777b000, 4096, PROT_READ)   = 0
+munmap(0xb7749000, 75694)               = 0
+set_tid_address(0xb75bbb28)             = 636
+set_robust_list(0xb75bbb30, 0xc)        = 0
+futex(0xbfe28200, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0xbfe28200, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, b75bbac0) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0xb75c03d0, [], SA_SIGINFO}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0xb75c0450, [], SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+uname({sys="Linux", node="linux-t365", ...}) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+setrlimit(RLIMIT_STACK, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+brk(0)                                  = 0x8074000
+brk(0x8095000)                          = 0x8095000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=2512, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb775b000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2512
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0xb775b000, 4096)                = 0
+open("/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=373, ...}) = 0
+mmap2(NULL, 373, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb775b000
+close(3)                                = 0
+open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=26048, ...}) = 0
+mmap2(NULL, 26048, PROT_READ, MAP_SHARED, 3, 0) = 0xb7754000
+close(3)                                = 0
+futex(0xb773ba6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=23, ...}) = 0
+mmap2(NULL, 23, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7753000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+mmap2(NULL, 59, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7752000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+mmap2(NULL, 155, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7751000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=77, ...}) = 0
+mmap2(NULL, 77, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7750000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=34, ...}) = 0
+mmap2(NULL, 34, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb774f000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+mmap2(NULL, 57, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb774e000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=286, ...}) = 0
+mmap2(NULL, 286, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb774d000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=1163682, ...}) = 0
+mmap2(NULL, 1163682, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb749e000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=2454, ...}) = 0
+mmap2(NULL, 2454, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb774c000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=54, ...}) = 0
+mmap2(NULL, 54, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb774b000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=256324, ...}) = 0
+mmap2(NULL, 256324, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb745f000
+close(3)                                = 0
+rt_sigaction(SIGHUP, {0x804bc30, [HUP], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x804bc30, [QUIT], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x804bc30, [INT], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x804bc30, [TERM], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXCPU, {0x804bc30, [XCPU], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, {0x804bc30, [XFSZ], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+getcwd("/home/andi/andiTestFolder/mozilla-central", 4096) = 42
+stat64("/usr/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/gnu/include", 0xbfe26910)  = -1 ENOENT (No such file or directory)
+stat64("/usr/local/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/usr/include", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+rt_sigaction(SIGCHLD, {0x80548e0, [CHLD], SA_RESTART}, {SIG_DFL, [CHLD], SA_RESTART}, 8) = 0
+rt_sigaction(SIGUSR1, {0x8057260, [USR1], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+stat64("./.out", 0xbfe266a0)            = -1 ENOENT (No such file or directory)
+stat64("./.a", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.ln", 0xbfe266a0)             = -1 ENOENT (No such file or directory)
+stat64("./.o", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.c", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.cc", 0xbfe266a0)             = -1 ENOENT (No such file or directory)
+stat64("./.C", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.cpp", 0xbfe266a0)            = -1 ENOENT (No such file or directory)
+stat64("./.p", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.f", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.F", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.m", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.r", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.y", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.l", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.ym", 0xbfe266a0)             = -1 ENOENT (No such file or directory)
+stat64("./.yl", 0xbfe266a0)             = -1 ENOENT (No such file or directory)
+stat64("./.s", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.S", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.mod", 0xbfe266a0)            = -1 ENOENT (No such file or directory)
+stat64("./.sym", 0xbfe266a0)            = -1 ENOENT (No such file or directory)
+stat64("./.def", 0xbfe266a0)            = -1 ENOENT (No such file or directory)
+stat64("./.h", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.info", 0xbfe266a0)           = -1 ENOENT (No such file or directory)
+stat64("./.dvi", 0xbfe266a0)            = -1 ENOENT (No such file or directory)
+stat64("./.tex", 0xbfe266a0)            = -1 ENOENT (No such file or directory)
+stat64("./.texinfo", 0xbfe266a0)        = -1 ENOENT (No such file or directory)
+stat64("./.texi", 0xbfe266a0)           = -1 ENOENT (No such file or directory)
+stat64("./.txinfo", 0xbfe266a0)         = -1 ENOENT (No such file or directory)
+stat64("./.w", 0xbfe266a0)              = -1 ENOENT (No such file or directory)
+stat64("./.ch", 0xbfe266a0)             = -1 ENOENT (No such file or directory)
+stat64("./.web", 0xbfe266a0)            = -1 ENOENT (No such file or directory)
+stat64("./.sh", 0xbfe266a0)             = -1 ENOENT (No such file or directory)
+stat64("./.elc", 0xbfe266a0)            = -1 ENOENT (No such file or directory)
+stat64("./.el", 0xbfe266a0)             = -1 ENOENT (No such file or directory)
+open("client.mk", O_RDONLY|O_LARGEFILE) = 3
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(3, {st_mode=S_IFREG|0644, st_size=13534, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb745e000
+read(3, "# ***** BEGIN LICENSE BLOCK ****"..., 4096) = 4096
+stat64("./client.mk", {st_mode=S_IFREG|0644, st_size=13534, ...}) = 0
+pipe([4, 5])                            = 0
+vfork()                                 = 638
+close(5)                                = 0
+read(4, "/usr/bin/autoconf-2.13\n", 200) = 23
+read(4, "", 177)                        = 0
+--- SIGCHLD (Child exited) @ 0 (0) ---
+sigreturn()                             = ? (mask now [])
+close(4)                                = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 638
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/config.guess", {st_mode=S_IFREG|0755, st_size=45785, ...}) = 0
+pipe([4, 5])                            = 0
+vfork()                                 = 642
+close(5)                                = 0
+read(4, "Linux\n", 200)                 = 6
+read(4, "", 194)                        = 0
+close(4)                                = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 642
+--- SIGCHLD (Child exited) @ 0 (0) ---
+sigreturn()                             = ? (mask now [])
+read(3, "nt \"1\"; exit } } print \"0\"' < $("..., 4096) = 4096
+pipe([4, 5])                            = 0
+vfork()                                 = 643
+close(5)                                = 0
+read(4, "", 200)                        = 0
+--- SIGCHLD (Child exited) @ 0 (0) ---
+sigreturn()                             = ? (mask now [])
+close(4)                                = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 643
+stat64("/home/andi/andiTestFolder/mozilla-central/.mozconfig.mk", {st_mode=S_IFREG|0644, st_size=463, ...}) = 0
+open("/home/andi/andiTestFolder/mozilla-central/.mozconfig.mk", O_RDONLY|O_LARGEFILE) = 4
+fcntl64(4, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=463, ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb745d000
+read(4, "# gmake\n# This file is automatic"..., 4096) = 463
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0xb745d000, 4096)                = 0
+stat64("./build", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("./all", 0xbfe26500)             = -1 ENOENT (No such file or directory)
+stat64("./realbuild", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("./clean", 0xbfe26500)           = -1 ENOENT (No such file or directory)
+stat64("./depend", 0xbfe26500)          = -1 ENOENT (No such file or directory)
+stat64("./distclean", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("./export", 0xbfe26500)          = -1 ENOENT (No such file or directory)
+stat64("./libs", 0xbfe26500)            = -1 ENOENT (No such file or directory)
+stat64("./install", 0xbfe26500)         = -1 ENOENT (No such file or directory)
+stat64("./realclean", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("./build_all", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("./build", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("./build_all_dep", 0xbfe26500)   = -1 ENOENT (No such file or directory)
+stat64("./alldep", 0xbfe26460)          = -1 ENOENT (No such file or directory)
+stat64("./build_all_depend", 0xbfe26500) = -1 ENOENT (No such file or directory)
+stat64("./alldep", 0xbfe26460)          = -1 ENOENT (No such file or directory)
+stat64("./clobber", 0xbfe26500)         = -1 ENOENT (No such file or directory)
+stat64("./clobber_all", 0xbfe26500)     = -1 ENOENT (No such file or directory)
+stat64("./clean", 0xbfe26460)           = -1 ENOENT (No such file or directory)
+stat64("./everything", 0xbfe26500)      = -1 ENOENT (No such file or directory)
+stat64("./clean", 0xbfe26460)           = -1 ENOENT (No such file or directory)
+stat64("./build", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("./profiledbuild", 0xbfe26500)   = -1 ENOENT (No such file or directory)
+stat64("./realbuild", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("./alldep", 0xbfe26500)          = -1 ENOENT (No such file or directory)
+stat64("./preflight_all", 0xbfe26500)   = -1 ENOENT (No such file or directory)
+read(3, "dif\nendif\n\n# If we're building m"..., 4096) = 4096
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/andi/andiTestFolder/mozilla-central/build/autoconf", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 4
+fcntl64(4, F_GETFD)                     = 0x1 (flags FD_CLOEXEC)
+getdents64(4, /* 25 entries */, 32768)  = 856
+getdents64(4, /* 0 entries */, 32768)   = 0
+close(4)                                = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/pkg.m4", {st_mode=S_IFREG|0644, st_size=2164, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/nss.m4", {st_mode=S_IFREG|0644, st_size=2769, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/moznbytetype.m4", {st_mode=S_IFREG|0644, st_size=4978, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/altoptions.m4", {st_mode=S_IFREG|0644, st_size=5745, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/nspr.m4", {st_mode=S_IFREG|0644, st_size=3624, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/glib.m4", {st_mode=S_IFREG|0644, st_size=8600, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/acwinpaths.m4", {st_mode=S_IFREG|0644, st_size=2407, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/libIDL.m4", {st_mode=S_IFREG|0644, st_size=8607, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/mozprog.m4", {st_mode=S_IFREG|0644, st_size=2607, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/lto.m4", {st_mode=S_IFREG|0644, st_size=381, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/codeset.m4", {st_mode=S_IFREG|0644, st_size=924, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/freetype2.m4", {st_mode=S_IFREG|0644, st_size=4789, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/mozheader.m4", {st_mode=S_IFREG|0644, st_size=2766, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/configure", {st_mode=S_IFREG|0755, st_size=782764, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/js/src/configure", {st_mode=S_IFREG|0755, st_size=449632, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/configure", {st_mode=S_IFREG|0755, st_size=782764, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/js/src/configure", {st_mode=S_IFREG|0755, st_size=449632, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/nsprpub/configure", {st_mode=S_IFREG|0755, st_size=175401, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/config/milestone.txt", {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/js/src/config/milestone.txt", {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/browser/config/version.txt", {st_mode=S_IFREG|0644, st_size=6, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/andi/andiTestFolder/mozilla-central", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 4
+brk(0x80ba000)                          = 0x80ba000
+getdents64(4, /* 66 entries */, 32768)  = 2024
+getdents64(4, /* 0 entries */, 32768)   = 0
+brk(0x80b2000)                          = 0x80b2000
+close(4)                                = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/toolkit", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/probes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/rdf", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/services", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/modules", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/editor", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/extensions", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/storage", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/other-licenses", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/accessible", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/ipc", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/caps", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/xpfe", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/view", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/mobile", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/media", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/chrome", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/browser", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/client.py", {st_mode=S_IFREG|0755, st_size=3746, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/Makefile.in", {st_mode=S_IFREG|0644, st_size=7365, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/test3", {st_mode=S_IFREG|0644, st_size=66452, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/LEGAL", {st_mode=S_IFREG|0644, st_size=2556, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/content", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/xulrunner", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/mozconfig", {st_mode=S_IFREG|0644, st_size=160, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/gfx", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/layout", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/LICENSE", {st_mode=S_IFREG|0644, st_size=389, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/testing", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/js", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/security", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/client.mk", {st_mode=S_IFREG|0644, st_size=13534, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/uriloader", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/xpinstall", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/aclocal.m4", {st_mode=S_IFREG|0644, st_size=975, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/nsprpub", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/intl", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/config", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/README.txt", {st_mode=S_IFREG|0644, st_size=1254, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/jpeg", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/tools", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/memory", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/widget", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/configure", {st_mode=S_IFREG|0755, st_size=782764, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/parser", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/configure.in", {st_mode=S_IFREG|0644, st_size=312045, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/startupcache", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/xpcom", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/profile", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/embedding", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/mfbt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/dom", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/netwerk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/db", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/allmakefiles.sh", {st_mode=S_IFREG|0755, st_size=3089, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/docshell", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/dbm", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/toolkit", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/probes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/rdf", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/services", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/modules", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/editor", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/extensions", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/storage", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/other-licenses", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/accessible", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/ipc", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/caps", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/xpfe", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/view", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/mobile", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/media", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/chrome", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/browser", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/client.py", {st_mode=S_IFREG|0755, st_size=3746, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/Makefile.in", {st_mode=S_IFREG|0644, st_size=7365, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/test3", {st_mode=S_IFREG|0644, st_size=72769, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/LEGAL", {st_mode=S_IFREG|0644, st_size=2556, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/content", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/xulrunner", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/mozconfig", {st_mode=S_IFREG|0644, st_size=160, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/gfx", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/layout", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/LICENSE", {st_mode=S_IFREG|0644, st_size=389, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/testing", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/js", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/security", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/client.mk", {st_mode=S_IFREG|0644, st_size=13534, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/uriloader", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/xpinstall", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/aclocal.m4", {st_mode=S_IFREG|0644, st_size=975, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/nsprpub", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/intl", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/config", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/README.txt", {st_mode=S_IFREG|0644, st_size=1254, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/jpeg", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/tools", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/memory", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/widget", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/configure", {st_mode=S_IFREG|0755, st_size=782764, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/parser", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/configure.in", {st_mode=S_IFREG|0644, st_size=312045, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/startupcache", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/xpcom", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/profile", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/embedding", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/mfbt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/dom", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/netwerk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/db", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/allmakefiles.sh", {st_mode=S_IFREG|0755, st_size=3089, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/docshell", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/dbm", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/dbm/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/docshell/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/allmakefiles.shconfvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/db/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/netwerk/confvars.sh", {st_mode=S_IFREG|0755, st_size=1759, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/dom/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/mfbt/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/embedding/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/profile/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/xpcom/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/startupcache/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/configure.inconfvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/parser/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/configureconfvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/widget/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/memory/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/tools/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/jpeg/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/README.txtconfvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/config/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/intl/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/nsprpub/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/aclocal.m4confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/xpinstall/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/uriloader/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/client.mkconfvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/security/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/js/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/testing/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/LICENSEconfvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/layout/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/gfx/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/mozconfigconfvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/xulrunner/confvars.sh", {st_mode=S_IFREG|0755, st_size=1926, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/content/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/LEGALconfvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/test3confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/Makefile.inconfvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/client.pyconfvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/browser/confvars.sh", {st_mode=S_IFREG|0755, st_size=2232, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/chrome/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/media/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/build/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/mobile/confvars.sh", {st_mode=S_IFREG|0644, st_size=2230, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/view/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/xpfe/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/caps/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/ipc/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/accessible/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/other-licenses/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/storage/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/extensions/confvars.sh", {st_mode=S_IFREG|0755, st_size=1761, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/editor/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/modules/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/services/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/rdf/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/probes/confvars.sh", 0xbfe26230) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/toolkit/confvars.sh", 0xbfe26220) = -1 ENOENT (No such file or directory)
+stat64("./%.in", 0xbfe26460)            = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/aclocal.m4", {st_mode=S_IFREG|0644, st_size=975, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/mozheader.m4", {st_mode=S_IFREG|0644, st_size=2766, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/freetype2.m4", {st_mode=S_IFREG|0644, st_size=4789, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/codeset.m4", {st_mode=S_IFREG|0644, st_size=924, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/lto.m4", {st_mode=S_IFREG|0644, st_size=381, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/mozprog.m4", {st_mode=S_IFREG|0644, st_size=2607, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/libIDL.m4", {st_mode=S_IFREG|0644, st_size=8607, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/acwinpaths.m4", {st_mode=S_IFREG|0644, st_size=2407, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/glib.m4", {st_mode=S_IFREG|0644, st_size=8600, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/nspr.m4", {st_mode=S_IFREG|0644, st_size=3624, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/altoptions.m4", {st_mode=S_IFREG|0644, st_size=5745, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/moznbytetype.m4", {st_mode=S_IFREG|0644, st_size=4978, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/nss.m4", {st_mode=S_IFREG|0644, st_size=2769, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/build/autoconf/pkg.m4", {st_mode=S_IFREG|0644, st_size=2164, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/js/src/aclocal.m4", {st_mode=S_IFREG|0644, st_size=464, ...}) = 0
+stat64("./configure-files", 0xbfe26500) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/configure", {st_mode=S_IFREG|0755, st_size=782764, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/js/src/configure", {st_mode=S_IFREG|0755, st_size=449632, ...}) = 0
+stat64("./configure", {st_mode=S_IFREG|0755, st_size=782764, ...}) = 0
+stat64("./configure-files", 0xbfe26460) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release/Makefile", {st_mode=S_IFREG|0644, st_size=7460, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release/config.status", {st_mode=S_IFREG|0755, st_size=131546, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release/config.status", {st_mode=S_IFREG|0755, st_size=131546, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/configure", {st_mode=S_IFREG|0755, st_size=782764, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/js/src/configure", {st_mode=S_IFREG|0755, st_size=449632, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/allmakefiles.sh", {st_mode=S_IFREG|0755, st_size=3089, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/.mozconfig.mk", {st_mode=S_IFREG|0644, st_size=463, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/nsprpub/configure", {st_mode=S_IFREG|0755, st_size=175401, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/config/milestone.txt", {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/js/src/config/milestone.txt", {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/browser/config/version.txt", {st_mode=S_IFREG|0644, st_size=6, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/netwerk/confvars.sh", {st_mode=S_IFREG|0755, st_size=1759, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/xulrunner/confvars.sh", {st_mode=S_IFREG|0755, st_size=1926, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/browser/confvars.sh", {st_mode=S_IFREG|0755, st_size=2232, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/mobile/confvars.sh", {st_mode=S_IFREG|0644, st_size=2230, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/extensions/confvars.sh", {st_mode=S_IFREG|0755, st_size=1761, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release/config/autoconf.mk", {st_mode=S_IFREG|0644, st_size=22754, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/config/autoconf.mk.in", {st_mode=S_IFREG|0644, st_size=20780, ...}) = 0
+stat64("./depend", 0xbfe26500)          = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release/Makefile", {st_mode=S_IFREG|0644, st_size=7460, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release/config.status", {st_mode=S_IFREG|0755, st_size=131546, ...}) = 0
+stat64("./realbuild", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("./alldep", 0xbfe26500)          = -1 ENOENT (No such file or directory)
+stat64("./preflight", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("./realbuild", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release/Makefile", {st_mode=S_IFREG|0644, st_size=7460, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release/config.status", {st_mode=S_IFREG|0755, st_size=131546, ...}) = 0
+stat64("./install", 0xbfe26500)         = -1 ENOENT (No such file or directory)
+stat64("./export", 0xbfe26500)          = -1 ENOENT (No such file or directory)
+stat64("./libs", 0xbfe26500)            = -1 ENOENT (No such file or directory)
+stat64("./clean", 0xbfe26500)           = -1 ENOENT (No such file or directory)
+stat64("./realclean", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("./distclean", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("./alldep", 0xbfe26500)          = -1 ENOENT (No such file or directory)
+stat64("./maybe_clobber_profiledbuild", 0xbfe26500) = -1 ENOENT (No such file or directory)
+stat64("./upload", 0xbfe26500)          = -1 ENOENT (No such file or directory)
+stat64("./sdk", 0xbfe26500)             = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release/Makefile", {st_mode=S_IFREG|0644, st_size=7460, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/objdir-ff-release/config.status", {st_mode=S_IFREG|0755, st_size=131546, ...}) = 0
+stat64("./realbuild", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("./alldep", 0xbfe26500)          = -1 ENOENT (No such file or directory)
+stat64("./postflight", 0xbfe26500)      = -1 ENOENT (No such file or directory)
+stat64("./realbuild", 0xbfe26500)       = -1 ENOENT (No such file or directory)
+stat64("./alldep", 0xbfe26500)          = -1 ENOENT (No such file or directory)
+stat64("./postflight_all", 0xbfe26500)  = -1 ENOENT (No such file or directory)
+read(3, "else\n# OBJDIR refers to the proj"..., 4096) = 1246
+stat64("./cleansrcdir", 0xbfe26500)     = -1 ENOENT (No such file or directory)
+stat64("./echo-variable-%", 0xbfe26500) = -1 ENOENT (No such file or directory)
+stat64("./.NOTPARALLEL", 0xbfe26500)    = -1 ENOENT (No such file or directory)
+stat64("./.PHONY", 0xbfe26500)          = -1 ENOENT (No such file or directory)
+read(3, "", 4096)                       = 0
+stat64("./checkout", 0xbfe26460)        = -1 ENOENT (No such file or directory)
+stat64("./real_checkout", 0xbfe26460)   = -1 ENOENT (No such file or directory)
+stat64("./depend", 0xbfe26460)          = -1 ENOENT (No such file or directory)
+stat64("./realbuild", 0xbfe26460)       = -1 ENOENT (No such file or directory)
+stat64("./build", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("./profiledbuild", 0xbfe26460)   = -1 ENOENT (No such file or directory)
+stat64("./maybe_clobber_profiledbuild", 0xbfe26460) = -1 ENOENT (No such file or directory)
+stat64("./export", 0xbfe26460)          = -1 ENOENT (No such file or directory)
+stat64("./libs", 0xbfe26460)            = -1 ENOENT (No such file or directory)
+stat64("./alldep", 0xbfe26460)          = -1 ENOENT (No such file or directory)
+stat64("./install", 0xbfe26460)         = -1 ENOENT (No such file or directory)
+stat64("./clean", 0xbfe26460)           = -1 ENOENT (No such file or directory)
+stat64("./realclean", 0xbfe26460)       = -1 ENOENT (No such file or directory)
+stat64("./distclean", 0xbfe26460)       = -1 ENOENT (No such file or directory)
+stat64("./cleansrcdir", 0xbfe26460)     = -1 ENOENT (No such file or directory)
+stat64("./pull_all", 0xbfe26460)        = -1 ENOENT (No such file or directory)
+stat64("./build_all", 0xbfe26460)       = -1 ENOENT (No such file or directory)
+stat64("./clobber", 0xbfe26460)         = -1 ENOENT (No such file or directory)
+stat64("./clobber_all", 0xbfe26460)     = -1 ENOENT (No such file or directory)
+stat64("./pull_and_build_all", 0xbfe26460) = -1 ENOENT (No such file or directory)
+stat64("./everything", 0xbfe26460)      = -1 ENOENT (No such file or directory)
+stat64("./configure", {st_mode=S_IFREG|0755, st_size=782764, ...}) = 0
+stat64("./preflight_all", 0xbfe26460)   = -1 ENOENT (No such file or directory)
+stat64("./preflight", 0xbfe26460)       = -1 ENOENT (No such file or directory)
+stat64("./postflight", 0xbfe26460)      = -1 ENOENT (No such file or directory)
+stat64("./postflight_all", 0xbfe26460)  = -1 ENOENT (No such file or directory)
+stat64("./upload", 0xbfe26460)          = -1 ENOENT (No such file or directory)
+stat64("./sdk", 0xbfe26460)             = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+munmap(0xb745e000, 4096)                = 0
+stat64("./%", 0xbfe26670)               = -1 ENOENT (No such file or directory)
+stat64("./%", 0xbfe26670)               = -1 ENOENT (No such file or directory)
+stat64("./%.w", 0xbfe26670)             = -1 ENOENT (No such file or directory)
+stat64("./%.ch", 0xbfe26670)            = -1 ENOENT (No such file or directory)
+stat64("./%.w", 0xbfe26670)             = -1 ENOENT (No such file or directory)
+stat64("./%.ch", 0xbfe26670)            = -1 ENOENT (No such file or directory)
+stat64("./%,v", 0xbfe26670)             = -1 ENOENT (No such file or directory)
+stat64("RCS/%,v", 0xbfe26650)           = -1 ENOENT (No such file or directory)
+stat64("RCS/%", 0xbfe26650)             = -1 ENOENT (No such file or directory)
+stat64("./s.%", 0xbfe26670)             = -1 ENOENT (No such file or directory)
+stat64("SCCS/s.%", 0xbfe26650)          = -1 ENOENT (No such file or directory)
+stat64("RCS", 0xbfe26878)               = -1 ENOENT (No such file or directory)
+stat64("SCCS", 0xbfe26878)              = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/.mozconfig.mk", {st_mode=S_IFREG|0644, st_size=463, ...}) = 0
+clock_gettime(CLOCK_REALTIME, {1306264354, 916359563}) = 0
+stat64("client.mk", {st_mode=S_IFREG|0644, st_size=13534, ...}) = 0
+stat64("/home/andi/andiTestFolder/mozilla-central/RCS", 0xbfe25598) = -1 ENOENT (No such file or directory)
+stat64("/home/andi/andiTestFolder/mozilla-central/SCCS", 0xbfe25598) = -1 ENOENT (No such file or directory)
+stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+fstat64(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb745e000
+write(1, "make -f /home/andi/andiTestFolde"..., 70) = 70
+pipe([3, 4])                            = 0
+close(4)                                = 0
+fcntl64(3, F_SETFD, FD_CLOEXEC)         = 0
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT TERM XCPU XFSZ], NULL, 8) = 0
+vfork()                                 = 656
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 656
+--- SIGCHLD (Child exited) @ 0 (0) ---
+sigreturn()                             = ? (mask now [])
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT TERM XCPU XFSZ], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+chdir("/home/andi/andiTestFolder/mozilla-central") = 0
+close(1)                                = 0
+munmap(0xb745e000, 4096)                = 0
+exit_group(0)                           = ?

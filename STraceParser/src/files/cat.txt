@@ -1,0 +1,39 @@
+2390  execve("/bin/cat", ["cat", "nothing.txt"], [/* 33 vars */]) = 0
+2390  brk(0)                            = 0x18c1000
+2390  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2390  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39f050f000
+2390  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2390  open("/etc/ld.so.cache", O_RDONLY) = 3
+2390  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2390  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f39f04ff000
+2390  close(3)                          = 0
+2390  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2390  open("/lib/libc.so.6", O_RDONLY)  = 3
+2390  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2390  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2390  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f39eff93000
+2390  mprotect(0x7f39f00eb000, 2093056, PROT_NONE) = 0
+2390  mmap(0x7f39f02ea000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7f39f02ea000
+2390  mmap(0x7f39f02ef000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f39f02ef000
+2390  close(3)                          = 0
+2390  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39f04fe000
+2390  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39f04fd000
+2390  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39f04fc000
+2390  arch_prctl(ARCH_SET_FS, 0x7f39f04fd700) = 0
+2390  mprotect(0x7f39f02ea000, 16384, PROT_READ) = 0
+2390  mprotect(0x7f39f0511000, 4096, PROT_READ) = 0
+2390  munmap(0x7f39f04ff000, 61467)     = 0
+2390  brk(0)                            = 0x18c1000
+2390  brk(0x18e2000)                    = 0x18e2000
+2390  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+2390  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+2390  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f39f0387000
+2390  close(3)                          = 0
+2390  fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+2390  open("nothing.txt", O_RDONLY)     = 3
+2390  fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+2390  read(3, "", 32768)                = 0
+2390  close(3)                          = 0
+2390  close(1)                          = 0
+2390  close(2)                          = 0
+2390  exit_group(0)                     = ?

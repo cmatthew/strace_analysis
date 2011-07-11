@@ -1,0 +1,37 @@
+execve("/bin/rm", ["rm", "dummyfile"], [/* 45 vars */]) = 0
+brk(0)                                  = 0x8faa000
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb773a000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=96801, ...}) = 0
+mmap2(NULL, 96801, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7722000
+close(3)                                = 0
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0`\222\1\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1454568, ...}) = 0
+mmap2(NULL, 1464808, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb75bc000
+mprotect(0xb771b000, 4096, PROT_NONE)   = 0
+mmap2(0xb771c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15f) = 0xb771c000
+mmap2(0xb771f000, 10728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb771f000
+close(3)                                = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb75bb000
+set_thread_area({entry_number:-1 -> 6, base_addr:0xb75bb6c0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+mprotect(0xb771c000, 8192, PROT_READ)   = 0
+mprotect(0xb775a000, 4096, PROT_READ)   = 0
+munmap(0xb7722000, 96801)               = 0
+brk(0)                                  = 0x8faa000
+brk(0x8fcb000)                          = 0x8fcb000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=1779408, ...}) = 0
+mmap2(NULL, 1779408, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7408000
+close(3)                                = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+fstatat64(AT_FDCWD, "dummyfile", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+geteuid32()                             = 1000
+fstatat64(AT_FDCWD, "dummyfile", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+faccessat(AT_FDCWD, "dummyfile", W_OK)  = 0
+unlinkat(AT_FDCWD, "dummyfile", 0)      = 0
+close(0)                                = 0
+close(1)                                = 0
+close(2)                                = 0
+exit_group(0)                           = ?

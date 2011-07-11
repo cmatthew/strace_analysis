@@ -1,0 +1,2377 @@
+2470  execve("/opt/firefox/firefox", ["/opt/firefox/firefox", "google.ca"], [/* 33 vars */]) = 0
+2470  brk(0)                            = 0x1a37000
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe445585000
+2470  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2470  open("/etc/ld.so.cache", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2470  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe445575000
+2470  close(3)                          = 0
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libc.so.6", O_RDONLY)  = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2470  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe445009000
+2470  mprotect(0x7fe445161000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7fe445360000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7fe445360000
+2470  mmap(0x7fe445365000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe445365000
+2470  close(3)                          = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe445574000
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe445573000
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe445572000
+2470  arch_prctl(ARCH_SET_FS, 0x7fe445573700) = 0
+2470  mprotect(0x7fe445360000, 16384, PROT_READ) = 0
+2470  mprotect(0x7fe445587000, 4096, PROT_READ) = 0
+2470  munmap(0x7fe445575000, 61467)     = 0
+2470  getpid()                          = 2470
+2470  rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7fe44503b1e0}, {SIG_DFL, [], 0}, 8) = 0
+2470  geteuid()                         = 1000
+2470  brk(0)                            = 0x1a37000
+2470  brk(0x1a58000)                    = 0x1a58000
+2470  getppid()                         = 2469
+2470  stat("/home/tj/School/StraceStuff", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+2470  stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+2470  open("/opt/firefox/firefox", O_RDONLY) = 3
+2470  fcntl(3, F_DUPFD, 10)             = 10
+2470  close(3)                          = 0
+2470  fcntl(10, F_SETFD, FD_CLOEXEC)    = 0
+2470  rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+2470  rt_sigaction(SIGINT, {0x40f540, ~[RTMIN RT_1], SA_RESTORER, 0x7fe44503b1e0}, NULL, 8) = 0
+2470  rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+2470  rt_sigaction(SIGQUIT, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7fe44503b1e0}, NULL, 8) = 0
+2470  rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+2470  rt_sigaction(SIGTERM, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7fe44503b1e0}, NULL, 8) = 0
+2470  read(10, "#!/bin/sh\n#\n# ***** BEGIN LICENS"..., 8192) = 3916
+2470  pipe([3, 4])                      = 0
+2470  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fe4455739d0) = 2471
+2470  close(4 <unfinished ...>
+2471  close(10 <unfinished ...>
+2470  <... close resumed> )             = 0
+2471  <... close resumed> )             = 0
+2470  read(3,  <unfinished ...>
+2471  close(3)                          = 0
+2471  dup2(4, 1)                        = 1
+2471  close(4)                          = 0
+2471  stat("/usr/local/bin/dirname", 0x7ffffec65410) = -1 ENOENT (No such file or directory)
+2471  stat("/usr/bin/dirname", {st_mode=S_IFREG|0755, st_size=27472, ...}) = 0
+2471  execve("/usr/bin/dirname", ["dirname", "/opt/firefox/firefox"], [/* 33 vars */]) = 0
+2471  brk(0)                            = 0xb79000
+2471  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2471  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f49e735c000
+2471  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2471  open("/etc/ld.so.cache", O_RDONLY) = 3
+2471  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2471  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f49e734c000
+2471  close(3)                          = 0
+2471  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2471  open("/lib/libc.so.6", O_RDONLY)  = 3
+2471  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2471  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2471  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f49e6de0000
+2471  mprotect(0x7f49e6f38000, 2093056, PROT_NONE) = 0
+2471  mmap(0x7f49e7137000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7f49e7137000
+2471  mmap(0x7f49e713c000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f49e713c000
+2471  close(3)                          = 0
+2471  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f49e734b000
+2471  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f49e734a000
+2471  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f49e7349000
+2471  arch_prctl(ARCH_SET_FS, 0x7f49e734a700) = 0
+2471  mprotect(0x7f49e7137000, 16384, PROT_READ) = 0
+2471  mprotect(0x7f49e735e000, 4096, PROT_READ) = 0
+2471  munmap(0x7f49e734c000, 61467)     = 0
+2471  brk(0)                            = 0xb79000
+2471  brk(0xb9a000)                     = 0xb9a000
+2471  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+2471  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+2471  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f49e71d4000
+2471  close(3)                          = 0
+2471  fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+2471  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f49e735b000
+2471  write(1, "/opt/firefox\n", 13)    = 13
+2470  <... read resumed> "/opt/firefox\n", 128) = 13
+2471  close(1 <unfinished ...>
+2470  read(3,  <unfinished ...>
+2471  <... close resumed> )             = 0
+2470  <... read resumed> "", 128)       = 0
+2471  munmap(0x7f49e735b000, 4096 <unfinished ...>
+2470  close(3 <unfinished ...>
+2471  <... munmap resumed> )            = 0
+2470  <... close resumed> )             = 0
+2471  close(2 <unfinished ...>
+2470  wait4(-1,  <unfinished ...>
+2471  <... close resumed> )             = 0
+2471  exit_group(0)                     = ?
+2470  <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 2471
+2470  --- SIGCHLD (Child exited) @ 0 (0) ---
+2470  pipe([3, 4])                      = 0
+2470  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fe4455739d0) = 2472
+2472  close(10 <unfinished ...>
+2470  close(4 <unfinished ...>
+2472  <... close resumed> )             = 0
+2470  <... close resumed> )             = 0
+2472  close(3 <unfinished ...>
+2470  read(3,  <unfinished ...>
+2472  <... close resumed> )             = 0
+2472  dup2(4, 1)                        = 1
+2472  close(4)                          = 0
+2472  stat("/usr/local/bin/basename", 0x7ffffec65410) = -1 ENOENT (No such file or directory)
+2472  stat("/usr/bin/basename", {st_mode=S_IFREG|0755, st_size=27472, ...}) = 0
+2472  execve("/usr/bin/basename", ["basename", "/opt/firefox/firefox"], [/* 33 vars */]) = 0
+2472  brk(0)                            = 0xf9c000
+2472  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2472  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f64d7d09000
+2472  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2472  open("/etc/ld.so.cache", O_RDONLY) = 3
+2472  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2472  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f64d7cf9000
+2472  close(3)                          = 0
+2472  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2472  open("/lib/libc.so.6", O_RDONLY)  = 3
+2472  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2472  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2472  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f64d778d000
+2472  mprotect(0x7f64d78e5000, 2093056, PROT_NONE) = 0
+2472  mmap(0x7f64d7ae4000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7f64d7ae4000
+2472  mmap(0x7f64d7ae9000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f64d7ae9000
+2472  close(3)                          = 0
+2472  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f64d7cf8000
+2472  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f64d7cf7000
+2472  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f64d7cf6000
+2472  arch_prctl(ARCH_SET_FS, 0x7f64d7cf7700) = 0
+2472  mprotect(0x7f64d7ae4000, 16384, PROT_READ) = 0
+2472  mprotect(0x7f64d7d0b000, 4096, PROT_READ) = 0
+2472  munmap(0x7f64d7cf9000, 61467)     = 0
+2472  brk(0)                            = 0xf9c000
+2472  brk(0xfbd000)                     = 0xfbd000
+2472  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+2472  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+2472  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f64d7b81000
+2472  close(3)                          = 0
+2472  fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+2472  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f64d7d08000
+2472  write(1, "firefox\n", 8)          = 8
+2470  <... read resumed> "firefox\n", 128) = 8
+2472  close(1 <unfinished ...>
+2470  read(3,  <unfinished ...>
+2472  <... close resumed> )             = 0
+2470  <... read resumed> "", 128)       = 0
+2472  munmap(0x7f64d7d08000, 4096 <unfinished ...>
+2470  close(3 <unfinished ...>
+2472  <... munmap resumed> )            = 0
+2470  <... close resumed> )             = 0
+2472  close(2 <unfinished ...>
+2470  wait4(-1,  <unfinished ...>
+2472  <... close resumed> )             = 0
+2472  exit_group(0)                     = ?
+2470  <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 2472
+2470  --- SIGCHLD (Child exited) @ 0 (0) ---
+2470  stat("/opt/firefox/run-mozilla.sh", {st_mode=S_IFREG|0755, st_size=10597, ...}) = 0
+2470  geteuid()                         = 1000
+2470  getgid()                          = 1000
+2470  getegid()                         = 1000
+2470  getgroups(0, NULL)                = 2
+2470  getgroups(2, [27, 1000])          = 2
+2470  pipe([3, 4])                      = 0
+2470  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fe4455739d0) = 2473
+2470  close(4 <unfinished ...>
+2473  close(10 <unfinished ...>
+2470  <... close resumed> )             = 0
+2473  <... close resumed> )             = 0
+2470  read(3,  <unfinished ...>
+2473  close(3)                          = 0
+2473  dup2(4, 1)                        = 1
+2473  close(4)                          = 0
+2473  stat("/usr/local/bin/expr", 0x7ffffec65300) = -1 ENOENT (No such file or directory)
+2473  stat("/usr/bin/expr", {st_mode=S_IFREG|0755, st_size=101448, ...}) = 0
+2473  execve("/usr/bin/expr", ["expr", "0", "+", "1"], [/* 33 vars */]) = 0
+2473  brk(0)                            = 0x1c64000
+2473  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2473  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f65c9306000
+2473  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2473  open("/etc/ld.so.cache", O_RDONLY) = 3
+2473  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2473  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f65c92f6000
+2473  close(3)                          = 0
+2473  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2473  open("/lib/libc.so.6", O_RDONLY)  = 3
+2473  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2473  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2473  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f65c8d8a000
+2473  mprotect(0x7f65c8ee2000, 2093056, PROT_NONE) = 0
+2473  mmap(0x7f65c90e1000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7f65c90e1000
+2473  mmap(0x7f65c90e6000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f65c90e6000
+2473  close(3)                          = 0
+2473  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f65c92f5000
+2473  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f65c92f4000
+2473  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f65c92f3000
+2473  arch_prctl(ARCH_SET_FS, 0x7f65c92f4700) = 0
+2473  mprotect(0x7f65c90e1000, 16384, PROT_READ) = 0
+2473  mprotect(0x7f65c9308000, 4096, PROT_READ) = 0
+2473  munmap(0x7f65c92f6000, 61467)     = 0
+2473  brk(0)                            = 0x1c64000
+2473  brk(0x1c85000)                    = 0x1c85000
+2473  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+2473  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+2473  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f65c917e000
+2473  close(3)                          = 0
+2473  fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+2473  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f65c9305000
+2473  write(1, "1\n", 2)                = 2
+2470  <... read resumed> "1\n", 128)    = 2
+2473  close(1 <unfinished ...>
+2470  read(3,  <unfinished ...>
+2473  <... close resumed> )             = 0
+2470  <... read resumed> "", 128)       = 0
+2473  munmap(0x7f65c9305000, 4096 <unfinished ...>
+2470  close(3 <unfinished ...>
+2473  <... munmap resumed> )            = 0
+2470  <... close resumed> )             = 0
+2473  close(2 <unfinished ...>
+2470  wait4(-1,  <unfinished ...>
+2473  <... close resumed> )             = 0
+2473  exit_group(0)                     = ?
+2470  <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 2473
+2470  --- SIGCHLD (Child exited) @ 0 (0) ---
+2470  execve("/opt/firefox/run-mozilla.sh", ["/opt/firefox/run-mozilla.sh", "/opt/firefox/firefox-bin", "google.ca"], [/* 33 vars */]) = 0
+2470  brk(0)                            = 0x13ca000
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa856c5e000
+2470  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2470  open("/etc/ld.so.cache", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2470  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa856c4e000
+2470  close(3)                          = 0
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libc.so.6", O_RDONLY)  = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2470  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8566e2000
+2470  mprotect(0x7fa85683a000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7fa856a39000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7fa856a39000
+2470  mmap(0x7fa856a3e000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa856a3e000
+2470  close(3)                          = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa856c4d000
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa856c4c000
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa856c4b000
+2470  arch_prctl(ARCH_SET_FS, 0x7fa856c4c700) = 0
+2470  mprotect(0x7fa856a39000, 16384, PROT_READ) = 0
+2470  mprotect(0x7fa856c60000, 4096, PROT_READ) = 0
+2470  munmap(0x7fa856c4e000, 61467)     = 0
+2470  getpid()                          = 2470
+2470  rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7fa8567141e0}, {SIG_DFL, [], 0}, 8) = 0
+2470  geteuid()                         = 1000
+2470  brk(0)                            = 0x13ca000
+2470  brk(0x13eb000)                    = 0x13eb000
+2470  getppid()                         = 2469
+2470  stat("/home/tj/School/StraceStuff", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+2470  stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+2470  open("/opt/firefox/run-mozilla.sh", O_RDONLY) = 3
+2470  fcntl(3, F_DUPFD, 10)             = 10
+2470  close(3)                          = 0
+2470  fcntl(10, F_SETFD, FD_CLOEXEC)    = 0
+2470  rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+2470  rt_sigaction(SIGINT, {0x40f540, ~[RTMIN RT_1], SA_RESTORER, 0x7fa8567141e0}, NULL, 8) = 0
+2470  rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+2470  rt_sigaction(SIGQUIT, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7fa8567141e0}, NULL, 8) = 0
+2470  rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+2470  rt_sigaction(SIGTERM, {SIG_DFL, ~[RTMIN RT_1], SA_RESTORER, 0x7fa8567141e0}, NULL, 8) = 0
+2470  read(10, "#!/bin/sh\n#\n# ***** BEGIN LICENS"..., 8192) = 8192
+2470  pipe([3, 4])                      = 0
+2470  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fa856c4c9d0) = 2474
+2470  close(4 <unfinished ...>
+2474  close(10 <unfinished ...>
+2470  <... close resumed> )             = 0
+2474  <... close resumed> )             = 0
+2470  read(3,  <unfinished ...>
+2474  close(3)                          = 0
+2474  dup2(4, 1)                        = 1
+2474  close(4)                          = 0
+2474  stat("/usr/local/bin/basename", 0x7fff4971adb0) = -1 ENOENT (No such file or directory)
+2474  stat("/usr/bin/basename", {st_mode=S_IFREG|0755, st_size=27472, ...}) = 0
+2474  execve("/usr/bin/basename", ["basename", "/opt/firefox/run-mozilla.sh"], [/* 33 vars */]) = 0
+2474  brk(0)                            = 0x889000
+2474  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2474  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4c1275000
+2474  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2474  open("/etc/ld.so.cache", O_RDONLY) = 3
+2474  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2474  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fb4c1265000
+2474  close(3)                          = 0
+2474  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2474  open("/lib/libc.so.6", O_RDONLY)  = 3
+2474  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2474  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2474  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb4c0cf9000
+2474  mprotect(0x7fb4c0e51000, 2093056, PROT_NONE) = 0
+2474  mmap(0x7fb4c1050000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7fb4c1050000
+2474  mmap(0x7fb4c1055000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb4c1055000
+2474  close(3)                          = 0
+2474  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4c1264000
+2474  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4c1263000
+2474  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4c1262000
+2474  arch_prctl(ARCH_SET_FS, 0x7fb4c1263700) = 0
+2474  mprotect(0x7fb4c1050000, 16384, PROT_READ) = 0
+2474  mprotect(0x7fb4c1277000, 4096, PROT_READ) = 0
+2474  munmap(0x7fb4c1265000, 61467)     = 0
+2474  brk(0)                            = 0x889000
+2474  brk(0x8aa000)                     = 0x8aa000
+2474  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+2474  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+2474  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fb4c10ed000
+2474  close(3)                          = 0
+2474  fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+2474  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4c1274000
+2474  write(1, "run-mozilla.sh\n", 15)  = 15
+2470  <... read resumed> "run-mozilla.sh\n", 128) = 15
+2474  close(1 <unfinished ...>
+2470  read(3,  <unfinished ...>
+2474  <... close resumed> )             = 0
+2470  <... read resumed> "", 128)       = 0
+2474  munmap(0x7fb4c1274000, 4096 <unfinished ...>
+2470  close(3 <unfinished ...>
+2474  <... munmap resumed> )            = 0
+2470  <... close resumed> )             = 0
+2474  close(2 <unfinished ...>
+2470  wait4(-1,  <unfinished ...>
+2474  <... close resumed> )             = 0
+2474  exit_group(0)                     = ?
+2470  <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 2474
+2470  --- SIGCHLD (Child exited) @ 0 (0) ---
+2470  pipe([3, 4])                      = 0
+2470  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fa856c4c9d0) = 2475
+2470  close(4 <unfinished ...>
+2475  close(10 <unfinished ...>
+2470  <... close resumed> )             = 0
+2475  <... close resumed> )             = 0
+2470  read(3,  <unfinished ...>
+2475  close(3)                          = 0
+2475  dup2(4, 1)                        = 1
+2475  close(4)                          = 0
+2475  stat("/usr/local/bin/dirname", 0x7fff4971adb0) = -1 ENOENT (No such file or directory)
+2475  stat("/usr/bin/dirname", {st_mode=S_IFREG|0755, st_size=27472, ...}) = 0
+2475  execve("/usr/bin/dirname", ["dirname", "/opt/firefox/run-mozilla.sh"], [/* 33 vars */]) = 0
+2475  brk(0)                            = 0x1be5000
+2475  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2475  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffb074c8000
+2475  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2475  open("/etc/ld.so.cache", O_RDONLY) = 3
+2475  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2475  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ffb074b8000
+2475  close(3)                          = 0
+2475  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2475  open("/lib/libc.so.6", O_RDONLY)  = 3
+2475  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2475  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2475  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ffb06f4c000
+2475  mprotect(0x7ffb070a4000, 2093056, PROT_NONE) = 0
+2475  mmap(0x7ffb072a3000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7ffb072a3000
+2475  mmap(0x7ffb072a8000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ffb072a8000
+2475  close(3)                          = 0
+2475  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffb074b7000
+2475  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffb074b6000
+2475  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffb074b5000
+2475  arch_prctl(ARCH_SET_FS, 0x7ffb074b6700) = 0
+2475  mprotect(0x7ffb072a3000, 16384, PROT_READ) = 0
+2475  mprotect(0x7ffb074ca000, 4096, PROT_READ) = 0
+2475  munmap(0x7ffb074b8000, 61467)     = 0
+2475  brk(0)                            = 0x1be5000
+2475  brk(0x1c06000)                    = 0x1c06000
+2475  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+2475  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+2475  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ffb07340000
+2475  close(3)                          = 0
+2475  fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+2475  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffb074c7000
+2475  write(1, "/opt/firefox\n", 13)    = 13
+2470  <... read resumed> "/opt/firefox\n", 128) = 13
+2475  close(1 <unfinished ...>
+2470  read(3,  <unfinished ...>
+2475  <... close resumed> )             = 0
+2470  <... read resumed> "", 128)       = 0
+2475  munmap(0x7ffb074c7000, 4096 <unfinished ...>
+2470  close(3 <unfinished ...>
+2475  <... munmap resumed> )            = 0
+2470  <... close resumed> )             = 0
+2475  close(2 <unfinished ...>
+2470  wait4(-1,  <unfinished ...>
+2475  <... close resumed> )             = 0
+2475  exit_group(0)                     = ?
+2470  <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 2475
+2470  --- SIGCHLD (Child exited) @ 0 (0) ---
+2470  stat("/opt/firefox/firefox-bin", {st_mode=S_IFREG|0755, st_size=57248, ...}) = 0
+2470  geteuid()                         = 1000
+2470  getgid()                          = 1000
+2470  getegid()                         = 1000
+2470  getgroups(0, NULL)                = 2
+2470  getgroups(2, [27, 1000])          = 2
+2470  pipe([3, 4])                      = 0
+2470  clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fa856c4c9d0) = 2476
+2470  close(4)                          = 0
+2470  read(3,  <unfinished ...>
+2476  close(10)                         = 0
+2476  close(3)                          = 0
+2476  dup2(4, 1)                        = 1
+2476  close(4)                          = 0
+2476  stat("/usr/local/bin/uname", 0x7fff4971aae0) = -1 ENOENT (No such file or directory)
+2476  stat("/usr/bin/uname", 0x7fff4971aae0) = -1 ENOENT (No such file or directory)
+2476  stat("/bin/uname", {st_mode=S_IFREG|0755, st_size=28496, ...}) = 0
+2476  execve("/bin/uname", ["uname", "-s"], [/* 33 vars */]) = 0
+2476  brk(0)                            = 0x812000
+2476  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2476  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdf4c3d6000
+2476  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2476  open("/etc/ld.so.cache", O_RDONLY) = 3
+2476  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2476  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fdf4c3c6000
+2476  close(3)                          = 0
+2476  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2476  open("/lib/libc.so.6", O_RDONLY)  = 3
+2476  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2476  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2476  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdf4be5a000
+2476  mprotect(0x7fdf4bfb2000, 2093056, PROT_NONE) = 0
+2476  mmap(0x7fdf4c1b1000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7fdf4c1b1000
+2476  mmap(0x7fdf4c1b6000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdf4c1b6000
+2476  close(3)                          = 0
+2476  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdf4c3c5000
+2476  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdf4c3c4000
+2476  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdf4c3c3000
+2476  arch_prctl(ARCH_SET_FS, 0x7fdf4c3c4700) = 0
+2476  mprotect(0x7fdf4c1b1000, 16384, PROT_READ) = 0
+2476  mprotect(0x7fdf4c3d8000, 4096, PROT_READ) = 0
+2476  munmap(0x7fdf4c3c6000, 61467)     = 0
+2476  brk(0)                            = 0x812000
+2476  brk(0x833000)                     = 0x833000
+2476  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+2476  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+2476  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fdf4c24e000
+2476  close(3)                          = 0
+2476  uname({sys="Linux", node="tjs-laptop", ...}) = 0
+2476  fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+2476  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdf4c3d5000
+2476  write(1, "Linux\n", 6)            = 6
+2470  <... read resumed> "Linux\n", 128) = 6
+2476  close(1 <unfinished ...>
+2470  read(3,  <unfinished ...>
+2476  <... close resumed> )             = 0
+2470  <... read resumed> "", 128)       = 0
+2476  munmap(0x7fdf4c3d5000, 4096 <unfinished ...>
+2470  close(3 <unfinished ...>
+2476  <... munmap resumed> )            = 0
+2470  <... close resumed> )             = 0
+2476  close(2 <unfinished ...>
+2470  wait4(-1,  <unfinished ...>
+2476  <... close resumed> )             = 0
+2476  exit_group(0)                     = ?
+2470  <... wait4 resumed> [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 2476
+2470  --- SIGCHLD (Child exited) @ 0 (0) ---
+2470  read(10, "MOZ_DIST_BIN}/plugins:${MRE_HOME"..., 8192) = 2405
+2470  stat("/opt/firefox/firefox-bin", {st_mode=S_IFREG|0755, st_size=57248, ...}) = 0
+2470  geteuid()                         = 1000
+2470  getgid()                          = 1000
+2470  getegid()                         = 1000
+2470  getgroups(0, NULL)                = 2
+2470  getgroups(2, [27, 1000])          = 2
+2470  execve("/opt/firefox/firefox-bin", ["/opt/firefox/firefox-bin", "google.ca"], [/* 43 vars */]) = 0
+2470  brk(0)                            = 0xd4e000
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642330000
+2470  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+2470  open("/opt/firefox/tls/x86_64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  stat("/opt/firefox/tls/x86_64", 0x7ffff46c6f30) = -1 ENOENT (No such file or directory)
+2470  open("/opt/firefox/tls/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  stat("/opt/firefox/tls", 0x7ffff46c6f30) = -1 ENOENT (No such file or directory)
+2470  open("/opt/firefox/x86_64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  stat("/opt/firefox/x86_64", 0x7ffff46c6f30) = -1 ENOENT (No such file or directory)
+2470  open("/opt/firefox/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  stat("/opt/firefox", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+2470  open("/opt/firefox/plugins/tls/x86_64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  stat("/opt/firefox/plugins/tls/x86_64", 0x7ffff46c6f30) = -1 ENOENT (No such file or directory)
+2470  open("/opt/firefox/plugins/tls/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  stat("/opt/firefox/plugins/tls", 0x7ffff46c6f30) = -1 ENOENT (No such file or directory)
+2470  open("/opt/firefox/plugins/x86_64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  stat("/opt/firefox/plugins/x86_64", 0x7ffff46c6f30) = -1 ENOENT (No such file or directory)
+2470  open("/opt/firefox/plugins/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  stat("/opt/firefox/plugins", 0x7ffff46c6f30) = -1 ENOENT (No such file or directory)
+2470  open("/etc/ld.so.cache", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2470  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7642320000
+2470  close(3)                          = 0
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libpthread.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340Y\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0755, st_size=131260, ...}) = 0
+2470  mmap(NULL, 2208640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7641ef9000
+2470  mprotect(0x7f7641f10000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f764210f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f764210f000
+2470  mmap(0x7f7642111000, 13184, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7642111000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libxul.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\351]\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=29863832, ...}) = 0
+2470  mmap(NULL, 32179184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7640048000
+2470  mprotect(0x7f7641a3d000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7641c3c000, 2600960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19f4000) = 0x7f7641c3c000
+2470  mmap(0x7f7641eb7000, 267248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7641eb7000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libxpcom.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220(\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=16432, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764231f000
+2470  mmap(NULL, 2111552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763fe44000
+2470  mprotect(0x7f763fe48000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7640047000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f7640047000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libmozalloc.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\f\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=7584, ...}) = 0
+2470  mmap(NULL, 2102680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763fc42000
+2470  mprotect(0x7f763fc44000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763fe43000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f763fe43000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libplds4.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\16\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=12088, ...}) = 0
+2470  mmap(NULL, 2107216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763fa3f000
+2470  mprotect(0x7f763fa42000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763fc41000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f763fc41000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libplc4.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\24\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=16904, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764231e000
+2470  mmap(NULL, 2111736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763f83b000
+2470  mprotect(0x7f763f83f000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763fa3e000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f763fa3e000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libnspr4.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\322\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=238320, ...}) = 0
+2470  mmap(NULL, 2342912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763f5ff000
+2470  mprotect(0x7f763f637000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763f836000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x37000) = 0x7f763f836000
+2470  mmap(0x7f763f839000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f763f839000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libdl.so.2", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=14696, ...}) = 0
+2470  mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763f3fb000
+2470  mprotect(0x7f763f3fd000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763f5fd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f763f5fd000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libgtk-x11-2.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libgtk-x11-2.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\"\7\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=4319784, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764231d000
+2470  mmap(NULL, 6424064, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763edda000
+2470  mprotect(0x7f763f1ef000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763f3ee000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x414000) = 0x7f763f3ee000
+2470  mmap(0x7f763f3f9000, 5632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f763f3f9000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libatk-1.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libatk-1.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\253\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=134288, ...}) = 0
+2470  mmap(NULL, 2230592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763ebb9000
+2470  mprotect(0x7f763ebd8000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763edd7000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7f763edd7000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libgdk-x11-2.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libgdk-x11-2.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\351\1\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=708784, ...}) = 0
+2470  mmap(NULL, 2805160, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763e90c000
+2470  mprotect(0x7f763e9b4000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763ebb4000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa8000) = 0x7f763ebb4000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libgdk_pixbuf-2.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libgdk_pixbuf-2.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pO\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=114960, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764231c000
+2470  mmap(NULL, 2210392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763e6f0000
+2470  mprotect(0x7f763e70b000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763e90b000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7f763e90b000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libpangocairo-1.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libpangocairo-1.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300R\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=50672, ...}) = 0
+2470  mmap(NULL, 2146032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763e4e4000
+2470  mprotect(0x7f763e4f0000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763e6ef000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x7f763e6ef000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libpango-1.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libpango-1.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\17\1\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=311840, ...}) = 0
+2470  mmap(NULL, 2407616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763e298000
+2470  mprotect(0x7f763e2e1000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763e4e1000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x49000) = 0x7f763e4e1000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libcairo.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libcairo.so.2", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \311\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=757808, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764231b000
+2470  mmap(NULL, 2865536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763dfdc000
+2470  mprotect(0x7f763e093000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763e292000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb6000) = 0x7f763e292000
+2470  mmap(0x7f763e295000, 10624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f763e295000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libgobject-2.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libgobject-2.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \250\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=289480, ...}) = 0
+2470  mmap(NULL, 2387592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763dd95000
+2470  mprotect(0x7f763ddda000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763dfda000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x45000) = 0x7f763dfda000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libgmodule-2.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libgmodule-2.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\23\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=12664, ...}) = 0
+2470  mmap(NULL, 2107992, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763db92000
+2470  mprotect(0x7f763db95000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763dd94000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f763dd94000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libglib-2.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libglib-2.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240|\1\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=900200, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764231a000
+2470  mmap(NULL, 2997456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763d8b6000
+2470  mprotect(0x7f763d991000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763db90000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xda000) = 0x7f763db90000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libX11.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libX11.so.6", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\0\2\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=1289728, ...}) = 0
+2470  mmap(NULL, 3386696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763d57b000
+2470  mprotect(0x7f763d6b0000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763d8b0000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x135000) = 0x7f763d8b0000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libstdc++.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libstdc++.so.6", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\243\5\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=1043976, ...}) = 0
+2470  mmap(NULL, 3223576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763d267000
+2470  mprotect(0x7f763d35d000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763d55d000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf6000) = 0x7f763d55d000
+2470  mmap(0x7f763d566000, 81944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f763d566000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libm.so.6", O_RDONLY)  = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360>\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=530736, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642319000
+2470  mmap(NULL, 2625768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763cfe5000
+2470  mprotect(0x7f763d065000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763d265000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x80000) = 0x7f763d265000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libgcc_s.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P-\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=90504, ...}) = 0
+2470  mmap(NULL, 2186232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763cdcf000
+2470  mprotect(0x7f763cde5000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763cfe4000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f763cfe4000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libc.so.6", O_RDONLY)  = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0755, st_size=1432968, ...}) = 0
+2470  mmap(NULL, 3541032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763ca6e000
+2470  mprotect(0x7f763cbc6000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763cdc5000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x157000) = 0x7f763cdc5000
+2470  mmap(0x7f763cdca000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f763cdca000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libmozsqlite3.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\217\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=608992, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642318000
+2470  mmap(NULL, 2705432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763c7d9000
+2470  mprotect(0x7f763c86b000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763ca6a000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x91000) = 0x7f763ca6a000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libsmime3.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\233\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=156744, ...}) = 0
+2470  mmap(NULL, 2251216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763c5b3000
+2470  mprotect(0x7f763c5d5000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763c7d5000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7f763c7d5000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libssl3.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\214\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=206608, ...}) = 0
+2470  mmap(NULL, 2303472, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763c380000
+2470  mprotect(0x7f763c3b0000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763c5af000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2f000) = 0x7f763c5af000
+2470  mmap(0x7f763c5b2000, 1520, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f763c5b2000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libnss3.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\215\1\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=1054392, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642317000
+2470  mmap(NULL, 3152616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763c07e000
+2470  mprotect(0x7f763c179000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763c378000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xfa000) = 0x7f763c378000
+2470  mmap(0x7f763c37f000, 2792, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f763c37f000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libnssutil3.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\205\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=111392, ...}) = 0
+2470  mmap(NULL, 2207312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763be63000
+2470  mprotect(0x7f763be79000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763c078000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f763c078000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libXrender.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXrender.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\33\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=39976, ...}) = 0
+2470  mmap(NULL, 2135208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763bc59000
+2470  mprotect(0x7f763bc62000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763be62000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f763be62000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libfreetype.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libfreetype.so.6", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\321\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=558080, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642316000
+2470  mmap(NULL, 2653296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763b9d1000
+2470  mprotect(0x7f763ba54000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763bc53000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x82000) = 0x7f763bc53000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libfontconfig.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libfontconfig.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300e\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=216832, ...}) = 0
+2470  mmap(NULL, 2312968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763b79c000
+2470  mprotect(0x7f763b7cf000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763b9cf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x33000) = 0x7f763b9cf000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libasound.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libasound.so.2", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\1\3\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=939392, ...}) = 0
+2470  mmap(NULL, 3035016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763b4b7000
+2470  mprotect(0x7f763b595000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763b794000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xdd000) = 0x7f763b794000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/librt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/librt.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220!\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=31744, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642315000
+2470  mmap(NULL, 2128848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763b2af000
+2470  mprotect(0x7f763b2b6000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763b4b5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f763b4b5000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libdbus-1.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libdbus-1.so.3", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@y\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=261656, ...}) = 0
+2470  mmap(NULL, 2357544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763b06f000
+2470  mprotect(0x7f763b0ad000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763b2ad000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3e000) = 0x7f763b2ad000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libXext.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXext.so.6", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3409\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=74432, ...}) = 0
+2470  mmap(NULL, 2170152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763ae5d000
+2470  mprotect(0x7f763ae6e000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763b06e000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7f763b06e000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libpangoft2-1.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libpangoft2-1.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\200\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=173632, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642314000
+2470  mmap(NULL, 2269152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763ac33000
+2470  mprotect(0x7f763ac5c000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763ae5c000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29000) = 0x7f763ae5c000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libXt.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXt.so.6", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pB\1\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=404840, ...}) = 0
+2470  mmap(NULL, 2503200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763a9cf000
+2470  mprotect(0x7f763aa2d000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763ac2c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5d000) = 0x7f763ac2c000
+2470  mmap(0x7f763ac32000, 544, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f763ac32000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libgthread-2.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libgthread-2.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\27\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=17704, ...}) = 0
+2470  mmap(NULL, 2112952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763a7cb000
+2470  mprotect(0x7f763a7cf000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763a9ce000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f763a9ce000
+2470  close(3)                          = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642313000
+2470  open("/opt/firefox/libXcomposite.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXcomposite.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \f\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=9880, ...}) = 0
+2470  mmap(NULL, 2105096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763a5c9000
+2470  mprotect(0x7f763a5cb000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763a7ca000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f763a7ca000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libXdamage.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXdamage.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\v\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=9024, ...}) = 0
+2470  mmap(NULL, 2104248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763a3c7000
+2470  mprotect(0x7f763a3c9000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763a5c8000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f763a5c8000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libXfixes.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXfixes.so.3", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\25\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=21576, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642312000
+2470  mmap(NULL, 2116872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763a1c2000
+2470  mprotect(0x7f763a1c7000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763a3c6000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f763a3c6000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libgio-2.0.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libgio-2.0.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\310\1\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=724864, ...}) = 0
+2470  mmap(NULL, 2824208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7639f10000
+2470  mprotect(0x7f7639fbe000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f763a1be000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xae000) = 0x7f763a1be000
+2470  mmap(0x7f763a1c1000, 2064, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f763a1c1000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libXinerama.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXinerama.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\n\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=8992, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642311000
+2470  mmap(NULL, 2104136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7639d0e000
+2470  mprotect(0x7f7639d10000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7639f0f000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f7639f0f000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libXi.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXi.so.6", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300!\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=60600, ...}) = 0
+2470  mmap(NULL, 2155968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7639aff000
+2470  mprotect(0x7f7639b0e000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7639d0d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7f7639d0d000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libXrandr.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXrandr.so.2", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\31\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=32776, ...}) = 0
+2470  mmap(NULL, 2128072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f76398f7000
+2470  mprotect(0x7f76398ff000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7639afe000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f7639afe000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libXcursor.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXcursor.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240+\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=40152, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642310000
+2470  mmap(NULL, 2135368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f76396ed000
+2470  mprotect(0x7f76396f6000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f76398f6000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f76398f6000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libz.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\"\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=93936, ...}) = 0
+2470  mmap(NULL, 2188976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f76394d6000
+2470  mprotect(0x7f76394ed000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f76396ec000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f76396ec000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libpixman-1.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libpixman-1.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 j\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=387256, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764230f000
+2470  mmap(NULL, 2482672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7639277000
+2470  mprotect(0x7f76392d2000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f76394d1000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5a000) = 0x7f76394d1000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libpng12.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libpng12.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0O\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=155360, ...}) = 0
+2470  mmap(NULL, 2250576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7639051000
+2470  mprotect(0x7f7639076000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f7639276000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7f7639276000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libxcb-shm.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libxcb-shm.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\n\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=8000, ...}) = 0
+2470  mmap(NULL, 2103200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7638e4f000
+2470  mprotect(0x7f7638e51000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7639050000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f7639050000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libxcb-render.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libxcb-render.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P2\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=33304, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764230e000
+2470  mmap(NULL, 2128496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7638c47000
+2470  mprotect(0x7f7638c4e000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f7638e4e000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f7638e4e000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libxcb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libxcb.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\227\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=115296, ...}) = 0
+2470  mmap(NULL, 2210672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7638a2b000
+2470  mprotect(0x7f7638a47000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7638c46000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7f7638c46000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libpcre.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libpcre.so.3", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\26\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=198176, ...}) = 0
+2470  mmap(NULL, 2293376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f76387fb000
+2470  mprotect(0x7f763882b000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7638a2a000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2f000) = 0x7f7638a2a000
+2470  close(3)                          = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764230d000
+2470  open("/opt/firefox/libexpat.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libexpat.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260;\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=165744, ...}) = 0
+2470  mmap(NULL, 2260960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f76385d3000
+2470  mprotect(0x7f76385f9000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f76387f9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7f76387f9000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libSM.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libSM.so.6", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\34\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=31944, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764230c000
+2470  mmap(NULL, 2127160, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f76383cb000
+2470  mprotect(0x7f76383d3000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f76385d2000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f76385d2000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libICE.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libICE.so.6", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200R\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=95376, ...}) = 0
+2470  mmap(NULL, 2205056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f76381b0000
+2470  mprotect(0x7f76381c7000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f76383c6000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f76383c6000
+2470  mmap(0x7f76383c7000, 13696, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f76383c7000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libresolv.so.2", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3008\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=80712, ...}) = 0
+2470  mmap(NULL, 2185864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7637f9a000
+2470  mprotect(0x7f7637fad000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f76381ac000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7f76381ac000
+2470  mmap(0x7f76381ae000, 6792, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f76381ae000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libselinux.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360]\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=117848, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764230b000
+2470  mmap(NULL, 2217744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7637d7c000
+2470  mprotect(0x7f7637d98000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7637f97000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7f7637f97000
+2470  mmap(0x7f7637f99000, 1808, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7637f99000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libXau.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXau.so.6", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\r\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=10896, ...}) = 0
+2470  mmap(NULL, 2106104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7637b79000
+2470  mprotect(0x7f7637b7b000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f7637d7b000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f7637d7b000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libXdmcp.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libXdmcp.so.6", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\24\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=20504, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764230a000
+2470  mmap(NULL, 2115696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7637974000
+2470  mprotect(0x7f7637979000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7637b78000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f7637b78000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libuuid.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libuuid.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\25\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=15720, ...}) = 0
+2470  mmap(NULL, 2110736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7637770000
+2470  mprotect(0x7f7637774000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7637973000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f7637973000
+2470  close(3)                          = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642309000
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642308000
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642307000
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642306000
+2470  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642304000
+2470  arch_prctl(ARCH_SET_FS, 0x7f7642304960) = 0
+2470  mprotect(0x7f7637f97000, 4096, PROT_READ) = 0
+2470  mprotect(0x7f76381ac000, 4096, PROT_READ) = 0
+2470  mprotect(0x7f76394d1000, 16384, PROT_READ) = 0
+2470  mprotect(0x7f763b2ad000, 4096, PROT_READ) = 0
+2470  mprotect(0x7f763b4b5000, 4096, PROT_READ) = 0
+2470  mprotect(0x7f763b9cf000, 4096, PROT_READ) = 0
+2470  mprotect(0x7f763cdc5000, 16384, PROT_READ) = 0
+2470  mprotect(0x7f763d265000, 4096, PROT_READ) = 0
+2470  mprotect(0x7f763d55d000, 28672, PROT_READ) = 0
+2470  mprotect(0x7f763e292000, 8192, PROT_READ) = 0
+2470  mprotect(0x7f763f5fd000, 4096, PROT_READ) = 0
+2470  mprotect(0x7f764210f000, 4096, PROT_READ) = 0
+2470  mprotect(0x7f7642332000, 4096, PROT_READ) = 0
+2470  munmap(0x7f7642320000, 61467)     = 0
+2470  set_tid_address(0x7f7642304c30)   = 2470
+2470  set_robust_list(0x7f7642304c40, 0x18) = 0
+2470  futex(0x7ffff46c782c, FUTEX_WAKE_PRIVATE, 1) = 0
+2470  futex(0x7ffff46c782c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f7642304960) = -1 EAGAIN (Resource temporarily unavailable)
+2470  rt_sigaction(SIGRTMIN, {0x7f7641efe860, [], SA_RESTORER|SA_SIGINFO, 0x7f7641f07f60}, NULL, 8) = 0
+2470  rt_sigaction(SIGRT_1, {0x7f7641efe8f0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f7641f07f60}, NULL, 8) = 0
+2470  rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+2470  getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+2470  statfs("/selinux", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=51606190, f_bfree=49736733, f_bavail=47115293, f_files=13107200, f_ffree=12958428, f_fsid={-474872062, -1319742448}, f_namelen=255, f_frsize=4096}) = 0
+2470  readlink("/etc/malloc.conf", 0x7ffff46c6690, 4096) = -1 ENOENT (No such file or directory)
+2470  mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7642204000
+2470  mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7637670000
+2470  munmap(0x7f7637670000, 1048576)   = 0
+2470  mmap(0x7f7637700000, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7637670000
+2470  munmap(0x7f7637670000, 1048576)   = 0
+2470  mmap(NULL, 2097152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7637570000
+2470  munmap(0x7f7637570000, 2097152)   = 0
+2470  mmap(0x7f7637600000, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7637600000
+2470  open("/proc/filesystems", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764232f000
+2470  read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tb"..., 1024) = 323
+2470  read(3, "", 1024)                 = 0
+2470  close(3)                          = 0
+2470  munmap(0x7f764232f000, 4096)      = 0
+2470  futex(0x7f763f5fe0ec, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+2470  sched_get_priority_min(SCHED_OTHER) = 0
+2470  sched_get_priority_max(SCHED_OTHER) = 0
+2470  sched_getparam(2470, { 0 })       = 0
+2470  sched_getscheduler(2470)          = 0 (SCHED_OTHER)
+2470  sched_setscheduler(2470, SCHED_OTHER, { 0 }) = 0
+2470  rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f7641f07f60}, NULL, 8) = 0
+2470  futex(0x7f763d566b68, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+2470  lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+2470  lstat("/opt/firefox", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+2470  lstat("/opt/firefox/firefox-bin", {st_mode=S_IFREG|0755, st_size=57248, ...}) = 0
+2470  stat("/opt/firefox/firefox-bin", {st_mode=S_IFREG|0755, st_size=57248, ...}) = 0
+2470  open("/opt/firefox/application.ini", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=2149, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764232f000
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=2149, ...}) = 0
+2470  lseek(3, 0, SEEK_SET)             = 0
+2470  read(3, "; ***** BEGIN LICENSE BLOCK ****"..., 2149) = 2149
+2470  lseek(3, 2149, SEEK_SET)          = 2149
+2470  close(3)                          = 0
+2470  munmap(0x7f764232f000, 4096)      = 0
+2470  rt_sigaction(SIGFPE, {0x7f764063a461, [], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x7f7641f07f60}, {SIG_DFL, [], 0}, 8) = 0
+2470  lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+2470  lstat("/opt/firefox", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+2470  lstat("/opt/firefox/firefox-bin", {st_mode=S_IFREG|0755, st_size=57248, ...}) = 0
+2470  stat("/opt/firefox/firefox-bin", {st_mode=S_IFREG|0755, st_size=57248, ...}) = 0
+2470  open("/opt/firefox/distribution/bundles", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+2470  sigaltstack({ss_sp=0x7f7637630000, ss_flags=0, ss_size=8192}, NULL) = 0
+2470  rt_sigaction(SIGSEGV, {0x7f7640643f38, [ILL ABRT BUS FPE SEGV], SA_RESTORER|SA_STACK|SA_SIGINFO, 0x7f7641f07f60}, {SIG_DFL, [], 0}, 8) = 0
+2470  rt_sigaction(SIGABRT, {0x7f7640643f38, [ILL ABRT BUS FPE SEGV], SA_RESTORER|SA_STACK|SA_SIGINFO, 0x7f7641f07f60}, {SIG_DFL, [], 0}, 8) = 0
+2470  rt_sigaction(SIGFPE, {0x7f7640643f38, [ILL ABRT BUS FPE SEGV], SA_RESTORER|SA_STACK|SA_SIGINFO, 0x7f7641f07f60}, {0x7f764063a461, [], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x7f7641f07f60}, 8) = 0
+2470  rt_sigaction(SIGILL, {0x7f7640643f38, [ILL ABRT BUS FPE SEGV], SA_RESTORER|SA_STACK|SA_SIGINFO, 0x7f7641f07f60}, {SIG_DFL, [], 0}, 8) = 0
+2470  rt_sigaction(SIGBUS, {0x7f7640643f38, [ILL ABRT BUS FPE SEGV], SA_RESTORER|SA_STACK|SA_SIGINFO, 0x7f7641f07f60}, {SIG_DFL, [], 0}, 8) = 0
+2470  access("/home/tj/.mozilla/firefox", F_OK) = 0
+2470  access("/home/tj/.mozilla/firefox/Crash Reports", F_OK) = 0
+2470  access("/home/tj/.mozilla/firefox/Crash Reports/InstallTime20110413222027", F_OK) = 0
+2470  open("/home/tj/.mozilla/firefox/Crash Reports/InstallTime20110413222027", O_RDONLY) = 3
+2470  lseek(3, 0, SEEK_CUR)             = 0
+2470  lseek(3, 0, SEEK_END)             = 10
+2470  lseek(3, 0, SEEK_SET)             = 0
+2470  read(3, "1307640371", 10)         = 10
+2470  close(3)                          = 0
+2470  access("/home/tj/.mozilla/firefox/Crash Reports/LastCrash", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/opt/firefox/crashreporter-override.ini", F_OK) = 0
+2470  lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+2470  lstat("/opt/firefox", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+2470  lstat("/opt/firefox/firefox-bin", {st_mode=S_IFREG|0755, st_size=57248, ...}) = 0
+2470  stat("/opt/firefox/firefox-bin", {st_mode=S_IFREG|0755, st_size=57248, ...}) = 0
+2470  clock_getres(CLOCK_MONOTONIC, {0, 1}) = 0
+2470  sched_get_priority_min(SCHED_OTHER) = 0
+2470  sched_get_priority_max(SCHED_OTHER) = 0
+2470  sched_get_priority_max(SCHED_OTHER) = 0
+2470  open("/usr/lib/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764232f000
+2470  read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+2470  read(3, "", 4096)                 = 0
+2470  close(3)                          = 0
+2470  munmap(0x7f764232f000, 4096)      = 0
+2470  open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=1527584, ...}) = 0
+2470  mmap(NULL, 1527584, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f763748b000
+2470  close(3)                          = 0
+2470  getresuid([1000], [1000], [1000]) = 0
+2470  getresgid([1000], [1000], [1000]) = 0
+2470  open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764232f000
+2470  read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+2470  read(3, "", 4096)                 = 0
+2470  close(3)                          = 0
+2470  munmap(0x7f764232f000, 4096)      = 0
+2470  open("/usr/share/locale/en_US.utf8/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en_US/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en.utf8/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en_US/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en.utf8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/X11/locale/locale.alias", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=82003, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764232f000
+2470  read(3, "#\n#\tThis file contains alias nam"..., 4096) = 4096
+2470  read(3, "r_FR.ISO-8859-1\t\t\t\tbr_FR.ISO8859"..., 4096) = 4096
+2470  read(3, "1\nde_DE.ISO-8859-1\t\t\t\tde_DE.ISO8"..., 4096) = 4096
+2470  read(3, "en_ZW.iso88591\t\t\t\t\ten_ZW.ISO8859"..., 4096) = 4096
+2470  read(3, "fa_IR.isiri3342\t\t\t\tfa_IR.ISIRI-3"..., 4096) = 4096
+2470  read(3, "_IL.ISO8859-8\nhe_IL.ISO-8859-8\t\t"..., 4096) = 4096
+2470  read(3, "TF-8\nky_KG\t\t\t\t\t\t\tky_KG.UTF-8\nky_"..., 4096) = 4096
+2470  read(3, "\t\t\toc_FR.ISO8859-15\noc_FR@euro\t\t"..., 4096) = 4096
+2470  read(3, "TF-8@latin\nsr_RS\t\t\t\t\t\tsr_RS.UTF-"..., 4096) = 4096
+2470  read(3, "\t\t\tzh_TW.big5\nzh_CN.euc\t\t\t\t\tzh_C"..., 4096) = 4096
+2470  read(3, "859-1\naf_ZA.iso88591:\t\t\t\t\taf_ZA."..., 4096) = 4096
+2470  read(3, "ISO8859-2\nca:\t\t\t\t\t\tca_ES.ISO8859"..., 4096) = 4096
+2470  read(3, "\tde_DE.UTF-8\nde_DE.utf8:\t\t\t\t\tde_"..., 4096) = 4096
+2470  close(3)                          = 0
+2470  munmap(0x7f764232f000, 4096)      = 0
+2470  open("/usr/share/X11/locale/locale.dir", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=39853, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764232f000
+2470  read(3, "#\n#\tThis file contains locale da"..., 4096) = 4096
+2470  read(3, "LE\t\t\tes_DO.ISO8859-1\niso8859-1/X"..., 4096) = 4096
+2470  read(3, " for it, and the GNU C Library\n#"..., 4096) = 4096
+2470  read(3, "ALE\t\t\tbr_FR.UTF-8\nen_US.UTF-8/XL"..., 4096) = 4096
+2470  read(3, "F-8/XLC_LOCALE\t\t\tml_IN.UTF-8\nen_"..., 4096) = 4096
+2470  read(3, ".ISO8859-6\niso8859-6/XLC_LOCALE:"..., 4096) = 4096
+2470  read(3, "ISO8859-4\niso8859-13/XLC_LOCALE:"..., 4096) = 4096
+2470  read(3, "OCALE:           rw_RW.ISO8859-1"..., 4096) = 4096
+2470  read(3, "/XLC_LOCALE:\t\t\tde_DE.UTF-8\nen_US"..., 4096) = 4096
+2470  close(3)                          = 0
+2470  munmap(0x7f764232f000, 4096)      = 0
+2470  access("/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE", R_OK) = 0
+2470  open("/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=4206, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764232f000
+2470  read(3, "#  XLocale Database Sample for e"..., 4096) = 4096
+2470  read(3, "ct_encoding\tJISX0201.1976-0:GR\n}"..., 4096) = 110
+2470  read(3, "", 4096)                 = 0
+2470  close(3)                          = 0
+2470  munmap(0x7f764232f000, 4096)      = 0
+2470  rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f763caa01e0}, {SIG_IGN, [], SA_RESTORER, 0x7f7641f07f60}, 8) = 0
+2470  access("/etc/gtk-2.0/gtkrc.64", F_OK) = -1 ENOENT (No such file or directory)
+2470  socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+2470  connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+2470  close(3)                          = 0
+2470  socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+2470  connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+2470  close(3)                          = 0
+2470  open("/etc/nsswitch.conf", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=475, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764232f000
+2470  read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 475
+2470  read(3, "", 4096)                 = 0
+2470  close(3)                          = 0
+2470  munmap(0x7f764232f000, 4096)      = 0
+2470  open("/opt/firefox/libnss_compat.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/etc/ld.so.cache", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2470  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7642320000
+2470  close(3)                          = 0
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libnss_compat.so.2", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\23\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=31616, ...}) = 0
+2470  mmap(NULL, 2127088, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7637283000
+2470  mprotect(0x7f763728a000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7637489000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f7637489000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libnsl.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300@\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=89064, ...}) = 0
+2470  mmap(NULL, 2194128, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763706b000
+2470  mprotect(0x7f7637080000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f763727f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f763727f000
+2470  mmap(0x7f7637281000, 6864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7637281000
+2470  close(3)                          = 0
+2470  mprotect(0x7f763727f000, 4096, PROT_READ) = 0
+2470  mprotect(0x7f7637489000, 4096, PROT_READ) = 0
+2470  munmap(0x7f7642320000, 61467)     = 0
+2470  open("/opt/firefox/libnss_nis.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/etc/ld.so.cache", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2470  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7642320000
+2470  close(3)                          = 0
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libnss_nis.so.2", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0  \0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=43552, ...}) = 0
+2470  mmap(NULL, 2139320, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7636e60000
+2470  mprotect(0x7f7636e6a000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7637069000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f7637069000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/lib/libnss_files.so.2", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p!\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=47616, ...}) = 0
+2470  mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7636c54000
+2470  mprotect(0x7f7636c5f000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7636e5e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f7636e5e000
+2470  close(3)                          = 0
+2470  mprotect(0x7f7636e5e000, 4096, PROT_READ) = 0
+2470  mprotect(0x7f7637069000, 4096, PROT_READ) = 0
+2470  munmap(0x7f7642320000, 61467)     = 0
+2470  open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+2470  fcntl(3, F_GETFD)                 = 0x1 (flags FD_CLOEXEC)
+2470  lseek(3, 0, SEEK_CUR)             = 0
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=1404, ...}) = 0
+2470  mmap(NULL, 1404, PROT_READ, MAP_SHARED, 3, 0) = 0x7f764232f000
+2470  lseek(3, 1404, SEEK_SET)          = 1404
+2470  munmap(0x7f764232f000, 1404)      = 0
+2470  close(3)                          = 0
+2470  getuid()                          = 1000
+2470  uname({sys="Linux", node="tjs-laptop", ...}) = 0
+2470  access("/home/tj/.gtkrc-2.0.64", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en_US/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en.utf8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/home/tj/.gtk-2.0/2.10.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/home/tj/.gtk-2.0/2.10.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/home/tj/.gtk-2.0/2.10.0/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/home/tj/.gtk-2.0/2.10.0/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/home/tj/.gtk-2.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/home/tj/.gtk-2.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/home/tj/.gtk-2.0/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/home/tj/.gtk-2.0/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/usr/lib/gtk-2.0/2.10.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/usr/lib/gtk-2.0/2.10.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/usr/lib/gtk-2.0/2.10.0/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/usr/lib/gtk-2.0/2.10.0/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/usr/lib/gtk-2.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.so", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/usr/lib/gtk-2.0/x86_64-pc-linux-gnu/modules/libcanberra-gtk-module.la", F_OK) = -1 ENOENT (No such file or directory)
+2470  access("/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so", F_OK) = 0
+2470  stat("/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so", {st_mode=S_IFREG|0644, st_size=24248, ...}) = 0
+2470  open("/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\"\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=24248, ...}) = 0
+2470  mmap(NULL, 2119496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7636a4e000
+2470  mprotect(0x7f7636a53000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f7636c53000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f7636c53000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libcanberra-gtk.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/etc/ld.so.cache", O_RDONLY) = 3
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=61467, ...}) = 0
+2470  mmap(NULL, 61467, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7642320000
+2470  close(3)                          = 0
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libcanberra-gtk.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\36\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=18144, ...}) = 0
+2470  mmap(NULL, 2113336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763684a000
+2470  mprotect(0x7f763684e000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7636a4d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f7636a4d000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libcanberra.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libcanberra.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`6\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=65728, ...}) = 0
+2470  mmap(NULL, 2160800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f763663a000
+2470  mprotect(0x7f7636649000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f7636849000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7f7636849000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libvorbisfile.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libvorbisfile.so.3", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000!\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=30200, ...}) = 0
+2470  mmap(NULL, 2125384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7636433000
+2470  mprotect(0x7f763643a000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7636639000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f7636639000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libvorbis.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libvorbis.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3209\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=180032, ...}) = 0
+2470  mmap(NULL, 2275144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7636207000
+2470  mprotect(0x7f7636232000, 2097152, PROT_NONE) = 0
+2470  mmap(0x7f7636432000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7f7636432000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libogg.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libogg.so.0", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\32\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=23264, ...}) = 0
+2470  mmap(NULL, 2118456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7636001000
+2470  mprotect(0x7f7636007000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7636206000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f7636206000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libtdb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libtdb.so.1", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240#\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=57464, ...}) = 0
+2470  mmap(NULL, 2153040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7635df3000
+2470  mprotect(0x7f7635e01000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7636000000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd000) = 0x7f7636000000
+2470  close(3)                          = 0
+2470  open("/opt/firefox/libltdl.so.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+2470  open("/usr/lib/libltdl.so.7", O_RDONLY) = 3
+2470  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@&\0\0\0\0\0\0"..., 832) = 832
+2470  fstat(3, {st_mode=S_IFREG|0644, st_size=36624, ...}) = 0
+2470  mmap(NULL, 2131928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7635bea000
+2470  mprotect(0x7f7635bf3000, 2093056, PROT_NONE) = 0
+2470  mmap(0x7f7635df2000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7f7635df2000
+2470  close(3)                          = 0
+2470  munmap(0x7f7642320000, 61467)     = 0
+2470  open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+2470  socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3
+2470  connect(3, {sa_family=AF_FILE, path=@"/tmp/.X11-unix/X0"}, 20) = 0
+2470  getpeername(3, {sa_family=AF_FILE, path=@"/tmp/.X11-unix/X0"}, [20]) = 0
+2470  uname({sys="Linux", node="tjs-laptop", ...}) = 0
+2470  access("/var/run/gdm3/auth-for-tj-sOgwZ6/database", R_OK) = 0
+2470  open("/var/run/gdm3/auth-for-tj-sOgwZ6/database", O_RDONLY) = 4
+2470  fstat(4, {st_mode=S_IFREG|0600, st_size=55, ...}) = 0
+2470  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f764232f000
+2470  read(4, "\1\0\0\ntjs-laptop\0\0010\0\22MIT-MAGIC-COO"..., 4096) = 55
+2470  read(4, "", 4096)                 = 0
+2470  close(4)                          = 0
+2470  munmap(0x7f764232f000, 4096)      = 0
+2470  getsockname(3, {sa_family=AF_FILE, NULL}, [2]) = 0
+2470  fcntl(3, F_GETFL)                 = 0x2 (flags O_RDWR)
+2470  fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+2470  fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"l\0\v\0\0\0\22\0\20\0\0\0", 12}, {"", 0}, {"MIT-MAGIC-COOKIE-1", 18}, {"\0\0", 2}, {"\310\354\10\27\311\312\227\205\224c\254\363no\327\200", 16}, {"", 0}], 6) = 48
+2470  read(3, 0x7f7637603218, 8)        = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\v\0\0\0\343\1", 8)  = 8
+2470  read(3, "8`\243\0\0\0\300\3\377\377\37\0\0\1\0\0\24\0\377\377\1\7\0\0  \10\377\0\0\0\0"..., 1932) = 1932
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\1\0\0\0\0\0\1\217\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\217\0\1\0", 4}], 1) = 4
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\2\0\0\0\0\0\377\377?\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"7\0\5\0\0\0\300\3\6\1\0\0\10\0\0\0\377\377\377\0\24\0\6\0\6\1\0\0\27\0\0\0"..., 44}, {NULL, 0}, {"", 0}], 3) = 44
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\10\4\0\33\0\0\0\37\0\0\0\0\0\0\0k\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 140
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"b\0\5\0\t\0\300\3", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\5\0\0\0\0\0\1\221a\234\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\221\0\2\0\1\0\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\1\6\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\20\0\6\0\20\0\0\0_MOZILLA_VERSION\20\0\6\0\r\0\0\0"..., 216}, {NULL, 0}, {"", 0}], 3) = 216
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\7\0\0\0\0\0\317\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 288
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\6\1\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\20\0A\0\0\0\6\1\0\0\0\0\0\0A\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 292
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\200\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\21\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0\200\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\22\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0\200\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\23\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0\200\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\24\0\0\0\0\0\6\1\0\0\1\0\200\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\200\1\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\25\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0@\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\26\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0@\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\27\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0@\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\30\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\200\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\31\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0\200\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\32\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0\200\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\33\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0\200\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\34\0\0\0\0\0\6\1\0\0\1\0\200\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\200\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\35\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\300\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\36\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0\300\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\37\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0\300\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0 \0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0\300\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0!\0\0\0\0\0\6\1\0\0\1\0\300\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\300\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\"\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\340\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0#\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0\340\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0$\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0\340\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0%\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0\340\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0&\0\0\0\0\0\6\1\0\0\1\0\340\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\340\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0'\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0\300\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0(\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\3\0\300\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0)\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0\300\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0*\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\240\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0+\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0\240\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0,\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0\240\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0-\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0\240\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0.\0\0\0\0\0\6\1\0\0\1\0\240\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\240\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0/\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0\240\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0000\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\3\0\240\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0001\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0\240\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0002\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\4\0\240\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0003\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\4\0\240\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0004\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\4\0\240\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0005\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\5\0\240\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0006\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\5\0\240\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0007\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\5\0\240\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0008\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\6\0\240\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0009\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\6\0\240\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0:\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\6\0\240\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0;\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\16\0\240\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0<\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\16\0\240\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0=\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\16\0\240\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0>\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\17\0\240\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0?\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\17\0\240\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0@\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\20\0\240\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0A\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\20\0\240\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0B\0\0\0\0\0\6\1\0\0\17\0\240\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\17\0\240\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0C\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0 \1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0D\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0 \1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0E\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0 \1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0F\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0 \1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0G\0\0\0\0\0\6\1\0\0\1\0 \1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0 \1\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0H\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0<\0\240\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1 I\0\0\0\0\0`\1\0\0\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0<\0\240\2\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0J\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\36\0`\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1 K\0\0\0\0\0`\1\0\0\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\36\0`\1\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0L\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0*\1\240\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0M\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0*\1\240\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0N\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\216\0`\3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1 O\0\0\0\0\0`\1\0\0\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\216\0`\3\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0P\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\302\2\240\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0Q\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\302\2\240\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0R\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\4\0\240\3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1 S\0\0\0\0\0`\1\0\0\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\4\0\240\3\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0T\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0 \1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1 U\0\0\0\0\0`\1\0\0\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0 \1\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0V\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\4\0\300\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0W\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\4\0\300\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0X\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\4\0\300\0\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0Y\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0@\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0Z\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0@\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0[\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0@\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\\\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0@\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0]\0\0\0\0\0\6\1\0\0\1\0@\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0@\1\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0^\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0`\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0_\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0`\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0`\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0`\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0a\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0`\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0b\0\0\0\0\0\6\1\0\0\1\0`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0`\1\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0c\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0001\0 \1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0d\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0001\0 \1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0e\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0001\0 \1\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0f\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\240\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0g\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0\240\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0h\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0\240\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0i\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0\240\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0j\0\0\0\0\0\6\1\0\0\1\0\240\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\240\1\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0k\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0 \2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0l\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0 \2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0m\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0 \2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0 \2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0o\0\0\0\0\0\6\1\0\0\1\0 \2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0 \2\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0p\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0`\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0q\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0`\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0r\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0`\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0s\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0`\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0t\0\0\0\0\0\6\1\0\0\1\0`\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0`\2\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0u\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0@\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0v\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0@\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0w\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0@\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0x\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0@\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0y\0\0\0\0\0\6\1\0\0\1\0@\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0@\2\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0z\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0@\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0{\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\3\0@\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0|\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0@\2\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0}\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\200\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0~\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0\200\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\177\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0\200\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\200\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0\200\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\201\0\0\0\0\0\6\1\0\0\1\0\200\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\200\2\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\202\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0`\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\203\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\3\0`\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\204\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0`\1\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\205\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\240\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\206\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0\240\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\207\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0\240\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\210\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0\240\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\211\0\0\0\0\0\6\1\0\0\1\0\240\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\240\2\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\212\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\300\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\213\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0\300\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\214\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0\300\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\215\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0\300\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\216\0\0\0\0\0\6\1\0\0\1\0\300\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\300\2\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\217\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\340\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\220\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0\340\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\221\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0\340\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\222\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0\340\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\223\0\0\0\0\0\6\1\0\0\1\0\340\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\340\2\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\224\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0 \3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\225\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0 \3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\226\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0 \3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\227\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0 \3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\230\0\0\0\0\0\6\1\0\0\1\0 \3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0 \3\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\231\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0\340\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\232\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\3\0\340\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\233\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\3\0\340\2\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\234\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0!\0 \3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\235\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0!\0 \3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\236\0\2\0\0\0\6\1\0\0\6\1\0\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 40
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\"\0 \3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\237\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0C\0 \3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\240\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\"\0 \3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\241\0\0\0\0\0\6\1\0\0!\0 \3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0C\0 \3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\242\0\0\0\0\0\6\1\0\0!\0 \3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0!\0 \3\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\243\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\273\0`\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\244\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\273\0`\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\245\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\273\0`\1\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\246\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0!\0\240\2`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\247\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0!\0\240\2", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\250\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0!\0\240\2\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\251\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\340\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\252\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0\340\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\253\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0\340\1`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\254\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0\340\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\255\0\0\0\0\0\6\1\0\0\1\0\340\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0\340\1\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\256\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0`\3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\257\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\1\0`\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\260\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\2\0`\3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\261\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\2\0`\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\262\0\0\0\0\0\6\1\0\0\1\0`\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\1\0`\3\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\263\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0m\0`\3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\264\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0m\0`\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\265\0\1\0\0\0\6\1\0\0\6\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0n\0`\3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\266\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0n\0`\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\267\0\0\0\0\0\6\1\0\0m\0`\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0m\0`\3\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\270\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\223\0`\3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\271\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\223\0`\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\272\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\223\0`\3\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\273\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\224\0`\3`\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\274\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\17\0\2\0\224\0`\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\275\0\0\0\0\0\6\1\0\0\6\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\224\0`\3\317\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\10\276\0\1\0\0\0\37\0\0\0\0\0\0\0\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\224\0`\3\325\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\10\277\0\2\0\0\0\37\0\0\0\0\0\0\0\7\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 40
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\0\6\0\224\0`\3\323\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\10\300\0\1\0\0\0\37\0\0\0\0\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 36
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  uname({sys="Linux", node="tjs-laptop", ...}) = 0
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\2\0\4\0\224\0`\3\0\10\0\0\0\0B\0$\0\1\0\24\0\6\0\224\0`\3\320\1\0\0"..., 44}, {NULL, 0}, {"", 0}], 3) = 44
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\0\303\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\22\0\v\0\224\0`\3\320\1\0\0\37\0\0\0\10\0\1\0\22\0\0\0pid2470@"..., 48}, {NULL, 0}, {"", 0}], 3) = 48
+2470  read(3, "\34\0\304\0\224\0`\3\320\1\0\0Pj\32\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  getcwd("/home/tj/School/StraceStuff", 4096) = 28
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\22\0\31\0\224\0`\3\326\1\0\0\37\0\0\0\10\0\1\0K\0\0\0\2\0\0\0(\0\0\0"..., 100}, {NULL, 0}, {"", 0}], 3) = 100
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\34\0\306\0\224\0`\3\326\1\0\0Qj\32\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, "\34\0\306\0\224\0`\3\326\1\0\0Qj\32\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\34\0\306\0\224\0`\3\322\1\0\0hj\32\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\1\6\0\224\0`\3\322\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\34\0\307\0\224\0`\3\322\1\0\0pj\32\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 84
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"\24\1\6\0\224\0`\3\320\1\0\0\37\0\0\0\0\0\0\0\0 \0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\34\0\310\0\224\0`\3\320\1\0\0rj\32\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 84
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+2470  writev(3, [{"<\1\2\0\0\0\300\3+\1\1\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+2470  poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN}])
+2470  read(3, "\1\2\312\0\0\0\0\0\5\0\240\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096) = 32
+2470  read(3, 0x7f763766c074, 4096)     = -1 EAGAIN (Resource temporarily unavailable)
+2470  close(3)                          = 0
+2470  exit_group(0)                     = ?

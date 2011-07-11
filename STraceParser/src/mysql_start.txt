@@ -1,0 +1,469 @@
+5007  execve("/usr/bin/mysql", ["mysql", "-pmynameis"], [/* 17 vars */]) = 0
+5007  brk(0)                            = 0xb8ccc000
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7829000
+5007  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+5007  open("/etc/ld.so.cache", O_RDONLY) = 3
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=59435, ...}) = 0
+5007  mmap2(NULL, 59435, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb781a000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/lib/libreadline.so.6", O_RDONLY) = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0P\330\0\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=213212, ...}) = 0
+5007  mmap2(NULL, 216748, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb77e5000
+5007  mmap2(0xb7815000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x30) = 0xb7815000
+5007  mmap2(0xb7819000, 3756, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7819000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/lib/libncurses.so.5", O_RDONLY) = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\240\246\0\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=231576, ...}) = 0
+5007  mmap2(NULL, 235344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb77ab000
+5007  mmap2(0xb77e2000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x36) = 0xb77e2000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/lib/libpthread.so.0", O_RDONLY) = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0`I\0\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0755, st_size=117105, ...}) = 0
+5007  mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb77aa000
+5007  mmap2(NULL, 98784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7791000
+5007  mprotect(0xb77a5000, 4096, PROT_NONE) = 0
+5007  mmap2(0xb77a6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14) = 0xb77a6000
+5007  mmap2(0xb77a8000, 4576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb77a8000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/libmysqlclient.so.16", O_RDONLY) = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\240\26\4\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=2072260, ...}) = 0
+5007  mmap2(NULL, 2078564, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7595000
+5007  mmap2(0xb7747000, 299008, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b1) = 0xb7747000
+5007  mmap2(0xb7790000, 1892, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7790000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/lib/libcrypt.so.1", O_RDONLY) = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0P\7\0\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=38360, ...}) = 0
+5007  mmap2(NULL, 201052, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7563000
+5007  mmap2(0xb756c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8) = 0xb756c000
+5007  mmap2(0xb756e000, 155996, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb756e000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/lib/libnsl.so.1", O_RDONLY) = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\2201\0\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=79676, ...}) = 0
+5007  mmap2(NULL, 92136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb754c000
+5007  mmap2(0xb755f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12) = 0xb755f000
+5007  mmap2(0xb7561000, 6120, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7561000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/libz.so.1", O_RDONLY) = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\360\31\0\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=79980, ...}) = 0
+5007  mmap2(NULL, 78560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7538000
+5007  mmap2(0xb754b000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13) = 0xb754b000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/libstdc++.so.6", O_RDONLY) = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0`q\4\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=975012, ...}) = 0
+5007  mmap2(NULL, 1000332, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb7443000
+5007  mmap2(0xb752c000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe9) = 0xb752c000
+5007  mmap2(0xb7531000, 25484, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb7531000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/lib/libm.so.6", O_RDONLY)  = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0`4\0\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=149392, ...}) = 0
+5007  mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7442000
+5007  mmap2(NULL, 151680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb741c000
+5007  mmap2(0xb7440000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23) = 0xb7440000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/lib/libgcc_s.so.1", O_RDONLY) = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0P#\0\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=116600, ...}) = 0
+5007  mmap2(NULL, 119656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb73fe000
+5007  mmap2(0xb741b000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c) = 0xb741b000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/lib/libc.so.6", O_RDONLY)  = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\320m\1\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0755, st_size=1319176, ...}) = 0
+5007  mmap2(NULL, 1329480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb72b9000
+5007  mprotect(0xb73f7000, 4096, PROT_NONE) = 0
+5007  mmap2(0xb73f8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13e) = 0xb73f8000
+5007  mmap2(0xb73fb000, 10568, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xb73fb000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/lib/libdl.so.2", O_RDONLY) = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0@\n\0\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=9736, ...}) = 0
+5007  mmap2(NULL, 12408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb72b5000
+5007  mmap2(0xb72b7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1) = 0xb72b7000
+5007  close(3)                          = 0
+5007  mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb72b4000
+5007  mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb72b3000
+5007  set_thread_area({entry_number:-1 -> 6, base_addr:0xb72b36d0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+5007  mprotect(0xb72b7000, 4096, PROT_READ) = 0
+5007  mprotect(0xb73f8000, 8192, PROT_READ) = 0
+5007  mprotect(0xb7440000, 4096, PROT_READ) = 0
+5007  mprotect(0xb752c000, 16384, PROT_READ) = 0
+5007  mprotect(0xb755f000, 4096, PROT_READ) = 0
+5007  mprotect(0xb756c000, 4096, PROT_READ) = 0
+5007  mprotect(0xb7747000, 16384, PROT_READ) = 0
+5007  mprotect(0xb77a6000, 4096, PROT_READ) = 0
+5007  mprotect(0xb7864000, 4096, PROT_READ) = 0
+5007  mprotect(0xb7847000, 4096, PROT_READ) = 0
+5007  munmap(0xb781a000, 59435)         = 0
+5007  set_tid_address(0xb72b3738)       = 5007
+5007  set_robust_list(0xb72b3740, 0xc)  = 0
+5007  futex(0xbfd42460, FUTEX_WAKE_PRIVATE, 1) = 0
+5007  futex(0xbfd42460, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, bfd42470) = -1 EAGAIN (Resource temporarily unavailable)
+5007  rt_sigaction(SIGRTMIN, {0xb77953b0, [], SA_SIGINFO}, NULL, 8) = 0
+5007  rt_sigaction(SIGRT_1, {0xb7795840, [], SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+5007  rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+5007  getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+5007  uname({sys="Linux", node="debian-1", ...}) = 0
+5007  brk(0)                            = 0xb8ccc000
+5007  brk(0xb8ced000)                   = 0xb8ced000
+5007  ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+5007  ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+5007  dup(1)                            = 3
+5007  close(3)                          = 0
+5007  stat64("/etc/my.cnf", 0xbfd3ebb0) = -1 ENOENT (No such file or directory)
+5007  stat64("/etc/mysql/my.cnf", {st_mode=S_IFREG|0644, st_size=3505, ...}) = 0
+5007  open("/etc/mysql/my.cnf", O_RDONLY|O_LARGEFILE) = 3
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=3505, ...}) = 0
+5007  mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7828000
+5007  read(3, "#\n# The MySQL database server co"..., 4096) = 3505
+5007  open("/etc/mysql/conf.d/", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 4
+5007  fcntl64(4, F_GETFD)               = 0x1 (flags FD_CLOEXEC)
+5007  getdents64(4, /* 3 entries */, 32768) = 96
+5007  getdents64(4, /* 0 entries */, 32768) = 0
+5007  close(4)                          = 0
+5007  stat64("/etc/mysql/conf.d/mysqld_safe_syslog.cnf", {st_mode=S_IFREG|0644, st_size=21, ...}) = 0
+5007  open("/etc/mysql/conf.d/mysqld_safe_syslog.cnf", O_RDONLY|O_LARGEFILE) = 4
+5007  fstat64(4, {st_mode=S_IFREG|0644, st_size=21, ...}) = 0
+5007  mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7827000
+5007  read(4, "[mysqld_safe]\nsyslog\n", 4096) = 21
+5007  read(4, "", 4096)                 = 0
+5007  close(4)                          = 0
+5007  munmap(0xb7827000, 4096)          = 0
+5007  read(3, "", 4096)                 = 0
+5007  close(3)                          = 0
+5007  munmap(0xb7828000, 4096)          = 0
+5007  stat64("/usr/etc/my.cnf", 0xbfd3ebb0) = -1 ENOENT (No such file or directory)
+5007  stat64("/root/.my.cnf", 0xbfd3ebb0) = -1 ENOENT (No such file or directory)
+5007  socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+5007  connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+5007  close(3)                          = 0
+5007  socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+5007  connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+5007  close(3)                          = 0
+5007  open("/etc/nsswitch.conf", O_RDONLY) = 3
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=513, ...}) = 0
+5007  mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7828000
+5007  read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 513
+5007  read(3, "", 4096)                 = 0
+5007  close(3)                          = 0
+5007  munmap(0xb7828000, 4096)          = 0
+5007  open("/etc/ld.so.cache", O_RDONLY) = 3
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=59435, ...}) = 0
+5007  mmap2(NULL, 59435, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb781a000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/lib/tls/i686/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/tls/i686/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/tls/i686/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/tls/i686/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/tls/i686/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/tls/i686/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/tls/i686/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/tls/i686", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/tls/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/tls/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/tls/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/tls/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/tls/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/tls/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/tls/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/tls", 0xbfd41a68)    = -1 ENOENT (No such file or directory)
+5007  open("/lib/i686/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i686/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i686/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i686/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i686/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i686/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i686/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i686", 0xbfd41a68)   = -1 ENOENT (No such file or directory)
+5007  open("/lib/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/sse2", 0xbfd41a68)   = -1 ENOENT (No such file or directory)
+5007  open("/lib/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/cmov", 0xbfd41a68)   = -1 ENOENT (No such file or directory)
+5007  open("/lib/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+5007  open("/usr/lib/tls/i686/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/tls/i686/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/tls/i686/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/tls/i686/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/tls/i686/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/tls/i686/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/tls/i686/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/tls/i686", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/tls/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/tls/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/tls/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/tls/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/tls/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/tls/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/tls/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/tls", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i686/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i686/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i686/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i686/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i686/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i686/cmov", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5007  open("/usr/lib/i686/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i686", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5007  open("/usr/lib/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/sse2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5007  open("/usr/lib/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+5007  open("/lib/i486-linux-gnu/tls/i686/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/tls/i686/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/tls/i686/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/tls/i686/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/tls/i686/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/tls/i686/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/tls/i686/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/tls/i686", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/tls/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/tls/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/tls/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/tls/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/tls/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/tls/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/tls/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/tls", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/i686/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/i686/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/i686/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/i686/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/i686/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/i686/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/i686/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/i686", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/lib/i486-linux-gnu/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/i486-linux-gnu", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/tls/i686/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/tls/i686/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/tls/i686/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/tls/i686/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/tls/i686/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/tls/i686/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/tls/i686/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/tls/i686", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/tls/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/tls/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/tls/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/tls/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/tls/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/tls/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/tls/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/tls", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/i686/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/i686/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/i686/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/i686/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/i686/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/i686/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/i686/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/i686", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/sse2/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/sse2/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/sse2/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/sse2", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu/cmov", 0xbfd41a68) = -1 ENOENT (No such file or directory)
+5007  open("/usr/lib/i486-linux-gnu/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+5007  stat64("/usr/lib/i486-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5007  munmap(0xb781a000, 59435)         = 0
+5007  open("/etc/ld.so.cache", O_RDONLY) = 3
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=59435, ...}) = 0
+5007  mmap2(NULL, 59435, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb781a000
+5007  close(3)                          = 0
+5007  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+5007  open("/lib/libnss_files.so.2", O_RDONLY) = 3
+5007  read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0 \32\0\0004\0\0\0"..., 512) = 512
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=42572, ...}) = 0
+5007  mmap2(NULL, 45772, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xb72a7000
+5007  mmap2(0xb72b1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9) = 0xb72b1000
+5007  close(3)                          = 0
+5007  mprotect(0xb72b1000, 4096, PROT_READ) = 0
+5007  munmap(0xb781a000, 59435)         = 0
+5007  open("/etc/services", O_RDONLY|O_CLOEXEC) = 3
+5007  fcntl64(3, F_GETFD)               = 0x1 (flags FD_CLOEXEC)
+5007  fstat64(3, {st_mode=S_IFREG|0644, st_size=19666, ...}) = 0
+5007  mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7828000
+5007  read(3, "# Network services, Internet sty"..., 4096) = 4096
+5007  read(3, "9/tcp\t\t\t\t# Quick Mail Transfer P"..., 4096) = 4096
+5007  read(3, "4/udp\nrmiregistry\t1099/tcp\t\t\t# J"..., 4096) = 4096
+5007  close(3)                          = 0
+5007  munmap(0xb7828000, 4096)          = 0
+5007  rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+5007  socket(PF_FILE, SOCK_STREAM, 0)   = 3
+5007  fcntl64(3, F_SETFL, O_RDONLY)     = 0
+5007  fcntl64(3, F_GETFL)               = 0x2 (flags O_RDWR)
+5007  connect(3, {sa_family=AF_FILE, path="/var/run/mysqld/mysqld.sock"}, 110) = 0
+5007  setsockopt(3, SOL_SOCKET, SO_RCVTIMEO, "\2003\341\1\0\0\0\0", 8) = 0
+5007  setsockopt(3, SOL_SOCKET, SO_SNDTIMEO, "\2003\341\1\0\0\0\0", 8) = 0
+5007  setsockopt(3, SOL_IP, IP_TOS, [8], 4) = -1 EOPNOTSUPP (Operation not supported)
+5007  setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+5007  read(3, "6\0\0\0\n5.1.49-3\0+\0\0\0003_d[yoCA\0\377\367\10\2\0"..., 16384) = 58
+5007  stat64("/usr/share/mysql/charsets/Index.xml", {st_mode=S_IFREG|0644, st_size=18261, ...}) = 0
+5007  open("/usr/share/mysql/charsets/Index.xml", O_RDONLY|O_LARGEFILE) = 4
+5007  read(4, "<?xml version='1.0' encoding=\"ut"..., 18261) = 18261
+5007  close(4)                          = 0
+5007  geteuid32()                       = 0
+5007  write(3, ":\0\0\1\205\246\3\0\0\0\0\1\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 62) = 62
+5007  read(3, "\7\0\0\2\0\0\0\2\0\0\0", 16384) = 11
+5007  rt_sigaction(SIGINT, {0xb78547c0, [INT], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+5007  rt_sigaction(SIGQUIT, {0xb78544d0, [QUIT], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+5007  fstat64(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+5007  mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7828000
+5007  write(1, "Welcome to the MySQL monitor.  C"..., 58) = 58
+5007  poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+5007  write(3, "!\0\0\0\3select @@version_comment li"..., 37) = 37
+5007  read(3, "\1\0\0\1\1'\0\0\2\3def\0\0\0\21@@version_comme"..., 16384) = 79
+5007  write(1, "Your MySQL connection id is 43\nS"..., 65) = 65
+5007  write(1, "\n", 1)                 = 1
+5007  write(1, "Copyright (c) 2000, 2010, Oracle"..., 224) = 224
+5007  write(1, "\n", 1)                 = 1
+5007  readlink("/root/.mysql_history", 0xbfd4220c, 511) = -1 EINVAL (Invalid argument)
+5007  open("/root/.mysql_history", O_RDONLY|O_LARGEFILE) = 4
+5007  fstat64(4, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+5007  read(4, "", 0)                    = 0
+5007  close(4)                          = 0
+5007  write(1, "Type 'help;' or '\\h' for help. T"..., 79) = 79
+5007  write(1, "\n", 1)                 = 1
+5007  time(NULL)                        = 1307673834
+5007  open("/etc/localtime", O_RDONLY)  = 4
+5007  fstat64(4, {st_mode=S_IFREG|0644, st_size=2875, ...}) = 0
+5007  fstat64(4, {st_mode=S_IFREG|0644, st_size=2875, ...}) = 0
+5007  mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7827000
+5007  read(4, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 2875
+5007  _llseek(4, -24, [2851], SEEK_CUR) = 0
+5007  read(4, "\nPST8PDT,M3.2.0,M11.1.0\n", 4096) = 24
+5007  close(4)                          = 0
+5007  munmap(0xb7827000, 4096)          = 0
+5007  ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+5007  stat64("/root/.terminfo", 0xbfd40ea0) = -1 ENOENT (No such file or directory)
+5007  stat64("/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5007  access("/etc/terminfo/x/xterm", R_OK) = -1 ENOENT (No such file or directory)
+5007  stat64("/lib/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+5007  access("/lib/terminfo/x/xterm", R_OK) = 0
+5007  open("/lib/terminfo/x/xterm", O_RDONLY|O_LARGEFILE) = 4
+5007  read(4, "\32\1\34\0&\0\17\0\235\1Z\5xterm|X11 terminal e"..., 4097) = 3213
+5007  close(4)                          = 0
+5007  ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+5007  ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+5007  ioctl(1, TIOCGWINSZ, {ws_row=32, ws_col=112, ws_xpixel=0, ws_ypixel=0}) = 0
+5007  ioctl(0, TIOCGWINSZ, {ws_row=32, ws_col=112, ws_xpixel=0, ws_ypixel=0}) = 0
+5007  brk(0xb8d0e000)                   = 0xb8d0e000
+5007  ioctl(0, TIOCGWINSZ, {ws_row=32, ws_col=112, ws_xpixel=0, ws_ypixel=0}) = 0
+5007  ioctl(0, TIOCSWINSZ, {ws_row=32, ws_col=112, ws_xpixel=0, ws_ypixel=0}) = 0
+5007  ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+5007  open("/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE) = 4
+5007  fstat64(4, {st_mode=S_IFREG|0644, st_size=1527520, ...}) = 0
+5007  mmap2(NULL, 1527520, PROT_READ, MAP_PRIVATE, 4, 0) = 0xb7132000
+5007  close(4)                          = 0
+5007  stat64("/root/.inputrc", 0xbfd41fe0) = -1 ENOENT (No such file or directory)
+5007  stat64("/etc/inputrc", {st_mode=S_IFREG|0644, st_size=1721, ...}) = 0
+5007  open("/etc/inputrc", O_RDONLY|O_LARGEFILE) = 4
+5007  read(4, "# /etc/inputrc - global inputrc "..., 1721) = 1721
+5007  close(4)                          = 0
+5007  rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+5007  ioctl(0, TIOCGWINSZ, {ws_row=32, ws_col=112, ws_xpixel=0, ws_ypixel=0}) = 0
+5007  ioctl(0, TIOCSWINSZ, {ws_row=32, ws_col=112, ws_xpixel=0, ws_ypixel=0}) = 0
+5007  ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+5007  ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+5007  ioctl(0, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig -icanon -echo ...}) = 0
+5007  ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig -icanon -echo ...}) = 0
+5007  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+5007  rt_sigprocmask(SIG_BLOCK, [INT QUIT ALRM TERM TSTP TTIN TTOU], [], 8) = 0
+5007  rt_sigaction(SIGINT, {0xb7806ba0, [], 0}, {0xb78547c0, [INT], SA_RESTART}, 8) = 0
+5007  rt_sigaction(SIGTERM, {0xb7806ba0, [], 0}, {SIG_DFL, [], 0}, 8) = 0
+5007  rt_sigaction(SIGQUIT, {0xb7806ba0, [], 0}, {0xb78544d0, [QUIT], SA_RESTART}, 8) = 0
+5007  rt_sigaction(SIGALRM, {0xb7806ba0, [], 0}, {SIG_DFL, [], 0}, 8) = 0
+5007  rt_sigaction(SIGTSTP, {0xb7806ba0, [], 0}, {SIG_DFL, [], 0}, 8) = 0
+5007  rt_sigaction(SIGTTOU, {0xb7806ba0, [], 0}, {SIG_DFL, [], 0}, 8) = 0
+5007  rt_sigaction(SIGTTIN, {0xb7806ba0, [], 0}, {SIG_DFL, [], 0}, 8) = 0
+5007  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+5007  rt_sigaction(SIGWINCH, {0xb7806a50, [], SA_RESTART}, {SIG_DFL, [], 0}, 8) = 0
+5007  rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+5007  open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 4
+5007  fstat64(4, {st_mode=S_IFREG|0644, st_size=26048, ...}) = 0
+5007  mmap2(NULL, 26048, PROT_READ, MAP_SHARED, 4, 0) = 0xb712b000
+5007  close(4)                          = 0
+5007  futex(0xb73faa6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+5007  write(1, "mysql> ", 7)            = 7
+5007  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+5007  rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+5007  read(0, "e", 1)                   = 1
+5007  rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+5007  write(1, "e", 1)                  = 1
+5007  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+5007  rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+5007  read(0, "x", 1)                   = 1
+5007  rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+5007  write(1, "x", 1)                  = 1
+5007  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+5007  rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+5007  read(0, "i", 1)                   = 1
+5007  rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+5007  write(1, "i", 1)                  = 1
+5007  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+5007  rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+5007  read(0, "t", 1)                   = 1
+5007  rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+5007  write(1, "t", 1)                  = 1
+5007  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+5007  rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+5007  read(0, "\r", 1)                  = 1
+5007  write(1, "\n", 1)                 = 1
+5007  rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+5007  ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig -icanon -echo ...}) = 0
+5007  ioctl(0, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig icanon echo ...}) = 0
+5007  ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+5007  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+5007  rt_sigaction(SIGINT, {0xb78547c0, [INT], SA_RESTART}, {0xb7806ba0, [], 0}, 8) = 0
+5007  rt_sigaction(SIGTERM, {SIG_DFL, [], 0}, {0xb7806ba0, [], 0}, 8) = 0
+5007  rt_sigaction(SIGQUIT, {0xb78544d0, [QUIT], SA_RESTART}, {0xb7806ba0, [], 0}, 8) = 0
+5007  rt_sigaction(SIGALRM, {SIG_DFL, [], 0}, {0xb7806ba0, [], 0}, 8) = 0
+5007  rt_sigaction(SIGTSTP, {SIG_DFL, [], 0}, {0xb7806ba0, [], 0}, 8) = 0
+5007  rt_sigaction(SIGTTOU, {SIG_DFL, [], 0}, {0xb7806ba0, [], 0}, 8) = 0
+5007  rt_sigaction(SIGTTIN, {SIG_DFL, [], 0}, {0xb7806ba0, [], 0}, 8) = 0
+5007  rt_sigaction(SIGWINCH, {SIG_DFL, [], 0}, {0xb7806a50, [], SA_RESTART}, 8) = 0
+5007  write(3, "\1\0\0\0\1", 5)         = 5
+5007  shutdown(3, 2 /* send and receive */) = 0
+5007  close(3)                          = 0
+5007  open("/root/.mysql_history.TMP", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0600) = 3
+5007  write(3, "", 0)                   = 0
+5007  close(3)                          = 0
+5007  rename("/root/.mysql_history.TMP", "/root/.mysql_history") = 0
+5007  write(1, "Bye\n", 4)              = 4
+5007  exit_group(0)                     = ?
