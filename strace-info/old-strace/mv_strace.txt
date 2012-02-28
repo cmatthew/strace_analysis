@@ -1,0 +1,186 @@
+execve("/bin/mv", ["mv", "bash_strace.txt", "cat_strace.txt", "grep_strace.txt", "ls_strace.txt", "mkdir_strace.txt", "ps_strace.txt", "rmdir_strace.txt", "w_strace.txt", "straces/"], [/* 22 vars */]) = 0
+brk(0)                                  = 0x7f8000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e57458000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=120567, ...}) = 0
+mmap(NULL, 120567, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e5743a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libselinux.so.1", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20Y\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=117592, ...}) = 0
+mmap(NULL, 2217480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6e5701d000
+mprotect(0x7f6e57039000, 2093056, PROT_NONE) = 0
+mmap(0x7f6e57238000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7f6e57238000
+mmap(0x7f6e5723a000, 1544, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6e5723a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libacl.so.1", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\35\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31208, ...}) = 0
+mmap(NULL, 2126288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6e56e15000
+mprotect(0x7f6e56e1c000, 2093056, PROT_NONE) = 0
+mmap(0x7f6e5701b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f6e5701b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libattr.so.1", O_RDONLY)     = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \22\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18704, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e57439000
+mmap(NULL, 2113744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6e56c10000
+mprotect(0x7f6e56c14000, 2093056, PROT_NONE) = 0
+mmap(0x7f6e56e13000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f6e56e13000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1572232, ...}) = 0
+mmap(NULL, 3680296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6e5688d000
+mprotect(0x7f6e56a07000, 2093056, PROT_NONE) = 0
+mmap(0x7f6e56c06000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x179000) = 0x7f6e56c06000
+mmap(0x7f6e56c0b000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6e56c0b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libdl.so.2", O_RDONLY)       = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14696, ...}) = 0
+mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6e56689000
+mprotect(0x7f6e5668b000, 2097152, PROT_NONE) = 0
+mmap(0x7f6e5688b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f6e5688b000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e57438000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e57436000
+arch_prctl(ARCH_SET_FS, 0x7f6e574367a0) = 0
+mprotect(0x7f6e5688b000, 4096, PROT_READ) = 0
+mprotect(0x7f6e56c06000, 16384, PROT_READ) = 0
+mprotect(0x7f6e56e13000, 4096, PROT_READ) = 0
+mprotect(0x7f6e5701b000, 4096, PROT_READ) = 0
+mprotect(0x7f6e57238000, 4096, PROT_READ) = 0
+mprotect(0x616000, 4096, PROT_READ)     = 0
+mprotect(0x7f6e5745a000, 4096, PROT_READ) = 0
+munmap(0x7f6e5743a000, 120567)          = 0
+statfs("/selinux", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=4805664, f_bfree=1946730, f_bavail=1702596, f_files=1222992, f_ffree=835768, f_fsid={407277310, 2119333861}, f_namelen=255, f_frsize=4096}) = 0
+brk(0)                                  = 0x7f8000
+brk(0x819000)                           = 0x819000
+open("/proc/filesystems", O_RDONLY)     = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e57457000
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tb"..., 1024) = 393
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+munmap(0x7f6e57457000, 4096)            = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e57457000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f6e57457000, 4096)            = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=373, ...}) = 0
+mmap(NULL, 373, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e57457000
+close(3)                                = 0
+open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26048, ...}) = 0
+mmap(NULL, 26048, PROT_READ, MAP_SHARED, 3, 0) = 0x7f6e57450000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MEASUREMENT", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=23, ...}) = 0
+mmap(NULL, 23, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e5744f000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_TELEPHONE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+mmap(NULL, 59, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e5744e000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_ADDRESS", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+mmap(NULL, 155, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e5744d000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_NAME", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=77, ...}) = 0
+mmap(NULL, 77, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e5744c000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_PAPER", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=34, ...}) = 0
+mmap(NULL, 34, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e5744b000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MESSAGES", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+mmap(NULL, 57, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e5744a000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MONETARY", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=286, ...}) = 0
+mmap(NULL, 286, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e57449000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_COLLATE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1170770, ...}) = 0
+mmap(NULL, 1170770, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e57318000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_TIME", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2454, ...}) = 0
+mmap(NULL, 2454, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e57448000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_NUMERIC", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=54, ...}) = 0
+mmap(NULL, 54, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e57447000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=256324, ...}) = 0
+mmap(NULL, 256324, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e572d9000
+close(3)                                = 0
+open("/proc/filesystems", O_RDONLY)     = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e572d8000
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tb"..., 1024) = 393
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+munmap(0x7f6e572d8000, 4096)            = 0
+geteuid()                               = 49703
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B9600 opost isig icanon echo ...}) = 0
+stat("straces/", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat("bash_strace.txt", {st_mode=S_IFREG|0600, st_size=13510, ...}) = 0
+lstat("straces/bash_strace.txt", 0x7fff87cf3fb0) = -1 ENOENT (No such file or directory)
+rename("bash_strace.txt", "straces/bash_strace.txt") = 0
+lstat("cat_strace.txt", {st_mode=S_IFREG|0600, st_size=7106, ...}) = 0
+lstat("straces/cat_strace.txt", 0x7fff87cf3fb0) = -1 ENOENT (No such file or directory)
+rename("cat_strace.txt", "straces/cat_strace.txt") = 0
+lstat("grep_strace.txt", {st_mode=S_IFREG|0600, st_size=9991, ...}) = 0
+lstat("straces/grep_strace.txt", 0x7fff87cf3fb0) = -1 ENOENT (No such file or directory)
+rename("grep_strace.txt", "straces/grep_strace.txt") = 0
+lstat("ls_strace.txt", {st_mode=S_IFREG|0600, st_size=12631, ...}) = 0
+lstat("straces/ls_strace.txt", 0x7fff87cf3fb0) = -1 ENOENT (No such file or directory)
+rename("ls_strace.txt", "straces/ls_strace.txt") = 0
+lstat("mkdir_strace.txt", {st_mode=S_IFREG|0600, st_size=8603, ...}) = 0
+lstat("straces/mkdir_strace.txt", 0x7fff87cf3fb0) = -1 ENOENT (No such file or directory)
+rename("mkdir_strace.txt", "straces/mkdir_strace.txt") = 0
+lstat("ps_strace.txt", {st_mode=S_IFREG|0600, st_size=66649, ...}) = 0
+lstat("straces/ps_strace.txt", 0x7fff87cf3fb0) = -1 ENOENT (No such file or directory)
+rename("ps_strace.txt", "straces/ps_strace.txt") = 0
+lstat("rmdir_strace.txt", {st_mode=S_IFREG|0600, st_size=6756, ...}) = 0
+lstat("straces/rmdir_strace.txt", 0x7fff87cf3fb0) = -1 ENOENT (No such file or directory)
+rename("rmdir_strace.txt", "straces/rmdir_strace.txt") = 0
+lstat("w_strace.txt", {st_mode=S_IFREG|0600, st_size=69973, ...}) = 0
+lstat("straces/w_strace.txt", 0x7fff87cf3fb0) = -1 ENOENT (No such file or directory)
+rename("w_strace.txt", "straces/w_strace.txt") = 0
+close(0)                                = 0
+close(1)                                = 0
+close(2)                                = 0
+exit_group(0)                           = ?

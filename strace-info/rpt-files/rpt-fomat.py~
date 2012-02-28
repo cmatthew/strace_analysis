@@ -1,0 +1,24 @@
+
+import sys
+
+files = sys.argv
+files.remove(sys.argv[0])
+
+
+outFile=open("rpt-dat.txt", "w")
+
+for f in files:
+	try:
+		inFile = open(f, "r")
+
+		outFile.write(f.split(".txt")[0].split("-")[-2].split("/")[-1] + "\n")
+
+		for line in inFile:
+			line = line.split()
+			outFile.write(line[1] + "\t" + line[0] + "\n")
+
+		inFile.close()
+
+	except IOError as (errno, strerror):
+		print "I/O error({0}): " + f + " {1}".format(errno, strerror)
+	

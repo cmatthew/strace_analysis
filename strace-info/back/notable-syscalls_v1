@@ -1,0 +1,10 @@
+# notable-syscalls
+#
+# System calls that we want to get more information on
+#	should go here.
+##
+
+setsockopt
+socket
+fcntl
+ioctl

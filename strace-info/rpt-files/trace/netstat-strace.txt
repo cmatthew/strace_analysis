@@ -1,0 +1,415 @@
+execve("/bin/netstat", ["netstat"], ["SHELL=/public/bin/bash", "TERM=xterm", "XDG_SESSION_COOKIE=f2359108a0d21"..., "SSH_CLIENT=96.54.203.31 34449 22", "SSH_TTY=/dev/pts/1", "USER=stredger", "LD_LIBRARY_PATH=", "LS_COLORS=rs=0:di=01;34:ln=01;36"..., "PATH=/usr/local/sbin:/usr/local/"..., "MAIL=/var/mail/stredger", "PWD=/home/stredger/School/DS/str"..., "LANG=en_US.UTF-8", "SPEECHD_PORT=56263", "HOME=/home/stredger", "SHLVL=2", "LOGNAME=stredger", "SSH_CONNECTION=96.54.203.31 3444"..., "LESSOPEN=| /usr/bin/lesspipe %s", "DISPLAY=localhost:11.0", "LESSCLOSE=/usr/bin/lesspipe %s %"..., "_=/usr/bin/strace"]) = 0
+brk(0)                                  = 0x971000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f91000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=563114, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/02/04-17:25:01, st_mtime=2011/12/29-17:19:16, st_ctime=2011/12/29-17:19:16}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367f73000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=132487, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3072, st_size=1572232, st_atime=2012/02/04-11:17:01, st_mtime=2011/01/10-22:57:04, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 3680296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f73679f1000
+mprotect(0x7f7367b6b000, 2093056, PROT_NONE) = 0
+mmap(0x7f7367d6a000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x179000) = 0x7f7367d6a000
+mmap(0x7f7367d6f000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7367d6f000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f72000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f71000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f70000
+arch_prctl(ARCH_SET_FS, 0x7f7367f71700) = 0
+mprotect(0x7f7367d6a000, 16384, PROT_READ) = 0
+mprotect(0x619000, 4096, PROT_READ)     = 0
+mprotect(0x7f7367f93000, 4096, PROT_READ) = 0
+munmap(0x7f7367f73000, 120411)          = 0
+brk(0)                                  = 0x971000
+brk(0x992000)                           = 0x992000
+open("/usr/lib/locale/locale-archive", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=525441, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2570, st_atime=2012/02/04-02:30:36, st_mtime=2010/03/04-04:28:50, st_ctime=2011/04/14-09:24:29}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f90000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f7367f90000, 4096)            = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142130, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=373, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 373, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367f90000
+close(3)                                = 0
+open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=164262, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26048, st_atime=2012/02/04-15:05:41, st_mtime=2011/01/10-22:55:24, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 26048, PROT_READ, MAP_SHARED, 3, 0) = 0x7f7367f89000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MEASUREMENT", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142129, st_mode=S_IFREG|0644, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=23, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:31}) = 0
+mmap(NULL, 23, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367f88000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_TELEPHONE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142128, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=59, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 59, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367f87000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_ADDRESS", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142127, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=155, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 155, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367f86000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_NAME", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142126, st_mode=S_IFREG|0644, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=77, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:37}) = 0
+mmap(NULL, 77, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367f85000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_PAPER", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142125, st_mode=S_IFREG|0644, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=34, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:44}) = 0
+mmap(NULL, 34, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367f84000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MESSAGES", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142123, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2011/04/14-09:33:29, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142124, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=57, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 57, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367f83000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MONETARY", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142122, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=286, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 286, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367f82000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_COLLATE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142121, st_mode=S_IFREG|0644, st_nlink=15, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2288, st_size=1170770, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:47}) = 0
+mmap(NULL, 1170770, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367e52000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_TIME", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142120, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2454, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 2454, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367f81000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_NUMERIC", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142119, st_mode=S_IFREG|0644, st_nlink=11, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=54, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:47}) = 0
+mmap(NULL, 54, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367f80000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142118, st_mode=S_IFREG|0644, st_nlink=16, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=504, st_size=256324, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:47}) = 0
+mmap(NULL, 256324, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7367e13000
+close(3)                                = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/net-tools.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+fstat(1, {st_dev=makedev(0, 5), st_ino=1367, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 3), st_atime=2012/01/28-13:04:57, st_mtime=2012/01/28-13:04:57, st_ctime=2012/01/28-13:04:57}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffd259ebd0) = -1 ENOTTY (Inappropriate ioctl for device)
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367e12000
+open("/proc/net/tcp", O_RDONLY)         = 3
+read(3, "  sl  local_address rem_address "..., 4096) = 4050
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+sendto(4, "\2\0\0\0\r\0\0\0\6\0\0\0hosts\0", 18, MSG_NOSIGNAL, NULL, 0) = 18
+poll([{fd=4, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=4, revents=POLLIN|POLLHUP}])
+recvmsg(4, {msg_name(0)=NULL, msg_iov(2)=[{"\0\0\0\0\0\0", 6}, {"@\311Y\322\377\177\0\0", 8}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 0
+close(4)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+sendto(4, "\2\0\0\0\6\0\0\0\4\0\0\0\177\0\0\1", 16, MSG_NOSIGNAL, NULL, 0) = 16
+poll([{fd=4, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=4, revents=POLLIN|POLLHUP}])
+read(4, "\2\0\0\0\377\377\377\377\0\0\0\0\0\0\0\0\377\377\377\377\377\377\377\377\0\0\0\0\377\377\377\377", 32) = 32
+close(4)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY)    = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=527537, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=554, st_atime=2012/02/04-19:30:27, st_mtime=2011/04/14-16:45:46, st_ctime=2011/04/14-16:45:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367e11000
+read(4, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 554
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f7367e11000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=563114, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/02/04-17:25:01, st_mtime=2011/12/29-17:19:16, st_ctime=2011/12/29-17:19:16}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f7367df4000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libnss_files.so.2", O_RDONLY) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p!\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_dev=makedev(8, 1), st_ino=132490, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=51712, st_atime=2012/02/04-19:30:27, st_mtime=2011/01/10-22:57:04, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 2147720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f73677e4000
+mprotect(0x7f73677f0000, 2093056, PROT_NONE) = 0
+mmap(0x7f73679ef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xb000) = 0x7f73679ef000
+close(4)                                = 0
+mprotect(0x7f73679ef000, 4096, PROT_READ) = 0
+munmap(0x7f7367df4000, 120411)          = 0
+getpid()                                = 12827
+open("/etc/resolv.conf", O_RDONLY)      = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=567365, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/02/04-14:30:23, st_mtime=2012/01/28-13:05:17, st_ctime=2012/01/28-13:05:17}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367e11000
+read(4, "# Generated by NetworkManager\ndo"..., 4096) = 140
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f7367e11000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY)        = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=525340, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=92, st_atime=2012/02/04-22:30:27, st_mtime=2010/04/23-02:45:44, st_ctime=2011/04/14-09:24:27}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367e11000
+read(4, "# The \"order\" line is only used "..., 4096) = 92
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f7367e11000, 4096)            = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 4
+fcntl(4, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(4, {st_dev=makedev(8, 1), st_ino=525326, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=252, st_atime=2012/02/04-16:04:44, st_mtime=2011/04/14-09:24:06, st_ctime=2011/04/14-09:24:06}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367e11000
+read(4, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 252
+close(4)                                = 0
+munmap(0x7f7367e11000, 4096)            = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=525326, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=252, st_atime=2012/02/04-16:04:44, st_mtime=2011/04/14-09:24:06, st_ctime=2011/04/14-09:24:06}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367e11000
+read(4, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 252
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f7367e11000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=563114, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/02/04-17:25:01, st_mtime=2011/12/29-17:19:16, st_ctime=2011/12/29-17:19:16}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f7367df4000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libnss_mdns4_minimal.so.2", O_RDONLY) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\v\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_dev=makedev(8, 1), st_ino=191261, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10432, st_atime=2012/02/03-23:30:13, st_mtime=2010/03/06-20:33:26, st_ctime=2011/04/14-09:53:59}) = 0
+mmap(NULL, 2105536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f73675e1000
+mprotect(0x7f73675e3000, 2093056, PROT_NONE) = 0
+mmap(0x7f73677e2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1000) = 0x7f73677e2000
+close(4)                                = 0
+mprotect(0x7f73677e2000, 4096, PROT_READ) = 0
+munmap(0x7f7367df4000, 120411)          = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=563114, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/02/04-17:25:01, st_mtime=2011/12/29-17:19:16, st_ctime=2011/12/29-17:19:16}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f7367df4000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libnss_dns.so.2", O_RDONLY)  = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\17\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_dev=makedev(8, 1), st_ino=132486, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22928, st_atime=2012/02/03-23:30:13, st_mtime=2011/01/10-22:57:04, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 2117888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f73673db000
+mprotect(0x7f73673e0000, 2093056, PROT_NONE) = 0
+mmap(0x7f73675df000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x4000) = 0x7f73675df000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libresolv.so.2", O_RDONLY)   = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0209\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_dev=makedev(8, 1), st_ino=132476, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=93000, st_atime=2012/02/03-23:00:12, st_mtime=2011/01/10-22:57:04, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 2198152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f73671c2000
+mprotect(0x7f73671d8000, 2093056, PROT_NONE) = 0
+mmap(0x7f73673d7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x15000) = 0x7f73673d7000
+mmap(0x7f73673d9000, 6792, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f73673d9000
+close(4)                                = 0
+mprotect(0x7f73673d7000, 4096, PROT_READ) = 0
+mprotect(0x7f73675df000, 4096, PROT_READ) = 0
+munmap(0x7f7367df4000, 120411)          = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=567365, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/02/04-14:30:23, st_mtime=2012/01/28-13:05:17, st_ctime=2012/01/28-13:05:17}) = 0
+open("/etc/resolv.conf", O_RDONLY)      = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=567365, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/02/04-14:30:23, st_mtime=2012/01/28-13:05:17, st_ctime=2012/01/28-13:05:17}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f7f000
+read(4, "# Generated by NetworkManager\ndo"..., 4096) = 140
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f7367f7f000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=4, events=POLLOUT}], 1, 0)    = 1 ([{fd=4, revents=POLLOUT}])
+sendto(4, "\23\377\1\0\0\1\0\0\0\0\0\0\003112\00273\003104\003142\7in-a"..., 45, MSG_NOSIGNAL, NULL, 0) = 45
+poll([{fd=4, events=POLLIN}], 1, 5000)  = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, FIONREAD, [150])               = 0
+recvfrom(4, "\23\377\205\200\0\1\0\1\0\2\0\2\003112\00273\003104\003142\7in-a"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 150
+close(4)                                = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=525326, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=252, st_atime=2012/02/04-16:04:44, st_mtime=2011/04/14-09:24:06, st_ctime=2011/04/14-09:24:06}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f7f000
+read(4, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 252
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f7367f7f000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=567365, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/02/04-14:30:23, st_mtime=2012/01/28-13:05:17, st_ctime=2012/01/28-13:05:17}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=4, events=POLLOUT}], 1, 0)    = 1 ([{fd=4, revents=POLLOUT}])
+sendto(4, "\343-\1\0\0\1\0\0\0\0\0\0\00238\00272\003104\003142\7in-ad"..., 44, MSG_NOSIGNAL, NULL, 0) = 44
+poll([{fd=4, events=POLLIN}], 1, 5000)  = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, FIONREAD, [153])               = 0
+recvfrom(4, "\343-\205\200\0\1\0\1\0\2\0\2\00238\00272\003104\003142\7in-ad"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 153
+close(4)                                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=563114, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/02/04-17:25:01, st_mtime=2011/12/29-17:19:16, st_ctime=2011/12/29-17:19:16}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f7367df4000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/tls/x86_64/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/lib/tls/x86_64", 0x7fffd259c1a0) = -1 ENOENT (No such file or directory)
+open("/lib/tls/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/lib/tls", 0x7fffd259c1a0)        = -1 ENOENT (No such file or directory)
+open("/lib/x86_64/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64", 0x7fffd259c1a0)     = -1 ENOENT (No such file or directory)
+open("/lib/libnss_db.so.2", O_RDONLY)   = -1 ENOENT (No such file or directory)
+stat("/lib", {st_dev=makedev(8, 1), st_ino=131451, st_mode=S_IFDIR|0755, st_nlink=17, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=12288, st_atime=2011/12/29-17:15:23, st_mtime=2011/12/29-17:12:13, st_ctime=2011/12/29-17:12:13}) = 0
+open("/usr/lib/tls/x86_64/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls/x86_64", 0x7fffd259c1a0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/tls/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls", 0x7fffd259c1a0)    = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64", 0x7fffd259c1a0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib", {st_dev=makedev(8, 1), st_ino=131449, st_mode=S_IFDIR|0755, st_nlink=257, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=77824, st_atime=2011/12/29-17:15:23, st_mtime=2011/12/29-17:14:36, st_ctime=2011/12/29-17:14:36}) = 0
+open("/lib/x86_64-linux-gnu/tls/x86_64/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls/x86_64", 0x7fffd259c1a0) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/tls/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls", 0x7fffd259c1a0) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/x86_64/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/x86_64", 0x7fffd259c1a0) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu", 0x7fffd259c1a0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/tls/x86_64/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls/x86_64", 0x7fffd259c1a0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/tls/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls", 0x7fffd259c1a0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/x86_64/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/x86_64", 0x7fffd259c1a0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu", {st_dev=makedev(8, 1), st_ino=295516, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2011/12/29-17:09:48, st_mtime=2011/04/14-09:51:31, st_ctime=2011/04/14-09:51:31}) = 0
+munmap(0x7f7367df4000, 120411)          = 0
+open("/etc/services", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=525469, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18832, st_atime=2012/02/04-19:30:46, st_mtime=2009/12/03-08:11:08, st_ctime=2011/04/14-09:24:29}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f7f000
+lseek(4, 0, SEEK_CUR)                   = 0
+read(4, "# Network services, Internet sty"..., 4096) = 4096
+read(4, "9/tcp\t\t\t\t# Quick Mail Transfer P"..., 4096) = 4096
+read(4, "note\t1352/tcp\tlotusnotes\t# Lotus"..., 4096) = 4096
+read(4, "he managers\nafs3-callback\t7001/u"..., 4096) = 4096
+read(4, "ice\nzebra\t\t2601/tcp\t\t\t# zebra vt"..., 4096) = 2448
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f7367f7f000, 4096)            = 0
+open("/etc/protocols", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=525467, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2626, st_atime=2012/02/04-15:23:44, st_mtime=2009/12/03-08:11:08, st_ctime=2011/04/14-09:24:29}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f7f000
+lseek(4, 0, SEEK_CUR)                   = 0
+read(4, "# Internet (IP) protocols\n#\n# Up"..., 4096) = 2626
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f7367f7f000, 4096)            = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=525326, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=252, st_atime=2012/02/04-16:04:44, st_mtime=2011/04/14-09:24:06, st_ctime=2011/04/14-09:24:06}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f7f000
+read(4, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 252
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f7367f7f000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=567365, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/02/04-14:30:23, st_mtime=2012/01/28-13:05:17, st_ctime=2012/01/28-13:05:17}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=4, events=POLLOUT}], 1, 0)    = 1 ([{fd=4, revents=POLLOUT}])
+sendto(4, "\253\205\1\0\0\1\0\0\0\0\0\0\00217\00270\003104\003142\7in-ad"..., 44, MSG_NOSIGNAL, NULL, 0) = 44
+poll([{fd=4, events=POLLIN}], 1, 5000)  = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, FIONREAD, [147])               = 0
+recvfrom(4, "\253\205\205\200\0\1\0\1\0\2\0\2\00217\00270\003104\003142\7in-ad"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 147
+close(4)                                = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=525326, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=252, st_atime=2012/02/04-16:04:44, st_mtime=2011/04/14-09:24:06, st_ctime=2011/04/14-09:24:06}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f7f000
+read(4, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 252
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f7367f7f000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=567365, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/02/04-14:30:23, st_mtime=2012/01/28-13:05:17, st_ctime=2012/01/28-13:05:17}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=4, events=POLLOUT}], 1, 0)    = 1 ([{fd=4, revents=POLLOUT}])
+sendto(4, "k>\1\0\0\1\0\0\0\0\0\0\00212\00270\003104\003142\7in-ad"..., 44, MSG_NOSIGNAL, NULL, 0) = 44
+poll([{fd=4, events=POLLIN}], 1, 5000)  = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, FIONREAD, [148])               = 0
+recvfrom(4, "k>\205\200\0\1\0\1\0\2\0\2\00212\00270\003104\003142\7in-ad"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 148
+close(4)                                = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=525326, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=252, st_atime=2012/02/04-16:04:44, st_mtime=2011/04/14-09:24:06, st_ctime=2011/04/14-09:24:06}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f7f000
+read(4, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 252
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f7367f7f000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=567365, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/02/04-14:30:23, st_mtime=2012/01/28-13:05:17, st_ctime=2012/01/28-13:05:17}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=4, events=POLLOUT}], 1, 0)    = 1 ([{fd=4, revents=POLLOUT}])
+sendto(4, "3\220\1\0\0\1\0\0\0\0\0\0\00231\003203\00254\00296\7in-add"..., 43, MSG_NOSIGNAL, NULL, 0) = 43
+poll([{fd=4, events=POLLIN}], 1, 5000)  = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, FIONREAD, [162])               = 0
+recvfrom(4, "3\220\201\200\0\1\0\1\0\2\0\2\00231\003203\00254\00296\7in-add"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 162
+close(4)                                = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+open("/proc/net/tcp6", O_RDONLY)        = 3
+read(3, "  sl  local_address             "..., 4096) = 679
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=525326, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=252, st_atime=2012/02/04-16:04:44, st_mtime=2011/04/14-09:24:06, st_ctime=2011/04/14-09:24:06}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f7f000
+read(4, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 252
+close(4)                                = 0
+munmap(0x7f7367f7f000, 4096)            = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=525326, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=252, st_atime=2012/02/04-16:04:44, st_mtime=2011/04/14-09:24:06, st_ctime=2011/04/14-09:24:06}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7367f7f000
+read(4, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 252
+close(4)                                = 0
+munmap(0x7f7367f7f000, 4096)            = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+open("/proc/net/udp", O_RDONLY)         = 3
+read(3, "  sl  local_address rem_address "..., 4096) = 1792
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+open("/proc/net/udp6", O_RDONLY)        = 3
+read(3, "  sl  local_address             "..., 4096) = 658
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+open("/proc/net/raw", O_RDONLY)         = 3
+read(3, "  sl  local_address rem_address "..., 4096) = 115
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+open("/proc/net/raw6", O_RDONLY)        = 3
+read(3, "  sl  local_address             "..., 4096) = 163
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+open("/proc/net/unix", O_RDONLY)        = 3
+read(3, "Num       RefCount Protocol Flag"..., 4096) = 4086
+read(3, "ffff88003a3bc900: 00000002 00000"..., 4096) = 4080
+write(1, "Active Internet connections (w/o"..., 4096) = 4096
+read(3, "ffff88007548db00: 00000003 00000"..., 4096) = 4006
+write(1, "          1137844  \nunix  3     "..., 4096) = 4096
+read(3, "ffff88004c5f6a00: 00000003 00000"..., 4096) = 3938
+write(1, "/X0\nunix  3      [ ]         STR"..., 4096) = 4096
+read(3, "ffff88003a1bc900: 00000003 00000"..., 4096) = 4064
+read(3, "ffff8800736bf600: 00000002 00000"..., 4096) = 4019
+write(1, "pulse/f2359108a0d2198c8d68749e4d"..., 4096) = 4096
+read(3, "ffff880075793600: 00000003 00000"..., 4096) = 3210
+write(1, "35   \nunix  2      [ ]         S"..., 4096) = 4096
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+open("/proc/net/ipx/socket", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("/proc/net/ipx", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("/proc/net/ax25", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("/proc/net/x25", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("/proc/net/x25", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("/proc/net/nr", O_RDONLY)          = -1 ENOENT (No such file or directory)
+write(1, "        6889     \nunix  3      ["..., 3050) = 3050
+exit_group(0)                           = ?

@@ -1,0 +1,1064 @@
+execve("/usr/bin/mpiexec", ["mpiexec", "-n", "2", "./mpi_test"], [/* 39 vars */]) = 0
+brk(0)                                  = 0x1345000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19d2fd000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=117447, ...}) = 0
+mmap(NULL, 117447, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa19d2e0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libopen-rte.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\350\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=304224, ...}) = 0
+mmap(NULL, 2406432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa19ce94000
+mprotect(0x7fa19cedc000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19d0db000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x47000) = 0x7fa19d0db000
+mmap(0x7fa19d0de000, 6176, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa19d0de000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libopen-pal.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\365\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=332008, ...}) = 0
+mmap(NULL, 2572264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa19cc20000
+mprotect(0x7fa19cc6e000, 2097152, PROT_NONE) = 0
+mmap(0x7fa19ce6e000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4e000) = 0x7fa19ce6e000
+mmap(0x7fa19ce71000, 143336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa19ce71000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libdl.so.2", O_RDONLY)       = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14696, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19d2df000
+mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa19ca1c000
+mprotect(0x7fa19ca1e000, 2097152, PROT_NONE) = 0
+mmap(0x7fa19cc1e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa19cc1e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libnsl.so.1", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300@\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=97256, ...}) = 0
+mmap(NULL, 2202320, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa19c802000
+mprotect(0x7fa19c819000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19ca18000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fa19ca18000
+mmap(0x7fa19ca1a000, 6864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa19ca1a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libutil.so.1", O_RDONLY)     = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10648, ...}) = 0
+mmap(NULL, 2105608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa19c5ff000
+mprotect(0x7fa19c601000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19c800000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fa19c800000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libm.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=534832, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19d2de000
+mmap(NULL, 2629864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa19c37c000
+mprotect(0x7fa19c3fe000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19c5fd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x81000) = 0x7fa19c5fd000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libpthread.so.0", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360Y\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=135745, ...}) = 0
+mmap(NULL, 2212736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa19c15f000
+mprotect(0x7fa19c177000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19c376000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fa19c376000
+mmap(0x7fa19c378000, 13184, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa19c378000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1572232, ...}) = 0
+mmap(NULL, 3680296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa19bddc000
+mprotect(0x7fa19bf56000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19c155000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x179000) = 0x7fa19c155000
+mmap(0x7fa19c15a000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa19c15a000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19d2dd000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19d2dc000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19d2db000
+arch_prctl(ARCH_SET_FS, 0x7fa19d2dc700) = 0
+mprotect(0x7fa19c155000, 16384, PROT_READ) = 0
+mprotect(0x7fa19c376000, 4096, PROT_READ) = 0
+mprotect(0x7fa19c5fd000, 4096, PROT_READ) = 0
+mprotect(0x7fa19c800000, 4096, PROT_READ) = 0
+mprotect(0x7fa19ca18000, 4096, PROT_READ) = 0
+mprotect(0x7fa19cc1e000, 4096, PROT_READ) = 0
+mprotect(0x7fa19ce6e000, 4096, PROT_READ) = 0
+mprotect(0x7fa19d0db000, 4096, PROT_READ) = 0
+mprotect(0x60a000, 4096, PROT_READ)     = 0
+mprotect(0x7fa19d2ff000, 4096, PROT_READ) = 0
+munmap(0x7fa19d2e0000, 117447)          = 0
+set_tid_address(0x7fa19d2dc9d0)         = 11418
+set_robust_list(0x7fa19d2dc9e0, 0x18)   = 0
+futex(0x7fff54fa76dc, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fff54fa76dc, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7fa19d2dc700) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7fa19c164870, [], SA_RESTORER|SA_SIGINFO, 0x7fa19c16e8f0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7fa19c164900, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fa19c16e8f0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+stat("/sys/class/infiniband", 0x7fff54fa7350) = -1 ENOENT (No such file or directory)
+stat("/dev/open-mx", 0x7fff54fa7350)    = -1 ENOENT (No such file or directory)
+stat("/dev/myri0", 0x7fff54fa7350)      = -1 ENOENT (No such file or directory)
+stat("/dev/myri1", 0x7fff54fa7350)      = -1 ENOENT (No such file or directory)
+stat("/dev/myri2", 0x7fff54fa7350)      = -1 ENOENT (No such file or directory)
+stat("/dev/myri3", 0x7fff54fa7350)      = -1 ENOENT (No such file or directory)
+stat("/dev/myri4", 0x7fff54fa7350)      = -1 ENOENT (No such file or directory)
+stat("/dev/myri5", 0x7fff54fa7350)      = -1 ENOENT (No such file or directory)
+stat("/dev/myri6", 0x7fff54fa7350)      = -1 ENOENT (No such file or directory)
+stat("/dev/myri7", 0x7fff54fa7350)      = -1 ENOENT (No such file or directory)
+stat("/dev/myri8", 0x7fff54fa7350)      = -1 ENOENT (No such file or directory)
+stat("/dev/myri9", 0x7fff54fa7350)      = -1 ENOENT (No such file or directory)
+stat("/dev/ipath", 0x7fff54fa7350)      = -1 ENOENT (No such file or directory)
+brk(0)                                  = 0x1345000
+brk(0x1366000)                          = 0x1366000
+uname({sys="Linux", node="e-chocolate", ...}) = 0
+getcwd("/home/stredger/School/CSC/464", 4096) = 30
+open("/etc/openmpi/openmpi-mca-params.conf", O_RDONLY) = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff54fa7100) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=2812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19d2fc000
+read(3, "#\n# Copyright (c) 2004-2005 The "..., 8192) = 2812
+read(3, "", 4096)                       = 0
+read(3, "", 8192)                       = 0
+ioctl(3, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff54fa7080) = -1 ENOTTY (Inappropriate ioctl for device)
+close(3)                                = 0
+munmap(0x7fa19d2fc000, 4096)            = 0
+open("/home/stredger/.openmpi/mca-params.conf", O_RDONLY) = -1 ENOENT (No such file or directory)
+uname({sys="Linux", node="e-chocolate", ...}) = 0
+rt_sigaction(SIGABRT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGABRT, {0x7fa19cc51f60, [], SA_RESTORER|SA_RESETHAND|SA_SIGINFO, 0x7fa19c16e8f0}, NULL, 8) = 0
+rt_sigaction(SIGBUS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGBUS, {0x7fa19cc51f60, [], SA_RESTORER|SA_RESETHAND|SA_SIGINFO, 0x7fa19c16e8f0}, NULL, 8) = 0
+rt_sigaction(SIGFPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGFPE, {0x7fa19cc51f60, [], SA_RESTORER|SA_RESETHAND|SA_SIGINFO, 0x7fa19c16e8f0}, NULL, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSEGV, {0x7fa19cc51f60, [], SA_RESTORER|SA_RESETHAND|SA_SIGINFO, 0x7fa19c16e8f0}, NULL, 8) = 0
+getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=1024}) = 0
+getrlimit(RLIMIT_NPROC, {rlim_cur=400, rlim_max=400}) = 0
+getrlimit(RLIMIT_FSIZE, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+getcwd("/home/stredger/School/CSC/464", 4097) = 30
+uname({sys="Linux", node="e-chocolate", ...}) = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+getdents(3, /* 73 entries */, 32768)    = 2984
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_paffinity_linux.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_paffinity_linux.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+futex(0x7fa19cc1f0ec, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_paffinity_linux.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22792, ...}) = 0
+mmap(NULL, 2118176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa19bbd6000
+mprotect(0x7fa19bbda000, 2097152, PROT_NONE) = 0
+mmap(0x7fa19bdda000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fa19bdda000
+close(3)                                = 0
+mprotect(0x7fa19bdda000, 4096, PROT_READ) = 0
+sched_getaffinity(0, 128,  { 3 })       = 8
+sched_setaffinity(0, 8,  { 1da7947cdda3b300 }) = -1 EFAULT (Bad address)
+access("/sys/devices/system/cpu", R_OK|X_OK) = 0
+open("/sys/devices/system/cpu", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 13 entries */, 32768)    = 400
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/sys/devices/system/cpu/cpu0/online", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/sys/devices/system/cpu/cpu0/topology/core_id", O_RDONLY) = 3
+read(3, "0\n", 7)                       = 2
+close(3)                                = 0
+open("/sys/devices/system/cpu/cpu0/topology/physical_package_id", O_RDONLY) = 3
+read(3, "0\n", 7)                       = 2
+close(3)                                = 0
+open("/sys/devices/system/cpu/cpu1/online", O_RDONLY) = 3
+read(3, "1\n", 7)                       = 2
+close(3)                                = 0
+open("/sys/devices/system/cpu/cpu1/topology/core_id", O_RDONLY) = 3
+read(3, "1\n", 7)                       = 2
+close(3)                                = 0
+open("/sys/devices/system/cpu/cpu1/topology/physical_package_id", O_RDONLY) = 3
+read(3, "0\n", 7)                       = 2
+close(3)                                = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 73 entries */, 32768)    = 2984
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 73 entries */, 32768)    = 2984
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+mmap(NULL, 4198400, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19b7d5000
+munmap(0x7fa19b7d5000, 4198400)         = 0
+brk(0x1478000)                          = 0x1478000
+mmap(NULL, 4096, PROT_READ, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19d2fc000
+munmap(0x7fa19d2fc000, 4096)            = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 73 entries */, 32768)    = 2984
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 73 entries */, 32768)    = 2984
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 73 entries */, 32768)    = 2984
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/proc/cpuinfo", O_RDONLY)         = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19d2fc000
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "processor\t: 0\nvendor_id\t: Genuin"..., 1024) = 1024
+read(3, "yes\ncpuid level\t: 10\nwp\t\t: yes\nf"..., 1024) = 434
+read(3, "", 1024)                       = 0
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "processor\t: 0\nvendor_id\t: Genuin"..., 1024) = 1024
+close(3)                                = 0
+munmap(0x7fa19d2fc000, 4096)            = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 73 entries */, 32768)    = 2984
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_carto_auto_detect.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_carto_auto_detect.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_carto_auto_detect.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\t\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10320, ...}) = 0
+mmap(NULL, 2105424, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa19b9d3000
+mprotect(0x7fa19b9d4000, 2097152, PROT_NONE) = 0
+mmap(0x7fa19bbd4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fa19bbd4000
+close(3)                                = 0
+mprotect(0x7fa19bbd4000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_carto_file.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_carto_file.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_carto_file.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\22\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22800, ...}) = 0
+mmap(NULL, 2118016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa19b7cd000
+mprotect(0x7fa19b7d1000, 2097152, PROT_NONE) = 0
+mmap(0x7fa19b9d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fa19b9d1000
+close(3)                                = 0
+mprotect(0x7fa19b9d1000, 4096, PROT_READ) = 0
+munmap(0x7fa19b7cd000, 2118016)         = 0
+socketpair(PF_FILE, SOCK_STREAM, 0, [3, 4]) = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 73 entries */, 32768)    = 2984
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_crs_none.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_crs_none.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_crs_none.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\n\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=10616, ...}) = 0
+mmap(NULL, 2105816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19b7d0000
+mprotect(0x7fa19b7d2000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19b9d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1000) = 0x7fa19b9d1000
+close(5)                                = 0
+mprotect(0x7fa19b9d1000, 4096, PROT_READ) = 0
+uname({sys="Linux", node="e-chocolate", ...}) = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 73 entries */, 32768)    = 2984
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_env.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_env.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_env.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\23\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=14856, ...}) = 0
+mmap(NULL, 2110328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19b5cc000
+mprotect(0x7fa19b5cf000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19b7ce000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7fa19b7ce000
+close(5)                                = 0
+mprotect(0x7fa19b7ce000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_hnp.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_hnp.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_hnp.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220$\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=19272, ...}) = 0
+mmap(NULL, 2114464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19b3c7000
+mprotect(0x7fa19b3cb000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19b5ca000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x3000) = 0x7fa19b5ca000
+close(5)                                = 0
+mprotect(0x7fa19b5ca000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_singleton.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_singleton.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_singleton.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\25\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=14928, ...}) = 0
+mmap(NULL, 2110392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19b1c3000
+mprotect(0x7fa19b1c6000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19b3c5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7fa19b3c5000
+close(5)                                = 0
+mprotect(0x7fa19b3c5000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_slurm.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_slurm.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_slurm.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\22\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=14888, ...}) = 0
+mmap(NULL, 2110360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19afbf000
+mprotect(0x7fa19afc1000, 2097152, PROT_NONE) = 0
+mmap(0x7fa19b1c1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7fa19b1c1000
+close(5)                                = 0
+mprotect(0x7fa19b1c1000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_tool.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_tool.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ess_tool.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\n\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=10632, ...}) = 0
+mmap(NULL, 2105824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19adbc000
+mprotect(0x7fa19adbd000, 2097152, PROT_NONE) = 0
+mmap(0x7fa19afbd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1000) = 0x7fa19afbd000
+close(5)                                = 0
+mprotect(0x7fa19afbd000, 4096, PROT_READ) = 0
+munmap(0x7fa19b5cc000, 2110328)         = 0
+munmap(0x7fa19b1c3000, 2110392)         = 0
+munmap(0x7fa19afbf000, 2110360)         = 0
+munmap(0x7fa19adbc000, 2105824)         = 0
+rt_sigaction(SIGCHLD, {0x7fa19cc3f870, [CHLD], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {SIG_DFL, [], 0}, 8) = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 73 entries */, 32768)    = 2984
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_plm_rsh.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_plm_rsh.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_plm_rsh.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P*\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=31968, ...}) = 0
+mmap(NULL, 2127200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19b1bf000
+mprotect(0x7fa19b1c6000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19b3c5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x6000) = 0x7fa19b3c5000
+close(5)                                = 0
+mprotect(0x7fa19b3c5000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_plm_slurm.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_plm_slurm.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_plm_slurm.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\31\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=15032, ...}) = 0
+mmap(NULL, 2110240, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19b5cc000
+mprotect(0x7fa19b5cf000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19b7ce000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7fa19b7ce000
+close(5)                                = 0
+mprotect(0x7fa19b7ce000, 4096, PROT_READ) = 0
+getcwd("/home/stredger/School/CSC/464", 4097) = 30
+stat("/usr/local/sbin/ssh", 0x7fff54fa6170) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/ssh", 0x7fff54fa6170) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/ssh", 0x7fff54fa6170)   = -1 ENOENT (No such file or directory)
+stat("/usr/bin/ssh", {st_mode=S_IFREG|0755, st_size=339712, ...}) = 0
+stat("//usr/bin/ssh", {st_mode=S_IFREG|0755, st_size=339712, ...}) = 0
+munmap(0x7fa19b5cc000, 2110240)         = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 73 entries */, 32768)    = 2984
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rml_ftrm.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rml_ftrm.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rml_ftrm.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\n\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=14760, ...}) = 0
+mmap(NULL, 2110392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19b5cc000
+mprotect(0x7fa19b5ce000, 2097152, PROT_NONE) = 0
+mmap(0x7fa19b7ce000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7fa19b7ce000
+close(5)                                = 0
+mprotect(0x7fa19b7ce000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_rml_oob.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rml_oob.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rml_oob.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\26\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=23608, ...}) = 0
+mmap(NULL, 2118816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19afb9000
+mprotect(0x7fa19afbe000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19b1bd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x4000) = 0x7fa19b1bd000
+close(5)                                = 0
+mprotect(0x7fa19b1bd000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 73 entries */, 32768)    = 2984
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_oob_tcp.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_oob_tcp.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_oob_tcp.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000*\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=62936, ...}) = 0
+mmap(NULL, 2158136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19adaa000
+mprotect(0x7fa19adb8000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19afb7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0xd000) = 0x7fa19afb7000
+close(5)                                = 0
+mprotect(0x7fa19afb7000, 4096, PROT_READ) = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 5
+ioctl(5, SIOCGIFCONF, {80, {{"lo", {AF_INET, inet_addr("127.0.0.1")}}, {"eth0", {AF_INET, inet_addr("142.104.73.113")}}}}) = 0
+ioctl(5, SIOCGIFCONF, {80, {{"lo", {AF_INET, inet_addr("127.0.0.1")}}, {"eth0", {AF_INET, inet_addr("142.104.73.113")}}}}) = 0
+ioctl(5, SIOCGIFFLAGS, {ifr_name="lo", ifr_flags=IFF_UP|IFF_LOOPBACK|IFF_RUNNING}) = 0
+ioctl(5, SIOCGIFINDEX, {ifr_name="lo", ifr_index=1}) = 0
+ioctl(5, SIOCGIFADDR, {ifr_name="lo", ifr_addr={AF_INET, inet_addr("127.0.0.1")}}) = 0
+ioctl(5, SIOCGIFNETMASK, {ifr_name="lo", ifr_netmask={AF_INET, inet_addr("255.0.0.0")}}) = 0
+ioctl(5, SIOCGIFFLAGS, {ifr_name="eth0", ifr_flags=IFF_UP|IFF_BROADCAST|IFF_RUNNING|IFF_MULTICAST}) = 0
+ioctl(5, SIOCGIFINDEX, {ifr_name="eth0", ifr_index=2}) = 0
+ioctl(5, SIOCGIFADDR, {ifr_name="eth0", ifr_addr={AF_INET, inet_addr("142.104.73.113")}}) = 0
+ioctl(5, SIOCGIFNETMASK, {ifr_name="eth0", ifr_netmask={AF_INET, inet_addr("255.255.255.192")}}) = 0
+close(5)                                = 0
+open("/proc/net/if_inet6", O_RDONLY)    = 5
+fstat(5, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19d2fc000
+read(5, "00000000000000000000000000000001"..., 1024) = 108
+read(5, "", 1024)                       = 0
+read(5, "", 1024)                       = 0
+close(5)                                = 0
+munmap(0x7fa19d2fc000, 4096)            = 0
+munmap(0x7fa19b5cc000, 2110392)         = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 73 entries */, 32768)    = 2984
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_routed_binomial.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_routed_binomial.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_routed_binomial.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\30\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=19120, ...}) = 0
+mmap(NULL, 2114888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19aba5000
+mprotect(0x7fa19aba9000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19ada8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x3000) = 0x7fa19ada8000
+close(5)                                = 0
+mprotect(0x7fa19ada8000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_routed_direct.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_routed_direct.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_routed_direct.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\23\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=14888, ...}) = 0
+mmap(NULL, 2110424, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19b5cc000
+mprotect(0x7fa19b5cf000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19b7ce000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7fa19b7ce000
+close(5)                                = 0
+mprotect(0x7fa19b7ce000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_routed_linear.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_routed_linear.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_routed_linear.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=14928, ...}) = 0
+mmap(NULL, 2110600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19a9a1000
+mprotect(0x7fa19a9a4000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19aba3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7fa19aba3000
+close(5)                                = 0
+mprotect(0x7fa19aba3000, 4096, PROT_READ) = 0
+munmap(0x7fa19b5cc000, 2110424)         = 0
+munmap(0x7fa19a9a1000, 2110600)         = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 73 entries */, 32768)    = 2984
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_grpcomm_bad.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_grpcomm_bad.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_grpcomm_bad.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\17\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=14760, ...}) = 0
+mmap(NULL, 2109976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19b5cc000
+mprotect(0x7fa19b5cf000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19b7ce000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7fa19b7ce000
+close(5)                                = 0
+mprotect(0x7fa19b7ce000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_grpcomm_basic.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_grpcomm_basic.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_grpcomm_basic.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\20\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=14768, ...}) = 0
+mmap(NULL, 2109976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19a9a1000
+mprotect(0x7fa19a9a4000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19aba3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7fa19aba3000
+close(5)                                = 0
+mprotect(0x7fa19aba3000, 4096, PROT_READ) = 0
+munmap(0x7fa19a9a1000, 2109976)         = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 73 entries */, 32768)    = 2984
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ras_slurm.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ras_slurm.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_ras_slurm.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=10648, ...}) = 0
+mmap(NULL, 2105848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19a9a2000
+mprotect(0x7fa19a9a4000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19aba3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1000) = 0x7fa19aba3000
+close(5)                                = 0
+mprotect(0x7fa19aba3000, 4096, PROT_READ) = 0
+munmap(0x7fa19a9a2000, 2105848)         = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 73 entries */, 32768)    = 2984
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_load_balance.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_load_balance.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_load_balance.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\t\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=10544, ...}) = 0
+mmap(NULL, 2105728, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19a9a2000
+mprotect(0x7fa19a9a4000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19aba3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1000) = 0x7fa19aba3000
+close(5)                                = 0
+mprotect(0x7fa19aba3000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_rank_file.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_rank_file.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_rank_file.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\24\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=27208, ...}) = 0
+mmap(NULL, 2122680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19a79b000
+mprotect(0x7fa19a7a1000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19a9a0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x5000) = 0x7fa19a9a0000
+close(5)                                = 0
+mprotect(0x7fa19a9a0000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_round_robin.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_round_robin.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_round_robin.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\n\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=10544, ...}) = 0
+mmap(NULL, 2105728, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19a598000
+mprotect(0x7fa19a59a000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19a799000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1000) = 0x7fa19a799000
+close(5)                                = 0
+mprotect(0x7fa19a799000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_seq.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_seq.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_rmaps_seq.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\v\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=10568, ...}) = 0
+mmap(NULL, 2105760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19a395000
+mprotect(0x7fa19a397000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19a596000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1000) = 0x7fa19a596000
+close(5)                                = 0
+mprotect(0x7fa19a596000, 4096, PROT_READ) = 0
+munmap(0x7fa19a9a2000, 2105728)         = 0
+munmap(0x7fa19a79b000, 2122680)         = 0
+munmap(0x7fa19a395000, 2105760)         = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 73 entries */, 32768)    = 2984
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_errmgr_default.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_errmgr_default.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_errmgr_default.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\10\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=6432, ...}) = 0
+mmap(NULL, 2101616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19a9a3000
+mprotect(0x7fa19a9a4000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19aba3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0) = 0x7fa19aba3000
+close(5)                                = 0
+mprotect(0x7fa19aba3000, 4096, PROT_READ) = 0
+sched_getaffinity(11418, 8,  { 3 })     = 8
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+getdents(5, /* 73 entries */, 32768)    = 2984
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_odls_default.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_odls_default.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_odls_default.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\31\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=19088, ...}) = 0
+mmap(NULL, 2114280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fa19a79e000
+mprotect(0x7fa19a7a2000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19a9a1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x3000) = 0x7fa19a9a1000
+close(5)                                = 0
+mprotect(0x7fa19a9a1000, 4096, PROT_READ) = 0
+nanosleep({0, 0}, NULL)                 = 0
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 5
+setsockopt(5, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(5, SOL_SOCKET, SO_SNDBUF, [131072], 4) = 0
+setsockopt(5, SOL_SOCKET, SO_RCVBUF, [131072], 4) = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 6
+bind(6, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(6, {sa_family=AF_NETLINK, pid=11418, groups=00000000}, [12]) = 0
+sendto(6, "\24\0\0\0\26\0\1\3\16\321\fO\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(6, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"0\0\0\0\24\0\2\0\16\321\fO\232,\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 108
+recvmsg(6, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\16\321\fO\232,\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+recvmsg(6, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\16\321\fO\232,\0\0\0\0\0\0\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(6)                                = 0
+setsockopt(5, SOL_SOCKET, SO_REUSEADDR, [0], 4) = 0
+bind(5, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+getsockname(5, {sa_family=AF_INET, sin_port=htons(56191), sin_addr=inet_addr("0.0.0.0")}, [16]) = 0
+listen(5, 128)                          = 0
+fcntl(5, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(5, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+socket(PF_INET6, SOCK_STREAM, IPPROTO_IP) = 6
+setsockopt(6, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(6, SOL_SOCKET, SO_SNDBUF, [131072], 4) = 0
+setsockopt(6, SOL_SOCKET, SO_RCVBUF, [131072], 4) = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 7
+bind(7, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(7, {sa_family=AF_NETLINK, pid=11418, groups=00000000}, [12]) = 0
+sendto(7, "\24\0\0\0\26\0\1\3\16\321\fO\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(7, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"0\0\0\0\24\0\2\0\16\321\fO\232,\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 108
+recvmsg(7, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\16\321\fO\232,\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+recvmsg(7, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\16\321\fO\232,\0\0\0\0\0\0\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(7)                                = 0
+setsockopt(6, SOL_IPV6, IPV6_V6ONLY, [0], 4) = 0
+setsockopt(6, SOL_SOCKET, SO_REUSEADDR, [0], 4) = 0
+bind(6, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "::", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = 0
+getsockname(6, {sa_family=AF_INET6, sin6_port=htons(44465), inet_pton(AF_INET6, "::", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 0
+listen(6, 128)                          = 0
+fcntl(6, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(6, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+getuid()                                = 49703
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 7
+connect(7, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+sendto(7, "\2\0\0\0\v\0\0\0\7\0\0\0passwd\0", 19, MSG_NOSIGNAL, NULL, 0) = 19
+poll([{fd=7, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=7, revents=POLLIN|POLLHUP}])
+recvmsg(7, {msg_name(0)=NULL, msg_iov(2)=[{"passwd\0", 7}, {"\270O\3\0\0\0\0\0", 8}], msg_controllen=24, {cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, {8}}, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 15
+mmap(NULL, 217016, PROT_READ, MAP_SHARED, 8, 0) = 0x7fa19d2a6000
+close(8)                                = 0
+close(7)                                = 0
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0", 0x7fff54fa7320) = -1 ENOENT (No such file or directory)
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0", 0x7fff54fa72f0) = -1 ENOENT (No such file or directory)
+mkdir("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0", 0700) = -1 ENOENT (No such file or directory)
+stat("/tmp", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=20480, ...}) = 0
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0", 0x7fff54fa72f0) = -1 ENOENT (No such file or directory)
+mkdir("/tmp/openmpi-sessions-stredger@e-chocolate_0", 0700) = 0
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165", 0x7fff54fa72f0) = -1 ENOENT (No such file or directory)
+mkdir("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165", 0700) = 0
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0", 0x7fff54fa72f0) = -1 ENOENT (No such file or directory)
+mkdir("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0", 0700) = 0
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0", 0x7fff54fa72f0) = -1 ENOENT (No such file or directory)
+mkdir("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0", 0700) = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/contact.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 7
+fstat(7, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa19d2fc000
+write(7, "3287613440.0;tcp://142.104.73.11"..., 46) = 46
+close(7)                                = 0
+munmap(0x7fa19d2fc000, 4096)            = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 73 entries */, 32768)    = 2984
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_iof_hnp.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_iof_hnp.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_iof_hnp.so", O_RDONLY) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \24\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0644, st_size=23312, ...}) = 0
+mmap(NULL, 2118512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7fa19a392000
+mprotect(0x7fa19a397000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19a596000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x4000) = 0x7fa19a596000
+close(7)                                = 0
+mprotect(0x7fa19a596000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_iof_orted.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_iof_orted.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_iof_orted.so", O_RDONLY) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\20\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0644, st_size=19056, ...}) = 0
+mmap(NULL, 2114256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7fa19a18d000
+mprotect(0x7fa19a191000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19a390000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x3000) = 0x7fa19a390000
+close(7)                                = 0
+mprotect(0x7fa19a390000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi/mca_iof_tool.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_iof_tool.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_iof_tool.so", O_RDONLY) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\v\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0644, st_size=10672, ...}) = 0
+mmap(NULL, 2105872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7fa199f8a000
+mprotect(0x7fa199f8c000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19a18b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x1000) = 0x7fa19a18b000
+close(7)                                = 0
+mprotect(0x7fa19a18b000, 4096, PROT_READ) = 0
+munmap(0x7fa19a18d000, 2114256)         = 0
+munmap(0x7fa199f8a000, 2105872)         = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 73 entries */, 32768)    = 2984
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_filem_rsh.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_filem_rsh.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_filem_rsh.so", O_RDONLY) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\30\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0644, st_size=23240, ...}) = 0
+mmap(NULL, 2118848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7fa19a18c000
+mprotect(0x7fa19a191000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19a390000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x4000) = 0x7fa19a390000
+close(7)                                = 0
+mprotect(0x7fa19a390000, 4096, PROT_READ) = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 73 entries */, 32768)    = 2984
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_snapc_full.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_snapc_full.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_snapc_full.so", O_RDONLY) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@#\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0644, st_size=35624, ...}) = 0
+mmap(NULL, 2131176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7fa199f83000
+mprotect(0x7fa199f8b000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19a18a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x7000) = 0x7fa19a18a000
+close(7)                                = 0
+mprotect(0x7fa19a18a000, 4096, PROT_READ) = 0
+munmap(0x7fa199f83000, 2131176)         = 0
+open("/usr/lib/openmpi/lib/openmpi", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 73 entries */, 32768)    = 2984
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+open("/home/stredger/.openmpi/components", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_notifier_syslog.ompi_info", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_notifier_syslog.la", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/openmpi/lib/openmpi/mca_notifier_syslog.so", O_RDONLY) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\10\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0644, st_size=6448, ...}) = 0
+mmap(NULL, 2101632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7fa199f8a000
+mprotect(0x7fa199f8b000, 2093056, PROT_NONE) = 0
+mmap(0x7fa19a18a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0) = 0x7fa19a18a000
+close(7)                                = 0
+mprotect(0x7fa19a18a000, 4096, PROT_READ) = 0
+munmap(0x7fa199f8a000, 2101632)         = 0
+pipe([7, 8])                            = 0
+pipe([9, 10])                           = 0
+rt_sigaction(SIGTERM, {0x7fa19cc3f870, [TERM], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x7fa19cc3f870, [INT], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x7fa19cc3f870, [USR1], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR2, {0x7fa19cc3f870, [USR2], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {SIG_DFL, [], 0}, 8) = 0
+stat("/dev/urandom", {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+open("/dev/urandom", O_RDONLY)          = 11
+read(11, "_]\337\223\2\256\33\365\tHy\356\256ZM`", 16) = 16
+close(11)                               = 0
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}], 5, 0) = 0 (Timeout)
+socket(PF_NETLINK, SOCK_RAW, 0)         = 11
+bind(11, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(11, {sa_family=AF_NETLINK, pid=11418, groups=00000000}, [12]) = 0
+sendto(11, "\24\0\0\0\26\0\1\3\16\321\fO\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(11, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"0\0\0\0\24\0\2\0\16\321\fO\232,\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 108
+recvmsg(11, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\16\321\fO\232,\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+recvmsg(11, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\16\321\fO\232,\0\0\0\0\0\0\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(11)                               = 0
+getcwd("/home/stredger/School/CSC/464", 4096) = 30
+chdir("/home/stredger/School/CSC/464")  = 0
+getcwd("/home/stredger/School/CSC/464", 4096) = 30
+access("./mpi_test", X_OK)              = 0
+open("/dev/ptmx", O_RDWR)               = 11
+statfs("/dev/pts", {f_type="DEVPTS_SUPER_MAGIC", f_bsize=4096, f_blocks=0, f_bfree=0, f_bavail=0, f_files=0, f_ffree=0, f_fsid={0, 0}, f_namelen=255, f_frsize=4096}) = 0
+ioctl(11, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(11, TIOCGPTN, [2])                = 0
+stat("/dev/pts/2", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 2), ...}) = 0
+stat("/dev/pts/2", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 2), ...}) = 0
+getuid()                                = 49703
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 12
+connect(12, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+sendto(12, "\2\0\0\0\f\0\0\0\6\0\0\0group\0", 18, MSG_NOSIGNAL, NULL, 0) = 18
+poll([{fd=12, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=12, revents=POLLIN|POLLHUP}])
+recvmsg(12, {msg_name(0)=NULL, msg_iov(2)=[{"group\0", 6}, {"\270O\3\0\0\0\0\0", 8}], msg_controllen=24, {cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, {13}}, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 14
+mmap(NULL, 217016, PROT_READ, MAP_SHARED, 13, 0) = 0x7fa19d271000
+close(13)                               = 0
+close(12)                               = 0
+ioctl(11, TIOCSPTLCK, [0])              = 0
+ioctl(11, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(11, TIOCGPTN, [2])                = 0
+stat("/dev/pts/2", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 2), ...}) = 0
+open("/dev/pts/2", O_RDWR|O_NOCTTY)     = 12
+pipe([13, 14])                          = 0
+pipe([15, 16])                          = 0
+pipe([17, 18])                          = 0
+pipe([19, 20])                          = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fa19d2dc9d0) = 11419
+close(13)                               = 0
+close(12)                               = 0
+close(16)                               = 0
+close(18)                               = 0
+fcntl(14, F_GETFL)                      = 0x1 (flags O_WRONLY)
+fcntl(14, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+fcntl(11, F_GETFL)                      = 0x8002 (flags O_RDWR|O_LARGEFILE)
+fcntl(11, F_SETFL, O_RDWR|O_NONBLOCK|O_LARGEFILE) = 0
+fcntl(15, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(15, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(17, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(17, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+close(20)                               = 0
+read(19, "", 4)                         = 0
+close(19)                               = 0
+open("/dev/ptmx", O_RDWR)               = 12
+ioctl(12, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(12, TIOCGPTN, [3])                = 0
+stat("/dev/pts/3", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+stat("/dev/pts/3", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+getuid()                                = 49703
+ioctl(12, TIOCSPTLCK, [0])              = 0
+ioctl(12, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(12, TIOCGPTN, [3])                = 0
+stat("/dev/pts/3", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+open("/dev/pts/3", O_RDWR|O_NOCTTY)     = 13
+pipe([16, 18])                          = 0
+pipe([19, 20])                          = 0
+pipe([21, 22])                          = 0
+pipe([23, 24])                          = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fa19d2dc9d0) = 11420
+close(16)                               = 0
+close(13)                               = 0
+close(20)                               = 0
+close(22)                               = 0
+close(18)                               = 0
+fcntl(12, F_GETFL)                      = 0x8002 (flags O_RDWR|O_LARGEFILE)
+fcntl(12, F_SETFL, O_RDWR|O_NONBLOCK|O_LARGEFILE) = 0
+fcntl(19, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(19, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(21, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(21, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+close(24)                               = 0
+read(23, "", 4)                         = 0
+close(23)                               = 0
+chdir("/home/stredger/School/CSC/464")  = 0
+wait4(-1, 0x7fff54fa4f1c, WNOHANG, NULL) = 0
+wait4(-1, 0x7fff54fa4f1c, WNOHANG, NULL) = 0
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}], 11, 0) = 0 (Timeout)
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+getpgrp()                               = 11417
+ioctl(0, TIOCGPGRP, [11417])            = 0
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}], 12, 1000) = 1 ([{fd=5, revents=POLLIN}])
+accept(5, {sa_family=AF_INET, sin_port=htons(46484), sin_addr=inet_addr("142.104.73.113")}, [16]) = 13
+setsockopt(13, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(13, SOL_SOCKET, SO_SNDBUF, [131072], 4) = 0
+setsockopt(13, SOL_SOCKET, SO_RCVBUF, [131072], 4) = 0
+accept(5, 0x7fff54fa7350, [128])        = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}], 13, 1000) = 1 ([{fd=13, revents=POLLIN}])
+recvfrom(13, "\0\0\0\0\0\0\0\0\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\2\0\0\0\0"..., 36, 0, NULL, NULL) = 36
+fcntl(13, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(13, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+sendto(13, "\0\0\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\0\0\0\0\2\0\0\0\0"..., 36, 0, NULL, 0) = 36
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}], 13, 1000) = 1 ([{fd=13, revents=POLLIN}])
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\4\0\0\0J"..., 36}], 1) = 36
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\1\0\0\0\1\r\0\0\0\1\0\0\0"..., 74}], 1) = 74
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}], 13, 0) = 0 (Timeout)
+writev(13, [{"\303\365\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\0\0\0\0\4\0\0\0\177"..., 36}, {"\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\0\0\0\0\24", 20}, {"\0\0\0\1\0\0\0/\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\fe-chocol"..., 107}], 3) = 163
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}], 13, 1000) = 1 ([{fd=5, revents=POLLIN}])
+accept(5, {sa_family=AF_INET, sin_port=htons(46485), sin_addr=inet_addr("142.104.73.113")}, [16]) = 16
+setsockopt(16, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(16, SOL_SOCKET, SO_SNDBUF, [131072], 4) = 0
+setsockopt(16, SOL_SOCKET, SO_RCVBUF, [131072], 4) = 0
+accept(5, 0x7fff54fa7350, [128])        = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 1000) = 1 ([{fd=16, revents=POLLIN}])
+recvfrom(16, "\0\0\0\0\0\0\0\0\303\365\0\1\0\0\0\1\303\365\0\0\0\0\0\0\0\0\0\2\0\0\0\0"..., 36, 0, NULL, NULL) = 36
+fcntl(16, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(16, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+sendto(16, "\0\0\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\2\0\0\0\0"..., 36, 0, NULL, 0) = 36
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 1000) = 1 ([{fd=16, revents=POLLIN}])
+readv(16, [{"\303\365\0\1\0\0\0\1\303\365\0\1\0\0\0\1\303\365\0\0\0\0\0\0\0\0\0\4\0\0\0J"..., 36}], 1) = 36
+readv(16, [{"\303\365\0\1\0\0\0\1\303\365\0\0\0\0\0\0\0\0\0\1\0\0\0\1\r\0\0\0\1\0\0\0"..., 74}], 1) = 74
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 0) = 0 (Timeout)
+writev(16, [{"\303\365\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\4\0\0\0\177"..., 36}, {"\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\24", 20}, {"\0\0\0\1\0\0\0/\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\fe-chocol"..., 107}], 3) = 163
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 0) = 0 (Timeout)
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 1000) = 1 ([{fd=13, revents=POLLIN}])
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\4\0\0\0\242"..., 36}], 1) = 36
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\1\0\0\0\1\27\0\0\0\1\2\0\0"..., 162}], 1) = 162
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 0) = 0 (Timeout)
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 1000) = 1 ([{fd=16, revents=POLLIN}])
+readv(16, [{"\303\365\0\1\0\0\0\1\303\365\0\1\0\0\0\1\303\365\0\0\0\0\0\0\0\0\0\4\0\0\0x"..., 36}], 1) = 36
+readv(16, [{"\303\365\0\1\0\0\0\1\303\365\0\0\0\0\0\0\0\0\0\1\0\0\0\1\27\0\0\0\1\2\0\0"..., 120}], 1) = 120
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 0) = 0 (Timeout)
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 0) = 0 (Timeout)
+writev(13, [{"\303\365\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\0\0\0\0\4\0\0\0\371"..., 36}, {"\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\0\0\0\0\17", 20}, {"\0\0\0\1\0\0\0\2\0\0\0\1\303\365\0\1\0\0\0\0\0\0\0\1\377\311\22\0\0\0\0\1"..., 229}], 3) = 285
+writev(16, [{"\303\365\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\4\0\0\0\371"..., 36}, {"\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\17", 20}, {"\0\0\0\1\0\0\0\2\0\0\0\1\303\365\0\1\0\0\0\0\0\0\0\1\377\311\22\0\0\0\0\1"..., 229}], 3) = 285
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 1000) = 1 ([{fd=13, revents=POLLIN}])
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\4\0\0\20\35"..., 36}], 1) = 36
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0jj\0\0\0/tmp/ope"..., 4125}], 1) = 4125
+writev(16, [{"\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\4\0\0\20\35"..., 36}, {"\303\365\0\1\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0jj\0\0\0/tmp/ope"..., 4125}], 2) = 4161
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 1000) = 1 ([{fd=13, revents=POLLIN}])
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\4\0\0\20\35"..., 36}], 1) = 36
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0jj\0\0\0/tmp/ope"..., 4125}], 1) = 4125
+writev(16, [{"\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\4\0\0\20\35"..., 36}, {"\303\365\0\1\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0jj\0\0\0/tmp/ope"..., 4125}], 2) = 4161
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 1000) = 1 ([{fd=16, revents=POLLIN}])
+readv(16, [{"\303\365\0\1\0\0\0\1\303\365\0\1\0\0\0\1\303\365\0\0\0\0\0\0\0\0\0\4\0\0\0\37"..., 36}], 1) = 36
+readv(16, [{"\303\365\0\1\0\0\0\1\303\365\0\0\0\0\0\0\0\0\0\1\0\0\0\1\27\0\0\0\1\1\0", 31}], 1) = 31
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 0) = 0 (Timeout)
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 1000) = 1 ([{fd=13, revents=POLLIN}])
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\4\0\0\0\37"..., 36}], 1) = 36
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\1\0\0\0\1\27\0\0\0\1\1\0", 31}], 1) = 31
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 0) = 0 (Timeout)
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 0) = 0 (Timeout)
+writev(13, [{"\303\365\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\0\0\0\0\4\0\0\0\24"..., 36}, {"\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\0\0\0\0\21", 20}, {NULL, 0}], 3) = 56
+writev(16, [{"\303\365\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\4\0\0\0\24"..., 36}, {"\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\21", 20}, {NULL, 0}], 3) = 56
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=11, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=12, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=16, events=POLLIN}], 14, 1000) = 4 ([{fd=11, revents=POLLIN}, {fd=12, revents=POLLIN}, {fd=13, revents=POLLIN}, {fd=16, revents=POLLIN}])
+read(11, "Process 0 on e-chocolate out of "..., 4096) = 34
+read(12, "Process 1 on e-chocolate out of "..., 4096) = 34
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\4\0\0\0\37"..., 36}], 1) = 36
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\1\0\0\0\1\27\0\0\0\1\1\0", 31}], 1) = 31
+readv(16, [{"\303\365\0\1\0\0\0\1\303\365\0\1\0\0\0\1\303\365\0\0\0\0\0\0\0\0\0\4\0\0\0\37"..., 36}], 1) = 36
+readv(16, [{"\303\365\0\1\0\0\0\1\303\365\0\0\0\0\0\0\0\0\0\1\0\0\0\1\27\0\0\0\1\1\0", 31}], 1) = 31
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=16, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=11, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=1, events=POLLOUT}, {fd=12, events=POLLIN}], 15, 0) = 1 ([{fd=1, revents=POLLOUT}])
+write(1, "Process 0 on e-chocolate out of "..., 34) = 34
+write(1, "Process 1 on e-chocolate out of "..., 34) = 34
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=16, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=11, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=12, events=POLLIN}], 14, 0) = 0 (Timeout)
+writev(13, [{"\303\365\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\0\0\0\0\4\0\0\0\24"..., 36}, {"\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\0\0\0\0\21", 20}, {NULL, 0}], 3) = 56
+writev(16, [{"\303\365\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\4\0\0\0\24"..., 36}, {"\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\21", 20}, {NULL, 0}], 3) = 56
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=16, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=11, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=12, events=POLLIN}], 14, 1000) = 1 ([{fd=13, revents=POLLIN}])
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\4\0\0\0J"..., 36}], 1) = 36
+readv(13, [{"\303\365\0\1\0\0\0\0\303\365\0\0\0\0\0\0\0\0\0\1\0\0\0\1\f\0\0\0\1\0\0\0"..., 74}], 1) = 74
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=16, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=11, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=12, events=POLLIN}], 14, 0) = 0 (Timeout)
+writev(13, [{"\303\365\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\0\0\0\0\4\0\0\0\24"..., 36}, {"\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\0\0\0\0\24", 20}, {NULL, 0}], 3) = 56
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=16, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=11, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=12, events=POLLIN}], 14, 1000) = 1 ([{fd=16, revents=POLLIN}])
+readv(16, [{"\303\365\0\1\0\0\0\1\303\365\0\1\0\0\0\1\303\365\0\0\0\0\0\0\0\0\0\4\0\0\0J"..., 36}], 1) = 36
+readv(16, [{"\303\365\0\1\0\0\0\1\303\365\0\0\0\0\0\0\0\0\0\1\0\0\0\1\f\0\0\0\1\0\0\0"..., 74}], 1) = 74
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=16, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=11, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=13, events=POLLIN}, {fd=12, events=POLLIN}], 14, 0) = 1 ([{fd=13, revents=POLLIN}])
+readv(13, [{"\376\377\377\377\376\377\377\377\0\0\365\303\0\0\0\0\376\377\377\377\376\377\377\377\0\0\0\4\24\0\0\0"..., 36}], 1) = 0
+close(13)                               = 0
+writev(16, [{"\303\365\0\0\0\0\0\0\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\4\0\0\0\24"..., 36}, {"\303\365\0\0\0\0\0\0\303\365\0\1\0\0\0\1\0\0\0\24", 20}, {NULL, 0}], 3) = 56
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=16, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=11, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}, {fd=12, events=POLLIN}], 13, 1000) = 1 ([{fd=16, revents=POLLIN}])
+readv(16, [{"\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 36}], 1) = 0
+close(16)                               = 0
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=12, events=POLLIN}, {fd=15, events=POLLIN}, {fd=17, events=POLLIN}, {fd=11, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}, {fd=0, events=POLLIN}], 12, 1000) = 2 ([{fd=15, revents=POLLHUP}, {fd=11, revents=POLLHUP}])
+--- SIGCHLD (Child exited) @ 0 (0) ---
+rt_sigaction(SIGCHLD, {0x7fa19cc3f870, [CHLD], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {0x7fa19cc3f870, [CHLD], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, 8) = 0
+sendto(3, "a", 1, 0, NULL, 0)           = 1
+rt_sigreturn(0x3)                       = 2
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 11419
+wait4(-1, 0x7fff54fa73ec, WNOHANG, NULL) = 0
+read(15, "", 4096)                      = 0
+close(15)                               = 0
+read(11, 0x7fff54fa63d0, 4096)          = -1 EIO (Input/output error)
+close(11)                               = 0
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=12, events=POLLIN}, {fd=0, events=POLLIN}, {fd=17, events=POLLIN}, {fd=21, events=POLLIN}, {fd=19, events=POLLIN}], 10, 0) = 2 ([{fd=4, revents=POLLIN}, {fd=17, revents=POLLHUP}])
+recvfrom(4, "a", 100, 0, NULL, NULL)    = 1
+read(17, "", 4096)                      = 0
+close(17)                               = 0
+--- SIGCHLD (Child exited) @ 0 (0) ---
+rt_sigaction(SIGCHLD, {0x7fa19cc3f870, [CHLD], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {0x7fa19cc3f870, [CHLD], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, 8) = 0
+sendto(3, "a", 1, 0, NULL, 0)           = 1
+rt_sigreturn(0x3)                       = 140332103623872
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/3287613441/0/abort", 0x7fff54fa71b0) = -1 ENOENT (No such file or directory)
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=12, events=POLLIN}, {fd=0, events=POLLIN}, {fd=19, events=POLLIN}, {fd=21, events=POLLIN}], 9, 0) = 4 ([{fd=4, revents=POLLIN}, {fd=12, revents=POLLHUP}, {fd=19, revents=POLLHUP}, {fd=21, revents=POLLHUP}])
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 11420
+wait4(-1, 0x7fff54fa73ec, WNOHANG, NULL) = -1 ECHILD (No child processes)
+recvfrom(4, "a", 100, 0, NULL, NULL)    = 1
+read(12, 0x7fff54fa63d0, 4096)          = -1 EIO (Input/output error)
+close(12)                               = 0
+read(19, "", 4096)                      = 0
+close(19)                               = 0
+read(21, "", 4096)                      = 0
+close(21)                               = 0
+close(14)                               = 0
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/1/0", 0x7fff54fa7070) = -1 ENOENT (No such file or directory)
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/1/0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/1", 0x7fff54fa7070) = -1 ENOENT (No such file or directory)
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/1", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 11
+getdents(11, /* 3 entries */, 32768)    = 80
+getdents(11, /* 0 entries */, 32768)    = 0
+close(11)                               = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 11
+getdents(11, /* 3 entries */, 32768)    = 80
+close(11)                               = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/1/0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=0, events=POLLIN}], 6, 0) = 0 (Timeout)
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/3287613441/1/abort", 0x7fff54fa71b0) = -1 ENOENT (No such file or directory)
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/1/1", 0x7fff54fa7070) = -1 ENOENT (No such file or directory)
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/1/1", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/1", 0x7fff54fa7070) = -1 ENOENT (No such file or directory)
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/1", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 11
+getdents(11, /* 3 entries */, 32768)    = 80
+getdents(11, /* 0 entries */, 32768)    = 0
+close(11)                               = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 11
+getdents(11, /* 3 entries */, 32768)    = 80
+close(11)                               = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/1/1", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=0, events=POLLIN}], 6, 0) = 0 (Timeout)
+write(8, "\1\0\0\0", 4)                 = 4
+close(8)                                = 0
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=7, events=POLLIN}, {fd=9, events=POLLIN}, {fd=0, events=POLLIN}], 6, 1000) = 1 ([{fd=7, revents=POLLIN|POLLHUP}])
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=0, events=POLLIN}, {fd=9, events=POLLIN}], 5, 0) = 0 (Timeout)
+write(10, "\1\0\0\0", 4)                = 4
+close(10)                               = 0
+poll([{fd=4, events=POLLIN}, {fd=5, events=POLLIN}, {fd=6, events=POLLIN}, {fd=0, events=POLLIN}, {fd=9, events=POLLIN}], 5, 1000) = 1 ([{fd=9, revents=POLLIN|POLLHUP}])
+rt_sigaction(SIGTERM, {SIG_DFL, [TERM], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {0x7fa19cc3f870, [TERM], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [INT], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {0x7fa19cc3f870, [INT], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, 8) = 0
+rt_sigaction(SIGUSR1, {SIG_DFL, [USR1], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {0x7fa19cc3f870, [USR1], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, 8) = 0
+rt_sigaction(SIGUSR2, {SIG_DFL, [USR2], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {0x7fa19cc3f870, [USR2], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, 8) = 0
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 8
+getdents(8, /* 4 entries */, 32768)     = 104
+unlink("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/contact.txt") = 0
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 10
+getdents(10, /* 3 entries */, 32768)    = 72
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 11
+getdents(11, /* 2 entries */, 32768)    = 48
+getdents(11, /* 0 entries */, 32768)    = 0
+close(11)                               = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 11
+getdents(11, /* 2 entries */, 32768)    = 48
+getdents(11, /* 0 entries */, 32768)    = 0
+close(11)                               = 0
+rmdir("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0") = 0
+getdents(10, /* 0 entries */, 32768)    = 0
+close(10)                               = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 10
+getdents(10, /* 2 entries */, 32768)    = 48
+getdents(10, /* 0 entries */, 32768)    = 0
+close(10)                               = 0
+rmdir("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0") = 0
+getdents(8, /* 0 entries */, 32768)     = 0
+close(8)                                = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 8
+getdents(8, /* 2 entries */, 32768)     = 48
+getdents(8, /* 0 entries */, 32768)     = 0
+close(8)                                = 0
+rmdir("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165") = 0
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 8
+getdents(8, /* 2 entries */, 32768)     = 48
+getdents(8, /* 0 entries */, 32768)     = 0
+close(8)                                = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 8
+getdents(8, /* 2 entries */, 32768)     = 48
+getdents(8, /* 0 entries */, 32768)     = 0
+close(8)                                = 0
+rmdir("/tmp/openmpi-sessions-stredger@e-chocolate_0") = 0
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+unlink("/openmpi-sessions-stredger@e-chocolate_0/contact.txt") = -1 ENOENT (No such file or directory)
+munmap(0x7fa19a18c000, 2118848)         = 0
+munmap(0x7fa19a79e000, 2114280)         = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, {0x7fa19cc3f870, [CHLD], SA_RESTORER|SA_RESTART, 0x7fa19be0faf0}, 8) = 0
+close(0)                                = 0
+munmap(0x7fa19a392000, 2118512)         = 0
+munmap(0x7fa19a598000, 2105728)         = 0
+munmap(0x7fa19b1bf000, 2127200)         = 0
+munmap(0x7fa19a9a3000, 2101616)         = 0
+munmap(0x7fa19b5cc000, 2109976)         = 0
+munmap(0x7fa19aba5000, 2114888)         = 0
+close(5)                                = 0
+close(6)                                = 0
+munmap(0x7fa19adaa000, 2158136)         = 0
+munmap(0x7fa19afb9000, 2118816)         = 0
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0", 0x7fff54fa6d60) = -1 ENOENT (No such file or directory)
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0", 0x7fff54fa6d60) = -1 ENOENT (No such file or directory)
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/tmp/openmpi-sessions-stredger@e-chocolate_0", 0x7fff54fa6d60) = -1 ENOENT (No such file or directory)
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/tmp/openmpi-sessions-stredger@e-chocolate_0/50165/0/0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+munmap(0x7fa19b3c7000, 2114464)         = 0
+munmap(0x7fa19b7d0000, 2105816)         = 0
+munmap(0x7fa19b9d3000, 2105424)         = 0
+munmap(0x7fa19bbd6000, 2118176)         = 0
+exit_group(0)                           = ?

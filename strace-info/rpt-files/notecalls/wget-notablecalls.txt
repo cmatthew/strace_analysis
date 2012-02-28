@@ -1,0 +1,16 @@
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7ffff0112660) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(2, SNDCTL_TMR_TIMEBASE or TCGETS, {c_iflags=0x500, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=0, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or TCGETS, {c_iflags=0x500, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=0, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+ioctl(2, TIOCGWINSZ, {ws_row=28, ws_col=103, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(3, FIONREAD, [102])               = 0
+ioctl(3, FIONREAD, [268])               = 0

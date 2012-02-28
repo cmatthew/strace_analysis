@@ -1,0 +1,625 @@
+execve("/usr/bin/man", ["man", "strace"], [/* 22 vars */]) = 0
+brk(0)                                  = 0x19ed000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7facc3071000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=120567, ...}) = 0
+mmap(NULL, 120567, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc3053000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libgdbm.so.3", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22768, ...}) = 0
+mmap(NULL, 2118032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7facc2c4e000
+mprotect(0x7facc2c53000, 2093056, PROT_NONE) = 0
+mmap(0x7facc2e52000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7facc2e52000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libz.so.1", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=92752, ...}) = 0
+mmap(NULL, 2187792, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7facc2a37000
+mprotect(0x7facc2a4d000, 2093056, PROT_NONE) = 0
+mmap(0x7facc2c4c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7facc2c4c000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1572232, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7facc3052000
+mmap(NULL, 3680296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7facc26b4000
+mprotect(0x7facc282e000, 2093056, PROT_NONE) = 0
+mmap(0x7facc2a2d000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x179000) = 0x7facc2a2d000
+mmap(0x7facc2a32000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7facc2a32000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7facc3051000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7facc3050000
+arch_prctl(ARCH_SET_FS, 0x7facc3051700) = 0
+mprotect(0x7facc2a2d000, 16384, PROT_READ) = 0
+mprotect(0x7facc2c4c000, 4096, PROT_READ) = 0
+mprotect(0x7facc2e52000, 4096, PROT_READ) = 0
+mprotect(0x63a000, 4096, PROT_READ)     = 0
+mprotect(0x7facc3073000, 4096, PROT_READ) = 0
+munmap(0x7facc3053000, 120567)          = 0
+brk(0)                                  = 0x19ed000
+brk(0x1a0e000)                          = 0x1a0e000
+umask(022)                              = 077
+open("/usr/lib/locale/locale-archive", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7facc3070000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7facc3070000, 4096)            = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=373, ...}) = 0
+mmap(NULL, 373, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc3070000
+close(3)                                = 0
+open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26048, ...}) = 0
+mmap(NULL, 26048, PROT_READ, MAP_SHARED, 3, 0) = 0x7facc3069000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MEASUREMENT", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=23, ...}) = 0
+mmap(NULL, 23, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc3068000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_TELEPHONE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+mmap(NULL, 59, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc3067000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_ADDRESS", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+mmap(NULL, 155, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc3066000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_NAME", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=77, ...}) = 0
+mmap(NULL, 77, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc3065000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_PAPER", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=34, ...}) = 0
+mmap(NULL, 34, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc3064000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MESSAGES", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+mmap(NULL, 57, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc3063000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MONETARY", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=286, ...}) = 0
+mmap(NULL, 286, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc3062000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_COLLATE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1170770, ...}) = 0
+mmap(NULL, 1170770, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc2f32000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_TIME", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2454, ...}) = 0
+mmap(NULL, 2454, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc3061000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_NUMERIC", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=54, ...}) = 0
+mmap(NULL, 54, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc3060000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=256324, ...}) = 0
+mmap(NULL, 256324, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7facc2ef3000
+close(3)                                = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+fstat(2, {st_mode=S_IFREG|0600, st_size=8000, ...}) = 0
+getcwd("/home/stredger/School/DS/straces", 4096) = 33
+getuid()                                = 49703
+geteuid()                               = 49703
+rt_sigaction(SIGCHLD, {0x415cd0, [HUP INT TERM CHLD], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7facc26e7af0}, NULL, 8) = 0
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x4147b0, [], SA_RESTORER, 0x7facc26e7af0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x4147b0, [], SA_RESTORER, 0x7facc26e7af0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x4147b0, [], SA_RESTORER, 0x7facc26e7af0}, {SIG_DFL, [], 0}, 8) = 0
+open("/home/stredger/.manpath", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/etc/manpath.config", O_RDONLY)   = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5173, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7facc2ef2000
+read(3, "# manpath.config\n#\n# This file i"..., 4096) = 4096
+read(3, "er in\n# the expected way.\n# If a"..., 4096) = 1077
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7facc2ef2000, 4096)            = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B9600 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B9600 opost isig icanon echo ...}) = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/opt/racket/man", 0x7fffb6557ee0) = -1 ENOENT (No such file or directory)
+stat("/opt/racket/bin/man", 0x7fffb6557ee0) = -1 ENOENT (No such file or directory)
+stat("/opt/racket/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/opt/racket/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/public/man", 0x7fffb6557ee0)     = -1 ENOENT (No such file or directory)
+stat("/public/bin/man", 0x7fffb6557ee0) = -1 ENOENT (No such file or directory)
+stat("/public/share/man", 0x7fffb6557ee0) = -1 ENOENT (No such file or directory)
+stat("/public/bin/share/man", 0x7fffb6557ee0) = -1 ENOENT (No such file or directory)
+stat("/usr/man", 0x7fffb6557ec0)        = -1 ENOENT (No such file or directory)
+open("/usr/local/man", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+getdents(3, /* 2 entries */, 32768)     = 48
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/usr/local/share/man", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 2 entries */, 32768)     = 48
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/usr/share/man", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 31 entries */, 32768)    = 784
+stat("/usr/share/man/ru", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/nl", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/pl", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/cs", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/es", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/fr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/pt_BR", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/tr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/id", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/zh_TW", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/gl", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/sv", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/ko", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/ja", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/fr.ISO8859-1", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/zh_CN", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/fr.UTF-8", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/hu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/de", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/it", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man/fi", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/opt/racket/share/man", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 3 entries */, 32768)     = 72
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/local/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/opt/racket/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/opt/racket/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/man", {st_mode=S_IFLNK|0777, st_size=9, ...}) = 0
+readlink("/usr/local/man", "share/man", 4095) = 9
+lstat("/usr/local/share", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/share", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/racket", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/racket/share", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/racket/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/man", {st_mode=S_IFLNK|0777, st_size=9, ...}) = 0
+readlink("/usr/local/man", "share/man", 4095) = 9
+lstat("/usr/local/share", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/share", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/racket", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/racket/share", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/racket/share/man", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+rt_sigaction(SIGHUP, NULL, {0x4147b0, [], SA_RESTORER, 0x7facc26e7af0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {0x4147b0, [], SA_RESTORER, 0x7facc26e7af0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {0x4147b0, [], SA_RESTORER, 0x7facc26e7af0}, 8) = 0
+rt_sigaction(SIGHUP, NULL, {0x4147b0, [], SA_RESTORER, 0x7facc26e7af0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {0x4147b0, [], SA_RESTORER, 0x7facc26e7af0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {0x4147b0, [], SA_RESTORER, 0x7facc26e7af0}, 8) = 0
+open("/usr/local/share/man", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 2 entries */, 32768)     = 48
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/var/cache/man/local/index.db", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/man", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+brk(0x1a32000)                          = 0x1a32000
+getdents(3, /* 31 entries */, 32768)    = 784
+getdents(3, /* 0 entries */, 32768)     = 0
+brk(0x1a2a000)                          = 0x1a2a000
+close(3)                                = 0
+open("/usr/share/man/man1", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 884 entries */, 32768)   = 32744
+getdents(3, /* 887 entries */, 32768)   = 32760
+getdents(3, /* 598 entries */, 32768)   = 22248
+brk(0x1a4d000)                          = 0x1a4d000
+getdents(3, /* 0 entries */, 32768)     = 0
+open("/proc/meminfo", O_RDONLY)         = 4
+fstat(4, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7facc2ef2000
+read(4, "MemTotal:        4057140 kB\nMemF"..., 1024) = 1024
+close(4)                                = 0
+munmap(0x7facc2ef2000, 4096)            = 0
+close(3)                                = 0
+lstat("/usr/share/man/man1/strace.1.gz", {st_mode=S_IFREG|0644, st_size=8338, ...}) = 0
+stat("/usr/share/man/man1/strace.1.gz", {st_mode=S_IFREG|0644, st_size=8338, ...}) = 0
+stat("/usr/share/man/man1/strace.1.gz", {st_mode=S_IFREG|0644, st_size=8338, ...}) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+open("/usr/share/man/man1/strace.1.gz", O_RDONLY) = 3
+pipe([4, 5])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7facc30519d0) = 17188
+close(3)                                = 0
+close(5)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+read(4, ".\\\" Copyright (c) 1991, 1992 Pau"..., 4096) = 4096
+read(4, ".  When the call returns it will"..., 64) = 64
+read(4, "\n[pid 28772] select(4, [3], NULL"..., 60) = 60
+read(4, ">\n[pid 28779] clock_gettime(CLOC"..., 74) = 74
+read(4, "pid 28772] <... select re", 25) = 25
+read(4, "sume", 4)                      = 4
+read(4, "d> )      = 1 (in [3])\n.CE\nInter"..., 71) = 71
+read(4, "by a signal delivery is processe"..., 71) = 71
+--- SIGCHLD (Child exited) @ 0 (0) ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 17188
+wait4(-1, 0x7fffb65578ac, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn(0xffffffffffffffff)        = 71
+read(4, "system call a", 13)            = 13
+read(4, "nd also arranges its\nimmediate r"..., 70) = 70
+read(4, "mpletes.\n.CW\nread(0, 0x7ffff72cf"..., 69) = 69
+read(4, "(To be restarted)\n--- SIGALRM (A"..., 73) = 73
+read(4, "                       = 0\nread("..., 75) = 75
+read(4, "Arguments are printed in symboli"..., 76) = 76
+read(4, "e shell performing ``>>xyzzy'' o"..., 77) = 77
+read(4, "|O_APPEND|O_CREAT, 0666) = 3\n.CE"..., 77) = 77
+read(4, "ded ", 4)                      = 4
+read(4, "by breaking down the\nflag argume"..., 73) = 73
+read(4, " and printing the\nmode value in "..., 78) = 78
+read(4, "ve\nusage differs from ANSI or PO"..., 76) = 76
+read(4, " cases,\n.B strace\noutput has pro"..., 69) = 69
+read(4, "ce.\n.LP\nStructure pointers are d"..., 77) = 77
+read(4, "appropriate.  In all cases argum"..., 78) = 78
+read(4, "possible.\nFor example, the essen"..., 74) = 74
+read(4, "captured as:\n.CW\nlstat(\"/dev/nul"..., 72) = 72
+read(4, "ev(1, 3), ...}) = 0\n.CE\nNotice h"..., 77) = 77
+read(4, " and how each member is\ndisplaye"..., 70) = 70
+read(4, "e ho", 4)                      = 4
+read(4, "w the st_", 9)                 = 9
+read(4, "mode", 4)                      = 4
+close(4)                                = 0
+open("/opt/racket/share/man", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 3 entries */, 32768)     = 72
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/opt/racket/share/man/man1", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 12 entries */, 32768)    = 368
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/opt/racket/share/man/index.db", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/var/cache/man/index.db", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1352105, ...}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=0, len=0}) = 0
+read(3, "\316\232W\23\0\20\0\0\0\20\0\0\0\0\0\0\0\20\0\0\t\0\0\0\0\20\0\0\246\0\0\0"..., 72) = 72
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4024) = 4024
+lseek(3, 4096, SEEK_SET)                = 4096
+read(3, "\0`\1\0\0\0\0\0\0`\1\0\0\0\0\0\0`\1\0\0\0\0\0\0`\1\0\0\0\0\0"..., 4096) = 4096
+brk(0x1a6e000)                          = 0x1a6e000
+brk(0x1a8f000)                          = 0x1a8f000
+brk(0x1ab0000)                          = 0x1ab0000
+lseek(3, 94208, SEEK_SET)               = 94208
+read(3, "\2\0\0\0\0\0\0\0\16\0\0\0\0\0\0\0\362\237\1\0\0\0\0\0\307\6\0\0\0\0\0\0"..., 4096) = 4096
+lseek(3, 99174, SEEK_SET)               = 99174
+read(3, "$version$\0002.4.1\0", 16)     = 16
+lseek(3, 790528, SEEK_SET)              = 790528
+read(3, "\1\0\0\0\0\0\0\0b\7\0\0\0\0\0\0\236H\f\0\0\0\0\0\376\t\0\0\0\0\0\0"..., 4096) = 4096
+lseek(3, 798020, SEEK_SET)              = 798020
+read(3, "strace\0-\t1\t1\t1266255078\tA\t-\t-\tgz"..., 64) = 64
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+close(3)                                = 0
+brk(0x1a51000)                          = 0x1a51000
+open("/usr/share/man/man8", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 614 entries */, 32768)   = 23288
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/usr/share/man/man3", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 767 entries */, 32768)   = 32736
+getdents(3, /* 767 entries */, 32768)   = 32744
+getdents(3, /* 773 entries */, 32768)   = 32736
+brk(0x1a75000)                          = 0x1a75000
+getdents(3, /* 772 entries */, 32768)   = 32768
+getdents(3, /* 775 entries */, 32768)   = 32736
+getdents(3, /* 772 entries */, 32768)   = 32760
+getdents(3, /* 170 entries */, 32768)   = 7216
+getdents(3, /* 0 entries */, 32768)     = 0
+brk(0x1a9c000)                          = 0x1a9c000
+brk(0x1a92000)                          = 0x1a92000
+close(3)                                = 0
+open("/usr/share/man/man2", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 410 entries */, 32768)   = 14768
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/usr/share/man/man5", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 286 entries */, 32768)   = 10976
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/usr/share/man/man4", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 73 entries */, 32768)    = 2408
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/usr/share/man/man6", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 14 entries */, 32768)    = 496
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/usr/share/man/man7", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 351 entries */, 32768)   = 13528
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+lstat("/usr/share/man/man1/strace.1.gz", {st_mode=S_IFREG|0644, st_size=8338, ...}) = 0
+stat("/usr/share/man/man1/strace.1.gz", {st_mode=S_IFREG|0644, st_size=8338, ...}) = 0
+stat("/usr/share/man/man1/strace.1.gz", {st_mode=S_IFREG|0644, st_size=8338, ...}) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+open("/usr/share/man/man1/strace.1.gz", O_RDONLY) = 3
+pipe([4, 5])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7facc30519d0) = 17189
+close(3)                                = 0
+close(5)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+read(4, ".\\\" Copyright (c) 1991, 1992 Pau"..., 4096) = 4096
+read(4, ".  When the call returns it will"..., 64) = 64
+read(4, "\n[pid 28772] select(4, [3], NULL"..., 60) = 60
+read(4, ">\n[pid 28779] clock_gettime(CLOC"..., 74) = 74
+read(4, "pid 28772] <... select re", 25) = 25
+read(4, "sume", 4)                      = 4
+read(4, "d> )      = 1 (in [3])\n.CE\nInter"..., 71) = 71
+read(4, "by a signal delivery is processe"..., 71) = 71
+read(4, "system call a", 13)            = 13
+--- SIGCHLD (Child exited) @ 0 (0) ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 17189
+wait4(-1, 0x7fffb655792c, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn(0xffffffffffffffff)        = 13
+read(4, "nd also arranges its\nimmediate r"..., 70) = 70
+read(4, "mpletes.\n.CW\nread(0, 0x7ffff72cf"..., 69) = 69
+read(4, "(To be restarted)\n--- SIGALRM (A"..., 73) = 73
+read(4, "                       = 0\nread("..., 75) = 75
+read(4, "Arguments are printed in symboli"..., 76) = 76
+read(4, "e shell performing ``>>xyzzy'' o"..., 77) = 77
+read(4, "|O_APPEND|O_CREAT, 0666) = 3\n.CE"..., 77) = 77
+read(4, "ded ", 4)                      = 4
+read(4, "by breaking down the\nflag argume"..., 73) = 73
+read(4, " and printing the\nmode value in "..., 78) = 78
+read(4, "ve\nusage differs from ANSI or PO"..., 76) = 76
+read(4, " cases,\n.B strace\noutput has pro"..., 69) = 69
+read(4, "ce.\n.LP\nStructure pointers are d"..., 77) = 77
+read(4, "appropriate.  In all cases argum"..., 78) = 78
+read(4, "possible.\nFor example, the essen"..., 74) = 74
+read(4, "captured as:\n.CW\nlstat(\"/dev/nul"..., 72) = 72
+read(4, "ev(1, 3), ...}) = 0\n.CE\nNotice h"..., 77) = 77
+read(4, " and how each member is\ndisplaye"..., 70) = 70
+read(4, "e ho", 4)                      = 4
+read(4, "w the st_", 9)                 = 9
+read(4, "mode", 4)                      = 4
+close(4)                                = 0
+stat("/usr/share/man/man1/strace.1.gz", {st_mode=S_IFREG|0644, st_size=8338, ...}) = 0
+stat("/usr/share/man/cat1/strace.1.gz", 0x7fffb6557e00) = -1 ENOENT (No such file or directory)
+chdir("/usr/share/man")                 = 0
+stat("/usr/share/man/man1/strace.1.gz", {st_mode=S_IFREG|0644, st_size=8338, ...}) = 0
+stat("/usr/local/sbin/gpreconv", 0x7fffb6557c40) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/gpreconv", 0x7fffb6557c40) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/gpreconv", 0x7fffb6557c40) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/gpreconv", 0x7fffb6557c40) = -1 ENOENT (No such file or directory)
+stat("/sbin/gpreconv", 0x7fffb6557c40)  = -1 ENOENT (No such file or directory)
+stat("/bin/gpreconv", 0x7fffb6557c40)   = -1 ENOENT (No such file or directory)
+stat("/usr/games/gpreconv", 0x7fffb6557c40) = -1 ENOENT (No such file or directory)
+stat("/opt/racket/bin/gpreconv", 0x7fffb6557c40) = -1 ENOENT (No such file or directory)
+stat("/public/bin/gpreconv", 0x7fffb6557c40) = -1 ENOENT (No such file or directory)
+stat("/usr/local/sbin/preconv", 0x7fffb6557c40) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/preconv", 0x7fffb6557c40) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/preconv", 0x7fffb6557c40) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/preconv", {st_mode=S_IFREG|0755, st_size=43640, ...}) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+open("/usr/share/man/man1/strace.1.gz", O_RDONLY) = 3
+pipe([4, 5])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7facc30519d0) = 17190
+close(3)                                = 0
+close(5)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+read(4, ".\\\" Copyright (c) 1991, 1992 Pau"..., 4096) = 4096
+access("./mandb_nfmt", X_OK)            = -1 ENOENT (No such file or directory)
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B9600 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B9600 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=57, ws_col=206, ws_xpixel=1648, ws_ypixel=969}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B9600 opost isig icanon echo ...}) = 0
+stat("/usr/share/man/man1/strace.1.gz", {st_mode=S_IFREG|0644, st_size=8338, ...}) = 0
+access("/usr/share/man/man1/strace.1.gz", R_OK) = 0
+--- SIGCHLD (Child exited) @ 0 (0) ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 17190
+wait4(-1, 0x7fffb655786c, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn(0xffffffffffffffff)        = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B9600 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, {B9600 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER, 0x7facc26e7af0}, {0x4147b0, [], SA_RESTORER, 0x7facc26e7af0}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7facc26e7af0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+pipe([3, 5])                            = 0
+pipe([6, 7])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7facc30519d0) = 17191
+close(3)                                = 0
+close(7)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+pipe([3, 7])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7facc30519d0) = 17193
+close(6)                                = 0
+close(7)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+pipe([6, 7])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7facc30519d0) = 17194
+close(3)                                = 0
+close(7)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+pipe([3, 7])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7facc30519d0) = 17196
+close(6)                                = 0
+close(7)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+pipe([6, 7])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7facc30519d0) = 17197
+close(3)                                = 0
+close(7)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+pipe([3, 7])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7facc30519d0) = 17198
+close(3)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+fcntl(4, F_GETFL)                       = 0 (flags O_RDONLY)
+fcntl(4, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+fcntl(5, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fcntl(5, F_SETFL, O_WRONLY|O_NONBLOCK)  = 0
+fcntl(6, F_GETFL)                       = 0 (flags O_RDONLY)
+fcntl(6, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+fcntl(7, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fcntl(7, F_SETFL, O_WRONLY|O_NONBLOCK)  = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7facc26e7af0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {0x415cd0, [HUP INT TERM CHLD], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7facc26e7af0}, 8) = 0
+rt_sigaction(SIGCHLD, {0x415cd0, [HUP INT TERM CHLD], SA_RESTORER|SA_NOCLDSTOP, 0x7facc26e7af0}, NULL, 8) = 0
+select(8, [4 6], [5 7], NULL, NULL)     = 3 (in [4], out [5 7])
+read(4, ".  When the call returns it will"..., 4096) = 4096
+write(5, ".\\\" Copyright (c) 1991, 1992 Pau"..., 8192) = 8192
+select(7, [4 6], [5], NULL, NULL)       = 2 (in [4], out [5])
+read(4, "ched to as soon as its pid is kn"..., 4096) = 4096
+write(5, "ched to as soon as its pid is kn"..., 4096) = 4096
+select(8, [4 6], [5 7], NULL, NULL)     = 3 (in [4], out [5 7])
+read(4, " include a call like\n.B lstat\nin"..., 4096) = 4096
+write(5, " include a call like\n.B lstat\nin"..., 4096) = 4096
+select(7, [4 6], [5], NULL, NULL)       = 2 (in [4], out [5])
+read(4, "nt variables.\n.TP\n.BI \"\\-E \" var"..., 4096) = 4096
+write(5, "nt variables.\n.TP\n.BI \"\\-E \" var"..., 4096) = 4096
+select(8, [4 6], [5 7], NULL, NULL)     = 3 (in [4], out [5 7])
+read(4, "gnal correctly.\nThis signal is n"..., 4096) = 292
+write(5, "gnal correctly.\nThis signal is n"..., 292) = 292
+select(7, [4 6], [5], NULL, NULL)       = 2 (in [4], out [5])
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+close(5)                                = 0
+select(7, [6], [], NULL, NULL)          = ? ERESTARTNOHAND (To be restarted)
+--- SIGCHLD (Child exited) @ 0 (0) ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 17191
+wait4(-1, 0x7fffb65574ac, WNOHANG, NULL) = 0
+rt_sigreturn(0xffffffffffffffff)        = -1 EINTR (Interrupted system call)
+select(7, [6], [], NULL, NULL)          = ? ERESTARTNOHAND (To be restarted)
+--- SIGCHLD (Child exited) @ 0 (0) ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 17193
+wait4(-1, 0x7fffb65574ac, WNOHANG, NULL) = 0
+rt_sigreturn(0xffffffffffffffff)        = -1 EINTR (Interrupted system call)
+select(7, [6], [], NULL, NULL)          = ? ERESTARTNOHAND (To be restarted)
+--- SIGCHLD (Child exited) @ 0 (0) ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 17194
+wait4(-1, 0x7fffb65574ac, WNOHANG, NULL) = 0
+rt_sigreturn(0xffffffffffffffff)        = -1 EINTR (Interrupted system call)
+select(7, [6], [], NULL, NULL)          = ? ERESTARTNOHAND (To be restarted)
+--- SIGCHLD (Child exited) @ 0 (0) ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 17196
+wait4(-1, 0x7fffb65574ac, WNOHANG, NULL) = 0
+rt_sigreturn(0xffffffffffffffff)        = -1 EINTR (Interrupted system call)
+select(7, [6], [], NULL, NULL)          = 1 (in [6])
+read(6, "STRACE(1)                       "..., 4096) = 4096
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+write(7, "STRACE(1)                       "..., 4096) = 4096
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+select(7, [6], [], NULL, NULL)          = 1 (in [6])
+read(6, "In some cases, s\10st\10tr\10ra\10ac\10ce\10"..., 4096) = 4096
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+write(7, "In some cases, s\10st\10tr\10ra\10ac\10ce\10"..., 4096) = 4096
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+select(7, [6], [], NULL, NULL)          = 1 (in [6])
+read(6, "_\10f_\10i_\10l_\10e_\10n_\10a_\10m_\10e option "..., 4096) = 4096
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+write(7, "_\10f_\10i_\10l_\10e_\10n_\10a_\10m_\10e option "..., 4096) = 4096
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+select(7, [6], [], NULL, NULL)          = 1 (in [6])
+read(6, "e that you don't accidentally fo"..., 4096) = 4096
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+write(7, "e that you don't accidentally fo"..., 4096) = 4096
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+select(7, [6], [], NULL, NULL)          = 1 (in [6])
+read(6, " Multiple -\10-p\10p options can be "..., 4096) = 4096
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+write(7, " Multiple -\10-p\10p options can be "..., 4096) = 4096
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+select(7, [6], [], NULL, NULL)          = 1 (in [6])
+read(6, "\n       A traced process ignores"..., 4096) = 2169
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+write(7, "\n       A traced process ignores"..., 2169) = 2169
+select(8, [6], [7], NULL, NULL)         = 1 (out [7])
+select(7, [6], [], NULL, NULL)          = 1 (in [6])
+--- SIGCHLD (Child exited) @ 0 (0) ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 17197
+wait4(-1, 0x7fffb65574ac, WNOHANG, NULL) = 0
+rt_sigreturn(0xffffffffffffffff)        = 1
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+close(7)                                = 0
+rt_sigaction(SIGCHLD, NULL, {0x415cd0, [HUP INT TERM CHLD], SA_RESTORER|SA_NOCLDSTOP, 0x7facc26e7af0}, 8) = 0
+rt_sigaction(SIGCHLD, {0x415cd0, [HUP INT TERM CHLD], SA_RESTORER|SA_RESTART|SA_NOCLDSTOP, 0x7facc26e7af0}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_DFL, [], SA_RESTORER, 0x7facc26e7af0}, NULL, 8) = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 17198
+--- SIGCHLD (Child exited) @ 0 (0) ---
+rt_sigreturn(0x11)                      = 17198
+wait4(-1, 0x7fffb6557c2c, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigaction(SIGINT, {0x4147b0, [], SA_RESTORER, 0x7facc26e7af0}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7facc26e7af0}, NULL, 8) = 0
+chdir("/home/stredger/School/DS/straces") = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B9600 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_START or TCSETS, {B9600 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B9600 opost isig icanon echo ...}) = 0
+exit_group(0)                           = ?

@@ -1,0 +1,1593 @@
+execve("/usr/sbin/traceroute", ["traceroute", "ubc.ca"], ["ORBIT_SOCKETDIR=/tmp/orbit-stred"..., "SSH_AGENT_PID=6600", "SHELL=/public/bin/bash", "TERM=xterm", "XDG_SESSION_COOKIE=0f5b705bbdd2e"..., "WINDOWID=67108868", "GNOME_KEYRING_CONTROL=/tmp/keyri"..., "GTK_MODULES=canberra-gtk-module", "USER=stredger", "LS_COLORS=rs=0:di=01;34:ln=01;36"..., "LD_LIBRARY_PATH=", "SSH_AUTH_SOCK=/tmp/keyring-OPnCe"..., "USERNAME=stredger", "SESSION_MANAGER=local/e-caramel:"..., "DEFAULTS_PATH=/usr/share/gconf/g"..., "XDG_CONFIG_DIRS=/etc/xdg/xdg-gno"..., "PATH=/usr/local/sbin:/usr/local/"..., "DESKTOP_SESSION=gnome", "PWD=/home/stredger/School/DS/str"..., "GDM_KEYBOARD_LAYOUT=us", "GNOME_KEYRING_PID=6506", "LANG=en_US.utf8", "GDM_LANG=en_US.utf8", "MANDATORY_PATH=/usr/share/gconf/"..., "GDMSESSION=gnome", "SPEECHD_PORT=56263", "HOME=/home/stredger", "SHLVL=2", "GNOME_DESKTOP_SESSION_ID=this-is"..., "LOGNAME=stredger", "DBUS_SESSION_BUS_ADDRESS=unix:ab"..., "XDG_DATA_DIRS=/usr/share/gnome:/"..., "LESSOPEN=| /usr/bin/lesspipe %s", "DISPLAY=:0.0", "LESSCLOSE=/usr/bin/lesspipe %s %"..., "COLORTERM=gnome-terminal", "XAUTHORITY=/var/run/gdm/auth-for"..., "_=/usr/bin/strace"]) = 0
+brk(0)                                  = 0x193b000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d8e000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=788996, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/01/25-17:35:01, st_mtime=2011/12/29-17:26:12, st_ctime=2011/12/29-17:26:12}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9d70000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libm.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=296538, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1048, st_size=534832, st_atime=2012/01/25-17:39:01, st_mtime=2011/01/10-22:57:03, st_ctime=2011/12/29-17:14:09}) = 0
+mmap(NULL, 2629864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc0a98ee000
+mprotect(0x7fc0a9970000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0a9b6f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x81000) = 0x7fc0a9b6f000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=301715, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3072, st_size=1572232, st_atime=2012/01/25-17:15:01, st_mtime=2011/01/10-22:57:04, st_ctime=2011/12/29-17:14:09}) = 0
+mmap(NULL, 3680296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc0a956b000
+mprotect(0x7fc0a96e5000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0a98e4000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x179000) = 0x7fc0a98e4000
+mmap(0x7fc0a98e9000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc0a98e9000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d6f000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d6e000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d6d000
+arch_prctl(ARCH_SET_FS, 0x7fc0a9d6e700) = 0
+mprotect(0x7fc0a98e4000, 16384, PROT_READ) = 0
+mprotect(0x7fc0a9b6f000, 4096, PROT_READ) = 0
+mprotect(0x60b000, 4096, PROT_READ)     = 0
+mprotect(0x7fc0a9d90000, 4096, PROT_READ) = 0
+munmap(0x7fc0a9d70000, 120411)          = 0
+times(NULL)                             = 4432351021
+getpid()                                = 9490
+brk(0)                                  = 0x193b000
+brk(0x195c000)                          = 0x195c000
+open("/usr/lib/locale/locale-archive", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=790405, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2570, st_atime=2012/01/26-08:31:26, st_mtime=2010/03/04-04:28:50, st_ctime=2010/09/14-16:39:36}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d8d000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d8d000, 4096)            = 0
+open("/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799139, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=373, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:44:10}) = 0
+mmap(NULL, 373, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9d8d000
+close(3)                                = 0
+open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=796855, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26048, st_atime=2012/01/25-17:52:29, st_mtime=2011/01/10-22:55:24, st_ctime=2011/12/29-17:14:09}) = 0
+mmap(NULL, 26048, PROT_READ, MAP_SHARED, 3, 0) = 0x7fc0a9d86000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799138, st_mode=S_IFREG|0644, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=23, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:47:20}) = 0
+mmap(NULL, 23, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9d85000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799137, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=59, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:44:10}) = 0
+mmap(NULL, 59, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9d84000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799136, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=155, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:44:10}) = 0
+mmap(NULL, 155, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9d83000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799135, st_mode=S_IFREG|0644, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=77, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:47:26}) = 0
+mmap(NULL, 77, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9d82000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799134, st_mode=S_IFREG|0644, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=34, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:47:33}) = 0
+mmap(NULL, 34, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9d81000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799132, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2010/09/25-12:05:41, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:44:10}) = 0
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799133, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=57, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:44:10}) = 0
+mmap(NULL, 57, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9d80000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799131, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=286, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:44:10}) = 0
+mmap(NULL, 286, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9d7f000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799130, st_mode=S_IFREG|0644, st_nlink=15, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2288, st_size=1170770, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:47:37}) = 0
+mmap(NULL, 1170770, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9c4f000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799129, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2454, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:44:10}) = 0
+mmap(NULL, 2454, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9d7e000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799128, st_mode=S_IFREG|0644, st_nlink=11, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=54, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:47:37}) = 0
+mmap(NULL, 54, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9d7d000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=799127, st_mode=S_IFREG|0644, st_nlink=16, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=504, st_size=256324, st_atime=2012/01/26-14:05:22, st_mtime=2010/09/14-16:44:10, st_ctime=2010/09/14-16:47:37}) = 0
+mmap(NULL, 256324, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9c10000
+close(3)                                = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+bind(3, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(3, {sa_family=AF_NETLINK, pid=9490, groups=00000000}, [12]) = 0
+sendto(3, "\24\0\0\0\26\0\1\3\321\326!O\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"0\0\0\0\24\0\2\0\321\326!O\22%\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 108
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\321\326!O\22%\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\321\326!O\22%\0\0\0\0\0\0\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(3)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+sendto(3, "\2\0\0\0\r\0\0\0\6\0\0\0hosts\0", 18, MSG_NOSIGNAL, NULL, 0) = 18
+poll([{fd=3, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=3, revents=POLLIN|POLLHUP}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"\370\377\377\377\377\377", 6}, {"\300\360\326\251\300\177\0\0", 8}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 0
+close(3)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+sendto(3, "\2\0\0\0\16\0\0\0\7\0\0\0ubc.ca\0", 19, MSG_NOSIGNAL, NULL, 0) = 19
+poll([{fd=3, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=3, revents=POLLIN|POLLHUP}])
+read(3, "\2\0\0\0\377\377\377\377\0\0\0\0\0\0\0\0\377\377\377\377\377\377\377\377", 24) = 24
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY)    = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=851285, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=554, st_atime=2012/01/26-04:30:42, st_mtime=2010/09/14-17:23:51, st_ctime=2010/09/14-17:23:51}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9c0f000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 554
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9c0f000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY)        = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=788114, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=92, st_atime=2012/01/26-04:30:42, st_mtime=2010/04/23-02:45:44, st_ctime=2010/09/14-16:39:35}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9c0f000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9c0f000, 4096)            = 0
+open("/etc/resolv.conf", O_RDONLY)      = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9c0f000
+read(3, "# Generated by NetworkManager\ndo"..., 4096) = 140
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9c0f000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=788996, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/01/25-17:35:01, st_mtime=2011/12/29-17:26:12, st_ctime=2011/12/29-17:26:12}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9bf2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libnss_files.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=301718, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=51712, st_atime=2012/01/25-20:00:36, st_mtime=2011/01/10-22:57:04, st_ctime=2011/12/29-17:14:09}) = 0
+mmap(NULL, 2147720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc0a935e000
+mprotect(0x7fc0a936a000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0a9569000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x7fc0a9569000
+close(3)                                = 0
+mprotect(0x7fc0a9569000, 4096, PROT_READ) = 0
+munmap(0x7fc0a9bf2000, 120411)          = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9c0f000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9c0f000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=788996, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/01/25-17:35:01, st_mtime=2011/12/29-17:26:12, st_ctime=2011/12/29-17:26:12}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9bf2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libnss_mdns4_minimal.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\v\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=266977, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10432, st_atime=2012/01/26-08:00:44, st_mtime=2010/03/06-20:33:26, st_ctime=2010/09/14-17:09:56}) = 0
+mmap(NULL, 2105536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc0a915b000
+mprotect(0x7fc0a915d000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0a935c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fc0a935c000
+close(3)                                = 0
+mprotect(0x7fc0a935c000, 4096, PROT_READ) = 0
+munmap(0x7fc0a9bf2000, 120411)          = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=788996, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/01/25-17:35:01, st_mtime=2011/12/29-17:26:12, st_ctime=2011/12/29-17:26:12}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9bf2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libnss_dns.so.2", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\17\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=301714, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=22928, st_atime=2012/01/25-21:30:37, st_mtime=2011/01/10-22:57:04, st_ctime=2011/12/29-17:14:09}) = 0
+mmap(NULL, 2117888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc0a8f55000
+mprotect(0x7fc0a8f5a000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0a9159000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fc0a9159000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libresolv.so.2", O_RDONLY)   = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0209\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=301633, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=93000, st_atime=2012/01/25-21:30:37, st_mtime=2011/01/10-22:57:04, st_ctime=2011/12/29-17:14:09}) = 0
+mmap(NULL, 2198152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc0a8d3c000
+mprotect(0x7fc0a8d52000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0a8f51000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fc0a8f51000
+mmap(0x7fc0a8f53000, 6792, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc0a8f53000
+close(3)                                = 0
+mprotect(0x7fc0a8f51000, 4096, PROT_READ) = 0
+mprotect(0x7fc0a9159000, 4096, PROT_READ) = 0
+munmap(0x7fc0a9bf2000, 120411)          = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+open("/etc/resolv.conf", O_RDONLY)      = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7c000
+read(3, "# Generated by NetworkManager\ndo"..., 4096) = 140
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7c000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\22<\1\0\0\1\0\0\0\0\0\0\3ubc\2ca\0\0\34\0\1", 24, MSG_NOSIGNAL, NULL, 0) = 24
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [68])                = 0
+recvfrom(3, "\22<\201\200\0\1\0\0\0\1\0\0\3ubc\2ca\0\0\34\0\1\300\f\0\6\0\1\0\0"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 68
+close(3)                                = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "*\327\1\0\0\1\0\0\0\0\0\0\3ubc\2ca\3csc\4uvic\2ca\0"..., 36, MSG_NOSIGNAL, NULL, 0) = 36
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [96])                = 0
+recvfrom(3, "*\327\205\203\0\1\0\0\0\1\0\0\3ubc\2ca\3csc\4uvic\2ca\0"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 96
+close(3)                                = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "b~\1\0\0\1\0\0\0\0\0\0\3ubc\2ca\0\0\1\0\1", 24, MSG_NOSIGNAL, NULL, 0) = 24
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [109])               = 0
+recvfrom(3, "b~\201\200\0\1\0\1\0\2\0\2\3ubc\2ca\0\0\1\0\1\300\f\0\1\0\1\0\0"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 109
+close(3)                                = 0
+fcntl(0, F_GETFL)                       = 0x8002 (flags O_RDWR|O_LARGEFILE)
+fcntl(1, F_GETFL)                       = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+fcntl(2, F_GETFL)                       = 0x8002 (flags O_RDWR|O_LARGEFILE)
+fstat(1, {st_dev=makedev(0, 5), st_ino=1367, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 3), st_atime=2012/01/10-17:00:14, st_mtime=2012/01/10-17:00:14, st_ctime=2012/01/10-17:00:14}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff14cf40a0) = -1 ENOTTY (Inappropriate ioctl for device)
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7c000
+write(1, "traceroute to ubc.ca (137.82.130"..., 66) = 66
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 3
+bind(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(3, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(3, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(3, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(3, SOL_IP, IP_TTL, [1], 4)   = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(33434), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(3, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(3, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 4
+bind(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(4, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(4, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(4, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(4, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(4, SOL_IP, IP_TTL, [1], 4)   = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(33435), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(4, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(4, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 5
+bind(5, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(5, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(5, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(5, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(5, SOL_IP, IP_TTL, [1], 4)   = 0
+connect(5, {sa_family=AF_INET, sin_port=htons(33436), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(5, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(5, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 6
+bind(6, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(6, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(6, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(6, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(6, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(6, SOL_IP, IP_TTL, [2], 4)   = 0
+connect(6, {sa_family=AF_INET, sin_port=htons(33437), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(6, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(6, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 7
+bind(7, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(7, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(7, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(7, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(7, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(7, SOL_IP, IP_TTL, [2], 4)   = 0
+connect(7, {sa_family=AF_INET, sin_port=htons(33438), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(7, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(7, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 8
+bind(8, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(8, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(8, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(8, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(8, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(8, SOL_IP, IP_TTL, [2], 4)   = 0
+connect(8, {sa_family=AF_INET, sin_port=htons(33439), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(8, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(8, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 9
+bind(9, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(9, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(9, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(9, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(9, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(9, SOL_IP, IP_TTL, [3], 4)   = 0
+connect(9, {sa_family=AF_INET, sin_port=htons(33440), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(9, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(9, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 10
+bind(10, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(10, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(10, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(10, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(10, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(10, SOL_IP, IP_TTL, [3], 4)  = 0
+connect(10, {sa_family=AF_INET, sin_port=htons(33441), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(10, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(10, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 11
+bind(11, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(11, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(11, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(11, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(11, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(11, SOL_IP, IP_TTL, [3], 4)  = 0
+connect(11, {sa_family=AF_INET, sin_port=htons(33442), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(11, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(11, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 12
+bind(12, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(12, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(12, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(12, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(12, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(12, SOL_IP, IP_TTL, [4], 4)  = 0
+connect(12, {sa_family=AF_INET, sin_port=htons(33443), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(12, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(12, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 13
+bind(13, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(13, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(13, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(13, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(13, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(13, SOL_IP, IP_TTL, [4], 4)  = 0
+connect(13, {sa_family=AF_INET, sin_port=htons(33444), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(13, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(13, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 14
+bind(14, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(14, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(14, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(14, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(14, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(14, SOL_IP, IP_TTL, [4], 4)  = 0
+connect(14, {sa_family=AF_INET, sin_port=htons(33445), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(14, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(14, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 15
+bind(15, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(15, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(15, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(15, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(15, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(15, SOL_IP, IP_TTL, [5], 4)  = 0
+connect(15, {sa_family=AF_INET, sin_port=htons(33446), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(15, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(15, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 16
+bind(16, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(16, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(16, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(16, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(16, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(16, SOL_IP, IP_TTL, [5], 4)  = 0
+connect(16, {sa_family=AF_INET, sin_port=htons(33447), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(16, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(16, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 17
+bind(17, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(17, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(17, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(17, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(17, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(17, SOL_IP, IP_TTL, [5], 4)  = 0
+connect(17, {sa_family=AF_INET, sin_port=htons(33448), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(17, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(17, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 18
+bind(18, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(18, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(18, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(18, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(18, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(18, SOL_IP, IP_TTL, [6], 4)  = 0
+connect(18, {sa_family=AF_INET, sin_port=htons(33449), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(18, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(18, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+poll([{fd=3, events=POLLIN|POLLERR}, {fd=4, events=POLLIN|POLLERR}, {fd=5, events=POLLIN|POLLERR}, {fd=6, events=POLLIN|POLLERR}, {fd=7, events=POLLIN|POLLERR}, {fd=8, events=POLLIN|POLLERR}, {fd=9, events=POLLIN|POLLERR}, {fd=10, events=POLLIN|POLLERR}, {fd=11, events=POLLIN|POLLERR}, {fd=12, events=POLLIN|POLLERR}, {fd=13, events=POLLIN|POLLERR}, {fd=14, events=POLLIN|POLLERR}, {fd=15, events=POLLIN|POLLERR}, {fd=16, events=POLLIN|POLLERR}, {fd=17, events=POLLIN|POLLERR}, {fd=18, events=POLLIN|POLLERR}], 16, 5006) = 12 ([{fd=3, revents=POLLERR}, {fd=4, revents=POLLERR}, {fd=5, revents=POLLERR}, {fd=6, revents=POLLERR}, {fd=7, revents=POLLERR}, {fd=8, revents=POLLERR}, {fd=9, revents=POLLERR}, {fd=10, revents=POLLERR}, {fd=11, revents=POLLERR}, {fd=12, revents=POLLERR}, {fd=13, revents=POLLERR}, {fd=14, revents=POLLERR}])
+recvmsg(3, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33434), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(3)                                = 0
+recvmsg(4, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33435), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(4)                                = 0
+recvmsg(5, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33436), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(5)                                = 0
+recvmsg(6, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33437), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(6)                                = 0
+recvmsg(7, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33438), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(7)                                = 0
+recvmsg(8, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33439), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(8)                                = 0
+recvmsg(9, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33440), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(9)                                = 0
+recvmsg(10, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33441), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(10)                               = 0
+recvmsg(11, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33442), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(11)                               = 0
+recvmsg(12, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33443), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(12)                               = 0
+recvmsg(13, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33444), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(13)                               = 0
+recvmsg(14, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33445), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(14)                               = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "b\242\1\0\0\1\0\0\0\0\0\0\00265\00273\003104\003142\7in-ad"..., 44, MSG_NOSIGNAL, NULL, 0) = 44
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [151])               = 0
+recvfrom(3, "b\242\205\200\0\1\0\1\0\2\0\2\00265\00273\003104\003142\7in-ad"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 151
+close(3)                                = 0
+write(1, "\n 1  e-gateway.csc.UVic.CA (142."..., 52) = 52
+write(1, "  0.234 ms", 10)              = 10
+write(1, "  0.232 ms", 10)              = 10
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\352\363\1\0\0\1\0\0\0\0\0\0\0013\0019\003168\003192\7in-addr"..., 42, MSG_NOSIGNAL, NULL, 0) = 42
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [119])               = 0
+recvfrom(3, "\352\363\201\203\0\1\0\0\0\1\0\0\0013\0019\003168\003192\7in-addr"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 119
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=788996, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/01/25-17:35:01, st_mtime=2011/12/29-17:26:12, st_ctime=2011/12/29-17:26:12}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0a9bf2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libnss_mdns4.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=266976, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10448, st_atime=2012/01/25-17:38:08, st_mtime=2010/03/06-20:33:26, st_ctime=2010/09/14-17:09:56}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc0a8b39000
+mprotect(0x7fc0a8b3b000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0a8d3a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fc0a8d3a000
+close(3)                                = 0
+mprotect(0x7fc0a8d3a000, 4096, PROT_READ) = 0
+munmap(0x7fc0a9bf2000, 120411)          = 0
+socket(PF_FILE, SOCK_STREAM, 0)         = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/avahi-daemon/socket"}, 110) = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fstat(3, {st_dev=makedev(0, 6), st_ino=2186653, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+lseek(3, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+write(3, "RESOLVE-ADDRESS 192.168.9.3\n", 28) = 28
+read(3, "-15 Timeout reached\n", 4096)  = 20
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+write(1, "\n 2  192.168.9.3 (192.168.9.3)  "..., 40) = 40
+write(1, "  0.217 ms", 10)              = 10
+write(1, "  0.215 ms", 10)              = 10
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\362\223\1\0\0\1\0\0\0\0\0\0\0011\00210\003168\003192\7in-add"..., 43, MSG_NOSIGNAL, NULL, 0) = 43
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [120])               = 0
+recvfrom(3, "\362\223\201\203\0\1\0\0\0\1\0\0\0011\00210\003168\003192\7in-add"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 120
+close(3)                                = 0
+socket(PF_FILE, SOCK_STREAM, 0)         = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/avahi-daemon/socket"}, 110) = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fstat(3, {st_dev=makedev(0, 6), st_ino=2186664, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+lseek(3, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+write(3, "RESOLVE-ADDRESS 192.168.10.1\n", 29) = 29
+read(3, "-15 Timeout reached\n", 4096)  = 20
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+write(1, "\n 3  192.168.10.1 (192.168.10.1)"..., 42) = 42
+write(1, "  0.453 ms", 10)              = 10
+write(1, "  0.510 ms", 10)              = 10
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\202\360\1\0\0\1\0\0\0\0\0\0\0016\0018\003168\003192\7in-addr"..., 42, MSG_NOSIGNAL, NULL, 0) = 42
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [119])               = 0
+recvfrom(3, "\202\360\201\203\0\1\0\0\0\1\0\0\0016\0018\003168\003192\7in-addr"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 119
+close(3)                                = 0
+socket(PF_FILE, SOCK_STREAM, 0)         = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/avahi-daemon/socket"}, 110) = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fstat(3, {st_dev=makedev(0, 6), st_ino=2186668, st_mode=S_IFSOCK|0777, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=4096, st_blocks=0, st_size=0, st_atime=0, st_mtime=0, st_ctime=0}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+lseek(3, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+write(3, "RESOLVE-ADDRESS 192.168.8.6\n", 28) = 28
+read(3, "-15 Timeout reached\n", 4096)  = 20
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+write(1, "\n 4  192.168.8.6 (192.168.8.6)  "..., 40) = 40
+write(1, "  0.497 ms", 10)              = 10
+write(1, "  0.505 ms", 10)              = 10
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 3
+bind(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(3, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(3, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(3, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(3, SOL_IP, IP_TTL, [6], 4)   = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(33450), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(3, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(3, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 4
+bind(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(4, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(4, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(4, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(4, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(4, SOL_IP, IP_TTL, [6], 4)   = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(33451), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(4, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(4, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 5
+bind(5, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(5, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(5, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(5, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(5, SOL_IP, IP_TTL, [7], 4)   = 0
+connect(5, {sa_family=AF_INET, sin_port=htons(33452), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(5, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(5, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 6
+bind(6, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(6, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(6, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(6, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(6, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(6, SOL_IP, IP_TTL, [7], 4)   = 0
+connect(6, {sa_family=AF_INET, sin_port=htons(33453), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(6, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(6, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 7
+bind(7, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(7, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(7, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(7, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(7, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(7, SOL_IP, IP_TTL, [7], 4)   = 0
+connect(7, {sa_family=AF_INET, sin_port=htons(33454), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(7, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(7, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 8
+bind(8, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(8, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(8, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(8, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(8, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(8, SOL_IP, IP_TTL, [8], 4)   = 0
+connect(8, {sa_family=AF_INET, sin_port=htons(33455), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(8, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(8, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 9
+bind(9, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(9, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(9, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(9, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(9, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(9, SOL_IP, IP_TTL, [8], 4)   = 0
+connect(9, {sa_family=AF_INET, sin_port=htons(33456), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(9, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(9, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 10
+bind(10, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(10, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(10, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(10, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(10, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(10, SOL_IP, IP_TTL, [8], 4)  = 0
+connect(10, {sa_family=AF_INET, sin_port=htons(33457), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(10, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(10, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 11
+bind(11, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(11, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(11, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(11, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(11, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(11, SOL_IP, IP_TTL, [9], 4)  = 0
+connect(11, {sa_family=AF_INET, sin_port=htons(33458), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(11, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(11, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 12
+bind(12, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(12, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(12, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(12, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(12, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(12, SOL_IP, IP_TTL, [9], 4)  = 0
+connect(12, {sa_family=AF_INET, sin_port=htons(33459), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(12, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(12, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 13
+bind(13, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(13, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(13, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(13, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(13, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(13, SOL_IP, IP_TTL, [9], 4)  = 0
+connect(13, {sa_family=AF_INET, sin_port=htons(33460), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(13, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(13, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 14
+bind(14, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(14, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(14, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(14, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(14, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(14, SOL_IP, IP_TTL, [10], 4) = 0
+connect(14, {sa_family=AF_INET, sin_port=htons(33461), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(14, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(14, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+poll([{fd=3, events=POLLIN|POLLERR}, {fd=4, events=POLLIN|POLLERR}, {fd=5, events=POLLIN|POLLERR}, {fd=6, events=POLLIN|POLLERR}, {fd=7, events=POLLIN|POLLERR}, {fd=8, events=POLLIN|POLLERR}, {fd=9, events=POLLIN|POLLERR}, {fd=10, events=POLLIN|POLLERR}, {fd=11, events=POLLIN|POLLERR}, {fd=12, events=POLLIN|POLLERR}, {fd=13, events=POLLIN|POLLERR}, {fd=14, events=POLLIN|POLLERR}, {fd=15, events=POLLIN|POLLERR}, {fd=16, events=POLLIN|POLLERR}, {fd=17, events=POLLIN|POLLERR}, {fd=18, events=POLLIN|POLLERR}], 16, 20198) = 10 ([{fd=3, revents=POLLERR}, {fd=4, revents=POLLERR}, {fd=5, revents=POLLERR}, {fd=6, revents=POLLERR}, {fd=7, revents=POLLERR}, {fd=8, revents=POLLERR}, {fd=15, revents=POLLERR}, {fd=16, revents=POLLERR}, {fd=17, revents=POLLERR}, {fd=18, revents=POLLERR}])
+recvmsg(3, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33450), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(3)                                = 0
+recvmsg(4, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33451), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(4)                                = 0
+recvmsg(5, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33452), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(5)                                = 0
+recvmsg(6, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33453), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(6)                                = 0
+recvmsg(7, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33454), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(7)                                = 0
+recvmsg(8, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33455), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(8)                                = 0
+recvmsg(15, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33446), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(15)                               = 0
+recvmsg(16, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33447), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(16)                               = 0
+recvmsg(17, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33448), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(17)                               = 0
+recvmsg(18, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33449), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(18)                               = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\2(\1\0\0\1\0\0\0\0\0\0\00221\003252\003104\003142\7in-a"..., 45, MSG_NOSIGNAL, NULL, 0) = 45
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [151])               = 0
+recvfrom(3, "\2(\201\200\0\1\0\1\0\2\0\2\00221\003252\003104\003142\7in-a"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 151
+close(3)                                = 0
+write(1, "\n 5  csc1cled050.bb.uvic.ca (142"..., 54) = 54
+write(1, "  3.258 ms", 10)              = 10
+write(1, "  2.944 ms", 10)              = 10
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\202\243\1\0\0\1\0\0\0\0\0\0\003246\003252\003104\003142\7in-"..., 46, MSG_NOSIGNAL, NULL, 0) = 46
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [152])               = 0
+recvfrom(3, "\202\243\201\200\0\1\0\1\0\2\0\2\003246\003252\003104\003142\7in-"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 152
+close(3)                                = 0
+write(1, "\n 6  emc1cled050.bb.uvic.ca (142"..., 55) = 55
+write(1, "  0.570 ms", 10)              = 10
+write(1, "  0.495 ms", 10)              = 10
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\302\23\1\0\0\1\0\0\0\0\0\0\003113\003241\00223\003207\7in-a"..., 45, MSG_NOSIGNAL, NULL, 0) = 45
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [134])               = 0
+recvfrom(3, "\302\23\201\200\0\1\0\1\0\2\0\1\003113\003241\00223\003207\7in-a"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 134
+close(3)                                = 0
+write(1, "\n 7  UVicA-ORAN.VICTX.BC.net (20"..., 55) = 55
+write(1, "  0.642 ms", 10)              = 10
+write(1, "  0.603 ms", 10)              = 10
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\232\316\1\0\0\1\0\0\0\0\0\0\00237\0010\00212\003206\7in-addr"..., 42, MSG_NOSIGNAL, NULL, 0) = 42
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [132])               = 0
+recvfrom(3, "\232\316\201\200\0\1\0\1\0\2\0\1\00237\0010\00212\003206\7in-addr"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 132
+close(3)                                = 0
+write(1, "\n 8  cr1-bb3901.vantx1.bc.net (2"..., 53) = 53
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 3
+bind(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(3, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(3, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(3, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(3, SOL_IP, IP_TTL, [10], 4)  = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(33462), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(3, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(3, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 4
+bind(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(4, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(4, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(4, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(4, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(4, SOL_IP, IP_TTL, [10], 4)  = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(33463), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(4, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(4, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 5
+bind(5, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(5, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(5, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(5, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(5, SOL_IP, IP_TTL, [11], 4)  = 0
+connect(5, {sa_family=AF_INET, sin_port=htons(33464), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(5, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(5, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 6
+bind(6, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(6, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(6, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(6, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(6, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(6, SOL_IP, IP_TTL, [11], 4)  = 0
+connect(6, {sa_family=AF_INET, sin_port=htons(33465), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(6, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(6, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 7
+bind(7, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(7, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(7, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(7, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(7, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(7, SOL_IP, IP_TTL, [11], 4)  = 0
+connect(7, {sa_family=AF_INET, sin_port=htons(33466), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(7, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(7, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 8
+bind(8, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(8, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(8, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(8, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(8, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(8, SOL_IP, IP_TTL, [12], 4)  = 0
+connect(8, {sa_family=AF_INET, sin_port=htons(33467), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(8, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(8, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 15
+bind(15, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(15, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(15, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(15, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(15, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(15, SOL_IP, IP_TTL, [12], 4) = 0
+connect(15, {sa_family=AF_INET, sin_port=htons(33468), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(15, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(15, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 16
+bind(16, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(16, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(16, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(16, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(16, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(16, SOL_IP, IP_TTL, [12], 4) = 0
+connect(16, {sa_family=AF_INET, sin_port=htons(33469), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(16, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(16, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 17
+bind(17, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(17, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(17, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(17, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(17, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(17, SOL_IP, IP_TTL, [13], 4) = 0
+connect(17, {sa_family=AF_INET, sin_port=htons(33470), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(17, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(17, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 18
+bind(18, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(18, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(18, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(18, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(18, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(18, SOL_IP, IP_TTL, [13], 4) = 0
+connect(18, {sa_family=AF_INET, sin_port=htons(33471), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(18, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(18, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+poll([{fd=3, events=POLLIN|POLLERR}, {fd=4, events=POLLIN|POLLERR}, {fd=5, events=POLLIN|POLLERR}, {fd=6, events=POLLIN|POLLERR}, {fd=7, events=POLLIN|POLLERR}, {fd=8, events=POLLIN|POLLERR}, {fd=9, events=POLLIN|POLLERR}, {fd=10, events=POLLIN|POLLERR}, {fd=11, events=POLLIN|POLLERR}, {fd=12, events=POLLIN|POLLERR}, {fd=13, events=POLLIN|POLLERR}, {fd=14, events=POLLIN|POLLERR}, {fd=15, events=POLLIN|POLLERR}, {fd=16, events=POLLIN|POLLERR}, {fd=17, events=POLLIN|POLLERR}, {fd=18, events=POLLIN|POLLERR}], 16, 5022) = 9 ([{fd=3, revents=POLLERR}, {fd=4, revents=POLLERR}, {fd=5, revents=POLLERR}, {fd=9, revents=POLLERR}, {fd=10, revents=POLLERR}, {fd=11, revents=POLLERR}, {fd=12, revents=POLLERR}, {fd=13, revents=POLLERR}, {fd=14, revents=POLLERR}])
+recvmsg(3, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33462), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(3)                                = 0
+recvmsg(4, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33463), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(4)                                = 0
+recvmsg(5, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33464), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(5)                                = 0
+recvmsg(9, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33456), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(9)                                = 0
+recvmsg(10, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33457), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(10)                               = 0
+recvmsg(11, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33458), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(11)                               = 0
+recvmsg(12, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33459), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(12)                               = 0
+recvmsg(13, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33460), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(13)                               = 0
+recvmsg(14, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33461), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(14)                               = 0
+write(1, "  2.399 ms", 10)              = 10
+write(1, "  2.370 ms", 10)              = 10
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\222>\1\0\0\1\0\0\0\0\0\0\003233\0012\00287\003134\7in-add"..., 43, MSG_NOSIGNAL, NULL, 0) = 43
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [163])               = 0
+recvfrom(3, "\222>\201\200\0\1\0\1\0\2\0\2\003233\0012\00287\003134\7in-add"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 163
+close(3)                                = 0
+write(1, "\n 9  343-ORAN-UBCAb-cr1.vncv1.BC"..., 61) = 61
+write(1, "  2.681 ms", 10)              = 10
+write(1, "  2.697 ms", 10)              = 10
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "*\24\1\0\0\1\0\0\0\0\0\0\003138\003123\00282\003137\7in-a"..., 45, MSG_NOSIGNAL, NULL, 0) = 45
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [152])               = 0
+recvfrom(3, "*\24\201\200\0\1\0\1\0\2\0\2\003138\003123\00282\003137\7in-a"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 152
+close(3)                                = 0
+write(1, "\n10  a0-anguborder.net.ubc.ca (1"..., 56) = 56
+write(1, "  2.743 ms", 10)              = 10
+write(1, "  2.663 ms", 10)              = 10
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=787981, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=256, st_atime=2012/01/25-20:46:10, st_mtime=2010/09/14-16:39:23, st_ctime=2010/09/14-16:39:23}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0a9d7b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\te-"..., 4096) = 256
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc0a9d7b000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=790050, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=140, st_atime=2012/01/25-19:00:36, st_mtime=2012/01/10-17:00:29, st_ctime=2012/01/10-17:00:29}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "B\315\1\0\0\1\0\0\0\0\0\0\00265\003123\00282\003137\7in-ad"..., 44, MSG_NOSIGNAL, NULL, 0) = 44
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [144])               = 0
+recvfrom(3, "B\315\201\200\0\1\0\1\0\2\0\2\00265\003123\00282\003137\7in-ad"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("142.104.71.64")}, [16]) = 144
+close(3)                                = 0
+write(1, "\n11  a21-a0.net.ubc.ca (137.82.1"..., 48) = 48
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 3
+bind(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(3, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(3, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(3, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(3, SOL_IP, IP_TTL, [13], 4)  = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(33472), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(3, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(3, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 4
+bind(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(4, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(4, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(4, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(4, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(4, SOL_IP, IP_TTL, [14], 4)  = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(33473), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(4, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(4, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 5
+bind(5, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(5, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(5, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(5, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(5, SOL_IP, IP_TTL, [14], 4)  = 0
+connect(5, {sa_family=AF_INET, sin_port=htons(33474), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(5, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(5, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 9
+bind(9, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(9, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(9, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(9, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(9, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(9, SOL_IP, IP_TTL, [14], 4)  = 0
+connect(9, {sa_family=AF_INET, sin_port=htons(33475), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(9, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(9, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 10
+bind(10, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(10, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(10, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(10, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(10, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(10, SOL_IP, IP_TTL, [15], 4) = 0
+connect(10, {sa_family=AF_INET, sin_port=htons(33476), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(10, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(10, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 11
+bind(11, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(11, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(11, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(11, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(11, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(11, SOL_IP, IP_TTL, [15], 4) = 0
+connect(11, {sa_family=AF_INET, sin_port=htons(33477), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(11, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(11, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 12
+bind(12, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(12, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(12, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(12, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(12, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(12, SOL_IP, IP_TTL, [15], 4) = 0
+connect(12, {sa_family=AF_INET, sin_port=htons(33478), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(12, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(12, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 13
+bind(13, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(13, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(13, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(13, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(13, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(13, SOL_IP, IP_TTL, [16], 4) = 0
+connect(13, {sa_family=AF_INET, sin_port=htons(33479), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(13, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(13, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 14
+bind(14, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(14, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(14, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(14, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(14, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(14, SOL_IP, IP_TTL, [16], 4) = 0
+connect(14, {sa_family=AF_INET, sin_port=htons(33480), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(14, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(14, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+poll([{fd=3, events=POLLIN|POLLERR}, {fd=4, events=POLLIN|POLLERR}, {fd=5, events=POLLIN|POLLERR}, {fd=6, events=POLLIN|POLLERR}, {fd=7, events=POLLIN|POLLERR}, {fd=8, events=POLLIN|POLLERR}, {fd=9, events=POLLIN|POLLERR}, {fd=10, events=POLLIN|POLLERR}, {fd=11, events=POLLIN|POLLERR}, {fd=12, events=POLLIN|POLLERR}, {fd=13, events=POLLIN|POLLERR}, {fd=14, events=POLLIN|POLLERR}, {fd=15, events=POLLIN|POLLERR}, {fd=16, events=POLLIN|POLLERR}, {fd=17, events=POLLIN|POLLERR}, {fd=18, events=POLLIN|POLLERR}], 16, 5030) = 2 ([{fd=6, revents=POLLERR}, {fd=7, revents=POLLERR}])
+recvmsg(6, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33465), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(6)                                = 0
+recvmsg(7, {msg_name(16)={sa_family=AF_INET, sin_port=htons(33466), sin_addr=inet_addr("137.82.130.49")}, msg_iov(1)=[{"\300\333`\0\0\0\0\0.\0\0\0\0\0\0\0\320B\317\24\377\177\0\0y[]\251\300\177\0\0"..., 1280}], msg_controllen=104, {cmsg_len=32, cmsg_level=SOL_SOCKET, cmsg_type=0x1d /* SCM_??? */, ...}, msg_flags=MSG_ERRQUEUE}, MSG_ERRQUEUE) = 0
+close(7)                                = 0
+write(1, "  2.685 ms", 10)              = 10
+write(1, "  2.694 ms", 10)              = 10
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 6
+bind(6, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(6, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(6, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(6, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(6, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(6, SOL_IP, IP_TTL, [16], 4)  = 0
+connect(6, {sa_family=AF_INET, sin_port=htons(33481), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(6, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(6, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 7
+bind(7, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(7, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(7, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(7, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(7, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(7, SOL_IP, IP_TTL, [17], 4)  = 0
+connect(7, {sa_family=AF_INET, sin_port=htons(33482), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(7, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(7, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+poll([{fd=3, events=POLLIN|POLLERR}, {fd=4, events=POLLIN|POLLERR}, {fd=5, events=POLLIN|POLLERR}, {fd=6, events=POLLIN|POLLERR}, {fd=7, events=POLLIN|POLLERR}, {fd=8, events=POLLIN|POLLERR}, {fd=9, events=POLLIN|POLLERR}, {fd=10, events=POLLIN|POLLERR}, {fd=11, events=POLLIN|POLLERR}, {fd=12, events=POLLIN|POLLERR}, {fd=13, events=POLLIN|POLLERR}, {fd=14, events=POLLIN|POLLERR}, {fd=15, events=POLLIN|POLLERR}, {fd=16, events=POLLIN|POLLERR}, {fd=17, events=POLLIN|POLLERR}, {fd=18, events=POLLIN|POLLERR}], 16, 5000) = 0 (Timeout)
+close(8)                                = 0
+write(1, "\n12  *", 6)                  = 6
+close(15)                               = 0
+write(1, " *", 2)                       = 2
+close(16)                               = 0
+write(1, " *", 2)                       = 2
+close(17)                               = 0
+write(1, "\n13  *", 6)                  = 6
+close(18)                               = 0
+write(1, " *", 2)                       = 2
+close(3)                                = 0
+write(1, " *", 2)                       = 2
+close(4)                                = 0
+write(1, "\n14  *", 6)                  = 6
+close(5)                                = 0
+write(1, " *", 2)                       = 2
+close(9)                                = 0
+write(1, " *", 2)                       = 2
+close(10)                               = 0
+write(1, "\n15  *", 6)                  = 6
+close(11)                               = 0
+write(1, " *", 2)                       = 2
+close(12)                               = 0
+write(1, " *", 2)                       = 2
+close(13)                               = 0
+write(1, "\n16  *", 6)                  = 6
+close(14)                               = 0
+write(1, " *", 2)                       = 2
+close(6)                                = 0
+write(1, " *", 2)                       = 2
+close(7)                                = 0
+write(1, "\n17  *", 6)                  = 6
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 3
+bind(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(3, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(3, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(3, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(3, SOL_IP, IP_TTL, [17], 4)  = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(33483), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(3, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(3, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 4
+bind(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(4, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(4, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(4, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(4, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(4, SOL_IP, IP_TTL, [17], 4)  = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(33484), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(4, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(4, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 5
+bind(5, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(5, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(5, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(5, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(5, SOL_IP, IP_TTL, [18], 4)  = 0
+connect(5, {sa_family=AF_INET, sin_port=htons(33485), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(5, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(5, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 6
+bind(6, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(6, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(6, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(6, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(6, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(6, SOL_IP, IP_TTL, [18], 4)  = 0
+connect(6, {sa_family=AF_INET, sin_port=htons(33486), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(6, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(6, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 7
+bind(7, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(7, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(7, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(7, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(7, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(7, SOL_IP, IP_TTL, [18], 4)  = 0
+connect(7, {sa_family=AF_INET, sin_port=htons(33487), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(7, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(7, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 8
+bind(8, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(8, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(8, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(8, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(8, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(8, SOL_IP, IP_TTL, [19], 4)  = 0
+connect(8, {sa_family=AF_INET, sin_port=htons(33488), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(8, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(8, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 9
+bind(9, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(9, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(9, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(9, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(9, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(9, SOL_IP, IP_TTL, [19], 4)  = 0
+connect(9, {sa_family=AF_INET, sin_port=htons(33489), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(9, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(9, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 10
+bind(10, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(10, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(10, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(10, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(10, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(10, SOL_IP, IP_TTL, [19], 4) = 0
+connect(10, {sa_family=AF_INET, sin_port=htons(33490), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(10, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(10, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 11
+bind(11, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(11, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(11, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(11, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(11, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(11, SOL_IP, IP_TTL, [20], 4) = 0
+connect(11, {sa_family=AF_INET, sin_port=htons(33491), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(11, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(11, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 12
+bind(12, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(12, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(12, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(12, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(12, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(12, SOL_IP, IP_TTL, [20], 4) = 0
+connect(12, {sa_family=AF_INET, sin_port=htons(33492), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(12, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(12, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 13
+bind(13, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(13, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(13, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(13, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(13, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(13, SOL_IP, IP_TTL, [20], 4) = 0
+connect(13, {sa_family=AF_INET, sin_port=htons(33493), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(13, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(13, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 14
+bind(14, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(14, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(14, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(14, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(14, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(14, SOL_IP, IP_TTL, [21], 4) = 0
+connect(14, {sa_family=AF_INET, sin_port=htons(33494), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(14, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(14, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 15
+bind(15, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(15, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(15, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(15, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(15, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(15, SOL_IP, IP_TTL, [21], 4) = 0
+connect(15, {sa_family=AF_INET, sin_port=htons(33495), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(15, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(15, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 16
+bind(16, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(16, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(16, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(16, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(16, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(16, SOL_IP, IP_TTL, [21], 4) = 0
+connect(16, {sa_family=AF_INET, sin_port=htons(33496), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(16, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(16, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 17
+bind(17, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(17, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(17, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(17, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(17, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(17, SOL_IP, IP_TTL, [22], 4) = 0
+connect(17, {sa_family=AF_INET, sin_port=htons(33497), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(17, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(17, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 18
+bind(18, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(18, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(18, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(18, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(18, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(18, SOL_IP, IP_TTL, [22], 4) = 0
+connect(18, {sa_family=AF_INET, sin_port=htons(33498), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(18, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(18, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+poll([{fd=3, events=POLLIN|POLLERR}, {fd=4, events=POLLIN|POLLERR}, {fd=5, events=POLLIN|POLLERR}, {fd=6, events=POLLIN|POLLERR}, {fd=7, events=POLLIN|POLLERR}, {fd=8, events=POLLIN|POLLERR}, {fd=9, events=POLLIN|POLLERR}, {fd=10, events=POLLIN|POLLERR}, {fd=11, events=POLLIN|POLLERR}, {fd=12, events=POLLIN|POLLERR}, {fd=13, events=POLLIN|POLLERR}, {fd=14, events=POLLIN|POLLERR}, {fd=15, events=POLLIN|POLLERR}, {fd=16, events=POLLIN|POLLERR}, {fd=17, events=POLLIN|POLLERR}, {fd=18, events=POLLIN|POLLERR}], 16, 5007) = 0 (Timeout)
+close(3)                                = 0
+write(1, " *", 2)                       = 2
+close(4)                                = 0
+write(1, " *", 2)                       = 2
+close(5)                                = 0
+write(1, "\n18  *", 6)                  = 6
+close(6)                                = 0
+write(1, " *", 2)                       = 2
+close(7)                                = 0
+write(1, " *", 2)                       = 2
+close(8)                                = 0
+write(1, "\n19  *", 6)                  = 6
+close(9)                                = 0
+write(1, " *", 2)                       = 2
+close(10)                               = 0
+write(1, " *", 2)                       = 2
+close(11)                               = 0
+write(1, "\n20  *", 6)                  = 6
+close(12)                               = 0
+write(1, " *", 2)                       = 2
+close(13)                               = 0
+write(1, " *", 2)                       = 2
+close(14)                               = 0
+write(1, "\n21  *", 6)                  = 6
+close(15)                               = 0
+write(1, " *", 2)                       = 2
+close(16)                               = 0
+write(1, " *", 2)                       = 2
+close(17)                               = 0
+write(1, "\n22  *", 6)                  = 6
+close(18)                               = 0
+write(1, " *", 2)                       = 2
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 3
+bind(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(3, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(3, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(3, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(3, SOL_IP, IP_TTL, [22], 4)  = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(33499), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(3, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(3, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 4
+bind(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(4, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(4, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(4, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(4, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(4, SOL_IP, IP_TTL, [23], 4)  = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(33500), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(4, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(4, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 5
+bind(5, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(5, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(5, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(5, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(5, SOL_IP, IP_TTL, [23], 4)  = 0
+connect(5, {sa_family=AF_INET, sin_port=htons(33501), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(5, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(5, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 6
+bind(6, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(6, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(6, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(6, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(6, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(6, SOL_IP, IP_TTL, [23], 4)  = 0
+connect(6, {sa_family=AF_INET, sin_port=htons(33502), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(6, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(6, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 7
+bind(7, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(7, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(7, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(7, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(7, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(7, SOL_IP, IP_TTL, [24], 4)  = 0
+connect(7, {sa_family=AF_INET, sin_port=htons(33503), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(7, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(7, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 8
+bind(8, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(8, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(8, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(8, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(8, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(8, SOL_IP, IP_TTL, [24], 4)  = 0
+connect(8, {sa_family=AF_INET, sin_port=htons(33504), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(8, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(8, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 9
+bind(9, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(9, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(9, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(9, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(9, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(9, SOL_IP, IP_TTL, [24], 4)  = 0
+connect(9, {sa_family=AF_INET, sin_port=htons(33505), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(9, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(9, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 10
+bind(10, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(10, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(10, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(10, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(10, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(10, SOL_IP, IP_TTL, [25], 4) = 0
+connect(10, {sa_family=AF_INET, sin_port=htons(33506), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(10, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(10, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 11
+bind(11, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(11, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(11, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(11, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(11, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(11, SOL_IP, IP_TTL, [25], 4) = 0
+connect(11, {sa_family=AF_INET, sin_port=htons(33507), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(11, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(11, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 12
+bind(12, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(12, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(12, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(12, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(12, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(12, SOL_IP, IP_TTL, [25], 4) = 0
+connect(12, {sa_family=AF_INET, sin_port=htons(33508), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(12, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(12, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 13
+bind(13, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(13, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(13, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(13, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(13, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(13, SOL_IP, IP_TTL, [26], 4) = 0
+connect(13, {sa_family=AF_INET, sin_port=htons(33509), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(13, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(13, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 14
+bind(14, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(14, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(14, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(14, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(14, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(14, SOL_IP, IP_TTL, [26], 4) = 0
+connect(14, {sa_family=AF_INET, sin_port=htons(33510), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(14, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(14, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 15
+bind(15, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(15, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(15, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(15, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(15, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(15, SOL_IP, IP_TTL, [26], 4) = 0
+connect(15, {sa_family=AF_INET, sin_port=htons(33511), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(15, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(15, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 16
+bind(16, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(16, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(16, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(16, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(16, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(16, SOL_IP, IP_TTL, [27], 4) = 0
+connect(16, {sa_family=AF_INET, sin_port=htons(33512), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(16, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(16, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 17
+bind(17, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(17, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(17, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(17, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(17, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(17, SOL_IP, IP_TTL, [27], 4) = 0
+connect(17, {sa_family=AF_INET, sin_port=htons(33513), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(17, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(17, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 18
+bind(18, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(18, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(18, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(18, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(18, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(18, SOL_IP, IP_TTL, [27], 4) = 0
+connect(18, {sa_family=AF_INET, sin_port=htons(33514), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(18, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(18, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+poll([{fd=3, events=POLLIN|POLLERR}, {fd=4, events=POLLIN|POLLERR}, {fd=5, events=POLLIN|POLLERR}, {fd=6, events=POLLIN|POLLERR}, {fd=7, events=POLLIN|POLLERR}, {fd=8, events=POLLIN|POLLERR}, {fd=9, events=POLLIN|POLLERR}, {fd=10, events=POLLIN|POLLERR}, {fd=11, events=POLLIN|POLLERR}, {fd=12, events=POLLIN|POLLERR}, {fd=13, events=POLLIN|POLLERR}, {fd=14, events=POLLIN|POLLERR}, {fd=15, events=POLLIN|POLLERR}, {fd=16, events=POLLIN|POLLERR}, {fd=17, events=POLLIN|POLLERR}, {fd=18, events=POLLIN|POLLERR}], 16, 5007) = 0 (Timeout)
+close(3)                                = 0
+write(1, " *", 2)                       = 2
+close(4)                                = 0
+write(1, "\n23  *", 6)                  = 6
+close(5)                                = 0
+write(1, " *", 2)                       = 2
+close(6)                                = 0
+write(1, " *", 2)                       = 2
+close(7)                                = 0
+write(1, "\n24  *", 6)                  = 6
+close(8)                                = 0
+write(1, " *", 2)                       = 2
+close(9)                                = 0
+write(1, " *", 2)                       = 2
+close(10)                               = 0
+write(1, "\n25  *", 6)                  = 6
+close(11)                               = 0
+write(1, " *", 2)                       = 2
+close(12)                               = 0
+write(1, " *", 2)                       = 2
+close(13)                               = 0
+write(1, "\n26  *", 6)                  = 6
+close(14)                               = 0
+write(1, " *", 2)                       = 2
+close(15)                               = 0
+write(1, " *", 2)                       = 2
+close(16)                               = 0
+write(1, "\n27  *", 6)                  = 6
+close(17)                               = 0
+write(1, " *", 2)                       = 2
+close(18)                               = 0
+write(1, " *", 2)                       = 2
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 3
+bind(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(3, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(3, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(3, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(3, SOL_IP, IP_TTL, [28], 4)  = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(33515), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(3, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(3, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 4
+bind(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(4, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(4, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(4, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(4, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(4, SOL_IP, IP_TTL, [28], 4)  = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(33516), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(4, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(4, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 5
+bind(5, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(5, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(5, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(5, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(5, SOL_IP, IP_TTL, [28], 4)  = 0
+connect(5, {sa_family=AF_INET, sin_port=htons(33517), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(5, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(5, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 6
+bind(6, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(6, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(6, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(6, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(6, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(6, SOL_IP, IP_TTL, [29], 4)  = 0
+connect(6, {sa_family=AF_INET, sin_port=htons(33518), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(6, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(6, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 7
+bind(7, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(7, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(7, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(7, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(7, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(7, SOL_IP, IP_TTL, [29], 4)  = 0
+connect(7, {sa_family=AF_INET, sin_port=htons(33519), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(7, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(7, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 8
+bind(8, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(8, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(8, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(8, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(8, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(8, SOL_IP, IP_TTL, [29], 4)  = 0
+connect(8, {sa_family=AF_INET, sin_port=htons(33520), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(8, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(8, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 9
+bind(9, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(9, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(9, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(9, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(9, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+setsockopt(9, SOL_IP, IP_TTL, [30], 4)  = 0
+connect(9, {sa_family=AF_INET, sin_port=htons(33521), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(9, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(9, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 10
+bind(10, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(10, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(10, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(10, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(10, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(10, SOL_IP, IP_TTL, [30], 4) = 0
+connect(10, {sa_family=AF_INET, sin_port=htons(33522), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(10, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(10, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 11
+bind(11, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 28) = 0
+setsockopt(11, SOL_IP, IP_MTU_DISCOVER, [0], 4) = 0
+setsockopt(11, SOL_SOCKET, SO_TIMESTAMP, [1], 4) = 0
+setsockopt(11, SOL_IP, IP_RECVTTL, [1], 4) = 0
+fcntl(11, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+setsockopt(11, SOL_IP, IP_TTL, [30], 4) = 0
+connect(11, {sa_family=AF_INET, sin_port=htons(33523), sin_addr=inet_addr("137.82.130.49")}, 28) = 0
+setsockopt(11, SOL_IP, IP_RECVERR, [1], 4) = 0
+sendto(11, "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_", 32, 0, NULL, 0) = 32
+poll([{fd=3, events=POLLIN|POLLERR}, {fd=4, events=POLLIN|POLLERR}, {fd=5, events=POLLIN|POLLERR}, {fd=6, events=POLLIN|POLLERR}, {fd=7, events=POLLIN|POLLERR}, {fd=8, events=POLLIN|POLLERR}, {fd=9, events=POLLIN|POLLERR}, {fd=10, events=POLLIN|POLLERR}, {fd=11, events=POLLIN|POLLERR}], 9, 5004) = 0 (Timeout)
+close(3)                                = 0
+write(1, "\n28  *", 6)                  = 6
+close(4)                                = 0
+write(1, " *", 2)                       = 2
+close(5)                                = 0
+write(1, " *", 2)                       = 2
+close(6)                                = 0
+write(1, "\n29  *", 6)                  = 6
+close(7)                                = 0
+write(1, " *", 2)                       = 2
+close(8)                                = 0
+write(1, " *", 2)                       = 2
+close(9)                                = 0
+write(1, "\n30  *", 6)                  = 6
+close(10)                               = 0
+write(1, " *", 2)                       = 2
+close(11)                               = 0
+write(1, " *", 2)                       = 2
+write(1, "\n", 1)                       = 1
+exit_group(0)                           = ?

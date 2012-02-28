@@ -1,0 +1,84 @@
+#! /bin/bash
+
+# Stephen Tredger
+
+# Usage: [Options] <prog> <args>
+# Options: -td=<dir>, trace output directory
+#	   -rd=<dir>, results output directory
+#	   -p=<pid>, we are passing in a process id to attach to, not a command 
+#			will not perform analysis if killed on the command line
+#	   -to, generate trace only
+#	   -ao=<tracefile>, perform analysis on tracefile 
+#	   -priv, run with sudo (will require password upon prompt)
+
+
+traceDir=""
+resDir=""
+
+traceName="-strace.txt" # traces will have this appended to the prog name
+countName="-callcount.txt" # syscall counts will be progname with this appended
+noteName="-notablecalls.txt" # notable calls from notable-syscalls like this
+
+traceCall="strace"
+stOpts="-v" # options to be passed to strace (other than -o)
+
+# read notable sys calls into an array
+noteCalls=( `cat notable-syscalls | grep -v \# | tr '\n' ' '`)
+
+
+# parse command line options
+for arg in $@; do
+	param=`echo $arg | cut -f1 -d = `
+	case $param in
+		-td )
+			# get directory name and append with a "/"
+			traceDir=`echo $arg | cut -f2 -d = `/
+			shift;;
+		-rd )
+			resDir=`echo $arg | cut -f2 -d = `/
+			shift;;
+		-p )
+			pid=`echo $arg | cut -f2 -d = `
+			shift;;
+		-priv )
+			traceCall="sudo `echo $traceCall`"
+			shift;;
+		-to )
+			traceOnly=1
+			shift;;
+		-ao )
+			analyFile=`echo $arg | cut -f2 -d = `
+			shift;;
+	esac
+done
+
+
+if [ $pid ]; then
+	args="-p "`echo $pid`
+	prog=`ps | grep 510 | cut -f3 -d : | cut -f2 -d \ `
+	traceFile=$traceDir$prog""-$pid$traceName
+else
+	# after parsing $1 will be the program name
+	args=$@
+	prog=$1
+	traceFile=$traceDir$prog$traceName
+fi
+
+
+#capture trace
+if [ -z $analyFile ]; then
+	$traceCall $stOpts -o $traceFile $args > /dev/null
+fi
+
+
+#generate results from trace file
+if [ -z $traceOnly ]; then
+	cat $traceFile | cut -f1 -d \( | sort | uniq -c > $resDir$prog$countName
+	for call in ${noteCalls[@]}; do
+		grep $call $traceFile | sort >> $resDir$prog$noteName
+	done
+fi
+
+ 
+
+

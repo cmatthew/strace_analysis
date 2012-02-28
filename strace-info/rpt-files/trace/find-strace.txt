@@ -1,0 +1,343 @@
+execve("/usr/bin/find", ["find", "./", "-name", "\"*trace*\""], ["SHELL=/public/bin/bash", "TERM=xterm", "XDG_SESSION_COOKIE=f2359108a0d21"..., "SSH_CLIENT=96.54.203.31 34449 22", "SSH_TTY=/dev/pts/1", "USER=stredger", "LD_LIBRARY_PATH=", "LS_COLORS=rs=0:di=01;34:ln=01;36"..., "PATH=/usr/local/sbin:/usr/local/"..., "MAIL=/var/mail/stredger", "PWD=/home/stredger/School/DS/str"..., "LANG=en_US.UTF-8", "SPEECHD_PORT=56263", "HOME=/home/stredger", "SHLVL=2", "LOGNAME=stredger", "SSH_CONNECTION=96.54.203.31 3444"..., "LESSOPEN=| /usr/bin/lesspipe %s", "DISPLAY=localhost:11.0", "LESSCLOSE=/usr/bin/lesspipe %s %"..., "_=/usr/bin/strace"]) = 0
+brk(0)                                  = 0x10c1000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f22dece7000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=563114, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/02/04-17:25:01, st_mtime=2011/12/29-17:19:16, st_ctime=2011/12/29-17:19:16}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22decc9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/librt.so.1", O_RDONLY)       = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=132475, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31744, st_atime=2012/02/04-11:15:01, st_mtime=2011/01/10-22:57:04, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 2128848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f22de8c2000
+mprotect(0x7f22de8c9000, 2093056, PROT_NONE) = 0
+mmap(0x7f22deac8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f22deac8000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libm.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=132470, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1048, st_size=534832, st_atime=2012/02/04-13:09:01, st_mtime=2011/01/10-22:57:03, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 2629864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f22de63f000
+mprotect(0x7f22de6c1000, 2093056, PROT_NONE) = 0
+mmap(0x7f22de8c0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x81000) = 0x7f22de8c0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=132487, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3072, st_size=1572232, st_atime=2012/02/04-11:17:01, st_mtime=2011/01/10-22:57:04, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f22decc8000
+mmap(NULL, 3680296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f22de2bc000
+mprotect(0x7f22de436000, 2093056, PROT_NONE) = 0
+mmap(0x7f22de635000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x179000) = 0x7f22de635000
+mmap(0x7f22de63a000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f22de63a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libpthread.so.0", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360Y\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=132485, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=135745, st_atime=2012/02/04-11:15:01, st_mtime=2011/01/10-22:57:06, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 2212736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f22de09f000
+mprotect(0x7f22de0b7000, 2093056, PROT_NONE) = 0
+mmap(0x7f22de2b6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f22de2b6000
+mmap(0x7f22de2b8000, 13184, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f22de2b8000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f22decc7000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f22decc6000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f22decc5000
+arch_prctl(ARCH_SET_FS, 0x7f22decc6700) = 0
+mprotect(0x7f22de2b6000, 4096, PROT_READ) = 0
+mprotect(0x7f22de635000, 16384, PROT_READ) = 0
+mprotect(0x7f22de8c0000, 4096, PROT_READ) = 0
+mprotect(0x7f22deac8000, 4096, PROT_READ) = 0
+mprotect(0x636000, 4096, PROT_READ)     = 0
+mprotect(0x7f22dece9000, 4096, PROT_READ) = 0
+munmap(0x7f22decc9000, 120411)          = 0
+set_tid_address(0x7f22decc69d0)         = 13646
+set_robust_list(0x7f22decc69e0, 0x18)   = 0
+futex(0x7fffd578e91c, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffd578e91c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f22decc6700) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7f22de0a4870, [], SA_RESTORER|SA_SIGINFO, 0x7f22de0ae8f0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f22de0a4900, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f22de0ae8f0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+uname({sysname="Linux", nodename="e-cream", release="2.6.32-37-generic", version="#81-Ubuntu SMP Fri Dec 2 20:32:42 UTC 2011", machine="x86_64"}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {c_iflags=0x500, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=0, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+brk(0)                                  = 0x10c1000
+brk(0x10e2000)                          = 0x10e2000
+open("/usr/lib/locale/locale-archive", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=525441, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2570, st_atime=2012/02/04-02:30:36, st_mtime=2010/03/04-04:28:50, st_ctime=2011/04/14-09:24:29}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f22dece6000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f22dece6000, 4096)            = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142130, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=373, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 373, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22dece6000
+close(3)                                = 0
+open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=164262, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26048, st_atime=2012/02/04-15:05:41, st_mtime=2011/01/10-22:55:24, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 26048, PROT_READ, MAP_SHARED, 3, 0) = 0x7f22decdf000
+close(3)                                = 0
+futex(0x7f22de639f60, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MEASUREMENT", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MEASUREMENT", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142129, st_mode=S_IFREG|0644, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=23, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:31}) = 0
+mmap(NULL, 23, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22decde000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_TELEPHONE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_TELEPHONE", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142128, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=59, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 59, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22decdd000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_ADDRESS", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_ADDRESS", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142127, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=155, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 155, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22decdc000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_NAME", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_NAME", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142126, st_mode=S_IFREG|0644, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=77, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:37}) = 0
+mmap(NULL, 77, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22decdb000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_PAPER", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_PAPER", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142125, st_mode=S_IFREG|0644, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=34, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:44}) = 0
+mmap(NULL, 34, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22decda000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MESSAGES", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142123, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2011/04/14-09:33:29, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+close(3)                                = 0
+open("/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142124, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=57, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 57, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22decd9000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_MONETARY", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_MONETARY", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142122, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=286, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 286, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22decd8000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_COLLATE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_COLLATE", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142121, st_mode=S_IFREG|0644, st_nlink=15, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2288, st_size=1170770, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:47}) = 0
+mmap(NULL, 1170770, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22deba7000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_TIME", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_TIME", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142120, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2454, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:33:29}) = 0
+mmap(NULL, 2454, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22decd7000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_NUMERIC", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_NUMERIC", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142119, st_mode=S_IFREG|0644, st_nlink=11, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=54, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:47}) = 0
+mmap(NULL, 54, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22decd6000
+close(3)                                = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142118, st_mode=S_IFREG|0644, st_nlink=16, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=504, st_size=256324, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:47}) = 0
+mmap(NULL, 256324, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22deb68000
+close(3)                                = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/findutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffd578e770) = -1 ENOTTY (Inappropriate ioctl for device)
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+newfstatat(AT_FDCWD, "./", {st_dev=makedev(0, 23), st_ino=15571248, st_mode=S_IFDIR|0700, st_nlink=9, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}, AT_SYMLINK_NOFOLLOW) = 0
+open(".", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 4
+fchdir(4)                               = 0
+open("./", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fcntl(5, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fchdir(5)                               = 0
+getdents(5, {{d_ino=15571248, d_off=1, d_reclen=24, d_name="."} {d_ino=8069208, d_off=2, d_reclen=24, d_name=".."} {d_ino=31310706, d_off=3, d_reclen=24, d_name="hist"} {d_ino=11949420, d_off=4, d_reclen=24, d_name="back"} {d_ino=31310709, d_off=5, d_reclen=32, d_name="traces"} {d_ino=11949434, d_off=6, d_reclen=32, d_name="clean.sh"} {d_ino=31310712, d_off=7, d_reclen=32, d_name="analysis"} {d_ino=21007961, d_off=8, d_reclen=32, d_name="kernel-test"} {d_ino=11949438, d_off=9, d_reclen=32, d_name="network-test"} {d_ino=11949439, d_off=10, d_reclen=40, d_name="notable-syscalls"} {d_ino=11949440, d_off=11, d_reclen=32, d_name="old-strace"} {d_ino=27386457, d_off=12, d_reclen=32, d_name="rpt-files"} {d_ino=27386461, d_off=13, d_reclen=40, d_name="single-trace.sh"} {d_ino=27386462, d_off=14, d_reclen=40, d_name="strace-analy.sh"} {d_ino=21007960, d_off=15, d_reclen=40, d_name="strace-gen.sh"} {d_ino=27386465, d_off=16, d_reclen=32, d_name="tclean.sh"} {d_ino=27386466, d_off=17, d_reclen=32, d_name="test-files"}}, 32768) = 544
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "hist", {st_dev=makedev(0, 23), st_ino=31310706, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:18:11, st_mtime=2012/02/04-22:18:06, st_ctime=2012/02/04-22:18:06}, AT_SYMLINK_NOFOLLOW) = 0
+open("hist", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=31310706, d_off=1, d_reclen=24, d_name="."} {d_ino=15571248, d_off=2, d_reclen=24, d_name=".."} {d_ino=11949432, d_off=3, d_reclen=32, d_name="CairoPlot.py"} {d_ino=11949433, d_off=4, d_reclen=40, d_name="CairoPlot.pyc"} {d_ino=11949435, d_off=5, d_reclen=32, d_name="hist.py"}}, 32768) = 152
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=15571248, st_mode=S_IFDIR|0700, st_nlink=9, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "back", {st_dev=makedev(0, 23), st_ino=11949420, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-21:00:16, st_ctime=2012/02/04-22:19:37}, AT_SYMLINK_NOFOLLOW) = 0
+open("back", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=11949420, d_off=1, d_reclen=24, d_name="."} {d_ino=15571248, d_off=2, d_reclen=24, d_name=".."} {d_ino=11949421, d_off=3, d_reclen=32, d_name="clean.sh_v1"} {d_ino=11949422, d_off=4, d_reclen=40, d_name="kernel-test_v1"} {d_ino=11949423, d_off=5, d_reclen=40, d_name="network-test_v1"} {d_ino=11949424, d_off=6, d_reclen=40, d_name="notable-syscalls_v1"} {d_ino=11949425, d_off=7, d_reclen=40, d_name="single-trace.sh_v1"} {d_ino=11949426, d_off=8, d_reclen=40, d_name="single-trace.sh_v2"} {d_ino=11949427, d_off=9, d_reclen=32, d_name="stest.sh"} {d_ino=11949428, d_off=10, d_reclen=32, d_name="stest.sh_vb"} {d_ino=11949429, d_off=11, d_reclen=40, d_name="strace-gen.sh_v1"} {d_ino=11949430, d_off=12, d_reclen=40, d_name="strace_info.sh_v1"} {d_ino=11949431, d_off=13, d_reclen=40, d_name="strace_info.sh_vF"}}, 32768) = 464
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=15571248, st_mode=S_IFDIR|0700, st_nlink=9, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "traces", {st_dev=makedev(0, 23), st_ino=31310709, st_mode=S_IFDIR|0700, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:30:27, st_ctime=2012/02/04-22:30:27}, AT_SYMLINK_NOFOLLOW) = 0
+open("traces", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=31310709, d_off=1, d_reclen=24, d_name="."} {d_ino=15571248, d_off=2, d_reclen=24, d_name=".."} {d_ino=31310710, d_off=3, d_reclen=32, d_name="kernel"} {d_ino=31310711, d_off=4, d_reclen=32, d_name="network"}}, 32768) = 112
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "kernel", {st_dev=makedev(0, 23), st_ino=31310710, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}, AT_SYMLINK_NOFOLLOW) = 0
+open("kernel", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=31310710, d_off=1, d_reclen=24, d_name="."} {d_ino=31310709, d_off=2, d_reclen=24, d_name=".."} {d_ino=31310715, d_off=3, d_reclen=40, d_name="cp-strace.txt"} {d_ino=31310716, d_off=4, d_reclen=40, d_name="mkdir-strace.txt"} {d_ino=31310717, d_off=5, d_reclen=40, d_name="rm-strace.txt"} {d_ino=31310707, d_off=6, d_reclen=40, d_name="ls-strace.txt"} {d_ino=31310718, d_off=7, d_reclen=40, d_name="grep-strace.txt"} {d_ino=31310719, d_off=8, d_reclen=40, d_name="cat-strace.txt"} {d_ino=31310720, d_off=9, d_reclen=40, d_name="sort-strace.txt"} {d_ino=31310721, d_off=10, d_reclen=40, d_name="uniq-strace.txt"} {d_ino=31310722, d_off=11, d_reclen=40, d_name="find-strace.txt"} {d_ino=31310723, d_off=12, d_reclen=40, d_name="awk-strace.txt"} {d_ino=31310724, d_off=13, d_reclen=40, d_name="sed-strace.txt"} {d_ino=31310725, d_off=14, d_reclen=40, d_name="java-strace.txt"} {d_ino=31310726, d_off=15, d_reclen=40, d_name="python-strace.txt"} {d_ino=29506890, d_off=16, d_reclen=40, d_name="perl-strace.txt"} {d_ino=31310708, d_off=17, d_reclen=40, d_name="mv-strace.txt"}}, 32768) = 648
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=31310709, st_mode=S_IFDIR|0700, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:30:27, st_ctime=2012/02/04-22:30:27}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "network", {st_dev=makedev(0, 23), st_ino=31310711, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:31:42, st_ctime=2012/02/04-22:31:42}, AT_SYMLINK_NOFOLLOW) = 0
+open("network", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=31310711, d_off=1, d_reclen=24, d_name="."} {d_ino=31310709, d_off=2, d_reclen=24, d_name=".."} {d_ino=18060147, d_off=3, d_reclen=40, d_name="firefox-strace.txt"} {d_ino=18060148, d_off=4, d_reclen=40, d_name="wget-strace.txt"} {d_ino=18060149, d_off=5, d_reclen=40, d_name="nslookup-strace.txt"} {d_ino=18060150, d_off=6, d_reclen=40, d_name="dig-strace.txt"} {d_ino=18060151, d_off=7, d_reclen=40, d_name="host-strace.txt"} {d_ino=18060152, d_off=8, d_reclen=40, d_name="whois-strace.txt"} {d_ino=18060153, d_off=9, d_reclen=48, d_name="traceroute-strace.txt"} {d_ino=18060154, d_off=10, d_reclen=40, d_name="nc-strace.txt"} {d_ino=18060155, d_off=11, d_reclen=40, d_name="arp-strace.txt"} {d_ino=18060156, d_off=12, d_reclen=40, d_name="netstat-strace.txt"} {d_ino=18060157, d_off=13, d_reclen=40, d_name="ifconfig-strace.txt"}}, 32768) = 496
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=31310709, st_mode=S_IFDIR|0700, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:30:27, st_ctime=2012/02/04-22:30:27}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=15571248, st_mode=S_IFDIR|0700, st_nlink=9, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "analysis", {st_dev=makedev(0, 23), st_ino=31310712, st_mode=S_IFDIR|0700, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:30:27, st_ctime=2012/02/04-22:30:27}, AT_SYMLINK_NOFOLLOW) = 0
+open("analysis", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=31310712, d_off=1, d_reclen=24, d_name="."} {d_ino=15571248, d_off=2, d_reclen=24, d_name=".."} {d_ino=31310713, d_off=3, d_reclen=32, d_name="kernel"} {d_ino=31310714, d_off=4, d_reclen=32, d_name="network"}}, 32768) = 112
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "kernel", {st_dev=makedev(0, 23), st_ino=31310713, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:30:27, st_ctime=2012/02/04-22:30:27}, AT_SYMLINK_NOFOLLOW) = 0
+open("kernel", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=31310713, d_off=1, d_reclen=24, d_name="."} {d_ino=31310712, d_off=2, d_reclen=24, d_name=".."}}, 32768) = 48
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=31310712, st_mode=S_IFDIR|0700, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:30:27, st_ctime=2012/02/04-22:30:27}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "network", {st_dev=makedev(0, 23), st_ino=31310714, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:30:27, st_ctime=2012/02/04-22:30:27}, AT_SYMLINK_NOFOLLOW) = 0
+open("network", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=31310714, d_off=1, d_reclen=24, d_name="."} {d_ino=31310712, d_off=2, d_reclen=24, d_name=".."}}, 32768) = 48
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=31310712, st_mode=S_IFDIR|0700, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:30:27, st_ctime=2012/02/04-22:30:27}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=15571248, st_mode=S_IFDIR|0700, st_nlink=9, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "old-strace", {st_dev=makedev(0, 23), st_ino=11949440, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-21:01:10, st_ctime=2012/02/04-22:19:37}, AT_SYMLINK_NOFOLLOW) = 0
+open("old-strace", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=11949440, d_off=1, d_reclen=24, d_name="."} {d_ino=15571248, d_off=2, d_reclen=24, d_name=".."} {d_ino=8197791, d_off=3, d_reclen=40, d_name="bash_strace.txt"} {d_ino=8197792, d_off=4, d_reclen=40, d_name="cat_strace.txt"} {d_ino=8197793, d_off=5, d_reclen=40, d_name="firefox_strace.txt"} {d_ino=8197794, d_off=6, d_reclen=40, d_name="grep_strace.txt"} {d_ino=8197795, d_off=7, d_reclen=40, d_name="ls_strace.txt"} {d_ino=8197796, d_off=8, d_reclen=40, d_name="man_strace.txt"} {d_ino=8197797, d_off=9, d_reclen=40, d_name="mkdir_strace.txt"} {d_ino=8197798, d_off=10, d_reclen=40, d_name="mpi_strace.txt"} {d_ino=8197799, d_off=11, d_reclen=40, d_name="mv_strace.txt"} {d_ino=8197800, d_off=12, d_reclen=40, d_name="ps_strace.txt"} {d_ino=8197801, d_off=13, d_reclen=40, d_name="rmdir_strace.txt"} {d_ino=8197802, d_off=14, d_reclen=32, d_name="w_strace.txt"}}, 32768) = 520
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=15571248, st_mode=S_IFDIR|0700, st_nlink=9, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "rpt-files", {st_dev=makedev(0, 23), st_ino=27386457, st_mode=S_IFDIR|0700, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:17:17, st_ctime=2012/02/04-22:19:37}, AT_SYMLINK_NOFOLLOW) = 0
+open("rpt-files", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=27386457, d_off=1, d_reclen=24, d_name="."} {d_ino=15571248, d_off=2, d_reclen=24, d_name=".."} {d_ino=27386458, d_off=3, d_reclen=48, d_name="apt-get-callcount.txt"} {d_ino=27386459, d_off=4, d_reclen=48, d_name="apt-get-notablecalls.txt"} {d_ino=27386460, d_off=5, d_reclen=40, d_name="apt-get-strace.txt"} {d_ino=27386474, d_off=6, d_reclen=48, d_name="traceroute-callcount.txt"} {d_ino=27386475, d_off=7, d_reclen=48, d_name="traceroute-notablecalls.txt"} {d_ino=27386476, d_off=8, d_reclen=48, d_name="traceroute-strace.txt"} {d_ino=15571249, d_off=9, d_reclen=32, d_name="analysis"} {d_ino=27386477, d_off=10, d_reclen=32, d_name="traces"}}, 32768) = 392
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "analysis", {st_dev=makedev(0, 23), st_ino=15571249, st_mode=S_IFDIR|0777, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:17:09, st_ctime=2012/02/04-22:17:09}, AT_SYMLINK_NOFOLLOW) = 0
+open("analysis", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=15571249, d_off=1, d_reclen=24, d_name="."} {d_ino=27386457, d_off=2, d_reclen=24, d_name=".."} {d_ino=15571250, d_off=3, d_reclen=32, d_name="kernel"} {d_ino=15571267, d_off=4, d_reclen=32, d_name="network"}}, 32768) = 112
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "kernel", {st_dev=makedev(0, 23), st_ino=15571250, st_mode=S_IFDIR|0777, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-21:00:13, st_ctime=2012/02/04-21:00:13}, AT_SYMLINK_NOFOLLOW) = 0
+open("kernel", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=15571250, d_off=1, d_reclen=24, d_name="."} {d_ino=15571249, d_off=2, d_reclen=24, d_name=".."} {d_ino=15571251, d_off=3, d_reclen=40, d_name="cat-callcount.txt"} {d_ino=15571252, d_off=4, d_reclen=40, d_name="cat-notablecalls.txt"} {d_ino=15571253, d_off=5, d_reclen=40, d_name="cp-callcount.txt"} {d_ino=15571254, d_off=6, d_reclen=40, d_name="cp-notablecalls.txt"} {d_ino=15571255, d_off=7, d_reclen=40, d_name="grep-callcount.txt"} {d_ino=15571256, d_off=8, d_reclen=48, d_name="grep-notablecalls.txt"} {d_ino=15571257, d_off=9, d_reclen=40, d_name="ls-callcount.txt"} {d_ino=15571258, d_off=10, d_reclen=40, d_name="ls-notablecalls.txt"} {d_ino=15571259, d_off=11, d_reclen=40, d_name="mkdir-callcount.txt"} {d_ino=15571260, d_off=12, d_reclen=48, d_name="mkdir-notablecalls.txt"} {d_ino=15571261, d_off=13, d_reclen=40, d_name="rm-callcount.txt"} {d_ino=15571262, d_off=14, d_reclen=40, d_name="rm-notablecalls.txt"} {d_ino=15571263, d_off=15, d_reclen=40, d_name="sort-callcount.txt"} {d_ino=15571264, d_off=16, d_reclen=48, d_name="sort-notablecalls.txt"} {d_ino=15571265, d_off=17, d_reclen=40, d_name="uniq-callcount.txt"} {d_ino=15571266, d_off=18, d_reclen=48, d_name="uniq-notablecalls.txt"}}, 32768) = 720
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=15571249, st_mode=S_IFDIR|0777, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:17:09, st_ctime=2012/02/04-22:17:09}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "network", {st_dev=makedev(0, 23), st_ino=15571267, st_mode=S_IFDIR|0777, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-21:00:16, st_ctime=2012/02/04-21:00:16}, AT_SYMLINK_NOFOLLOW) = 0
+open("network", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=15571267, d_off=1, d_reclen=24, d_name="."} {d_ino=15571249, d_off=2, d_reclen=24, d_name=".."} {d_ino=15571268, d_off=3, d_reclen=40, d_name="arp-callcount.txt"} {d_ino=32965233, d_off=4, d_reclen=40, d_name="arp-notablecalls.txt"} {d_ino=32965234, d_off=5, d_reclen=40, d_name="dig-callcount.txt"} {d_ino=32965235, d_off=6, d_reclen=40, d_name="dig-notablecalls.txt"} {d_ino=32965236, d_off=7, d_reclen=48, d_name="firefox-callcount.txt"} {d_ino=32965237, d_off=8, d_reclen=48, d_name="firefox-notablecalls.txt"} {d_ino=32965238, d_off=9, d_reclen=40, d_name="host-callcount.txt"} {d_ino=32965239, d_off=10, d_reclen=48, d_name="host-notablecalls.txt"} {d_ino=32965240, d_off=11, d_reclen=48, d_name="ifconfig-callcount.txt"} {d_ino=32965241, d_off=12, d_reclen=48, d_name="ifconfig-notablecalls.txt"} {d_ino=32965242, d_off=13, d_reclen=40, d_name="nc-callcount.txt"} {d_ino=32965243, d_off=14, d_reclen=40, d_name="nc-notablecalls.txt"} {d_ino=32965244, d_off=15, d_reclen=48, d_name="netstat-callcount.txt"} {d_ino=32965245, d_off=16, d_reclen=48, d_name="netstat-notablecalls.txt"} {d_ino=32965246, d_off=17, d_reclen=48, d_name="nslookup-callcount.txt"} {d_ino=32965247, d_off=18, d_reclen=48, d_name="nslookup-notablecalls.txt"} {d_ino=32965248, d_off=19, d_reclen=48, d_name="traceroute-callcount.txt"} {d_ino=32965249, d_off=20, d_reclen=48, d_name="traceroute-notablecalls.txt"} {d_ino=32965250, d_off=21, d_reclen=40, d_name="wget-callcount.txt"} {d_ino=32965251, d_off=22, d_reclen=48, d_name="wget-notablecalls.txt"} {d_ino=32965252, d_off=23, d_reclen=40, d_name="whois-callcount.txt"} {d_ino=32965253, d_off=24, d_reclen=48, d_name="whois-notablecalls.txt"}}, 32768) = 1032
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=15571249, st_mode=S_IFDIR|0777, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:17:09, st_ctime=2012/02/04-22:17:09}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=27386457, st_mode=S_IFDIR|0700, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:17:17, st_ctime=2012/02/04-22:19:37}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "traces", {st_dev=makedev(0, 23), st_ino=27386477, st_mode=S_IFDIR|0777, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:17:17, st_ctime=2012/02/04-22:17:17}, AT_SYMLINK_NOFOLLOW) = 0
+open("traces", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=27386477, d_off=1, d_reclen=24, d_name="."} {d_ino=27386457, d_off=2, d_reclen=24, d_name=".."} {d_ino=15740445, d_off=3, d_reclen=32, d_name="kernel"} {d_ino=15740454, d_off=4, d_reclen=32, d_name="network"}}, 32768) = 112
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "kernel", {st_dev=makedev(0, 23), st_ino=15740445, st_mode=S_IFDIR|0777, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-21:01:41, st_ctime=2012/02/04-21:01:41}, AT_SYMLINK_NOFOLLOW) = 0
+open("kernel", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=15740445, d_off=1, d_reclen=24, d_name="."} {d_ino=27386477, d_off=2, d_reclen=24, d_name=".."} {d_ino=15740446, d_off=3, d_reclen=40, d_name="cat-strace.txt"} {d_ino=15740447, d_off=4, d_reclen=40, d_name="cp-strace.txt"} {d_ino=15740448, d_off=5, d_reclen=40, d_name="grep-strace.txt"} {d_ino=15740449, d_off=6, d_reclen=40, d_name="ls-strace.txt"} {d_ino=15740450, d_off=7, d_reclen=40, d_name="mkdir-strace.txt"} {d_ino=15740451, d_off=8, d_reclen=40, d_name="rm-strace.txt"} {d_ino=15740452, d_off=9, d_reclen=40, d_name="sort-strace.txt"} {d_ino=15740453, d_off=10, d_reclen=40, d_name="uniq-strace.txt"}}, 32768) = 368
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=27386477, st_mode=S_IFDIR|0777, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:17:17, st_ctime=2012/02/04-22:17:17}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "network", {st_dev=makedev(0, 23), st_ino=15740454, st_mode=S_IFDIR|0777, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-21:01:54, st_ctime=2012/02/04-21:01:54}, AT_SYMLINK_NOFOLLOW) = 0
+open("network", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=15740454, d_off=1, d_reclen=24, d_name="."} {d_ino=27386477, d_off=2, d_reclen=24, d_name=".."} {d_ino=15740455, d_off=3, d_reclen=40, d_name="arp-strace.txt"} {d_ino=15740456, d_off=4, d_reclen=40, d_name="dig-strace.txt"} {d_ino=15740457, d_off=5, d_reclen=40, d_name="firefox-strace.txt"} {d_ino=15740458, d_off=6, d_reclen=40, d_name="host-strace.txt"} {d_ino=15740459, d_off=7, d_reclen=40, d_name="ifconfig-strace.txt"} {d_ino=15740460, d_off=8, d_reclen=40, d_name="nc-strace.txt"} {d_ino=15740461, d_off=9, d_reclen=40, d_name="netstat-strace.txt"} {d_ino=15740462, d_off=10, d_reclen=40, d_name="nslookup-strace.txt"} {d_ino=15740463, d_off=11, d_reclen=48, d_name="traceroute-strace.txt"} {d_ino=15740464, d_off=12, d_reclen=40, d_name="wget-strace.txt"} {d_ino=15740465, d_off=13, d_reclen=40, d_name="whois-strace.txt"}}, 32768) = 496
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=27386477, st_mode=S_IFDIR|0777, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:17:17, st_ctime=2012/02/04-22:17:17}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=27386457, st_mode=S_IFDIR|0700, st_nlink=4, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:34:08, st_mtime=2012/02/04-22:17:17, st_ctime=2012/02/04-22:19:37}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=15571248, st_mode=S_IFDIR|0700, st_nlink=9, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "test-files", {st_dev=makedev(0, 23), st_ino=27386466, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:24:05, st_mtime=2012/02/04-22:24:04, st_ctime=2012/02/04-22:24:04}, AT_SYMLINK_NOFOLLOW) = 0
+open("test-files", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fchdir(5)                               = 0
+getdents(5, {{d_ino=27386466, d_off=1, d_reclen=24, d_name="."} {d_ino=15571248, d_off=2, d_reclen=24, d_name=".."} {d_ino=27386467, d_off=3, d_reclen=32, d_name="jtest.class"} {d_ino=27386472, d_off=4, d_reclen=32, d_name="jtest.java"} {d_ino=27386469, d_off=5, d_reclen=32, d_name="scratch.txt"} {d_ino=27386470, d_off=6, d_reclen=32, d_name="pltest.pl"} {d_ino=27386471, d_off=7, d_reclen=32, d_name="pytest.py"}}, 32768) = 208
+getdents(5, {}, 32768)                  = 0
+close(5)                                = 0
+open("..", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_DIRECTORY|O_NOFOLLOW) = 5
+fstat(5, {st_dev=makedev(0, 23), st_ino=15571248, st_mode=S_IFDIR|0700, st_nlink=9, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+fchdir(4)                               = 0
+fchdir(4)                               = 0
+close(4)                                = 0
+close(1)                                = 0
+close(2)                                = 0
+exit_group(0)                           = ?

@@ -1,0 +1,558 @@
+setsockopt(12, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+setsockopt(15, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+setsockopt(22, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(22, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(26, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(26, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(3, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(3, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(3, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(3, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(53, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+setsockopt(67, SOL_IP, IP_TOS, [16], 4) = 0
+setsockopt(67, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(67, SOL_SOCKET, SO_PRIORITY, [6], 4) = 0
+setsockopt(67, SOL_SOCKET, SO_PRIORITY, [6], 4) = 0
+setsockopt(67, SOL_SOCKET, SO_PRIORITY, [6], 4) = 0
+setsockopt(67, SOL_SOCKET, SO_PRIORITY, [6], 4) = 0
+setsockopt(67, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(67, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(69, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+access("/tmp/.esd-49703/socket", R_OK|W_OK) = 0
+access("/tmp/.esd-49703/socket", R_OK|W_OK) = -1 ENOENT (No such file or directory)
+connect(22, {sa_family=AF_FILE, path="/var/run/dbus/system_bus_socket"}, 33) = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(69, {sa_family=AF_FILE, path="/tmp/.esd-49703/socket"}, 24) = 0
+sendto(66, "W", 1, MSG_NOSIGNAL, NULL, 0) = -1 ENOTSOCK (Socket operation on non-socket)
+socket(PF_FILE, SOCK_STREAM, 0)         = 10
+socket(PF_FILE, SOCK_STREAM, 0)         = 11
+socket(PF_FILE, SOCK_STREAM, 0)         = 12
+socket(PF_FILE, SOCK_STREAM, 0)         = 12
+socket(PF_FILE, SOCK_STREAM, 0)         = 13
+socket(PF_FILE, SOCK_STREAM, 0)         = 15
+socket(PF_FILE, SOCK_STREAM, 0)         = 22
+socket(PF_FILE, SOCK_STREAM, 0)         = 67
+socket(PF_FILE, SOCK_STREAM, 0)         = 67
+socket(PF_FILE, SOCK_STREAM, 0)         = 67
+socket(PF_FILE, SOCK_STREAM, 0)         = 69
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 53
+socket(PF_INET6, SOCK_STREAM, IPPROTO_IP) = 46
+socket(PF_INET6, SOCK_STREAM, IPPROTO_IP) = 53
+socket(PF_INET6, SOCK_STREAM, IPPROTO_IP) = 53
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 22
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 26
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 53
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 67
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 67
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 22
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 26
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 67
+socket(PF_NETLINK, SOCK_RAW, 0)         = 22
+socket(PF_NETLINK, SOCK_RAW, 0)         = 26
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+socket(PF_NETLINK, SOCK_RAW, 0)         = 53
+socket(PF_NETLINK, SOCK_RAW, 0)         = 67
+socket(PF_NETLINK, SOCK_RAW, 0)         = 67
+write(23, "@mozilla.org/network/socket;2?ty"..., 78) = 78
+write(23, "@mozilla.org/network/socket;2?ty"..., 78) = 78
+write(23, "@mozilla.org/network/socket;2?ty"..., 80) = 80
+write(23, "@mozilla.org/network/socket;2?ty"..., 81) = 81
+write(23, "@mozilla.org/network/socket;2?ty"..., 83) = 83
+write(23, "@mozilla.org/network/socket-prov"..., 86) = 86
+write(23, "@mozilla.org/network/socket-tran"..., 87) = 87
+fcntl(10, F_GETFD)                      = 0
+fcntl(10, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(10, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(10, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(10, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(10, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(10, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(10, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(11, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(11, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(11, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(12, F_GETFD)                      = 0
+fcntl(12, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(12, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(12, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(12, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(12, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(12, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(13, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(13, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(13, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(13, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(14, F_GETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0, pid=18446744073184024153}) = 0
+fcntl(14, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(15, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(15, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(16, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(16, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(17, F_GETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0, pid=1294046809}) = 0
+fcntl(17, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(20, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(20, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(21, F_GETFL)                      = 0x1 (flags O_WRONLY)
+fcntl(21, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+fcntl(22, F_GETFD)                      = 0
+fcntl(22, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(22, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(22, F_GETFL)                      = 0x802 (flags O_RDWR|O_NONBLOCK)
+fcntl(22, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(22, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(22, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(22, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(23, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(23, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(23, F_GETFL)                      = 0x800 (flags O_RDONLY|O_NONBLOCK)
+fcntl(23, F_GETFL)                      = 0x800 (flags O_RDONLY|O_NONBLOCK)
+fcntl(23, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(23, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(24, F_GETFL)                      = 0x1 (flags O_WRONLY)
+fcntl(24, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+fcntl(25, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(26, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(26, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(26, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(26, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(26, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(27, F_GETFL)                      = 0x1 (flags O_WRONLY)
+fcntl(27, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+fcntl(28, F_GETFD)                      = 0
+fcntl(28, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(28, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(28, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(28, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(28, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(28, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(28, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(28, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(28, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(28, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(28, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(28, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(28, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(28, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(28, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(28, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(28, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(28, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(28, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(28, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(28, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(29, F_GETFL)                      = 0x1 (flags O_WRONLY)
+fcntl(29, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+fcntl(30, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(31, F_GETFD)                      = 0
+fcntl(31, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(31, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(31, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(31, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(31, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(31, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(31, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(31, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(31, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(31, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(31, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(31, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(31, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(31, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(31, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(31, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(31, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(31, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(31, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(31, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(31, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(37, F_GETFD)                      = 0
+fcntl(37, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(37, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(37, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(37, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(37, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(37, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(37, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(37, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(37, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(37, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(37, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(37, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(37, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(37, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(37, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(37, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(37, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(37, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(37, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=2}) = 0
+fcntl(37, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(37, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741825, len=1}) = 0
+fcntl(37, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_GETFD)                      = 0
+fcntl(38, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(38, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(39, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(3, F_DUPFD, 10)                   = 10
+fcntl(3, F_DUPFD, 10)                   = 10
+fcntl(3, F_DUPFD, 10)                   = 10
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+fcntl(44, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(44, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(44, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(45, F_GETFD)                      = 0
+fcntl(45, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(45, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(45, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(45, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(45, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(45, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(45, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(45, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(45, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(45, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(45, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(45, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(45, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_GETFD)                      = 0
+fcntl(46, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(46, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(46, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(46, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(46, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(46, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(46, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(46, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(46, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(46, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(46, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(46, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(46, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=2}) = 0
+fcntl(46, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741825, len=1}) = 0
+fcntl(46, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(47, F_GETFD)                      = 0
+fcntl(47, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(48, F_GETFD)                      = 0
+fcntl(48, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(53, F_GETFD)                      = 0
+fcntl(53, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(53, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(53, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(53, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(53, F_SETFL, O_RDWR)              = 0
+fcntl(53, F_SETFL, O_RDWR)              = 0
+fcntl(53, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(53, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(53, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(53, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(54, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fcntl(54, F_SETFL, O_RDONLY|O_LARGEFILE) = 0
+fcntl(54, F_SETFL, O_RDONLY|O_NONBLOCK|O_LARGEFILE) = 0
+fcntl(55, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(55, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(56, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(57, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(57, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(58, F_GETFL)                      = 0x1 (flags O_WRONLY)
+fcntl(58, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+fcntl(61, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(63, F_GETFD)                      = 0
+fcntl(63, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(63, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(63, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(63, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(63, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(63, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(63, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(63, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(63, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(63, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(63, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(63, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(63, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(63, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(63, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(63, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(63, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(63, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(63, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_GETFD)                      = 0
+fcntl(64, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(64, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(64, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(64, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=2}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=2}) = 0
+fcntl(64, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=2}) = 0
+fcntl(64, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741825, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741825, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741825, len=1}) = 0
+fcntl(64, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(64, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(65, F_GETFD)                      = 0
+fcntl(65, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(65, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(65, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(66, F_GETFD)                      = 0
+fcntl(66, F_GETFL)                      = 0x1 (flags O_WRONLY)
+fcntl(66, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(66, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+fcntl(67, F_GETFD)                      = 0
+fcntl(67, F_GETFD)                      = 0
+fcntl(67, F_GETFD)                      = 0
+fcntl(67, F_GETFD)                      = 0
+fcntl(67, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(67, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(67, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(67, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(67, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(67, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(67, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(67, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(67, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(67, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(67, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(67, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(67, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(67, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(67, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(67, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(68, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(68, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(68, F_SETLKW, {type=F_RDLCK, whence=SEEK_SET, start=516, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_RDLCK, whence=SEEK_SET, start=652, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(68, F_SETLKW, {type=F_UNLCK, whence=SEEK_SET, start=0, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_UNLCK, whence=SEEK_SET, start=164, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_UNLCK, whence=SEEK_SET, start=164, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_UNLCK, whence=SEEK_SET, start=516, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_UNLCK, whence=SEEK_SET, start=516, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_UNLCK, whence=SEEK_SET, start=652, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_UNLCK, whence=SEEK_SET, start=652, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(68, F_SETLKW, {type=F_WRLCK, whence=SEEK_SET, start=0, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_WRLCK, whence=SEEK_SET, start=164, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_WRLCK, whence=SEEK_SET, start=164, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_WRLCK, whence=SEEK_SET, start=516, len=1}) = 0
+fcntl(68, F_SETLKW, {type=F_WRLCK, whence=SEEK_SET, start=652, len=1}) = 0
+fcntl(69, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(69, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(69, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(69, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(69, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(69, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(69, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(69, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(69, F_SETFL, O_RDWR)              = 0
+fcntl(69, F_SETFL, O_RDWR)              = 0
+fcntl(69, F_SETFL, O_RDWR)              = 0
+fcntl(69, F_SETFL, O_RDWR)              = 0
+fcntl(69, F_SETFL, O_RDWR)              = 0
+fcntl(69, F_SETFL, O_RDWR)              = 0
+fcntl(69, F_SETFL, O_RDWR)              = 0
+fcntl(69, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(69, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(69, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(69, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(69, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(69, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(69, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(70, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fcntl(70, F_SETFL, O_RDONLY|O_LARGEFILE) = 0
+fcntl(70, F_SETFL, O_RDONLY|O_NONBLOCK|O_LARGEFILE) = 0
+fcntl(9, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+ioctl(55, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffc4000c20) = -1 EINVAL (Invalid argument)
+ioctl(55, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffc4004d80) = -1 EINVAL (Invalid argument)

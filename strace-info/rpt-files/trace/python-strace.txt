@@ -1,0 +1,778 @@
+execve("/usr/bin/python", ["python", "test-files/pytest.py"], ["SHELL=/public/bin/bash", "TERM=xterm", "XDG_SESSION_COOKIE=f2359108a0d21"..., "SSH_CLIENT=96.54.203.31 34449 22", "SSH_TTY=/dev/pts/1", "USER=stredger", "LD_LIBRARY_PATH=", "LS_COLORS=rs=0:di=01;34:ln=01;36"..., "PATH=/usr/local/sbin:/usr/local/"..., "MAIL=/var/mail/stredger", "PWD=/home/stredger/School/DS/str"..., "LANG=en_US.UTF-8", "SPEECHD_PORT=56263", "HOME=/home/stredger", "SHLVL=2", "LOGNAME=stredger", "SSH_CONNECTION=96.54.203.31 3444"..., "LESSOPEN=| /usr/bin/lesspipe %s", "DISPLAY=localhost:11.0", "LESSCLOSE=/usr/bin/lesspipe %s %"..., "_=/usr/bin/strace"]) = 0
+brk(0)                                  = 0x15f2000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8bde000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=563114, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=240, st_size=120411, st_atime=2012/02/04-17:25:01, st_mtime=2011/12/29-17:19:16, st_ctime=2011/12/29-17:19:16}) = 0
+mmap(NULL, 120411, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa9e8bc0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libpthread.so.0", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360Y\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=132485, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=135745, st_atime=2012/02/04-11:15:01, st_mtime=2011/01/10-22:57:06, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 2212736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa9e87a4000
+mprotect(0x7fa9e87bc000, 2093056, PROT_NONE) = 0
+mmap(0x7fa9e89bb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fa9e89bb000
+mmap(0x7fa9e89bd000, 13184, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa9e89bd000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libdl.so.2", O_RDONLY)       = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=132491, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14696, st_atime=2012/02/04-12:09:01, st_mtime=2011/01/10-22:57:04, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa9e85a0000
+mprotect(0x7fa9e85a2000, 2097152, PROT_NONE) = 0
+mmap(0x7fa9e87a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa9e87a2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libutil.so.1", O_RDONLY)     = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=132483, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10648, st_atime=2012/02/04-22:30:27, st_mtime=2011/01/10-22:57:04, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8bbf000
+mmap(NULL, 2105608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa9e839d000
+mprotect(0x7fa9e839f000, 2093056, PROT_NONE) = 0
+mmap(0x7fa9e859e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fa9e859e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libssl.so.0.9.8", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300>\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=134868, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=656, st_size=333856, st_atime=2012/02/03-23:30:13, st_mtime=2011/02/09-17:50:13, st_ctime=2011/04/14-09:36:50}) = 0
+mmap(NULL, 2429072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa9e814b000
+mprotect(0x7fa9e8196000, 2093056, PROT_NONE) = 0
+mmap(0x7fa9e8395000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4a000) = 0x7fa9e8395000
+mmap(0x7fa9e839c000, 144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa9e839c000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libcrypto.so.0.9.8", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\240\6\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=134867, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3176, st_size=1622304, st_atime=2012/02/03-23:30:13, st_mtime=2011/02/09-17:50:13, st_ctime=2011/04/14-09:36:50}) = 0
+mmap(NULL, 3732280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa9e7dbb000
+mprotect(0x7fa9e7f23000, 2093056, PROT_NONE) = 0
+mmap(0x7fa9e8122000, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x167000) = 0x7fa9e8122000
+mmap(0x7fa9e8147000, 13112, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8147000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libz.so.1", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=135728, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=92752, st_atime=2012/02/04-22:30:27, st_mtime=2009/11/09-07:53:56, st_ctime=2011/04/14-09:29:31}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8bbe000
+mmap(NULL, 2187792, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa9e7ba4000
+mprotect(0x7fa9e7bba000, 2093056, PROT_NONE) = 0
+mmap(0x7fa9e7db9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fa9e7db9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libm.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=132470, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1048, st_size=534832, st_atime=2012/02/04-13:09:01, st_mtime=2011/01/10-22:57:03, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 2629864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa9e7921000
+mprotect(0x7fa9e79a3000, 2093056, PROT_NONE) = 0
+mmap(0x7fa9e7ba2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x81000) = 0x7fa9e7ba2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\355\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=132487, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3072, st_size=1572232, st_atime=2012/02/04-11:17:01, st_mtime=2011/01/10-22:57:04, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 3680296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa9e759e000
+mprotect(0x7fa9e7718000, 2093056, PROT_NONE) = 0
+mmap(0x7fa9e7917000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x179000) = 0x7fa9e7917000
+mmap(0x7fa9e791c000, 18472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa9e791c000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8bbd000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8bbc000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8bbb000
+arch_prctl(ARCH_SET_FS, 0x7fa9e8bbc700) = 0
+mprotect(0x7fa9e7917000, 16384, PROT_READ) = 0
+mprotect(0x7fa9e7ba2000, 4096, PROT_READ) = 0
+mprotect(0x7fa9e7db9000, 4096, PROT_READ) = 0
+mprotect(0x7fa9e8122000, 53248, PROT_READ) = 0
+mprotect(0x7fa9e8395000, 8192, PROT_READ) = 0
+mprotect(0x7fa9e859e000, 4096, PROT_READ) = 0
+mprotect(0x7fa9e87a2000, 4096, PROT_READ) = 0
+mprotect(0x7fa9e89bb000, 4096, PROT_READ) = 0
+mprotect(0x81b000, 4096, PROT_READ)     = 0
+mprotect(0x7fa9e8be0000, 4096, PROT_READ) = 0
+munmap(0x7fa9e8bc0000, 120411)          = 0
+set_tid_address(0x7fa9e8bbc9d0)         = 13689
+set_robust_list(0x7fa9e8bbc9e0, 0x18)   = 0
+futex(0x7fff5d0aa57c, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fff5d0aa57c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7fa9e8bbc700) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7fa9e87a9870, [], SA_RESTORER|SA_SIGINFO, 0x7fa9e87b38f0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7fa9e87a9900, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fa9e87b38f0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {c_iflags=0x500, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=0, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+brk(0)                                  = 0x15f2000
+brk(0x1613000)                          = 0x1613000
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b7a000
+open("/proc/meminfo", O_RDONLY)         = 3
+fstat(3, {st_dev=makedev(0, 3), st_ino=4026531980, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8bdd000
+read(3, "MemTotal:        2055376 kB\nMemF"..., 1024) = 1024
+close(3)                                = 0
+munmap(0x7fa9e8bdd000, 4096)            = 0
+brk(0x163c000)                          = 0x163c000
+fstat(0, {st_dev=makedev(0, 12), st_ino=4, st_mode=S_IFCHR|0620, st_nlink=1, st_uid=49703, st_gid=5, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 1), st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-21:06:38}) = 0
+fstat(0, {st_dev=makedev(0, 12), st_ino=4, st_mode=S_IFCHR|0620, st_nlink=1, st_uid=49703, st_gid=5, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 1), st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-21:06:38}) = 0
+fstat(1, {st_dev=makedev(0, 5), st_ino=1367, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 3), st_atime=2012/01/28-13:04:57, st_mtime=2012/01/28-13:04:57, st_ctime=2012/01/28-13:04:57}) = 0
+fstat(2, {st_dev=makedev(0, 12), st_ino=4, st_mode=S_IFCHR|0620, st_nlink=1, st_uid=49703, st_gid=5, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 1), st_atime=2012/02/04-22:49:49, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-21:06:38}) = 0
+stat("/usr/local/sbin/python", 0x7fff5d0a8200) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/python", 0x7fff5d0a8200) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/python", 0x7fff5d0a8200) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/python", {st_dev=makedev(8, 1), st_ino=132624, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=5112, st_size=2613296, st_atime=2012/02/03-23:30:13, st_mtime=2010/04/16-07:42:48, st_ctime=2011/04/14-09:28:30}) = 0
+readlink("/usr/bin/python", "python2.6", 4096) = 9
+readlink("/usr/bin/python2.6", 0x7fff5d0a8290, 4096) = -1 EINVAL (Invalid argument)
+stat("/usr/bin/Modules/Setup", 0x7fff5d0a8200) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.6/os.py", 0x7fff5d0a8150) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.6/os.pyc", 0x7fff5d0a8150) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/os.py", {st_dev=makedev(8, 1), st_ino=132656, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26338, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:31}) = 0
+stat("/usr/bin/Modules/Setup", 0x7fff5d0a8200) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.6/lib-dynload", 0x7fff5d0a8200) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/lib-dynload", {st_dev=makedev(8, 1), st_ino=135209, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-10:16:35, st_ctime=2011/04/14-10:16:35}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7fa9e87b38f0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, {SIG_IGN, [], SA_RESTORER, 0x7fa9e87b38f0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [], SA_RESTORER, 0x7fa9e87b38f0}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {SIG_IGN, [], SA_RESTORER, 0x7fa9e87b38f0}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x4d9820, [], SA_RESTORER, 0x7fa9e87b38f0}, {SIG_DFL, [], 0}, 8) = 0
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b39000
+stat("/usr/lib/python2.6/", {st_dev=makedev(8, 1), st_ino=131855, st_mode=S_IFDIR|0755, st_nlink=24, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=20480, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-10:16:36, st_ctime=2011/04/14-10:16:36}) = 0
+stat("/usr/lib/python2.6/", {st_dev=makedev(8, 1), st_ino=131855, st_mode=S_IFDIR|0755, st_nlink=24, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=20480, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-10:16:36, st_ctime=2011/04/14-10:16:36}) = 0
+stat("/usr/lib/python2.6/site", 0x7fff5d0a5f40) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/site.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/sitemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/site.py", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=132779, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18712, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:33, st_ctime=2011/04/14-09:28:37}) = 0
+open("/usr/lib/python2.6/site.pyc", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=132096, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18238, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(4, "\321\362\r\n\35w\310Kc\0\0\0\0\0\0\0\0\6\0\0\0@\0\0\0sK\1\0\0d\0"..., 4096) = 4096
+fstat(4, {st_dev=makedev(8, 1), st_ino=132096, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=18238, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(4, "\0\0\0\3\0\0\0\6\0\0\0C\0\0\0st\0\0\0t\0\0\203\0\0}\0\0xd\0"..., 12288) = 12288
+read(4, "\0\0R\t\0\0\0R]\0\0\0Rh\0\0\0Rz\0\0\0R\240\0\0\0R\245\0\0\0"..., 4096) = 1854
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+stat("/usr/lib/python2.6/os", 0x7fff5d0a2990) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/os.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/osmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/os.py", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=132656, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26338, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:31}) = 0
+open("/usr/lib/python2.6/os.pyc", O_RDONLY) = 5
+fstat(5, {st_dev=makedev(8, 1), st_ino=135739, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26303, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(5, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0\36\0\0\0@\0\0\0sH\7\0\0d\0"..., 4096) = 4096
+fstat(5, {st_dev=makedev(8, 1), st_ino=135739, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26303, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(5, "intermediate path segment (not\n "..., 20480) = 20480
+read(5, "\0S(\1\0\0\0N(\2\0\0\0R\256\0\0\0R\263\0\0\0(\3\0\0\0R\257\0\0"..., 4096) = 1727
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+brk(0x165d000)                          = 0x165d000
+stat("/usr/lib/python2.6/posixpath", 0x7fff5d09f3e0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/posixpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/posixpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/posixpath.py", O_RDONLY) = 5
+fstat(5, {st_dev=makedev(8, 1), st_ino=132660, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=13030, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:31}) = 0
+open("/usr/lib/python2.6/posixpath.pyc", O_RDONLY) = 6
+fstat(6, {st_dev=makedev(8, 1), st_ino=135741, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=11115, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(6, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0+\0\0\0@\0\0\0s\320\1\0\0d\0"..., 4096) = 4096
+fstat(6, {st_dev=makedev(8, 1), st_ino=135741, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=11115, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(6, "\0\0\0(\0\0\0\0(\0\0\0\0s\37\0\0\0/usr/lib/pytho"..., 4096) = 4096
+read(6, "\0\1|\0\0i\3\0d\3\0\203\1\0}\4\0g\0\0}\5\0x}\0|\4\0D]u"..., 4096) = 2923
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+stat("/usr/lib/python2.6/stat", 0x7fff5d09be30) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/stat.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/statmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/stat.py", O_RDONLY) = 6
+fstat(6, {st_dev=makedev(8, 1), st_ino=132672, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1718, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:32}) = 0
+open("/usr/lib/python2.6/stat.pyc", O_RDONLY) = 7
+fstat(7, {st_dev=makedev(8, 1), st_ino=135743, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2683, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(7, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0\1\0\0\0@\0\0\0so\1\0\0d\0"..., 4096) = 2683
+fstat(7, {st_dev=makedev(8, 1), st_ino=135743, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2683, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+close(6)                                = 0
+stat("/usr/lib/python2.6/genericpath", 0x7fff5d09be30) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/genericpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/genericpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/genericpath.py", O_RDONLY) = 6
+fstat(6, {st_dev=makedev(8, 1), st_ino=132646, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3020, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:30}) = 0
+open("/usr/lib/python2.6/genericpath.pyc", O_RDONLY) = 7
+fstat(7, {st_dev=makedev(8, 1), st_ino=135744, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3272, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(7, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0\n\0\0\0@\0\0\0s\221\0\0\0d\0"..., 4096) = 3272
+fstat(7, {st_dev=makedev(8, 1), st_ino=135744, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3272, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+close(6)                                = 0
+stat("/usr/lib/python2.6/warnings", 0x7fff5d09be30) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/warnings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/warningsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/warnings.py", O_RDONLY) = 6
+fstat(6, {st_dev=makedev(8, 1), st_ino=132682, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14173, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:32}) = 0
+open("/usr/lib/python2.6/warnings.pyc", O_RDONLY) = 7
+fstat(7, {st_dev=makedev(8, 1), st_ino=135745, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=12996, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(7, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0\r\0\0\0@\0\0\0s3\2\0\0d\0"..., 4096) = 4096
+fstat(7, {st_dev=makedev(8, 1), st_ino=135745, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=12996, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(7, "\34\0\1\1}\2\0\1t\2\0i\3\0\4d\1\0\2I\4|\2\0\2IJq\7\0\1X"..., 8192) = 8192
+read(7, "\0\0R6\0\0\0R\215\0\0\0R\10\0\0\0R\207\0\0\0R\222\0\0\0R\230\0\0\0"..., 4096) = 708
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+stat("/usr/lib/python2.6/linecache", 0x7fff5d098880) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/linecache.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/linecachemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/linecache.py", O_RDONLY) = 7
+fstat(7, {st_dev=makedev(8, 1), st_ino=132652, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=4209, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:31}) = 0
+open("/usr/lib/python2.6/linecache.pyc", O_RDONLY) = 8
+fstat(8, {st_dev=makedev(8, 1), st_ino=135746, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3234, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(8, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0sp\0\0\0d\0"..., 4096) = 3234
+fstat(8, {st_dev=makedev(8, 1), st_ino=135746, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=3234, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(8, "", 4096)                       = 0
+mmap(NULL, 200704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b07000
+close(8)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+close(7)                                = 0
+stat("/usr/lib/python2.6/types", 0x7fff5d098880) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/types.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/typesmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/types.py", O_RDONLY) = 7
+fstat(7, {st_dev=makedev(8, 1), st_ino=132681, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2323, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:32}) = 0
+open("/usr/lib/python2.6/types.pyc", O_RDONLY) = 8
+fstat(8, {st_dev=makedev(8, 1), st_ino=135747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2608, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(8, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0\17\0\0\0@\0\0\0so\2\0\0d\0"..., 4096) = 2608
+fstat(8, {st_dev=makedev(8, 1), st_ino=135747, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2608, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+close(7)                                = 0
+close(6)                                = 0
+close(5)                                = 0
+stat("/usr/lib/python2.6/UserDict", 0x7fff5d09f3e0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/UserDict.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/UserDictmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/UserDict.py", O_RDONLY) = 5
+fstat(5, {st_dev=makedev(8, 1), st_ino=132638, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=5778, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:30}) = 0
+open("/usr/lib/python2.6/UserDict.pyc", O_RDONLY) = 6
+fstat(6, {st_dev=makedev(8, 1), st_ino=135748, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=8802, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(6, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0\4\0\0\0@\0\0\0sb\0\0\0d\0"..., 4096) = 4096
+fstat(6, {st_dev=makedev(8, 1), st_ino=135748, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=8802, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(6, "Dict.pyR*\0\0\0C\0\0\0s\2\0\0\0\0\1c\2\0\0\0\2\0\0\0"..., 4096) = 4096
+read(6, "\v\0\0\0R7\0\0\0R\6\0\0\0R\35\0\0\0R\f\0\0\0(\2\0\0\0R\5\0"..., 4096) = 610
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+stat("/usr/lib/python2.6/_abcoll", 0x7fff5d09be30) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/_abcoll.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/_abcollmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/_abcoll.py", O_RDONLY) = 6
+fstat(6, {st_dev=makedev(8, 1), st_ino=132634, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=13645, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:30}) = 0
+open("/usr/lib/python2.6/_abcoll.pyc", O_RDONLY) = 7
+fstat(7, {st_dev=makedev(8, 1), st_ino=135749, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=21454, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(7, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0\22\0\0\0@\0\0\0s@\2\0\0d\0"..., 4096) = 4096
+fstat(7, {st_dev=makedev(8, 1), st_ino=135749, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=21454, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(7, "__contains___\0\0\0s\2\0\0\0\0\2c\2\0\0\0\2\0\0\0"..., 16384) = 16384
+read(7, "\6\0\0\0extend\"\2\0\0s\6\0\0\0\0\1\7\0\6\1i\377\377\377\377c\2"..., 4096) = 974
+read(7, "", 4096)                       = 0
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8ac6000
+close(7)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+stat("/usr/lib/python2.6/abc", 0x7fff5d098880) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/abc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/abcmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/abc.py", O_RDONLY) = 7
+fstat(7, {st_dev=makedev(8, 1), st_ino=132635, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=6862, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:30}) = 0
+open("/usr/lib/python2.6/abc.pyc", O_RDONLY) = 8
+fstat(8, {st_dev=makedev(8, 1), st_ino=135750, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=5833, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(8, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s?\0\0\0d\0"..., 4096) = 4096
+fstat(8, {st_dev=makedev(8, 1), st_ino=135750, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=5833, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(8, "the ABC registry.s\f\0\0\0Class: %s."..., 4096) = 1737
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+close(7)                                = 0
+close(6)                                = 0
+close(5)                                = 0
+brk(0x167e000)                          = 0x167e000
+stat("/usr/lib/python2.6/copy_reg", 0x7fff5d09f3e0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/copy_reg.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/copy_regmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/copy_reg.py", O_RDONLY) = 5
+fstat(5, {st_dev=makedev(8, 1), st_ino=132643, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=6800, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:30}) = 0
+open("/usr/lib/python2.6/copy_reg.pyc", O_RDONLY) = 6
+fstat(6, {st_dev=makedev(8, 1), st_ino=135751, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=5156, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(6, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0\10\0\0\0@\0\0\0s\330\0\0\0d\0"..., 4096) = 4096
+fstat(6, {st_dev=makedev(8, 1), st_ino=135751, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=5156, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(6, "ered with code %ss$\0\0\0code %s is"..., 4096) = 1060
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+close(5)                                = 0
+close(4)                                = 0
+geteuid()                               = 49703
+getuid()                                = 49703
+getegid()                               = 49703
+getgid()                                = 49703
+stat("/home/stredger/.local/lib/python2.6/site-packages", 0x7fff5d0a68b0) = -1 ENOENT (No such file or directory)
+stat("/home/stredger/.local/lib/python2.6/dist-packages", 0x7fff5d0a68b0) = -1 ENOENT (No such file or directory)
+stat("/home/stredger/.local/local/lib/python2.6/dist-packages", 0x7fff5d0a68b0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/dist-packages", {st_dev=makedev(8, 1), st_ino=131856, st_mode=S_IFDIR|0755, st_nlink=59, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/03-23:00:12, st_mtime=2011/12/29-17:18:23, st_ctime=2011/12/29-17:18:23}) = 0
+open("/usr/lib/python2.6/dist-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fcntl(4, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+getdents(4, {{d_ino=199438, d_off=9118247, d_reclen=40, d_name="setuptools.egg-info"} {d_ino=399714, d_off=11505433, d_reclen=32, d_name="appindicator"} {d_ino=194437, d_off=18829001, d_reclen=32, d_name="pygst.pyc"} {d_ino=194380, d_off=44167251, d_reclen=40, d_name="pexpect-2.3.egg-info"} {d_ino=283267, d_off=64358862, d_reclen=40, d_name="softwareproperties"} {d_ino=188208, d_off=64666032, d_reclen=32, d_name="snack.py"} {d_ino=200329, d_off=71037612, d_reclen=40, d_name="easy_install.pyc"} {d_ino=189174, d_off=81391883, d_reclen=32, d_name="pygst.py"} {d_ino=187832, d_off=88439695, d_reclen=32, d_name="xapian.py"} {d_ino=194379, d_off=88799686, d_reclen=32, d_name="fdpexpect.py"} {d_ino=286184, d_off=95953470, d_reclen=32, d_name="twisted"} {d_ino=165775, d_off=135569659, d_reclen=56, d_name="apturl-0.4.1ubuntu4.1.egg-info"} {d_ino=401234, d_off=153827626, d_reclen=32, d_name="aptdaemon"} {d_ino=186541, d_off=154680121, d_reclen=56, d_name="command_not_found-0.1.egg-info"} {d_ino=199436, d_off=155190260, d_reclen=32, d_name="site.py"} {d_ino=185722, d_off=202310833, d_reclen=32, d_name="hpmudext.la"} {d_ino=263330, d_off=204803530, d_reclen=24, d_name="PIL"} {d_ino=202695, d_off=238852262, d_reclen=32, d_name="pgdb.py"} {d_ino=189175, d_off=242979978, d_reclen=32, d_name="pygst.pth"} {d_ino=139070, d_off=247773426, d_reclen=40, d_name="lsb_release.py"} {d_ino=194507, d_off=287708443, d_reclen=48, d_name="onboard-0.93.0.egg-info"} {d_ino=307718, d_off=317630105, d_reclen=32, d_name="jockey"} {d_ino=194426, d_off=331573888, d_reclen=32, d_name="snack.pyc"} {d_ino=406897, d_off=348358161, d_reclen=32, d_name="oauth"} {d_ino=185725, d_off=358554081, d_reclen=32, d_name="scanext.so"} {d_ino=185127, d_off=373692755, d_reclen=32, d_name="aptsources"} {d_ino=194470, d_off=405001209, d_reclen=56, d_name="zope.interface-3.5.3-nspkg.pth"} {d_ino=165777, d_off=427360804, d_reclen=48, d_name="usb_creator-0.2.22.egg-info"} {d_ino=407472, d_off=456377629, d_reclen=32, d_name="Onboard"} {d_ino=202698, d_off=470972118, d_reclen=32, d_name="pgdb.pyc"} {d_ino=194456, d_off=489724393, d_reclen=48, d_name="pyserial-2.3.egg-info"} {d_ino=401009, d_off=534038962, d_reclen=40, d_name="ScreenResolution"} {d_ino=925829, d_off=539151950, d_reclen=32, d_name="usbcreator"} {d_ino=306859, d_off=542032171, d_reclen=24, d_name="mx"} {d_ino=697289, d_off=547020359, d_reclen=32, d_name="setuptools"} {d_ino=186047, d_off=552388723, d_reclen=32, d_name="_pg.so"} {d_ino=196126, d_off=562092394, d_reclen=56, d_name="wxPython_common-2.8.10.1.egg-info"} {d_ino=196176, d_off=600730784, d_reclen=56, d_name="wxPython_common-2.6.3.2.egg-info"} {d_ino=185721, d_off=626461640, d_reclen=32, d_name="hpmudext.so"} {d_ino=407050, d_off=627269137, d_reclen=24, d_name="XKit"} {d_ino=187676, d_off=639186605, d_reclen=40, d_name="pkg_resources.py"} {d_ino=194444, d_off=657706035, d_reclen=40, d_name="xkit-0.0.0.egg-info"} {d_ino=277222, d_off=658187593, d_reclen=24, d_name="ufw"} {d_ino=194378, d_off=670194982, d_reclen=32, d_name="FSM.py"} {d_ino=194385, d_off=719240589, d_reclen=32, d_name="FSM.pyc"} {d_ino=186059, d_off=719808069, d_reclen=40, d_name="unohelper.pyc"} {d_ino=277306, d_off=722968459, d_reclen=32, d_name="DistUpgrade"} {d_ino=199437, d_off=730416329, d_reclen=40, d_name="setuptools.pth"} {d_ino=202679, d_off=756126859, d_reclen=40, d_name="ccsm-0.8.2.egg-info"} {d_ino=407357, d_off=771462481, d_reclen=40, d_name="LanguageSelector"} {d_ino=194377, d_off=783273083, d_reclen=32, d_name="ANSI.py"} {d_ino=407376, d_off=794661515, d_reclen=56, d_name="zope.interface-3.5.3.egg-info"} {d_ino=407526, d_off=816312418, d_reclen=32, d_name="butterfly"} {d_ino=202694, d_off=822164455, d_reclen=32, d_name="pg.py"} {d_ino=697292, d_off=822515784, d_reclen=48, d_name="distribute-0.6.10.egg-info"} {d_ino=201545, d_off=831256596, d_reclen=32, d_name="_rl_accel.so"} {d_ino=194383, d_off=831260679, d_reclen=32, d_name="screen.py"} {d_ino=187727, d_off=840034295, d_reclen=24, d_name="zope"} {d_ino=407351, d_off=886842955, d_reclen=40, d_name="UbuntuSystemService"} {d_ino=194427, d_off=903601179, d_reclen=32, d_name="debconf.pyc"} {d_ino=411409, d_off=910935689, d_reclen=40, d_name="wx-2.8-gtk2-unicode"} {d_ino=185111, d_off=945148287, d_reclen=32, d_name="apt_pkg.so"} {d_ino=197365, d_off=970114647, d_reclen=32, d_name="wx.pth"} {d_ino=407451, d_off=1001798487, d_reclen=32, d_name="checkbox_gtk"} {d_ino=194414, d_off=1012357380, d_reclen=40, d_name="problem_report.pyc"} {d_ino=185720, d_off=1049819778, d_reclen=32, d_name="cupsext.la"} {d_ino=200330, d_off=1051177780, d_reclen=32, d_name="site.pyc"} {d_ino=194384, d_off=1053122148, d_reclen=32, d_name="ANSI.pyc"} {d_ino=407008, d_off=1056439962, d_reclen=32, d_name="speechd"} {d_ino=561120, d_off=1056695893, d_reclen=40, d_name="wx-2.6-gtk2-unicode"} {d_ino=199435, d_off=1058539015, d_reclen=40, d_name="easy_install.py"} {d_ino=196177, d_off=1064194616, d_reclen=48, d_name="wx-2.6-gtk2-unicode.pth"} {d_ino=695334, d_off=1081751670, d_reclen=24, d_name="kiki"} {d_ino=185112, d_off=1092359716, d_reclen=32, d_name="apt_inst.so"} {d_ino=194388, d_off=1092477450, d_reclen=32, d_name="pxssh.pyc"} {d_ino=202697, d_off=1094196806, d_reclen=32, d_name="pg.pyc"} {d_ino=408341, d_off=1095298135, d_reclen=32, d_name="pyatspi"} {d_ino=187526, d_off=1096399036, d_reclen=56, d_name="ufw-0.30pre1_0ubuntu2.egg-info"} {d_ino=194514, d_off=1118095185, d_reclen=48, d_name="Twisted_Web-10.0.0.egg-info"} {d_ino=194386, d_off=1133190307, d_reclen=40, d_name="fdpexpect.pyc"} {d_ino=407458, d_off=1140675293, d_reclen=40, d_name="GnomeCodecInstall"} {d_ino=193523, d_off=1165500048, d_reclen=32, d_name="farsight.so"} {d_ino=294615, d_off=1169607696, d_reclen=32, d_name="gst-0.10"} {d_ino=185723, d_off=1176794611, d_reclen=32, d_name="pcardext.so"} {d_ino=201547, d_off=1190360537, d_reclen=32, d_name="sgmlop.so"} {d_ino=185113, d_off=1202268692, d_reclen=24, d_name="apt"} {d_ino=185674, d_off=1219284068, d_reclen=32, d_name="PIL.pth"} {d_ino=186057, d_off=1230927537, d_reclen=32, d_name="unohelper.py"} {d_ino=399752, d_off=1267872801, d_reclen=32, d_name="Crypto"} {d_ino=186056, d_off=1274985910, d_reclen=32, d_name="uno.py"} {d_ino=187829, d_off=1281325775, d_reclen=32, d_name="_xapian.so"} {d_ino=142114, d_off=1289345572, d_reclen=40, d_name="lsb_release.pyc"} {d_ino=695098, d_off=1292806361, d_reclen=32, d_name="wxglade"} {d_ino=407013, d_off=1335325314, d_reclen=40, d_name="speechd_config"} {d_ino=193267, d_off=1344705001, d_reclen=32, d_name="virtkey.so"} {d_ino=925816, d_off=1354568065, d_reclen=32, d_name="AptUrl"} {d_ino=407058, d_off=1359452572, d_reclen=48, d_name="configglue-0.2dev.egg-info"} {d_ino=194381, d_off=1381429581, d_reclen=32, d_name="pexpect.py"} {d_ino=131855, d_off=1389303315, d_reclen=24, d_name=".."} {d_ino=194466, d_off=1407134322, d_reclen=56, d_name="system_service-0.1.6.egg-info"} {d_ino=201542, d_off=1418426761, d_reclen=32, d_name="_renderPM.so"} {d_ino=406898, d_off=1425469315, d_reclen=40, d_name="oauth-1.0a.egg-info"} {d_ino=188205, d_off=1427809559, d_reclen=40, d_name="_snackmodule.so"} {d_ino=185132, d_off=1437321040, d_reclen=64, d_name="python_apt-0.7.94.2ubuntu6.1.egg-info"} {d_ino=188901, d_off=1454537840, d_reclen=40, d_name="compizconfig.so"} {d_ino=201566, d_off=1462288113, d_reclen=40, d_name="numpy-1.3.0.egg-info"} {d_ino=194439, d_off=1486408951, d_reclen=48, d_name="speechd_config-0.0.egg-info"} {d_ino=187798, d_off=1490781499, d_reclen=48, d_name="apport_python_hook.py"} {d_ino=196175, d_off=1500337222, d_reclen=48, d_name="wxPython-2.6.3.2.egg-info"} {d_ino=194387, d_off=1507030020, d_reclen=32, d_name="pexpect.pyc"} {d_ino=428055, d_off=1517218507, d_reclen=24, d_name="ccm"} {d_ino=185726, d_off=1532524184, d_reclen=32, d_name="scanext.la"} {d_ino=193252, d_off=1532821299, d_reclen=40, d_name="NvidiaDetector"} {d_ino=194416, d_off=1540474563, d_reclen=32, d_name="xapian.pyc"} {d_ino=194389, d_off=1546943608, d_reclen=32, d_name="screen.pyc"} {d_ino=131856, d_off=1559272572, d_reclen=24, d_name="."} {d_ino=194382, d_off=1561590639, d_reclen=32, d_name="pxssh.py"} {d_ino=186539, d_off=1577228224, d_reclen=40, d_name="CommandNotFound"} {d_ino=406908, d_off=1580182133, d_reclen=32, d_name="checkbox"} {d_ino=185719, d_off=1590844863, d_reclen=32, d_name="cupsext.so"} {d_ino=193522, d_off=1599501244, d_reclen=40, d_name="PAM-0.4.2.egg-info"} {d_ino=188427, d_off=1635061057, d_reclen=48, d_name="Twisted_Core-10.0.0.egg-info"} {d_ino=131656, d_off=1638129718, d_reclen=32, d_name="debconf.py"} {d_ino=407057, d_off=1678827156, d_reclen=32, d_name="configglue"} {d_ino=141102, d_off=1714379629, d_reclen=32, d_name="README"} {d_ino=185724, d_off=1724258937, d_reclen=32, d_name="pcardext.la"} {d_ino=193519, d_off=1739884107, d_reclen=32, d_name="PAMmodule.so"} {d_ino=189170, d_off=1743703110, d_reclen=32, d_name="gstoption.so"} {d_ino=296812, d_off=1749113945, d_reclen=32, d_name="gtk-2.0"} {d_ino=188900, d_off=1773778438, d_reclen=48, d_name="apport_python_hook.pyc"} {d_ino=187916, d_off=1778841912, d_reclen=56, d_name="unattended_upgrades-0.1.egg-info"} {d_ino=196125, d_off=1779329716, d_reclen=48, d_name="wxPython-2.8.10.1.egg-info"} {d_ino=277307, d_off=1792492369, d_reclen=40, d_name="computerjanitor"} {d_ino=569497, d_off=1804347768, d_reclen=24, d_name="lxml"} {d_ino=194415, d_off=1815802897, d_reclen=40, d_name="pkg_resources.pyc"} {d_ino=407463, d_off=1816023779, d_reclen=64, d_name="gnome_app_install-0.4.2ubuntu2.egg-info"} {d_ino=407146, d_off=1833036980, d_reclen=32, d_name="telepathy"} {d_ino=201567, d_off=1837242791, d_reclen=48, d_name="reportlab-2.4.egg-info"} {d_ino=307087, d_off=1839229172, d_reclen=32, d_name="indicate"} {d_ino=190414, d_off=1863095246, d_reclen=48, d_name="jockey-0.5.8.egg-info"} {d_ino=407133, d_off=1901278769, d_reclen=32, d_name="serial"} {d_ino=293096, d_off=1919414412, d_reclen=32, d_name="GDebi"} {d_ino=282466, d_off=1952202961, d_reclen=32, d_name="apport"} {d_ino=194438, d_off=1969393349, d_reclen=40, d_name="speechd-0.3.egg-info"} {d_ino=186058, d_off=1975998829, d_reclen=32, d_name="uno.pyc"} {d_ino=569552, d_off=1989821882, d_reclen=32, d_name="numpy"} {d_ino=408488, d_off=1993488324, d_reclen=32, d_name="gwibber"} {d_ino=400273, d_off=2032147793, d_reclen=32, d_name="ubuntuone"} {d_ino=193273, d_off=2035906501, d_reclen=48, d_name="virtkey-0.01.egg-info"} {d_ino=201546, d_off=2043257369, d_reclen=32, d_name="pyHnj.so"} {d_ino=194455, d_off=2049676827, d_reclen=48, d_name="pycrypto-2.0.1.egg-info"} {d_ino=427275, d_off=2063834723, d_reclen=32, d_name="reportlab"} {d_ino=174125, d_off=2097626877, d_reclen=40, d_name="python-support.pth"} {d_ino=277303, d_off=2110638913, d_reclen=40, d_name="UpdateManager"} {d_ino=193263, d_off=2117418299, d_reclen=48, d_name="nvidia_common-0.0.0.egg-info"} {d_ino=193634, d_off=2120597546, d_reclen=64, d_name="screen_resolution_extra-0.0.0.egg-info"} {d_ino=202696, d_off=2126468287, d_reclen=48, d_name="PyGreSQL-4.0.egg-info"} {d_ino=408018, d_off=2130989665, d_reclen=32, d_name="desktopcouch"} {d_ino=187636, d_off=2135912318, d_reclen=40, d_name="problem_report.py"} {d_ino=194513, d_off=2140181988, d_reclen=64, d_name="ubuntuone_storage_protocol-1.2.0.egg-info"} {d_ino=201565, d_off=2141024091, d_reclen=40, d_name="lxml-2.2.4.egg-info"} {d_ino=194515, d_off=2144559083, d_reclen=56, d_name="Twisted_Names-10.0.0.egg-info"} {d_ino=196127, d_off=2147483647, d_reclen=48, d_name="wx-2.8-gtk2-unicode.pth"}}, 32768) = 6096
+getdents(4, {}, 32768)                  = 0
+close(4)                                = 0
+open("/usr/lib/python2.6/dist-packages/PIL.pth", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=185672, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4, st_atime=2012/02/03-23:30:13, st_mtime=2010/01/19-18:04:56, st_ctime=2011/04/14-09:44:14}) = 0
+fstat(4, {st_dev=makedev(8, 1), st_ino=185672, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4, st_atime=2012/02/03-23:30:13, st_mtime=2010/01/19-18:04:56, st_ctime=2011/04/14-09:44:14}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(4, "PIL\n", 8192)                  = 4
+read(4, "", 4096)                       = 0
+stat("/usr/lib/python2.6/dist-packages/PIL", {st_dev=makedev(8, 1), st_ino=263330, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=12288, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:59:08, st_ctime=2011/04/14-09:59:08}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+open("/usr/lib/python2.6/dist-packages/pygst.pth", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=189172, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=9, st_atime=2012/02/03-23:30:13, st_mtime=2010/02/11-16:35:20, st_ctime=2011/04/14-09:51:08}) = 0
+fstat(4, {st_dev=makedev(8, 1), st_ino=189172, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=9, st_atime=2012/02/03-23:30:13, st_mtime=2010/02/11-16:35:20, st_ctime=2011/04/14-09:51:08}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(4, "gst-0.10\n", 8192)             = 9
+read(4, "", 4096)                       = 0
+stat("/usr/lib/python2.6/dist-packages/gst-0.10", {st_dev=makedev(8, 1), st_ino=294615, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:51:07, st_ctime=2011/04/14-09:51:07}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+open("/usr/lib/python2.6/dist-packages/python-support.pth", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=406161, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=74, st_atime=2012/02/03-23:00:12, st_mtime=2011/12/29-17:19:17, st_ctime=2011/12/29-17:19:17}) = 0
+fstat(4, {st_dev=makedev(8, 1), st_ino=406161, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=74, st_atime=2012/02/03-23:00:12, st_mtime=2011/12/29-17:19:17, st_ctime=2011/12/29-17:19:17}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(4, "/usr/lib/pymodules/python2.6\ngtk"..., 8192) = 74
+read(4, "", 4096)                       = 0
+stat("/usr/lib/pymodules/python2.6", {st_dev=makedev(8, 1), st_ino=405170, st_mode=S_IFDIR|0755, st_nlink=44, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/12/29-17:18:21, st_ctime=2011/12/29-17:18:21}) = 0
+stat("/usr/lib/python2.6/dist-packages/gtk-2.0", {st_dev=makedev(8, 1), st_ino=296812, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:51:46, st_ctime=2011/04/14-09:51:46}) = 0
+stat("/usr/lib/pymodules/python2.6/gtk-2.0", {st_dev=makedev(8, 1), st_ino=405174, st_mode=S_IFDIR|0755, st_nlink=10, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-10:04:51, st_ctime=2011/04/14-10:04:51}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+open("/usr/lib/python2.6/dist-packages/setuptools.pth", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=199432, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=27, st_atime=2012/02/03-23:30:13, st_mtime=2010/04/06-00:44:42, st_ctime=2011/04/14-16:51:59}) = 0
+fstat(4, {st_dev=makedev(8, 1), st_ino=199432, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=27, st_atime=2012/02/03-23:30:13, st_mtime=2010/04/06-00:44:42, st_ctime=2011/04/14-16:51:59}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(4, "setuptools-0.6c11.egg-info\n", 8192) = 27
+read(4, "", 4096)                       = 0
+stat("/usr/lib/python2.6/dist-packages/setuptools-0.6c11.egg-info", 0x7fff5d0a64f0) = -1 ENOENT (No such file or directory)
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+open("/usr/lib/python2.6/dist-packages/wx-2.6-gtk2-unicode.pth", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=196173, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=20, st_atime=2012/02/03-23:30:13, st_mtime=2009/10/23-23:24:58, st_ctime=2011/04/14-10:16:55}) = 0
+fstat(4, {st_dev=makedev(8, 1), st_ino=196173, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=20, st_atime=2012/02/03-23:30:13, st_mtime=2009/10/23-23:24:58, st_ctime=2011/04/14-10:16:55}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(4, "wx-2.6-gtk2-unicode\n", 8192)  = 20
+read(4, "", 4096)                       = 0
+stat("/usr/lib/python2.6/dist-packages/wx-2.6-gtk2-unicode", {st_dev=makedev(8, 1), st_ino=561120, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-16:46:25, st_ctime=2011/04/14-16:46:25}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+open("/usr/lib/python2.6/dist-packages/wx-2.8-gtk2-unicode.pth", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=196123, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=20, st_atime=2012/02/03-23:30:13, st_mtime=2009/08/11-16:28:33, st_ctime=2011/04/14-10:16:51}) = 0
+fstat(4, {st_dev=makedev(8, 1), st_ino=196123, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=20, st_atime=2012/02/03-23:30:13, st_mtime=2009/08/11-16:28:33, st_ctime=2011/04/14-10:16:51}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(4, "wx-2.8-gtk2-unicode\n", 8192)  = 20
+read(4, "", 4096)                       = 0
+stat("/usr/lib/python2.6/dist-packages/wx-2.8-gtk2-unicode", {st_dev=makedev(8, 1), st_ino=411409, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-16:46:46, st_ctime=2011/04/14-16:46:46}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+open("/usr/lib/python2.6/dist-packages/wx.pth", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=411304, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=19, st_atime=2012/02/03-23:30:13, st_mtime=2009/08/11-16:28:41, st_ctime=2011/04/14-10:16:51}) = 0
+fstat(4, {st_dev=makedev(8, 1), st_ino=411304, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=19, st_atime=2012/02/03-23:30:13, st_mtime=2009/08/11-16:28:41, st_ctime=2011/04/14-10:16:51}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(4, "wx-2.8-gtk2-unicode", 8192)    = 19
+read(4, "", 4096)                       = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+open("/usr/lib/python2.6/dist-packages/zope.interface-3.5.3-nspkg.pth", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=187790, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=301, st_atime=2012/02/03-23:30:13, st_mtime=2010/04/15-13:08:22, st_ctime=2011/04/14-09:47:01}) = 0
+fstat(4, {st_dev=makedev(8, 1), st_ino=187790, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=301, st_atime=2012/02/03-23:30:13, st_mtime=2010/04/15-13:08:22, st_ctime=2011/04/14-09:47:01}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(4, "import sys,types,os; p = os.path"..., 8192) = 301
+read(4, "", 4096)                       = 0
+brk(0x169f000)                          = 0x169f000
+brk(0x1696000)                          = 0x1696000
+stat("/usr/lib/python2.6/dist-packages/zope/__init__.py", {st_dev=makedev(8, 1), st_ino=187781, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=200, st_atime=2011/04/14-10:03:26, st_mtime=2010/04/15-13:08:23, st_ctime=2011/04/14-09:47:01}) = 0
+read(4, "", 8192)                       = 0
+close(4)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+stat("/usr/local/lib/python2.6/dist-packages", {st_dev=makedev(8, 1), st_ino=132092, st_mode=S_IFDIR|S_ISGID|0775, st_nlink=2, st_uid=0, st_gid=50, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:45, st_ctime=2011/04/14-09:29:45}) = 0
+open("/usr/local/lib/python2.6/dist-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+getdents(4, {{d_ino=132090, d_off=1546943608, d_reclen=24, d_name=".."} {d_ino=132092, d_off=2147483647, d_reclen=24, d_name="."}}, 32768) = 48
+getdents(4, {}, 32768)                  = 0
+close(4)                                = 0
+stat("/usr/lib/dist-python", 0x7fff5d0a68b0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6", {st_dev=makedev(8, 1), st_ino=131855, st_mode=S_IFDIR|0755, st_nlink=24, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=20480, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-10:16:36, st_ctime=2011/04/14-10:16:36}) = 0
+stat("/usr/lib/python2.6", {st_dev=makedev(8, 1), st_ino=131855, st_mode=S_IFDIR|0755, st_nlink=24, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=20480, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-10:16:36, st_ctime=2011/04/14-10:16:36}) = 0
+stat("/usr/lib/python2.6/sitecustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/sitecustomize.py", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=525494, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=155, st_atime=2012/01/15-22:10:09, st_mtime=2010/04/16-07:41:13, st_ctime=2011/04/14-09:24:29}) = 0
+open("/usr/lib/python2.6/sitecustomize.pyc", O_RDONLY) = 5
+fstat(5, {st_dev=makedev(8, 1), st_ino=135752, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=234, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(5, "\321\362\r\n\tw\310Kc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s4\0\0\0y\20"..., 4096) = 234
+fstat(5, {st_dev=makedev(8, 1), st_ino=135752, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=234, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+stat("/usr/lib/python2.6/apport_python_hook", 0x7fff5d09f180) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/plat-linux2", {st_dev=makedev(8, 1), st_ino=140904, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:33:13, st_ctime=2011/04/14-09:33:13}) = 0
+stat("/usr/lib/python2.6/plat-linux2", {st_dev=makedev(8, 1), st_ino=140904, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:33:13, st_ctime=2011/04/14-09:33:13}) = 0
+stat("/usr/lib/python2.6/plat-linux2/apport_python_hook", 0x7fff5d09f180) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/plat-linux2/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/plat-linux2/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/plat-linux2/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/plat-linux2/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/lib-tk", {st_dev=makedev(8, 1), st_ino=140606, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:33:13, st_ctime=2011/04/14-09:33:13}) = 0
+stat("/usr/lib/python2.6/lib-tk", {st_dev=makedev(8, 1), st_ino=140606, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:33:13, st_ctime=2011/04/14-09:33:13}) = 0
+stat("/usr/lib/python2.6/lib-tk/apport_python_hook", 0x7fff5d09f180) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-tk/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-tk/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-tk/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-tk/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/lib-old", 0x7fff5d09bdb0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6", {st_dev=makedev(8, 1), st_ino=131855, st_mode=S_IFDIR|0755, st_nlink=24, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=20480, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-10:16:36, st_ctime=2011/04/14-10:16:36}) = 0
+stat("/usr/lib/python2.6/lib-old", 0x7fff5d09ee30) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/lib-dynload", {st_dev=makedev(8, 1), st_ino=135209, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-10:16:35, st_ctime=2011/04/14-10:16:35}) = 0
+stat("/usr/lib/python2.6/lib-dynload", {st_dev=makedev(8, 1), st_ino=135209, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-10:16:35, st_ctime=2011/04/14-10:16:35}) = 0
+stat("/usr/lib/python2.6/lib-dynload/apport_python_hook", 0x7fff5d09f180) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-dynload/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-dynload/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-dynload/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-dynload/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/dist-packages", {st_dev=makedev(8, 1), st_ino=131856, st_mode=S_IFDIR|0755, st_nlink=59, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/03-23:00:12, st_mtime=2011/12/29-17:18:23, st_ctime=2011/12/29-17:18:23}) = 0
+stat("/usr/lib/python2.6/dist-packages", {st_dev=makedev(8, 1), st_ino=131856, st_mode=S_IFDIR|0755, st_nlink=59, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/03-23:00:12, st_mtime=2011/12/29-17:18:23, st_ctime=2011/12/29-17:18:23}) = 0
+stat("/usr/lib/python2.6/dist-packages/apport_python_hook", 0x7fff5d09f180) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/apport_python_hook.py", O_RDONLY) = 5
+fstat(5, {st_dev=makedev(8, 1), st_ino=187796, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=13014, st_atime=2011/04/14-09:50:36, st_mtime=2010/04/14-05:38:21, st_ctime=2011/04/14-09:47:05}) = 0
+open("/usr/lib/python2.6/dist-packages/apport_python_hook.pyc", O_RDONLY) = 6
+fstat(6, {st_dev=makedev(8, 1), st_ino=188900, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=9874, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:50:36, st_ctime=2011/04/14-09:50:36}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(6, "\321\362\r\n=\267\305Kc\0\0\0\0\0\0\0\0\f\0\0\0@\0\0\0s\313\0\0\0d\0"..., 4096) = 4096
+fstat(6, {st_dev=makedev(8, 1), st_ino=188900, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=9874, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:50:36, st_ctime=2011/04/14-09:50:36}) = 0
+read(6, "\n\0\0\0scriptnamet\6\0\0\0scriptt\2\0\0\0fd"..., 4096) = 4096
+read(6, "tive\30\1\0\0s\32\0\0\0\0\3\f\1\3\1\7\0\6\1\r\1\30\1\25\1\25\1\27"..., 4096) = 1682
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/usr/lib/python2.6/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/plat-linux2/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/plat-linux2/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/plat-linux2/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/plat-linux2/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/plat-linux2/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/lib-tk/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-tk/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-tk/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-tk/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-tk/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/lib-dynload/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-dynload/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-dynload/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-dynload/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/lib-dynload/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/dist-packages/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/dist-packages/PIL", {st_dev=makedev(8, 1), st_ino=263330, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=12288, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:59:08, st_ctime=2011/04/14-09:59:08}) = 0
+stat("/usr/lib/python2.6/dist-packages/PIL", {st_dev=makedev(8, 1), st_ino=263330, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=12288, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:59:08, st_ctime=2011/04/14-09:59:08}) = 0
+stat("/usr/lib/python2.6/dist-packages/PIL/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/PIL/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/PIL/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/PIL/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/PIL/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/dist-packages/gst-0.10", {st_dev=makedev(8, 1), st_ino=294615, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:51:07, st_ctime=2011/04/14-09:51:07}) = 0
+stat("/usr/lib/python2.6/dist-packages/gst-0.10", {st_dev=makedev(8, 1), st_ino=294615, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:51:07, st_ctime=2011/04/14-09:51:07}) = 0
+stat("/usr/lib/python2.6/dist-packages/gst-0.10/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/gst-0.10/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/gst-0.10/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/gst-0.10/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/gst-0.10/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/pymodules/python2.6", {st_dev=makedev(8, 1), st_ino=405170, st_mode=S_IFDIR|0755, st_nlink=44, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/12/29-17:18:21, st_ctime=2011/12/29-17:18:21}) = 0
+stat("/usr/lib/pymodules/python2.6", {st_dev=makedev(8, 1), st_ino=405170, st_mode=S_IFDIR|0755, st_nlink=44, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/12/29-17:18:21, st_ctime=2011/12/29-17:18:21}) = 0
+stat("/usr/lib/pymodules/python2.6/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/pymodules/python2.6/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/pymodules/python2.6/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/pymodules/python2.6/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/pymodules/python2.6/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/dist-packages/gtk-2.0", {st_dev=makedev(8, 1), st_ino=296812, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:51:46, st_ctime=2011/04/14-09:51:46}) = 0
+stat("/usr/lib/python2.6/dist-packages/gtk-2.0", {st_dev=makedev(8, 1), st_ino=296812, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-09:51:46, st_ctime=2011/04/14-09:51:46}) = 0
+stat("/usr/lib/python2.6/dist-packages/gtk-2.0/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/gtk-2.0/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/gtk-2.0/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/gtk-2.0/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/gtk-2.0/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/pymodules/python2.6/gtk-2.0", {st_dev=makedev(8, 1), st_ino=405174, st_mode=S_IFDIR|0755, st_nlink=10, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-10:04:51, st_ctime=2011/04/14-10:04:51}) = 0
+stat("/usr/lib/pymodules/python2.6/gtk-2.0", {st_dev=makedev(8, 1), st_ino=405174, st_mode=S_IFDIR|0755, st_nlink=10, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-10:04:51, st_ctime=2011/04/14-10:04:51}) = 0
+stat("/usr/lib/pymodules/python2.6/gtk-2.0/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/pymodules/python2.6/gtk-2.0/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/pymodules/python2.6/gtk-2.0/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/pymodules/python2.6/gtk-2.0/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/pymodules/python2.6/gtk-2.0/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/dist-packages/wx-2.6-gtk2-unicode", {st_dev=makedev(8, 1), st_ino=561120, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-16:46:25, st_ctime=2011/04/14-16:46:25}) = 0
+stat("/usr/lib/python2.6/dist-packages/wx-2.6-gtk2-unicode", {st_dev=makedev(8, 1), st_ino=561120, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-16:46:25, st_ctime=2011/04/14-16:46:25}) = 0
+stat("/usr/lib/python2.6/dist-packages/wx-2.6-gtk2-unicode/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/wx-2.6-gtk2-unicode/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/wx-2.6-gtk2-unicode/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/wx-2.6-gtk2-unicode/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/wx-2.6-gtk2-unicode/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/dist-packages/wx-2.8-gtk2-unicode", {st_dev=makedev(8, 1), st_ino=411409, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-16:46:46, st_ctime=2011/04/14-16:46:46}) = 0
+stat("/usr/lib/python2.6/dist-packages/wx-2.8-gtk2-unicode", {st_dev=makedev(8, 1), st_ino=411409, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/02-16:55:29, st_mtime=2011/04/14-16:46:46, st_ctime=2011/04/14-16:46:46}) = 0
+stat("/usr/lib/python2.6/dist-packages/wx-2.8-gtk2-unicode/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/wx-2.8-gtk2-unicode/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/wx-2.8-gtk2-unicode/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/wx-2.8-gtk2-unicode/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/dist-packages/wx-2.8-gtk2-unicode/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.6/dist-packages", {st_dev=makedev(8, 1), st_ino=132092, st_mode=S_IFDIR|S_ISGID|0775, st_nlink=2, st_uid=0, st_gid=50, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:45, st_ctime=2011/04/14-09:29:45}) = 0
+stat("/usr/local/lib/python2.6/dist-packages", {st_dev=makedev(8, 1), st_ino=132092, st_mode=S_IFDIR|S_ISGID|0775, st_nlink=2, st_uid=0, st_gid=50, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:45, st_ctime=2011/04/14-09:29:45}) = 0
+stat("/usr/local/lib/python2.6/dist-packages/usercustomize", 0x7fff5d0a2730) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.6/dist-packages/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.6/dist-packages/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.6/dist-packages/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/python2.6/dist-packages/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=525441, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2570, st_atime=2012/02/04-02:30:36, st_mtime=2010/03/04-04:28:50, st_ctime=2011/04/14-09:24:29}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8b38000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fa9e8b38000, 4096)            = 0
+open("/usr/lib/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/en_US.utf8/LC_CTYPE", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=142118, st_mode=S_IFREG|0644, st_nlink=16, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=504, st_size=256324, st_atime=2012/02/04-15:23:47, st_mtime=2011/04/14-09:33:29, st_ctime=2011/04/14-09:37:47}) = 0
+mmap(NULL, 256324, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa9e8a87000
+close(3)                                = 0
+open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=164262, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=56, st_size=26048, st_atime=2012/02/04-15:05:41, st_mtime=2011/01/10-22:55:24, st_ctime=2011/04/14-09:36:44}) = 0
+mmap(NULL, 26048, PROT_READ, MAP_SHARED, 3, 0) = 0x7fa9e8a80000
+close(3)                                = 0
+futex(0x7fa9e791bf60, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+stat("/usr/lib/python2.6/encodings", {st_dev=makedev(8, 1), st_ino=135260, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=12288, st_atime=2010/04/16-07:41:44, st_mtime=2011/04/14-09:33:13, st_ctime=2011/04/14-09:33:13}) = 0
+stat("/usr/lib/python2.6/encodings/__init__.py", {st_dev=makedev(8, 1), st_ino=132683, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=5638, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:16, st_ctime=2011/04/14-09:28:32}) = 0
+stat("/usr/lib/python2.6/encodings/__init__", 0x7fff5d0a5000) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/__init__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/__init__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/__init__.py", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=132683, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=5638, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:16, st_ctime=2011/04/14-09:28:32}) = 0
+open("/usr/lib/python2.6/encodings/__init__.pyc", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=135753, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=4408, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8a7f000
+read(4, "\321\362\r\n\fw\310Kc\0\0\0\0\0\0\0\0\6\0\0\0@\0\0\0s\216\0\0\0d\0"..., 4096) = 4096
+fstat(4, {st_dev=makedev(8, 1), st_ino=135753, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=4408, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(4, "\1\5\2\5\2\6\2\3\1\r\1\16\2\v\2\r\2\n\1\5\3\t\1\23\1$\1\3\1\3\1\27"..., 4096) = 312
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7fa9e8a7f000, 4096)            = 0
+stat("/usr/lib/python2.6/encodings", {st_dev=makedev(8, 1), st_ino=135260, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=12288, st_atime=2010/04/16-07:41:44, st_mtime=2011/04/14-09:33:13, st_ctime=2011/04/14-09:33:13}) = 0
+stat("/usr/lib/python2.6/encodings", {st_dev=makedev(8, 1), st_ino=135260, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=12288, st_atime=2010/04/16-07:41:44, st_mtime=2011/04/14-09:33:13, st_ctime=2011/04/14-09:33:13}) = 0
+stat("/usr/lib/python2.6/encodings/codecs", 0x7fff5d0a1a50) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/codecs.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/codecsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/codecs.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/codecs.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/codecs", 0x7fff5d0a1a50) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/codecs.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/codecsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/codecs.py", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=132777, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=34941, st_atime=2011/04/14-09:29:45, st_mtime=2010/04/16-07:41:14, st_ctime=2011/04/14-09:28:36}) = 0
+open("/usr/lib/python2.6/codecs.pyc", O_RDONLY) = 5
+fstat(5, {st_dev=makedev(8, 1), st_ino=135754, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=36059, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8a7f000
+read(5, "\321\362\r\n\nw\310Kc\0\0\0\0\0\0\0\0\36\0\0\0@\0\0\0sA\3\0\0d\0"..., 4096) = 4096
+fstat(5, {st_dev=makedev(8, 1), st_ino=135754, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=36059, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(5, "\n\0\0\0t\0\0\202\1\0d\1\0S(\2\0\0\0s\372\2\0\0 Decodes"..., 28672) = 28672
+read(5, "\0\0C\0\0\0s\r\0\0\0t\0\0|\0\0\203\1\0i\1\0S(\1\0\0\0s\264\0"..., 4096) = 3291
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7fa9e8a7f000, 4096)            = 0
+close(4)                                = 0
+stat("/usr/lib/python2.6/encodings/encodings", 0x7fff5d0a1a50) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/encodings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/encodingsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/encodings.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/encodings.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.6/encodings/aliases", 0x7fff5d0a1a40) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/aliases.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/aliasesmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/aliases.py", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=132684, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14721, st_atime=2011/04/14-09:29:46, st_mtime=2010/04/16-07:41:16, st_ctime=2011/04/14-09:28:32}) = 0
+open("/usr/lib/python2.6/encodings/aliases.pyc", O_RDONLY) = 5
+fstat(5, {st_dev=makedev(8, 1), st_ino=135755, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=8699, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8a7f000
+read(5, "\321\362\r\n\fw\310Kc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s`\10\0\0d\0"..., 4096) = 4096
+fstat(5, {st_dev=makedev(8, 1), st_ino=135755, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=8699, st_atime=2012/02/03-23:30:13, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(5, "ibm861t\5\0\0\0cp862t\3\0\0\000862t\22\0\0\0csp"..., 4096) = 4096
+read(5, "\3\7\1\7\1\7\1\7\3\7\1\7\1\7\3\7\1\7\1\7\1\7\1\7\3\7\1\7\1\7\3\7"..., 4096) = 507
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7fa9e8a7f000, 4096)            = 0
+close(4)                                = 0
+stat("/usr/lib/python2.6/encodings/__builtin__", 0x7fff5d0a1a50) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/__builtin__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/__builtin__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/__builtin__.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/__builtin__.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+stat("/usr/lib/python2.6/encodings/utf_8", 0x7fff5d0a5d70) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/utf_8.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/utf_8module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/python2.6/encodings/utf_8.py", O_RDONLY) = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=132773, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1005, st_atime=2011/04/14-09:29:46, st_mtime=2010/04/16-07:41:16, st_ctime=2011/04/14-09:28:36}) = 0
+open("/usr/lib/python2.6/encodings/utf_8.pyc", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=135889, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1950, st_atime=2012/02/04-21:34:45, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8a7f000
+read(4, "\321\362\r\n\fw\310Kc\0\0\0\0\0\0\0\0\4\0\0\0@\0\0\0s\230\0\0\0d\0"..., 4096) = 1950
+fstat(4, {st_dev=makedev(8, 1), st_ino=135889, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1950, st_atime=2012/02/04-21:34:45, st_mtime=2011/04/14-09:29:46, st_ctime=2011/04/14-09:29:46}) = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7fa9e8a7f000, 4096)            = 0
+close(3)                                = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {c_iflags=0x500, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=0, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff5d0aa1f0) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(2, SNDCTL_TMR_TIMEBASE or TCGETS, {c_iflags=0x500, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=0, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+readlink("test-files/pytest.py", 0x7fff5d0a83c0, 4096) = -1 EINVAL (Invalid argument)
+getcwd("/home/stredger/School/DS/strace-info", 4096) = 37
+lstat("/home/stredger/School/DS/strace-info/test-files", {st_dev=makedev(0, 23), st_ino=27386466, st_mode=S_IFDIR|0700, st_nlink=2, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=4096, st_atime=2012/02/04-22:24:05, st_mtime=2012/02/04-22:24:04, st_ctime=2012/02/04-22:24:04}) = 0
+lstat("/home/stredger/School/DS/strace-info/test-files/pytest.py", {st_dev=makedev(0, 23), st_ino=27386471, st_mode=S_IFREG|0700, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=251, st_atime=2012/02/04-22:22:11, st_mtime=2012/02/04-22:22:11, st_ctime=2012/02/04-22:22:11}) = 0
+stat("test-files/pytest.py", {st_dev=makedev(0, 23), st_ino=27386471, st_mode=S_IFREG|0700, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=251, st_atime=2012/02/04-22:22:11, st_mtime=2012/02/04-22:22:11, st_ctime=2012/02/04-22:22:11}) = 0
+open("test-files/pytest.py", O_RDONLY)  = 3
+fstat(3, {st_dev=makedev(0, 23), st_ino=27386471, st_mode=S_IFREG|0700, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=251, st_atime=2012/02/04-22:22:11, st_mtime=2012/02/04-22:22:11, st_ctime=2012/02/04-22:22:11}) = 0
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8a70000
+fstat(3, {st_dev=makedev(0, 23), st_ino=27386471, st_mode=S_IFREG|0700, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=251, st_atime=2012/02/04-22:22:11, st_mtime=2012/02/04-22:22:11, st_ctime=2012/02/04-22:22:11}) = 0
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "# simple python test for strace\n"..., 229) = 229
+read(3, "rmat(errno, strerror)\n", 65536) = 22
+close(3)                                = 0
+munmap(0x7fa9e8a70000, 65536)           = 0
+stat("test-files/pytest.py", {st_dev=makedev(0, 23), st_ino=27386471, st_mode=S_IFREG|0700, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=251, st_atime=2012/02/04-22:22:11, st_mtime=2012/02/04-22:22:11, st_ctime=2012/02/04-22:22:11}) = 0
+open("test-files/pytest.py", O_RDONLY)  = 3
+fstat(3, {st_dev=makedev(0, 23), st_ino=27386471, st_mode=S_IFREG|0700, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=251, st_atime=2012/02/04-22:22:11, st_mtime=2012/02/04-22:22:11, st_ctime=2012/02/04-22:22:11}) = 0
+ioctl(3, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff5d0aa360) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_dev=makedev(0, 23), st_ino=27386471, st_mode=S_IFREG|0700, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=251, st_atime=2012/02/04-22:22:11, st_mtime=2012/02/04-22:22:11, st_ctime=2012/02/04-22:22:11}) = 0
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8a70000
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "# simple python test for strace\n"..., 65536) = 251
+lseek(3, 251, SEEK_SET)                 = 251
+brk(0x16b8000)                          = 0x16b8000
+read(3, "", 65536)                      = 0
+brk(0x16af000)                          = 0x16af000
+brk(0x16ad000)                          = 0x16ad000
+close(3)                                = 0
+munmap(0x7fa9e8a70000, 65536)           = 0
+open("test-files/scratch.txt", O_RDWR)  = 3
+fstat(3, {st_dev=makedev(0, 23), st_ino=27386469, st_mode=S_IFREG|0600, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=305, st_atime=2012/02/04-21:47:54, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}) = 0
+fstat(3, {st_dev=makedev(0, 23), st_ino=27386469, st_mode=S_IFREG|0600, st_nlink=1, st_uid=49703, st_gid=49703, st_blksize=65536, st_blocks=8, st_size=305, st_atime=2012/02/04-21:47:54, st_mtime=2012/02/04-22:49:49, st_ctime=2012/02/04-22:49:49}) = 0
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8a70000
+read(3, "this is a scratch text file!!!\np"..., 65536) = 305
+read(3, "", 65536)                      = 0
+fstat(1, {st_dev=makedev(0, 5), st_ino=1367, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 3), st_atime=2012/01/28-13:04:57, st_mtime=2012/01/28-13:04:57, st_ctime=2012/01/28-13:04:57}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff5d0a9e30) = -1 ENOTTY (Inappropriate ioctl for device)
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa9e8a6f000
+read(3, "", 65536)                      = 0
+write(3, "python'ed!\n", 11)            = 11
+close(3)                                = 0
+munmap(0x7fa9e8a70000, 65536)           = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7fa9e87b38f0}, {0x4d9820, [], SA_RESTORER, 0x7fa9e87b38f0}, 8) = 0
+brk(0x16ab000)                          = 0x16ab000
+brk(0x16a8000)                          = 0x16a8000
+write(1, "this is a scratch text file!!!\n\n"..., 335) = 335
+exit_group(0)                           = ?

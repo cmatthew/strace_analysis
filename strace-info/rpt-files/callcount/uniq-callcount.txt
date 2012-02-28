@@ -1,0 +1,14 @@
+      3 access
+      1 arch_prctl
+      3 brk
+     21 close
+      1 execve
+      1 exit_group
+     19 fstat
+      1 ioctl
+     24 mmap
+      4 mprotect
+      4 munmap
+     31 open
+      5 read
+      5 write

@@ -1,0 +1,49 @@
+#! /bin/bash
+
+# Stephen Tredger
+
+# Usage: [Options] <prog> <args>
+# Options: -td=<dir>, trace output directory
+#	   -rd=<dir>, results output directory
+
+
+traceDir=""
+resDir=""
+
+traceName="-strace.txt" # traces will have this appended to the prog name
+countName="-callcount.txt" # syscall counts will be progname with this appended
+noteName="-notablecalls.txt" # notable calls from notable-syscalls like this
+
+stOpts="-v" # options to be passed to strace (other than -o)
+
+# read notable sys calls into an array
+noteCalls=( `cat notable-syscalls | grep -v \# | tr '\n' ' '`)
+
+
+# parse command line options
+for arg in $@; do
+	param=` echo $arg | cut -f1 -d = `
+	case $param in
+		-td )
+			traceDir=` echo $arg | cut -f2 -d = `/
+			shift;;
+		-rd )
+			resDir=` echo $arg | cut -f2 -d = `/
+			shift;;
+	esac
+done
+
+# after parsing $1 will be the program name
+prog=$1
+traceFile=$traceDir$prog$traceName
+
+# capture trace
+strace $stOpts -o $traceFile $@ > /dev/null
+
+# generate results from trace file
+cat $traceFile | cut -f1 -d \( | sort | uniq -c > $resDir$prog$countName
+for call in ${noteCalls[@]}; do
+	grep $call $traceFile >> $resDir$prog$noteName
+done
+
+

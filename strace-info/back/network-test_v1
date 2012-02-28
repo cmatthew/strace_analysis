@@ -1,0 +1,48 @@
+# network-test
+# Place commands here to generate a trace with strace-gen.sh
+#	one command per line, exactly like it would be entered
+#	into the command prompt. The text file output will be
+#	identified by the command name therefore the same prog
+#	with separate arguments will attempt to overwrite the 
+#	first.
+#
+# Comments must be on a separate line as the entire line is 
+#	ignored if a # is found
+##
+
+# attepmts to open firefox, may require the full path on some systems!
+firefox
+
+wget -O - https://www.google.com
+
+nslookup e-cream.csc.uvic.ca
+
+dig ubc.ca sfu.ca uvic.ca
+
+host sfu.ca
+
+whois cira.ca
+
+# gives 'ping: icmp open socket: Operation not permitted' with strace, use sudo?
+#ping -c 4 e-fudge.csc.uvic.ca
+
+# takes some time to run, be patient!
+traceroute www.google.com
+
+nc e-cream.csc.uvic.ca 12345 \"\n\"
+
+arp
+
+netstat
+
+ifconfig
+
+# Commands I would like to add still
+#telnet
+#scp
+#ssh
+#apache
+#ping
+#tcpdump
+#netem
+#some sort of database connection

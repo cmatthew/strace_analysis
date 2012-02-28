@@ -1,0 +1,141 @@
+#! /bin/bash
+
+# Stephen Tredger
+
+fName="-strace.txt"
+stOpts="-v"
+outdir=""
+supressOut="> /dev/null"
+
+kernPrgs=( `cat kernel-test | tr '\n' ' '`)
+netPrgs=( `cat network-test | tr '\n' ' '`)
+
+
+# set up directories and capture a trace in the process
+echo "Setting up directories\n"
+traceDir="traces"
+resDir="analysis"
+
+
+prog="mkdir"
+args="$traceDir $traceDir/kernel $traceDir/network  $resDir  $resDir/kernel  $resDir/network"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args
+
+
+# generate traces for kernal programs
+outdir="$traceDir/kernel/"
+echo "\nGenerating kernel traces in $outdir"
+
+prog="cp"
+args="mkdir$fName $outdir"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="rm"
+args="mkdir$fName"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="ls"
+args="-al $outdir"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="grep"
+args="open $outdir""mkdir$fName"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="cat"
+args="$outdir""mkdir$fName"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="sort"
+args="$outdir""mkdir$fName"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="uniq"
+args="$outdir""mkdir$fName"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+
+# generate output for network programs
+outdir="$traceDir/network/"
+echo "\nGenerating network traces in $outdir"
+
+prog="firefox"
+args=""
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null &
+
+prog="wget"
+args="-O - https://www.google.com"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="nslookup"
+args="e-cream.csc.uvic.ca"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="dig"
+args="ubc.ca sfu.ca uvic.ca"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="host"
+args="sfu.ca"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="whois"
+args="cira.ca"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+# gives 'ping: icmp open socket: Operation not permitted' with strace, use sudo?
+#prog="ping"
+#args="-c 4 e-fudge.csc.uvic.ca"
+#echo "generating trace: $prog $args"
+#strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="traceroute"
+args="www.google.com"
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="nc"
+args="e-cream.csc.uvic.ca 12345 \"\n\""
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="arp"
+args=""
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="netstat"
+args=""
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+prog="ifconfig"
+args=""
+echo "generating trace: $prog $args"
+strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
+
+
+#ssh
+#scp
+#apache
+#telnet
+#tcpdump
+#ping <- need sudo with strace??
+
+#cat cat-strace.txt | cut -f1 -d \( | sort | uniq -c
+

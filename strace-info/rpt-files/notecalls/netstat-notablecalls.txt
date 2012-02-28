@@ -1,0 +1,17 @@
+connect(4, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(4, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+open("/proc/net/ipx/socket", O_RDONLY)  = -1 ENOENT (No such file or directory)
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 4
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 4
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 4
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 4
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 4
+fcntl(4, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffd259ebd0) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(4, FIONREAD, [147])               = 0
+ioctl(4, FIONREAD, [148])               = 0
+ioctl(4, FIONREAD, [150])               = 0
+ioctl(4, FIONREAD, [153])               = 0
+ioctl(4, FIONREAD, [162])               = 0

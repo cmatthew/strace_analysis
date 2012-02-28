@@ -1,0 +1,8 @@
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffd1f1ef80) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffd1f1f450) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(1, TIOCGWINSZ, 0x7fffd1f1f5c0)    = -1 ENOTTY (Inappropriate ioctl for device)

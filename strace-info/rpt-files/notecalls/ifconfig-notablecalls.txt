@@ -1,0 +1,27 @@
+socket(PF_FILE, SOCK_DGRAM, 0)          = 3
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 5
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 4
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffe34d95d0) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(4, SIOCGIFADDR, {ifr_name="eth0", ifr_addr={AF_INET, inet_addr("142.104.73.112")}}) = 0
+ioctl(4, SIOCGIFADDR, {ifr_name="lo", ifr_addr={AF_INET, inet_addr("127.0.0.1")}}) = 0
+ioctl(4, SIOCGIFBRDADDR, {ifr_name="eth0", ifr_broadaddr={AF_INET, inet_addr("142.104.73.127")}}) = 0
+ioctl(4, SIOCGIFBRDADDR, {ifr_name="lo", ifr_broadaddr={AF_INET, inet_addr("0.0.0.0")}}) = 0
+ioctl(4, SIOCGIFCONF, {80, {{"lo", {AF_INET, inet_addr("127.0.0.1")}}, {"eth0", {AF_INET, inet_addr("142.104.73.112")}}}}) = 0
+ioctl(4, SIOCGIFDSTADDR, {ifr_name="eth0", ifr_dstaddr={AF_INET, inet_addr("142.104.73.112")}}) = 0
+ioctl(4, SIOCGIFDSTADDR, {ifr_name="lo", ifr_dstaddr={AF_INET, inet_addr("127.0.0.1")}}) = 0
+ioctl(4, SIOCGIFNETMASK, {ifr_name="eth0", ifr_netmask={AF_INET, inet_addr("255.255.255.192")}}) = 0
+ioctl(4, SIOCGIFNETMASK, {ifr_name="lo", ifr_netmask={AF_INET, inet_addr("255.0.0.0")}}) = 0
+ioctl(5, SIOCGIFFLAGS, {ifr_name="eth0", ifr_flags=IFF_UP|IFF_BROADCAST|IFF_RUNNING|IFF_MULTICAST}) = 0
+ioctl(5, SIOCGIFFLAGS, {ifr_name="lo", ifr_flags=IFF_UP|IFF_LOOPBACK|IFF_RUNNING}) = 0
+ioctl(5, SIOCGIFHWADDR, {ifr_name="eth0", ifr_hwaddr=00:1a:a0:0b:93:ab}) = 0
+ioctl(5, SIOCGIFHWADDR, {ifr_name="lo", ifr_hwaddr=00:00:00:00:00:00}) = 0
+ioctl(5, SIOCGIFMAP, {ifr_name="eth0", ifr_map={mem_start=0, mem_end=0, base_addr=0, irq=17, dma=0, port=0}}) = 0
+ioctl(5, SIOCGIFMAP, {ifr_name="eth0", ifr_map={mem_start=0, mem_end=0, base_addr=0, irq=17, dma=0, port=0}}) = 0
+ioctl(5, SIOCGIFMAP, {ifr_name="lo", ifr_map={mem_start=0, mem_end=0, base_addr=0, irq=0, dma=0, port=0}}) = 0
+ioctl(5, SIOCGIFMAP, {ifr_name="lo", ifr_map={mem_start=0, mem_end=0, base_addr=0, irq=0, dma=0, port=0}}) = 0
+ioctl(5, SIOCGIFMETRIC, {ifr_name="eth0", ifr_metric=0}) = 0
+ioctl(5, SIOCGIFMETRIC, {ifr_name="lo", ifr_metric=0}) = 0
+ioctl(5, SIOCGIFMTU, {ifr_name="eth0", ifr_mtu=1500}) = 0
+ioctl(5, SIOCGIFMTU, {ifr_name="lo", ifr_mtu=16436}) = 0
+ioctl(5, SIOCGIFTXQLEN, {ifr_name="eth0", ifr_qlen=1000}) = 0
+ioctl(5, SIOCGIFTXQLEN, {ifr_name="lo", ifr_qlen=0}) = 0

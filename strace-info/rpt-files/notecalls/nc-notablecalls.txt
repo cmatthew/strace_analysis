@@ -1,0 +1,14 @@
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR)               = 0
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0

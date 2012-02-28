@@ -1,0 +1,1 @@
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fffe861dfd0) = -1 ENOTTY (Inappropriate ioctl for device)

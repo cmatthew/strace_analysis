@@ -1,0 +1,230 @@
+execve("/usr/sbin/squid", ["squid"], ["TERM=xterm", "LS_COLORS=rs=0:di=01;34:ln=01;36"..., "PATH=/usr/local/sbin:/usr/local/"..., "LC_MESSAGES=en_CA.UTF-8", "LC_COLLATE=en_CA.UTF-8", "LANG=en_CA.UTF-8", "HOME=/home/stredger", "LANGUAGE=en_CA:en", "LC_CTYPE=en_CA.UTF-8", "DISPLAY=localhost:10.0", "SHELL=/bin/bash", "LOGNAME=root", "USER=root", "USERNAME=root", "MAIL=/var/mail/root", "SUDO_COMMAND=/usr/bin/strace -v "..., "SUDO_USER=stredger", "SUDO_UID=1000", "SUDO_GID=1000"]) = 0
+brk(0)                                  = 0x7f24803f7000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f247ed12000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_dev=makedev(8, 1), st_ino=13372203, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=81200, st_atime=2012/02/04-18:21:31, st_mtime=2012/02/04-18:21:30, st_ctime=2012/02/04-18:21:30}) = 0
+mmap(NULL, 81200, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f247ecfe000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0Pl\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=60034753, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=272, st_size=135500, st_atime=2012/02/04-13:17:01, st_mtime=2011/10/04-13:57:36, st_ctime=2012/01/09-12:47:04}) = 0
+mmap(NULL, 2212920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f247e8d7000
+mprotect(0x7f247e8ef000, 2093056, PROT_NONE) = 0
+mmap(0x7f247eaee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f247eaee000
+mmap(0x7f247eaf0000, 13368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f247eaf0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=60034723, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1056, st_size=538928, st_atime=2012/02/05-07:35:01, st_mtime=2011/10/04-13:57:34, st_ctime=2012/01/09-12:47:04}) = 0
+mmap(NULL, 2633960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f247e653000
+mprotect(0x7f247e6d6000, 2093056, PROT_NONE) = 0
+mmap(0x7f247e8d5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x82000) = 0x7f247e8d5000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \24\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_dev=makedev(8, 1), st_ino=60034693, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3280, st_size=1677624, st_atime=2012/02/04-13:17:01, st_mtime=2011/10/04-13:57:34, st_ctime=2012/01/09-12:47:04}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f247ecfd000
+mmap(NULL, 3793768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f247e2b4000
+mprotect(0x7f247e449000, 2093056, PROT_NONE) = 0
+mmap(0x7f247e648000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x194000) = 0x7f247e648000
+mmap(0x7f247e64d000, 21352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f247e64d000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f247ecfb000
+arch_prctl(ARCH_SET_FS, 0x7f247ecfb720) = 0
+mprotect(0x7f247e648000, 16384, PROT_READ) = 0
+mprotect(0x7f247e8d5000, 4096, PROT_READ) = 0
+mprotect(0x7f247eaee000, 4096, PROT_READ) = 0
+mprotect(0x7f247f027000, 8192, PROT_READ) = 0
+mprotect(0x7f247ed14000, 4096, PROT_READ) = 0
+munmap(0x7f247ecfe000, 81200)           = 0
+set_tid_address(0x7f247ecfb9f0)         = 6262
+set_robust_list(0x7f247ecfba00, 0x18)   = 0
+futex(0x7fffcdb21dfc, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fffcdb21dfc, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f247ecfb720) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7f247e8dd6c0, [], SA_RESTORER|SA_SIGINFO, 0x7f247e8e7060}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f247e8dd750, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f247e8e7060}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+brk(0)                                  = 0x7f24803f7000
+socket(PF_FILE, SOCK_DGRAM|SOCK_CLOEXEC, 0) = 3
+connect(3, {sa_family=AF_FILE, path="/dev/log"}, 110) = 0
+brk(0x7f2480418000)                     = 0x7f2480418000
+open("/etc/squid/squid.conf", O_RDONLY) = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=13372361, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=336, st_size=169801, st_atime=2012/02/05-11:34:27, st_mtime=2012/02/05-11:34:27, st_ctime=2012/02/05-11:34:27}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f247ed11000
+read(4, "\n#\tWELCOME TO SQUID 2.7.STABLE9\n"..., 4096) = 4096
+read(4, "asic children 5\n#\n#\t\"concurrency"..., 4096) = 4096
+read(4, "ce can be used.\n#\tauth_param dig"..., 4096) = 4096
+read(4, "#auth_param basic children 5\n#au"..., 4096) = 4096
+read(4, "rds:\n#\n#\t  user=\t\tThe users name"..., 4096) = 4096
+read(4, "\t  # Except for access control, "..., 4096) = 4096
+read(4, "roxy_auth REQUIRED\n#acl fileuplo"..., 4096) = 4096
+read(4, "raffic. This default may cause p"..., 4096) = 4096
+read(4, "ltiple addresses, and if\n#\tacl_u"..., 4096) = 4096
+read(4, "  TAG: sslproxy_flags\n# Note: Th"..., 4096) = 4096
+read(4, "ess:port in http_port. This way "..., 4096) = 4096
+read(4, "et server_persisten_connections\n"..., 4096) = 4096
+read(4, "  sslcert=/path/to/ssl/certifica"..., 4096) = 4096
+read(4, "the username. This can\n#\t\t     b"..., 4096) = 4096
+read(4, "phers\n#\t\t     to use when connec"..., 4096) = 4096
+read(4, "g .com .net\n#\tneighbor_type_doma"..., 4096) = 4096
+read(4, "e\n#\tit evicts larger (possibly p"..., 4096) = 4096
+read(4, "s the percentage of disk that CO"..., 4096) = 4096
+read(4, "A!\n#\tSee replacement_policy belo"..., 4096) = 4096
+read(4, "ss_log <filepath> [<logformat na"..., 4096) = 4096
+read(4, "e log file format which many 'ht"..., 4096) = 4096
+read(4, "t can be made on the behalf of a"..., 4096) = 4096
+read(4, "ldren 5\n\n#  TAG: storeurl_rewrit"..., 4096) = 4096
+read(4, "hildren 5\n\n#  TAG: location_rewr"..., 4096) = 4096
+read(4, "tale-while-revalidate makes Squi"..., 4096) = 4096
+read(4, "er fetch more than the\n#\tclient "..., 4096) = 4096
+read(4, "er of the request and not trusti"..., 4096) = 4096
+read(4, "ss WWW-Authenticate deny all\n#\t\t"..., 4096) = 4096
+read(4, "#\tspecification in the order spe"..., 4096) = 4096
+read(4, "\n#\tIf this is too high, and you "..., 4096) = 4096
+read(4, "t http://www.ircache.net/Cache/T"..., 4096) = 4096
+read(4, "r the aggregate bucket\n#\t\t\t\t(cla"..., 4096) = 4096
+read(4, "is\n#\toption is set to GRE.\n#\n#De"..., 4096) = 4096
+read(4, "t entry for a given HTTP\n#\tMetho"..., 4096) = 4096
+read(4, "her\n#\taddress than where this Sq"..., 4096) = 4096
+read(4, " ICP OPTIONS\n# -----------------"..., 4096) = 4096
+read(4, "king translations for a\n#\tlangau"..., 4096) = 4096
+read(4, "ied-Since on\n#\tcache misses. Thi"..., 4096) = 4096
+read(4, "nge your kernel's default.  Set "..., 4096) = 4096
+read(4, "netscape.com internic.net nlanr."..., 4096) = 4096
+read(4, "r-client statistics,\n#\tturn off "..., 4096) = 4096
+read(4, "erage page fault rate exceeds th"..., 4096) = 1865
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f247ed11000, 4096)            = 0
+stat("/var/spool/squid", {st_dev=makedev(8, 1), st_ino=11141995, st_mode=S_IFDIR|0750, st_nlink=18, st_uid=13, st_gid=13, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/05-11:36:17, st_mtime=2012/02/05-11:41:09, st_ctime=2012/02/05-11:41:09}) = 0
+uname({sysname="Linux", nodename="merumeru", release="3.0.0-12-generic", version="#20-Ubuntu SMP Fri Oct 7 14:56:25 UTC 2011", machine="x86_64"}) = 0
+open("/etc/resolv.conf", O_RDONLY)      = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=13369763, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=138, st_atime=2012/02/04-18:44:29, st_mtime=2012/02/04-18:44:27, st_ctime=2012/02/04-18:44:27}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f247ed11000
+read(4, "# Generated by NetworkManager\ndo"..., 4096) = 138
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f247ed11000, 4096)            = 0
+stat("/etc/resolv.conf", {st_dev=makedev(8, 1), st_ino=13369763, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=138, st_atime=2012/02/04-18:44:29, st_mtime=2012/02/04-18:44:27, st_ctime=2012/02/04-18:44:27}) = 0
+open("/etc/resolv.conf", O_RDONLY)      = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=13369763, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=138, st_atime=2012/02/04-18:44:29, st_mtime=2012/02/04-18:44:27, st_ctime=2012/02/04-18:44:27}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f247ed11000
+read(4, "# Generated by NetworkManager\ndo"..., 4096) = 138
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f247ed11000, 4096)            = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY)    = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=13369537, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=513, st_atime=2012/02/05-07:35:01, st_mtime=2011/10/12-07:30:21, st_ctime=2012/01/09-12:46:58}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f247ed11000
+read(4, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 513
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f247ed11000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=13372203, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=81200, st_atime=2012/02/04-18:21:31, st_mtime=2012/02/04-18:21:30, st_ctime=2012/02/04-18:21:30}) = 0
+mmap(NULL, 81200, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f247ecfe000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\"\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_dev=makedev(8, 1), st_ino=60034734, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=104, st_size=51736, st_atime=2012/02/05-07:35:01, st_mtime=2011/10/04-13:57:34, st_ctime=2012/01/09-12:47:04}) = 0
+mmap(NULL, 2148088, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f247e0a7000
+mprotect(0x7f247e0b3000, 2093056, PROT_NONE) = 0
+mmap(0x7f247e2b2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xb000) = 0x7f247e2b2000
+close(4)                                = 0
+mprotect(0x7f247e2b2000, 4096, PROT_READ) = 0
+munmap(0x7f247ecfe000, 81200)           = 0
+open("/etc/host.conf", O_RDONLY)        = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=13369501, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=92, st_atime=2012/02/05-07:35:28, st_mtime=2011/07/08-10:13:55, st_ctime=2012/01/09-12:46:58}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f247ed11000
+read(4, "# The \"order\" line is only used "..., 4096) = 92
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f247ed11000, 4096)            = 0
+futex(0x7f247e650a40, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 4
+fcntl(4, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(4, {st_dev=makedev(8, 1), st_ino=13369503, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=223, st_atime=2012/02/05-07:35:28, st_mtime=2012/01/09-12:48:35, st_ctime=2012/01/09-12:48:35}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f247ed11000
+read(4, "127.0.0.1\tlocalhost\n127.0.1.1\tme"..., 4096) = 223
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f247ed11000, 4096)            = 0
+stat("/usr/share/squid/mime.conf", {st_dev=makedev(8, 1), st_ino=28183954, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=11651, st_atime=2012/02/05-11:34:28, st_mtime=2005/05/17-09:56:38, st_ctime=2012/02/05-11:34:21}) = 0
+stat("/usr/lib/squid/unlinkd", {st_dev=makedev(8, 1), st_ino=28183975, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=16, st_size=6160, st_atime=2012/02/05-11:34:27, st_mtime=2011/09/20-12:33:02, st_ctime=2012/02/05-11:34:23}) = 0
+stat("/usr/lib/squid/logfile-daemon", {st_dev=makedev(8, 1), st_ino=28183981, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10256, st_atime=2012/02/05-11:34:19, st_mtime=2011/09/20-12:33:01, st_ctime=2012/02/05-11:34:23}) = 0
+stat("/usr/share/squid/icons", {st_dev=makedev(8, 1), st_ino=28183926, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/05-11:36:18, st_mtime=2012/02/05-11:34:21, st_ctime=2012/02/05-11:34:21}) = 0
+stat("/usr/share/squid/errors/en", {st_dev=makedev(8, 1), st_ino=28182457, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2012/02/05-11:36:18, st_mtime=2012/02/05-11:34:20, st_ctime=2012/02/05-11:34:20}) = 0
+geteuid()                               = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=13372203, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=81200, st_atime=2012/02/04-18:21:31, st_mtime=2012/02/04-18:21:30, st_ctime=2012/02/04-18:21:30}) = 0
+mmap(NULL, 81200, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f247ecfe000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\23\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_dev=makedev(8, 1), st_ino=60034730, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=72, st_size=35712, st_atime=2012/02/05-07:35:01, st_mtime=2011/10/04-13:57:34, st_ctime=2012/01/09-12:47:04}) = 0
+mmap(NULL, 2131288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f247de9e000
+mprotect(0x7f247dea6000, 2093056, PROT_NONE) = 0
+mmap(0x7f247e0a5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x7000) = 0x7f247e0a5000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p@\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_dev=makedev(8, 1), st_ino=60034728, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=192, st_size=97256, st_atime=2012/02/05-07:35:01, st_mtime=2011/10/04-13:57:34, st_ctime=2012/01/09-12:47:04}) = 0
+mmap(NULL, 2202328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f247dc84000
+mprotect(0x7f247dc9b000, 2093056, PROT_NONE) = 0
+mmap(0x7f247de9a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x16000) = 0x7f247de9a000
+mmap(0x7f247de9c000, 6872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f247de9c000
+close(4)                                = 0
+mprotect(0x7f247de9a000, 4096, PROT_READ) = 0
+mprotect(0x7f247e0a5000, 4096, PROT_READ) = 0
+munmap(0x7f247ecfe000, 81200)           = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 4
+fstat(4, {st_dev=makedev(8, 1), st_ino=13372203, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=160, st_size=81200, st_atime=2012/02/04-18:21:31, st_mtime=2012/02/04-18:21:30, st_ctime=2012/02/04-18:21:30}) = 0
+mmap(NULL, 81200, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f247ecfe000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0` \0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_dev=makedev(8, 1), st_ino=60034738, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=96, st_size=47696, st_atime=2012/02/05-07:35:01, st_mtime=2011/10/04-13:57:34, st_ctime=2012/01/09-12:47:04}) = 0
+mmap(NULL, 2143552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f247da78000
+mprotect(0x7f247da82000, 2097152, PROT_NONE) = 0
+mmap(0x7f247dc82000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xa000) = 0x7f247dc82000
+close(4)                                = 0
+mprotect(0x7f247dc82000, 4096, PROT_READ) = 0
+munmap(0x7f247ecfe000, 81200)           = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+fcntl(4, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_dev=makedev(8, 1), st_ino=13371912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=1734, st_atime=2012/02/04-13:17:01, st_mtime=2012/01/13-13:02:07, st_ctime=2012/01/13-13:02:07}) = 0
+mmap(NULL, 1734, PROT_READ, MAP_SHARED, 4, 0) = 0x7f247ed11000
+lseek(4, 1734, SEEK_SET)                = 1734
+munmap(0x7f247ed11000, 1734)            = 0
+close(4)                                = 0
+umask(027)                              = 022
+umask(027)                              = 027
+open("/var/run/squid.pid", O_RDONLY)    = -1 ENOENT (No such file or directory)
+prctl(PR_SET_DUMPABLE, 1)               = 0
+getrlimit(RLIMIT_CORE, {rlim_cur=0, rlim_max=RLIM_INFINITY}) = 0
+setrlimit(RLIMIT_CORE, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f247ecfb9f0) = 6263
+exit_group(0)                           = ?

@@ -1,0 +1,25 @@
+# kernel-test
+# Place commands here to generate a trace with strace-gen.sh
+#	one command per line, exactly like it would be entered
+#	into the command prompt. The text file output will be
+#	identified by the command name therefore the same prog
+#	with separate arguments will attempt to overwrite the 
+#	first.
+#
+# Comments must be on a separate line as the entire line is 
+#	ignored if a # is found
+##
+
+cp mkdir-strace.txt traces/kernel/
+
+rm mkdir-strace.txt
+
+ls -al traces/kernel/
+
+grep open traces/kernel/mkdir-strace.txt
+
+cat traces/kernel/mkdir-strace.txt
+
+sort traces/kernel/mkdir-strace.txt
+
+uniq traces/kernel/mkdir-strace.txt

@@ -1,0 +1,7 @@
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {c_iflags=0x500, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=0, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff3b733da0) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(2, SNDCTL_TMR_TIMEBASE or TCGETS, {c_iflags=0x500, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=0, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+ioctl(3, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff3b733dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(3, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7fff3b733ed0) = -1 ENOTTY (Inappropriate ioctl for device)

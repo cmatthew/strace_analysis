@@ -1,0 +1,30 @@
+#! /bin/bash
+
+# Stephen Tredger
+
+fName="-strace.txt"
+stOpts="-v"
+outdir="traces\/kernel\/"
+supressOut="> /dev/null"
+
+kernPrgs=( `cat kernel-test | sed 's/\$outdir/'$outdir'/g' | sed 's/\$fName/'$fName'/g' | tr ' ' '_'` )
+#netPrgs=( `cat network-test | tr '\n' ' '`)
+
+
+# set up directories and capture a trace in the process
+echo "Setting up directories\n"
+traceDir="traces"
+resDir="analysis"
+
+for arg in ${kernPrgs[@]}; do
+	arg=`echo $arg | tr '_' ' '`
+	echo "generating trace: $arg"
+	prog=`echo $arg | cut -f1 -d \ `
+	echo "$stOpts -o $outdir$prog$fName $arg > /dev/null"
+done
+
+#prog="grep"
+#args="open $outdir""mkdir$fName"
+#echo "generating trace: $prog $args"
+#strace $stOpts -o $outdir$prog$fName $prog $args > /dev/null
+
