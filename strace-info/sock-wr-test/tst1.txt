@@ -1,0 +1,24 @@
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300>\1\0\0\0\0\0"..., 832) = 832
+close(3)                                = 0
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+close(3)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+close(3)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+read(3, "\2\0\0\0\377\377\377\377\0\0\0\0\0\0\0\0\377\377\377\377\377\377\377\377", 24) = 24
+close(3)                                = 0
+socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(3, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = 0
+read(4, "\2\0\0\0\377\377\377\377\0\0\0\0\0\0\0\0\377\377\377\377\377\377\377\377", 24) = 24
+open("/etc/nsswitch.conf", O_RDONLY)    = 3
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 554
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+close(4)                                = 0
